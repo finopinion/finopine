@@ -127,6 +127,16 @@ const opinion = defineCollection({
         message: 'Only cross-border pieces use compares. A single-jurisdiction piece that ranges across countries belongs in the general silo.'
       });
     }
+    for (const [i, src] of d.sources.entries()) {
+      const gap = Math.abs(new Date(src.retrievedAt).getTime() - d.date.getTime()) / 86400000;
+      if (gap > MAX_SOURCE_AGE_DAYS) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ['sources', i, 'retrievedAt'],
+          message: `Retrieved ${Math.round(gap)} days from the article's date. Read the source when you write the piece, not months either side of it.`
+        });
+      }
+    }
   })
 });
 
