@@ -1,0 +1,129 @@
+{
+  "_readme": [
+    "SOURCE REGISTRY FOR THE WIRE.",
+    "",
+    "RULE: a source renders as a clickable link ONLY when verified is true.",
+    "Everything else renders as plain text. The name is still useful; a broken",
+    "link is not. There is no middle state and no 'probably fine'.",
+    "",
+    "WHERE THESE URLS CAME FROM. Every url below was copied from a live web",
+    "search result, not written from memory. That distinction is the whole point:",
+    "a model reconstructs the SHAPE of a plausible URL rather than recalling a",
+    "real one, which is how you end up citing a page that has never existed.",
+    "Sources with no url field are ones that could not be confirmed that way.",
+    "They are listed by name, unlinked, until someone confirms them.",
+    "",
+    "verified is still false on all of them, because appearing in a search index",
+    "is good evidence but not proof the page is live right now. Run:",
+    "",
+    "    node scripts/check-wire.mjs",
+    "",
+    "It probes each url and flips verified only on a live 200. Only then do links",
+    "appear on the site. Adding a url by hand without running the check does",
+    "nothing visible - that is deliberate.",
+    "",
+    "Only 404 and 410 mean dead. A 403 is a bot wall and a 5xx is a bad day;",
+    "both stay unverified rather than being deleted."
+  ],
+  "groups": [
+    {
+      "name": "Primary — Australia",
+      "why": "Where the number is actually published. Everything downstream is someone's reading of these.",
+      "sources": [
+        { "name": "RBA — monetary policy decisions", "tier": "daily",
+          "what": "The decision itself, on the day, in the Board's own words.",
+          "url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/2026/", "verified": false },
+        { "name": "RBA — media releases", "tier": "daily",
+          "what": "Everything the Bank announces, including payments and market operations.",
+          "url": "https://www.rba.gov.au/media-releases/", "verified": false },
+        { "name": "RBA — Statement on Monetary Policy", "tier": "cycle",
+          "what": "Quarterly forecasts and the reasoning behind them. February, May, August, November.",
+          "url": "https://www.rba.gov.au/publications/smp/", "verified": false },
+        { "name": "RBA — news and speeches", "tier": "daily",
+          "what": "Speeches often move more than the statement does.",
+          "url": "https://www.rba.gov.au/news/", "verified": false },
+        { "name": "ABS — Consumer Price Index", "tier": "daily",
+          "what": "The complete Monthly CPI, published monthly since October 2025.",
+          "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release", "verified": false },
+        { "name": "ABS — Monthly CPI indicator", "tier": "cycle",
+          "what": "The older partial indicator series, superseded by the complete Monthly CPI.",
+          "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/monthly-consumer-price-index-indicator/latest-release", "verified": false },
+        { "name": "ASIC — media releases", "tier": "daily",
+          "what": "Enforcement, bannings and regulatory action.",
+          "url": "https://www.asic.gov.au/newsroom/media-releases", "verified": false },
+        { "name": "ASIC — reports and publications", "tier": "cycle",
+          "what": "Regulatory guides, consultation papers, market reports.",
+          "url": "https://www.asic.gov.au/newsroom/reports-and-publications", "verified": false },
+        { "name": "ABS — Labour Force, National Accounts, Retail Trade", "tier": "daily",
+          "what": "The rest of the macro series. Exact release URLs not yet confirmed." },
+        { "name": "Treasury", "tier": "daily",
+          "what": "Consultations, exposure drafts, Budget and MYEFO. URL not yet confirmed." },
+        { "name": "APRA", "tier": "cycle",
+          "what": "Quarterly ADI and superannuation statistics, prudential standards. URL not yet confirmed." },
+        { "name": "ATO", "tier": "cycle",
+          "what": "Law companion rulings, taxpayer alerts, new-legislation guidance. URL not yet confirmed." },
+        { "name": "Federal Register of Legislation", "tier": "daily",
+          "what": "Acts and regulations as made — the actual text. URL not yet confirmed." },
+        { "name": "Parliament of Australia", "tier": "daily",
+          "what": "Bills tracker, Hansard, Senate Economics Committee submissions. URL not yet confirmed." },
+        { "name": "AUSTRAC", "tier": "cycle",
+          "what": "AML supervision, now including digital asset providers. URL not yet confirmed." },
+        { "name": "AFCA", "tier": "cycle",
+          "what": "Determinations — where the rules meet an actual customer. URL not yet confirmed." }
+      ]
+    },
+    {
+      "name": "Primary — offshore",
+      "why": "Australian rates are not set in Sydney alone.",
+      "sources": [
+        { "name": "US Federal Reserve", "tier": "daily",
+          "what": "FOMC statements, minutes, projections, Beige Book. URL not yet confirmed." },
+        { "name": "Bank of England", "tier": "cycle", "what": "URL not yet confirmed." },
+        { "name": "European Central Bank", "tier": "cycle", "what": "URL not yet confirmed." },
+        { "name": "Reserve Bank of New Zealand", "tier": "cycle", "what": "URL not yet confirmed." },
+        { "name": "Reserve Bank of India", "tier": "cycle", "what": "URL not yet confirmed." },
+        { "name": "Bank for International Settlements", "tier": "cycle",
+          "what": "Quarterly Review — the best early warning on financial plumbing. URL not yet confirmed." },
+        { "name": "SEC EDGAR", "tier": "cycle", "what": "Filings and material disclosures. URL not yet confirmed." },
+        { "name": "IMF, OECD, World Bank", "tier": "cycle",
+          "what": "WEO, Global Financial Stability Report, Article IV. URLs not yet confirmed." }
+      ]
+    },
+    {
+      "name": "Press and wires",
+      "why": "Breaks the story. Read for the fact, not the frame.",
+      "sources": [
+        { "name": "Australian Financial Review", "tier": "daily", "what": "The daily of record for Australian business and policy." },
+        { "name": "ABC News business", "tier": "daily", "what": "Free, and consistently good on the RBA and household economics." },
+        { "name": "Reuters", "tier": "daily", "what": "Wire copy — first and usually cleanest." },
+        { "name": "Bloomberg", "tier": "daily", "what": "Markets and credit." },
+        { "name": "Financial Times", "tier": "daily", "what": "Offshore macro and deals." },
+        { "name": "The Guardian Australia, SMH, The Australian", "tier": "cycle", "what": "Business desks." }
+      ]
+    },
+    {
+      "name": "Specialist trade press",
+      "why": "Where legislation gets pulled apart line by line before it reaches the dailies.",
+      "sources": [
+        { "name": "SMSF Adviser", "tier": "cycle", "what": "The Division 296 detail, argued by people who advise on it." },
+        { "name": "Money Management, Professional Planner", "tier": "cycle", "what": "Advice and licensee news." },
+        { "name": "Banking Day", "tier": "cycle", "what": "Daily banking and credit." },
+        { "name": "Firstlinks", "tier": "cycle", "what": "Free, high quality, argumentative." },
+        { "name": "FinTech Australia", "tier": "cycle", "what": "Industry policy submissions, on the record." }
+      ]
+    },
+    {
+      "name": "Law and political deliberation",
+      "why": "The part most commentary misses until it is already law.",
+      "sources": [
+        { "name": "Exposure drafts and explanatory memoranda", "tier": "daily",
+          "what": "The design argument in the government's own words." },
+        { "name": "Senate Economics Legislation Committee", "tier": "daily",
+          "what": "Industry submissions — the lobbying, on the record." },
+        { "name": "Treasury consultation hub", "tier": "daily", "what": "Open consultations and every submission received." },
+        { "name": "AustLII, Federal Court, High Court", "tier": "cycle", "what": "Judgments — the ruling before the summary." },
+        { "name": "Budget papers and PBO costings", "tier": "cycle", "what": "" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Stance from '../../components/Stance.astro';
+import Discussion from '../../components/Discussion.astro';
+import { JURISDICTIONS } from '../../data/jurisdictions';
+
+export async function getStaticPaths() {
+  const all = await getCollection('opinion', ({ data }) => !data.draft);
+  return all.map((entry) => ({
+    params: { jurisdiction: entry.data.jurisdiction, slug: entry.id.split('/').pop() },
+    props: { entry }
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+const j = JURISDICTIONS[d.jurisdiction];
+const fmt = d.date.toLocaleDateString(j.dateLocale, { day: 'numeric', month: 'long', year: 'numeric' });
+---
+<Base title={d.title} description={d.dek} path={`/${d.jurisdiction}/${entry.id.split('/').pop()}/`}>
+  <a class="back" href={`/${d.jurisdiction}/`}>&larr; {j.name}</a>
+
+  <div class="art-head">
+    <div class="card-top">
+      <span class="jflag">{d.jurisdiction === 'general' ? 'XB' : d.jurisdiction.toUpperCase()}</span>
+      <span class="kicker">{d.kicker}</span>
+    </div>
+    <h1 class="art-title">{d.title}</h1>
+    <p class="art-dek">{d.dek}</p>
+    <div class="art-meta">
+      <span>{d.author}</span><span>{fmt}</span><span>{d.readMins} min read</span>
+      {d.generated && <span>machine-drafted, human-checked</span>}
+    </div>
+    {d.compares && (
+      <p class="compares">Compares {d.compares.map((c) => JURISDICTIONS[c].name).join(', ')}</p>
+    )}
+    <Stance position={d.position} falsifier={d.falsifier} />
+  </div>
+
+  <div class="prose"><Content /></div>
+
+  <div class="sources">
+    <h3>Worked from</h3>
+    <ol>
+      {d.sources.map((s) => (
+        <li>
+          {s.url ? <a href={s.url} rel="nofollow noopener">{s.label}</a> : s.label}<br />
+          <span class="pub">{s.publisher}{s.date ? ` · ${s.date}` : ''}{s.verified ? '' : ' · unverified'}</span>
+        </li>
+      ))}
+    </ol>
+  </div>
+
+  <div class="note"><b>{j.name}.</b> {j.disclaimer}</div>
+
+  <Discussion />
+</Base>

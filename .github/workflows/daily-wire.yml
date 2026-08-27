@@ -1,0 +1,55 @@
+# ---------------------------------------------------------------------------
+# GitHub blocks workflow-file writes over most remote and API paths, so this
+# file usually has to be pasted in by hand through the web editor. That is
+# expected, not a mistake.
+#
+# Cron in Actions is ALWAYS UTC. There is no timezone setting.
+#   30 22 * * 0-4  = 08:30 AEST Mon-Fri  (UTC+10)
+#   Note the day fields are shifted back one, because 22:30 UTC Sunday is
+#   Monday morning in Sydney. Convert deliberately.
+# ---------------------------------------------------------------------------
+name: Daily wire
+
+on:
+  schedule:
+    - cron: '30 22 * * 0-4'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Verify feeds are reachable
+        run: node scripts/check-feeds.mjs
+        continue-on-error: true
+
+      - name: Draft one piece
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/generate-article.mjs
+
+      - name: Compliance check
+        run: node scripts/check-compliance.mjs
+
+      - name: Commit the draft
+        run: |
+          # Per-repo identity only. Never set this globally - it puts a personal
+          # name on a public commit history.
+          git config user.name  "finopine-bot"
+          git config user.email "bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "wire: draft $(date -u +%F)"
+            git push
+          else
+            echo "Nothing to commit." >> $GITHUB_STEP_SUMMARY
+          fi

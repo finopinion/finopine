@@ -1,0 +1,18 @@
+---
+import { SITE } from '../data/site';
+/* Structured data reads from the single source of truth so the publisher
+   name is byte-identical everywhere it appears. Fields that are not set
+   are omitted rather than stubbed. */
+const data: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'Blog',
+  name: SITE.name,
+  description: SITE.masthead.standfirst,
+  url: SITE.url,
+  inLanguage: SITE.locale
+};
+if (SITE.publisher.legalName) {
+  data.publisher = { '@type': 'Organization', name: SITE.publisher.legalName };
+}
+---
+<script type="application/ld+json" set:html={JSON.stringify(data)} />

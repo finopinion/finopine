@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../data/site';
+/* Degrade visibly: with no form key, render a route that works rather than a
+   form that would POST into the void. */
+---
+<Base title="Contact" path="/contact/">
+  <div class="eyebrow">Contact</div>
+  <h1 class="art-title">Argue back.</h1>
+  {SITE.keys.web3forms ? (
+    <form action="https://api.web3forms.com/submit" method="POST" class="card">
+      <input type="hidden" name="access_key" value={SITE.keys.web3forms} />
+      <p><input type="email" name="email" placeholder="Your email" required /></p>
+      <p><textarea name="message" rows="6" placeholder="What is wrong with it?" required></textarea></p>
+      <p><button type="submit">Send</button></p>
+    </form>
+  ) : (
+    <div class="note">
+      <b>No form yet.</b><br />
+      {SITE.publisher.email
+        ? <>Write to <a href={`mailto:${SITE.publisher.email}`}>{SITE.publisher.email}</a>.</>
+        : <>A contact address appears here once Cloudflare Email Routing is set up and
+           the address is recorded in site.ts. Nothing is collected in the meantime.</>}
+    </div>
+  )}
+</Base>

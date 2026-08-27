@@ -1,0 +1,33 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../data/site';
+---
+<Base title="Privacy" path="/privacy/">
+  <div class="eyebrow">Privacy</div>
+  <h1 class="art-title">What this site collects.</h1>
+  <div class="prose">
+    <p>
+      This is a static site. It sets no cookies, runs no analytics and stores
+      nothing about you on its own servers, because it has none.
+    </p>
+    <h2>Fonts</h2>
+    <p>
+      Typefaces load from Google Fonts, so Google receives your IP address when a
+      page loads. Self-host the fonts if that matters to you — it is a small change.
+    </p>
+    <h2>Hosting</h2>
+    <p>
+      Pages are served by Cloudflare, which keeps standard request logs.
+    </p>
+    {SITE.keys.web3forms && (
+      <><h2>Contact form</h2>
+      <p>Messages sent through the form are delivered by Web3Forms.</p></>
+    )}
+  </div>
+  {!SITE.publisher.legalName && (
+    <div class="note">
+      <b>Incomplete.</b> A privacy notice needs a named data controller and a
+      jurisdiction. Neither is set. See LAUNCH.md, blocker 1.
+    </div>
+  )}
+</Base>

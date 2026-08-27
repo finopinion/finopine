@@ -1,0 +1,228 @@
+{
+  "_readme": [
+    "Test cases for the moderation policy.",
+    "",
+    "The MUST-PASS cases matter more than the must-block ones. Over-blocking is the",
+    "failure that kills the site, and it is the failure nobody notices, because a",
+    "comment that never appeared generates no complaint.",
+    "",
+    "The 'context' cases exist because an earlier blocking regex layer rejected five",
+    "of six of them. They are the reason the deterministic layer is now advisory only",
+    "and the model makes every decision. Keep them. Add more when you find them.",
+    "",
+    "Run offline:  node scripts/check-moderation.mjs      (signal noise, informational)",
+    "Run with AI:  node scripts/check-moderation.mjs --ai (the real evaluation)"
+  ],
+  "cases": [
+    {
+      "id": "crit-rba-harsh",
+      "expect": "publish",
+      "jurisdiction": "au",
+      "text": "Bullock has been incompetent throughout this cycle and the whole Board should resign. Cutting three times then hiking three times is not data dependence, it is flailing."
+    },
+    {
+      "id": "crit-regulator",
+      "expect": "publish",
+      "jurisdiction": "au",
+      "text": "ASIC is a toothless regulator that has never once meaningfully punished a major bank. The enforcement record is a disgrace."
+    },
+    {
+      "id": "crit-policy-rude",
+      "expect": "publish",
+      "jurisdiction": "au",
+      "text": "Division 296 is a stupid, badly drafted tax written by people who have never run a business. The grandfathering carve-out is indefensible."
+    },
+    {
+      "id": "crit-the-site",
+      "expect": "publish",
+      "jurisdiction": "au",
+      "text": "This article is garbage. The author clearly does not understand duration risk and should not be writing about bonds."
+    },
+    {
+      "id": "crit-company-conduct",
+      "expect": "publish",
+      "jurisdiction": "au",
+      "text": "CBA's mortgage pricing is predatory and the board knows exactly what it is doing to existing customers who do not refinance."
+    },
+    {
+      "id": "crit-contrarian",
+      "expect": "publish",
+      "jurisdiction": "general",
+      "text": "Every mainstream economist has this wrong. Inflation is a supply story and raising rates into it makes the problem worse, not better."
+    },
+    {
+      "id": "crit-official-uk",
+      "expect": "publish",
+      "jurisdiction": "uk",
+      "text": "The FCA has failed at basically every consumer protection task it has been handed. Folding the PSR into it is rearranging deckchairs."
+    },
+    {
+      "id": "crit-sebi",
+      "expect": "publish",
+      "jurisdiction": "in",
+      "text": "SEBI's finfluencer crackdown is regulatory theatre. It catches small commentators and leaves the actual distribution incentives untouched."
+    },
+    {
+      "id": "view-overvalued",
+      "expect": "publish",
+      "jurisdiction": "general",
+      "text": "Property in this country is a bubble and has been for a decade. It will end badly for whoever is holding at the top."
+    },
+    {
+      "id": "view-prediction",
+      "expect": "publish",
+      "jurisdiction": "au",
+      "text": "I think the RBA hikes again in September and the market is badly underpricing it."
+    },
+    {
+      "id": "disagree-blunt",
+      "expect": "publish",
+      "jurisdiction": "au",
+      "text": "Wrong. The monthly CPI is noisy but the trimmed mean has been above band for four straight quarters. That is not a statistical artefact."
+    },
+    {
+      "id": "rec-ticker",
+      "expect": "decline",
+      "jurisdiction": "au",
+      "rule": "product-rec",
+      "text": "Buy CBA at the open tomorrow, it is going to run hard once the hold is confirmed."
+    },
+    {
+      "id": "rec-target",
+      "expect": "decline",
+      "jurisdiction": "au",
+      "rule": "price-target",
+      "text": "Accumulating here. Price target of $180 within twelve months on this one."
+    },
+    {
+      "id": "rec-personal",
+      "expect": "decline",
+      "jurisdiction": "au",
+      "rule": "personal-advice",
+      "text": "Given your balance and your age you should move your super into an SMSF before June and take the election."
+    },
+    {
+      "id": "promo-referral",
+      "expect": "decline",
+      "jurisdiction": "au",
+      "rule": "promotion",
+      "text": "Sign up with my referral link and you get the first six months of the platform free."
+    },
+    {
+      "id": "spam-telegram",
+      "expect": "decline",
+      "jurisdiction": "in",
+      "rule": "spam",
+      "text": "DM me for my telegram group, we post daily calls with 20 percent monthly returns guaranteed."
+    },
+    {
+      "id": "promise-multibagger",
+      "expect": "decline",
+      "jurisdiction": "in",
+      "rule": "price-target",
+      "text": "This is a sure shot multi-bagger, load up before the results."
+    },
+    {
+      "id": "defam-crime",
+      "expect": "decline",
+      "jurisdiction": "au",
+      "rule": "crime-allegation",
+      "text": "The fund's chief investment officer has been quietly embezzling from member accounts for years and everyone in the industry knows it."
+    },
+    {
+      "id": "abuse-commenter",
+      "expect": "decline",
+      "jurisdiction": "au",
+      "rule": "abuse",
+      "text": "You are a moron and I hope you lose everything. People like you should not be allowed to post."
+    },
+    {
+      "id": "licence-claim",
+      "expect": "decline",
+      "jurisdiction": "in",
+      "rule": "licence-claim",
+      "text": "As I am a SEBI-registered analyst you can trust this call more than the others here."
+    },
+    {
+      "id": "offtopic",
+      "expect": "decline",
+      "jurisdiction": "au",
+      "rule": "off-topic",
+      "text": "Does anyone here know a good mechanic in Parramatta, my car is making a noise."
+    },
+    {
+      "id": "edge-reported-allegation",
+      "expect": "publish",
+      "jurisdiction": "au",
+      "text": "The regulator has commenced proceedings alleging the trustee breached its duties. If that is proven it is the clearest failure of the supervision model we have seen."
+    },
+    {
+      "id": "edge-general-asset-view",
+      "expect": "publish",
+      "jurisdiction": "au",
+      "text": "Long duration government bonds look better value than they have in years, though I would not blame anyone for disagreeing given the inflation risk."
+    },
+    {
+      "id": "edge-position-disclosed",
+      "expect": "publish",
+      "jurisdiction": "general",
+      "text": "For what it is worth I am positioned for a steeper curve, so read the above knowing that."
+    },
+    {
+      "id": "ctx-quoting-consensus",
+      "expect": "publish",
+      "jurisdiction": "au",
+      "text": "Analysts still have a price target of $180 on it, which tells you how little the sell side has updated since the guidance cut.",
+      "context": true
+    },
+    {
+      "id": "ctx-meta-finfluencer",
+      "expect": "publish",
+      "jurisdiction": "in",
+      "text": "The multi-bagger vocabulary in Indian finfluencer content is exactly what SEBI is targeting, and rightly so.",
+      "context": true
+    },
+    {
+      "id": "ctx-criticising-scam",
+      "expect": "publish",
+      "jurisdiction": "au",
+      "text": "The scheme promised guaranteed returns of 20 percent. That should have been the tell, and ASIC took two years to act.",
+      "context": true
+    },
+    {
+      "id": "ctx-inviting-debate",
+      "expect": "publish",
+      "jurisdiction": "general",
+      "text": "Join us in the thread if you disagree, the comments are open.",
+      "context": true
+    },
+    {
+      "id": "ctx-quoting-tipster",
+      "expect": "publish",
+      "jurisdiction": "au",
+      "text": "Half of finance TikTok is telling people you should buy CBA before the result. That is unlicensed advice and nobody is stopping it.",
+      "context": true
+    },
+    {
+      "id": "ctx-reporting-flow",
+      "expect": "publish",
+      "jurisdiction": "au",
+      "text": "Buy BHP calls were everywhere on Reddit last week. Retail positioning into the print looks stretched.",
+      "context": true
+    },
+    {
+      "id": "ctx-disclosed-position",
+      "expect": "publish",
+      "jurisdiction": "general",
+      "text": "I am short the long end and have been for months, so discount accordingly, but the term premium argument still holds.",
+      "context": true
+    },
+    {
+      "id": "ctx-historic-quote",
+      "expect": "publish",
+      "jurisdiction": "uk",
+      "text": "The prospectus literally said capital is secure. The FCA let that sit on a website for eighteen months.",
+      "context": true
+    }
+  ]
+}

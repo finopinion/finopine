@@ -1,0 +1,25 @@
+{
+  "name": "finopine",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check:domain": "node scripts/check-domain.mjs",
+    "check:feeds": "node scripts/check-feeds.mjs",
+    "check:compliance": "node scripts/check-compliance.mjs",
+    "check:launch": "node scripts/check-launch.mjs",
+    "generate": "node scripts/generate-article.mjs",
+    "publish": "npm run check:compliance && npm run build",
+    "check:moderation": "node scripts/check-moderation.mjs",
+    "check:wire": "node scripts/check-wire.mjs",
+    "check:sources": "node scripts/check-sources.mjs",
+    "check:all": "npm run check:compliance && npm run check:launch"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "astro": "^7.2.8"
+  }
+}

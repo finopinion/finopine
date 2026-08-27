@@ -1,0 +1,14 @@
+---
+interface Props { position: string; falsifier: string; }
+const { position, falsifier } = Astro.props;
+---
+<div class="stance">
+  <div class="stance-row pos">
+    <div class="stance-tag">Position</div>
+    <div class="stance-text">{position}</div>
+  </div>
+  <div class="stance-row fal">
+    <div class="stance-tag">Wrong if</div>
+    <div class="stance-text">{falsifier}</div>
+  </div>
+</div>

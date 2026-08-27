@@ -1,0 +1,99 @@
+{
+  "_readme": [
+    "Source registry for scripts/generate-article.mjs.",
+    "",
+    "EVERY URL BELOW IS UNVERIFIED. They are written from training data, which is",
+    "exactly the failure mode the playbook warns about: a model reconstructs the",
+    "SHAPE of a URL rather than recalling a real one. Some of these will be wrong.",
+    "",
+    "Run `npm run check:feeds` before the first generation. It probes each one and",
+    "flips verified to true only on a live 200 with parseable items. The generator",
+    "refuses to use any feed still marked false, so a fabricated URL cannot reach",
+    "a published citation.",
+    "",
+    "Only 404 and 410 mean dead. A 403 is a bot wall and a 5xx is a bad day \u2014",
+    "both are recorded as unverified, not removed."
+  ],
+  "feeds": [
+    {
+      "id": "rba-media",
+      "publisher": "Reserve Bank of Australia",
+      "kind": "primary",
+      "weight": 3,
+      "url": "https://www.rba.gov.au/rss/rss-cb-media-releases.xml",
+      "verified": false
+    },
+    {
+      "id": "rba-speeches",
+      "publisher": "Reserve Bank of Australia",
+      "kind": "primary",
+      "weight": 3,
+      "url": "https://www.rba.gov.au/rss/rss-cb-speeches.xml",
+      "verified": false
+    },
+    {
+      "id": "treasury",
+      "publisher": "Australian Treasury",
+      "kind": "primary",
+      "weight": 3,
+      "url": "https://treasury.gov.au/rss.xml",
+      "verified": false
+    },
+    {
+      "id": "asic-media",
+      "publisher": "ASIC",
+      "kind": "primary",
+      "weight": 3,
+      "url": "https://asic.gov.au/about-asic/news-centre/find-a-media-release/rss/",
+      "verified": false
+    },
+    {
+      "id": "apra-news",
+      "publisher": "APRA",
+      "kind": "primary",
+      "weight": 2,
+      "url": "https://www.apra.gov.au/news-and-publications/rss.xml",
+      "verified": false
+    },
+    {
+      "id": "abs-releases",
+      "publisher": "Australian Bureau of Statistics",
+      "kind": "primary",
+      "weight": 3,
+      "url": "https://www.abs.gov.au/rss/releases.xml",
+      "verified": false
+    },
+    {
+      "id": "legislation-register",
+      "publisher": "Federal Register of Legislation",
+      "kind": "primary",
+      "weight": 2,
+      "url": "https://www.legislation.gov.au/Rss/Acts",
+      "verified": false
+    },
+    {
+      "id": "abc-business",
+      "publisher": "ABC News",
+      "kind": "press",
+      "weight": 1,
+      "url": "https://www.abc.net.au/news/feed/51892/rss.xml",
+      "verified": false
+    },
+    {
+      "id": "bis-publications",
+      "publisher": "Bank for International Settlements",
+      "kind": "primary",
+      "weight": 2,
+      "url": "https://www.bis.org/list/bis_publs/rss.xml",
+      "verified": false
+    },
+    {
+      "id": "fed-press",
+      "publisher": "US Federal Reserve",
+      "kind": "primary",
+      "weight": 2,
+      "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+      "verified": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+# ---------------------------------------------------------------------------
+# GitHub blocks workflow-file writes over most remote and API paths, so this
+# file usually has to be pasted in by hand through the web editor. Expected.
+#
+# This is the check that makes the sourcing rule mandatory rather than a habit.
+# The schema catches anything structurally unsourced without a network. This
+# catches the thing the schema cannot: a `verified: true` that was typed by
+# hand, and a URL that has since died.
+#
+# Runs on every push, on every pull request, and weekly to catch link rot after
+# publication. Cron in Actions is ALWAYS UTC - 20:00 Sunday UTC is Monday
+# morning in Sydney, so the day field is shifted back one.
+# ---------------------------------------------------------------------------
+name: Verify sources
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '0 20 * * 0'
+  workflow_dispatch:
+
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+
+      - name: Install
+        run: npm install
+
+      # No network needed. Catches missing URLs, missing supports,
+      # missing retrievedAt, verified not true, and stale sources.
+      - name: Schema gate
+        run: npm run build
+
+      - name: Banned language
+        run: npm run check:compliance
+
+      # The one that opens the pages.
+      - name: Probe every published citation
+        run: npm run check:sources
+
+      - name: Probe the Wire
+        run: npm run check:wire
+        continue-on-error: true
+
+      - name: Moderation policy
+        run: npm run check:moderation

@@ -1,0 +1,57 @@
+---
+import Base from '../layouts/Base.astro';
+import { JURISDICTIONS, ORDER } from '../data/jurisdictions';
+import { REGULATORS, byRole, perimeterBody, inTransition } from '../data/regulators';
+
+const moving = inTransition();
+---
+<Base title="Regulators" description="Who regulates what, in each jurisdiction FinOpine covers." path="/regulators/">
+  <div class="eyebrow">Regulators</div>
+  <h1 class="art-title">Who does what, where.</h1>
+  <p class="art-dek">
+    Grouped by role rather than by name, because the interesting comparisons turn
+    on the same job being done by different bodies — or by one body where another
+    country uses two.
+  </p>
+
+  {moving.length > 0 && (
+    <div class="note">
+      <b>{moving.length} {moving.length === 1 ? 'body is' : 'bodies are'} mid-change as at August 2026.</b><br />
+      {moving.map((m) => (
+        <>{JURISDICTIONS[m.code].name}: <b>{m.body.abbr}</b> — {m.body.status}.<br /></>
+      ))}
+      Re-check before the relevant silo goes live.
+    </div>
+  )}
+
+  {ORDER.map((code) => {
+    const j = JURISDICTIONS[code];
+    const roles = byRole(code);
+    const perimeter = perimeterBody(code);
+    return (
+      <div class="wire-grp">
+        <h3>{j.name} · {REGULATORS[code].length} bodies</h3>
+        <p class="why">
+          {j.beat ?? j.regime ?? ''}
+          {perimeter && <> Perimeter for a publisher: <b>{perimeter.abbr}</b>.</>}
+        </p>
+        <ul>
+          {[...roles.entries()].map(([role, bodies]) => (
+            bodies.map((b) => (
+              <li>
+                <span class={b.publisherRelevant ? 'tier p' : 'tier'}>{role}</span>
+                <b>{b.abbr}</b>
+                <span>{b.name}. {b.does}{b.statusNote ? ` ${b.statusNote}` : ''}</span>
+              </li>
+            ))
+          ))}
+        </ul>
+      </div>
+    );
+  })}
+
+  <div class="note">
+    This is a map of who to ask, not an answer. Regulator line-ups move, and the
+    perimeter question for a publisher is one for a local lawyer in each silo.
+  </div>
+</Base>

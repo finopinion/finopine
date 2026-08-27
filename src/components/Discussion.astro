@@ -1,0 +1,18 @@
+---
+import { SITE } from '../data/site';
+/* Degrade visibly, never silently. Static hosting cannot store replies, so
+   rather than render a widget that posts into the void, say so and give a
+   route that actually works. */
+---
+{SITE.discussion.enabled ? (
+  <div id="discussion" data-board></div>
+) : (
+  <div class="note">
+    <b>Replies are not open yet.</b><br />
+    {SITE.discussion.note} The board — positions, threads and vetted reader
+    posts — needs a datastore, which is phase two.
+    {SITE.publisher.email
+      ? <> Until then, argue back at <a href={`mailto:${SITE.publisher.email}`}>{SITE.publisher.email}</a>.</>
+      : <> A contact address will appear here once email routing is set up.</>}
+  </div>
+)}

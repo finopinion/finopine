@@ -1,0 +1,61 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Stance from '../components/Stance.astro';
+import { JURISDICTIONS, ORDER, live, planned } from '../data/jurisdictions';
+
+const all = (await getCollection('opinion', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const countBy = (code) => all.filter((p) => p.data.jurisdiction === code).length;
+const fmt = (d, loc) => d.toLocaleDateString(loc, { day: 'numeric', month: 'short', year: 'numeric' });
+---
+<Base path="/">
+  <div class="eyebrow">Silos</div>
+  <div class="silos">
+    {ORDER.map((code) => {
+      const j = JURISDICTIONS[code];
+      const n = countBy(code);
+      return j.status === 'live' ? (
+        <a class="silo" href={`/${code}/`}>
+          <span class="silo-code">{code === 'general' ? 'XB' : code.toUpperCase()}</span>
+          <span class="silo-name">{j.name}</span>
+          <span class="silo-n">{n} {n === 1 ? 'piece' : 'pieces'}</span>
+        </a>
+      ) : (
+        <span class="silo off">
+          <span class="silo-code">{code.toUpperCase()}</span>
+          <span class="silo-name">{j.name}</span>
+          <span class="silo-n">planned</span>
+        </span>
+      );
+    })}
+  </div>
+
+  <div class="note">
+    <b>Australia first, then the rest.</b><br />
+    A silo goes live when it has verified local feeds, a compliance rule set checked
+    against that country&#39;s regime, and something worth reading. Empty silos are worse
+    than absent ones, so the planned ones stay unlinked until they are none of those.
+  </div>
+
+  <div class="eyebrow">Latest</div>
+  {all.map((p) => {
+    const j = JURISDICTIONS[p.data.jurisdiction];
+    return (
+      <article class="card">
+        <div class="card-top">
+          <span class="jflag">{p.data.jurisdiction === 'general' ? 'XB' : p.data.jurisdiction.toUpperCase()}</span>
+          <span class="kicker">{p.data.kicker}</span>
+          <span class="byline">{fmt(p.data.date, j.dateLocale)}</span>
+        </div>
+        <h2 class="headline"><a href={`/${p.data.jurisdiction}/${p.id.split('/').pop()}/`}>{p.data.title}</a></h2>
+        <p class="dek">{p.data.dek}</p>
+        {p.data.compares && (
+          <p class="compares">Compares {p.data.compares.map((c) => JURISDICTIONS[c].name).join(', ')}</p>
+        )}
+        <Stance position={p.data.position} falsifier={p.data.falsifier} />
+      </article>
+    );
+  })}
+</Base>

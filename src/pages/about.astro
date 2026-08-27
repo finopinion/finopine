@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../data/site';
+---
+<Base title="About" path="/about/">
+  <div class="eyebrow">About</div>
+  <h1 class="art-title">{SITE.name} runs arguments, not tips.</h1>
+  <p class="art-dek">{SITE.masthead.standfirst}</p>
+
+  <div class="prose">
+    <h2>What gets published</h2>
+    <ul>{SITE.editorial.publishes.map((s) => <li>{s}</li>)}</ul>
+    <h2>What does not</h2>
+    <ul>{SITE.editorial.doesNotPublish.map((s) => <li>{s}</li>)}</ul>
+    <h2>Every piece carries</h2>
+    <ul>{SITE.editorial.everyPieceMustHave.map((s) => <li>{s}</li>)}</ul>
+    <p>
+      Those last three are enforced by the build. An article that does not state
+      its claim, name what would disprove it, and cite a source will not compile.
+    </p>
+  </div>
+
+  {!SITE.publisher.legalName && (
+    <div class="note">
+      <b>Publisher details are not set.</b><br />
+      Who operates this site and which regulator applies has not been settled.
+      Until it is, this page cannot say. See LAUNCH.md, blocker 1.
+    </div>
+  )}
+</Base>

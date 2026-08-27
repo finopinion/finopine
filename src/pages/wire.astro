@@ -1,0 +1,53 @@
+---
+import Base from '../layouts/Base.astro';
+import wire from '../../wire.json';
+
+const all = wire.groups.flatMap(g => g.sources);
+const withUrl = all.filter(s => s.url);
+const linked = all.filter(s => s.verified === true && s.url);
+const checked = all.some(s => s.lastChecked);
+---
+<Base title="The Wire" description="Every source FinOpine reads before forming a view." path="/wire/">
+  <div class="eyebrow">The Wire</div>
+  <h1 class="art-title">Everything read before a view is formed.</h1>
+  <p class="art-dek">
+    Ordered from primary to interpretation. If an argument on this site rests on
+    a number, it should be traceable to something in the first two groups.
+  </p>
+
+  <div class="note">
+    <b>A source is a link only once the URL has been confirmed live.</b><br />
+    {linked.length} of {withUrl.length} have been. The rest are listed by name
+    without a link, because a name you can search is more use than a link that
+    404s. {!checked && <>No check has been run yet — run <b>npm run check:wire</b>.</>}
+  </div>
+
+  {wire.groups.map((g) => (
+    <div class="wire-grp">
+      <h3>{g.name}</h3>
+      <p class="why">{g.why}</p>
+      <ul>
+        {g.sources.map((s) => (
+          <li>
+            <span class={s.tier === 'daily' ? 'tier p' : 'tier'}>{s.tier}</span>
+            <b>
+              {s.verified && s.url
+                ? <a href={s.url} rel="noopener">{s.name}</a>
+                : s.name}
+            </b>
+            {s.what && <span>{s.what}</span>}
+          </li>
+        ))}
+      </ul>
+    </div>
+  ))}
+
+  <div class="note">
+    <b>Why so few links.</b><br />
+    Every URL here was copied from a live search result, never written from
+    memory — a model reconstructs the shape of a plausible URL rather than
+    recalling a real one, which is how sites end up citing pages that have never
+    existed. Sources that could not be confirmed that way are listed unlinked
+    rather than guessed at. In fintech that trade is not close.
+  </div>
+</Base>

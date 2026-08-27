@@ -1,0 +1,263 @@
+/* FinOpine
+   ---------------------------------------------------------------------------
+   Palette is salmon newsprint. Financial papers have printed on pink stock for
+   a century; it says "money" without reaching for a trading-terminal pastiche.
+   Ink is navy rather than black so the paper reads warm, not washed out.
+   Long/short green and clay red are reserved for one job each and never used
+   decoratively.
+
+   Type: Fraunces carries the personality, Newsreader carries the reading, Plex
+   Mono carries anything that is data — dates, tallies, kickers, labels.
+   --------------------------------------------------------------------------- */
+
+:root {
+  --paper:      #FAE7DE;
+  --paper-lift: #FFF5F0;
+  --paper-deep: #F1D5C8;
+  --ink:        #141E2B;
+  --ink-2:      #3E4B5D;
+  --ink-3:      #7C8797;
+  --long:       #186B54;
+  --long-soft:  #CDE3DB;
+  --short:      #AF3A26;
+  --short-soft: #F3D2C9;
+  --brass:      #8A5F12;
+  --line:       rgba(20, 30, 43, .15);
+  --line-hard:  rgba(20, 30, 43, .32);
+  --r: 3px;
+
+  --display: "Fraunces", Georgia, "Times New Roman", serif;
+  --body:    "Newsreader", Georgia, serif;
+  --mono:    "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration-color: var(--line-hard); text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--short); }
+:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; }
+img { max-width: 100%; height: auto; }
+
+.wrap { max-width: 720px; margin: 0 auto; padding: 0 18px; }
+
+/* -------------------------------------------------------------- masthead */
+.mast { border-bottom: 1px solid var(--line-hard); }
+.mast-top {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 12px; padding: 18px 0 12px;
+}
+.word {
+  font-family: var(--display);
+  font-variation-settings: "SOFT" 40, "WONK" 1, "opsz" 100;
+  font-weight: 800; font-size: 30px; letter-spacing: -.025em; line-height: 1;
+  text-decoration: none;
+}
+.word span { color: var(--short); }
+.word-sub {
+  display: block; margin-top: 6px;
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+.mast-nav { display: flex; gap: 4px; flex-shrink: 0; }
+.mast-nav a {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em;
+  text-transform: uppercase; padding: 7px 10px; border-radius: var(--r);
+  border: 1px solid transparent; color: var(--ink-2); text-decoration: none;
+}
+.mast-nav a[aria-current="page"] {
+  border-color: var(--line-hard); background: var(--paper-lift); color: var(--ink);
+}
+
+/* ------------------------------------------------------------- structure */
+.eyebrow {
+  display: flex; align-items: center; gap: 10px; margin: 28px 0 16px;
+  font-family: var(--mono); font-size: 10px; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+.eyebrow::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+
+.kicker {
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--brass); font-weight: 600;
+}
+.byline {
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: .06em; color: var(--ink-3);
+}
+
+/* ----------------------------------------------------------------- cards */
+.card {
+  background: var(--paper-lift); border: 1px solid var(--line);
+  border-radius: var(--r); padding: 16px; margin-bottom: 12px;
+  transition: border-color .18s;
+}
+.card:hover { border-color: var(--line-hard); }
+.card-top { display: flex; align-items: center; gap: 8px; margin-bottom: 9px; }
+.card-top .byline { margin-left: auto; }
+.headline {
+  font-family: var(--display);
+  font-variation-settings: "SOFT" 30, "WONK" 1, "opsz" 90;
+  font-weight: 600; font-size: 25px; line-height: 1.12; letter-spacing: -.018em;
+  margin: 0 0 7px;
+}
+.headline a { text-decoration: none; }
+.card:hover .headline a { color: var(--short); }
+.dek { color: var(--ink-2); font-size: 16px; line-height: 1.45; margin: 0 0 12px; }
+
+/* --------------------------------------------------- the signature block
+   Every piece states its claim and what would disprove it. The schema will
+   not build a piece missing either. This block is where that shows.        */
+.stance {
+  border: 1px solid var(--line-hard); border-radius: var(--r);
+  background: var(--paper-lift); overflow: hidden; margin: 0 0 12px;
+}
+.stance-row { display: flex; gap: 0; border-bottom: 1px solid var(--line); }
+.stance-row:last-child { border-bottom: 0; }
+.stance-tag {
+  flex: 0 0 88px; padding: 10px 12px;
+  font-family: var(--mono); font-size: 9px; letter-spacing: .13em;
+  text-transform: uppercase; font-weight: 600;
+}
+.stance-row.pos .stance-tag { background: var(--long-soft); color: var(--long); }
+.stance-row.fal .stance-tag { background: var(--short-soft); color: var(--short); }
+.stance-text { padding: 10px 12px; font-size: 15.5px; line-height: 1.45; }
+
+/* --------------------------------------------------------------- article */
+.back {
+  display: inline-block; margin: 22px 0 0; text-decoration: none;
+  font-family: var(--mono); font-size: 10px; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+.art-head { padding: 14px 0 20px; border-bottom: 1px solid var(--line-hard); margin-bottom: 24px; }
+.art-title {
+  font-family: var(--display);
+  font-variation-settings: "SOFT" 40, "WONK" 1, "opsz" 144;
+  font-weight: 800; font-size: 40px; line-height: 1.03; letter-spacing: -.03em;
+  margin: 8px 0 12px;
+}
+.art-dek { font-size: 19px; line-height: 1.42; color: var(--ink-2); margin: 0 0 18px; }
+.art-meta {
+  display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px;
+  font-family: var(--mono); font-size: 10px; letter-spacing: .07em; color: var(--ink-3);
+}
+.prose p { margin: 0 0 20px; font-size: 18px; line-height: 1.66; }
+.prose > p:first-of-type::first-letter {
+  font-family: var(--display); font-variation-settings: "SOFT" 40, "WONK" 1;
+  font-weight: 800; float: left; font-size: 56px; line-height: .82;
+  padding: 5px 8px 0 0; color: var(--short);
+}
+.prose h2 {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--brass); font-weight: 600; margin: 34px 0 14px;
+}
+.prose blockquote {
+  margin: 24px 0; padding: 0 0 0 16px; border-left: 2px solid var(--short);
+  font-family: var(--display); font-variation-settings: "SOFT" 30, "WONK" 1;
+  font-size: 22px; line-height: 1.28; color: var(--ink);
+}
+.prose blockquote p { font-size: inherit; line-height: inherit; margin: 0; }
+.prose ul, .prose ol { padding-left: 20px; margin: 0 0 20px; }
+.prose li { margin-bottom: 8px; }
+
+/* ------------------------------------------------------- sources / notes */
+.sources { border-top: 1px solid var(--line); margin-top: 32px; padding-top: 16px; }
+.sources h3 {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--ink-3); margin: 0 0 10px; font-weight: 500;
+}
+.sources ol { margin: 0; padding-left: 18px; }
+.sources li { font-size: 15px; line-height: 1.5; margin-bottom: 8px; color: var(--ink-2); }
+.sources .pub { font-family: var(--mono); font-size: 11px; color: var(--ink-3); }
+
+.note {
+  border: 1px solid var(--line); border-radius: var(--r);
+  background: var(--paper-deep); padding: 14px; margin: 24px 0;
+  font-family: var(--mono); font-size: 11.5px; line-height: 1.7; color: var(--ink-2);
+}
+.note b { color: var(--ink); }
+
+/* ------------------------------------------------------------- the wire */
+.wire-grp { margin-bottom: 26px; }
+.wire-grp h3 {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .15em;
+  text-transform: uppercase; color: var(--brass); margin: 0 0 4px; font-weight: 600;
+}
+.wire-grp .why { font-size: 15px; color: var(--ink-3); margin: 0 0 12px; line-height: 1.45; }
+.wire-grp ul { list-style: none; margin: 0; padding: 0; }
+.wire-grp li {
+  padding: 8px 0; border-top: 1px solid var(--line); font-size: 15.5px;
+  line-height: 1.45; display: flex; gap: 10px; align-items: baseline;
+}
+.wire-grp li b { font-weight: 600; flex-shrink: 0; margin-right: 4px; }
+.wire-grp li b a { text-decoration-color: var(--line-hard); }
+.wire-grp li b a:hover { color: var(--short); }
+.wire-grp li span { color: var(--ink-3); font-size: 14px; }
+.tier {
+  flex-shrink: 0; font-family: var(--mono); font-size: 8.5px; letter-spacing: .1em;
+  text-transform: uppercase; padding: 2px 5px; border-radius: 1px;
+  background: var(--paper-deep); color: var(--ink-2);
+}
+.tier.p { background: var(--long-soft); color: var(--long); }
+
+/* --------------------------------------------------------------- footer */
+footer {
+  border-top: 1px solid var(--line-hard); margin-top: 50px; padding: 22px 0 40px;
+  font-family: var(--mono); font-size: 10px; letter-spacing: .04em;
+  color: var(--ink-3); line-height: 1.9;
+}
+footer a { color: var(--ink-2); }
+
+@media (max-width: 560px) {
+  .word { font-size: 25px; }
+  .art-title { font-size: 31px; }
+  .headline { font-size: 22px; }
+  .prose p { font-size: 17px; }
+  .mast-nav a { padding: 6px 7px; font-size: 9.5px; }
+  .stance-tag { flex-basis: 74px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+/* ------------------------------------------------------------- the silos
+   A jurisdiction is not a tag, it is the unit the site is organised by, so
+   it gets a fixed-width mono code rather than a soft label. Planned silos
+   render greyed and unlinked rather than being hidden — the roadmap is
+   information the reader is entitled to. */
+.silos {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px; margin-bottom: 20px;
+}
+.silo {
+  display: block; padding: 12px; border: 1px solid var(--line-hard);
+  border-radius: var(--r); background: var(--paper-lift); text-decoration: none;
+  transition: border-color .18s;
+}
+.silo:hover { border-color: var(--short); }
+.silo.off { background: transparent; border-style: dashed; opacity: .55; }
+.silo-code {
+  display: block; font-family: var(--mono); font-size: 15px; font-weight: 600;
+  letter-spacing: .08em; color: var(--short);
+}
+.silo.off .silo-code { color: var(--ink-3); }
+.silo-name { display: block; font-size: 15px; margin-top: 2px; }
+.silo-n {
+  display: block; font-family: var(--mono); font-size: 9.5px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--ink-3); margin-top: 4px;
+}
+.jflag {
+  font-family: var(--mono); font-size: 9px; font-weight: 600; letter-spacing: .1em;
+  padding: 2px 5px; border-radius: 1px; background: var(--ink); color: var(--paper);
+}
+.compares {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--brass); margin: 0 0 10px;
+}

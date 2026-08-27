@@ -1,0 +1,62 @@
+---
+import { SITE } from '../data/site';
+import '../styles/global.css';
+import Schema from '../components/Schema.astro';
+
+interface Props { title?: string; description?: string; path?: string; }
+const { title, description, path = '/' } = Astro.props;
+const fullTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+const desc = description ?? SITE.masthead.standfirst;
+const canonical = new URL(path, SITE.url).href;
+---
+<!DOCTYPE html>
+<html lang={SITE.locale}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={desc} />
+  <link rel="canonical" href={canonical} />
+  <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
+  <meta property="og:site_name" content={SITE.name} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={desc} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" />
+  <Schema />
+</head>
+<body>
+  <header class="mast">
+    <div class="wrap">
+      <div class="mast-top">
+        <div>
+          <a class="word" href="/">{SITE.masthead.wordmarkA}<span>{SITE.masthead.wordmarkB}</span></a>
+          <span class="word-sub">{SITE.tagline}</span>
+        </div>
+        <nav class="mast-nav" aria-label="Sections">
+          {SITE.nav.map((n) => (
+            <a href={n.href} aria-current={Astro.url.pathname === n.href ? 'page' : undefined}>{n.label}</a>
+          ))}
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap"><slot /></main>
+
+  <footer class="wrap">
+    {SITE.publisher.legalName
+      ? <>Published by {SITE.publisher.legalName}.<br /></>
+      : <>Publisher details are not set yet — see LAUNCH.md.<br /></>}
+    {SITE.name} publishes opinion. It is not advice, and nothing here accounts for
+    any reader's objectives, situation or needs.<br />
+    <a href="/about/">About</a> &nbsp;·&nbsp;
+    <a href="/wire/">The Wire</a> &nbsp;·&nbsp;
+    <a href="/privacy/">Privacy</a> &nbsp;·&nbsp;
+    <a href="/rss.xml">RSS</a>
+  </footer>
+</body>
+</html>

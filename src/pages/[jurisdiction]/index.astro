@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Stance from '../../components/Stance.astro';
+import { JURISDICTIONS, live } from '../../data/jurisdictions';
+
+export async function getStaticPaths() {
+  return live().map((code) => ({ params: { jurisdiction: code }, props: { code } }));
+}
+const { code } = Astro.props;
+const j = JURISDICTIONS[code];
+const pieces = (await getCollection('opinion', ({ data }) => !data.draft && data.jurisdiction === code))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const fmt = (d) => d.toLocaleDateString(j.dateLocale, { day: 'numeric', month: 'short', year: 'numeric' });
+---
+<Base title={j.name} description={`Opinion on ${j.name}.`} path={`/${code}/`}>
+  <a class="back" href="/">&larr; All silos</a>
+  <div class="eyebrow">{j.name}</div>
+
+  {j.regime && (
+    <div class="note">
+      <b>Regulated by {j.conduct.join(', ')}.</b>
+      {j.centralBank && <> Monetary authority: {j.centralBank}.</>}<br />
+      The regime that governs published opinion here: {j.regime}.
+    </div>
+  )}
+
+  {pieces.length === 0 && (
+    <div class="note">Nothing in this silo yet.</div>
+  )}
+
+  {pieces.map((p) => (
+    <article class="card">
+      <div class="card-top">
+        <span class="kicker">{p.data.kicker}</span>
+        <span class="byline">{p.data.author} &middot; {fmt(p.data.date)}</span>
+      </div>
+      <h2 class="headline"><a href={`/${code}/${p.id.split('/').pop()}/`}>{p.data.title}</a></h2>
+      <p class="dek">{p.data.dek}</p>
+      <Stance position={p.data.position} falsifier={p.data.falsifier} />
+    </article>
+  ))}
+</Base>

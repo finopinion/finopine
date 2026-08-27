@@ -1,0 +1,21 @@
+{
+  "_readme": [
+    "Model fallback ladder, newest to oldest. Free tiers 503 on whatever just",
+    "launched because everyone is hammering it; older models are quieter.",
+    "",
+    "VERIFY THESE IDS AGAINST CURRENT PROVIDER DOCS BEFORE THE FIRST RUN.",
+    "They were written from an assistant's training data, which is not the",
+    "present. An ID that no longer exists returns 404, which the generator",
+    "correctly treats as non-retryable and skips - so a stale ladder degrades",
+    "to 'every model failed' rather than anything subtle. Still, check them.",
+    "",
+    "List endpoint:",
+    "https://generativelanguage.googleapis.com/v1beta/models?key=YOUR_KEY"
+  ],
+  "ladder": [
+    "gemini-3-flash",
+    "gemini-2.5-flash",
+    "gemini-2.5-flash-lite",
+    "gemini-2.0-flash"
+  ]
+}
