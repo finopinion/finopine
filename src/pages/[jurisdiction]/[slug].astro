@@ -36,7 +36,7 @@ const fmt = d.date.toLocaleDateString(j.dateLocale, { day: 'numeric', month: 'lo
     {d.compares && (
       <p class="compares">Compares {d.compares.map((c) => JURISDICTIONS[c].name).join(', ')}</p>
     )}
-    <Stance position={d.position} falsifier={d.falsifier} />
+    <Stance plainly={d.plainly} position={d.position} falsifier={d.falsifier} />
   </div>
 
   <div class="prose"><Content /></div>

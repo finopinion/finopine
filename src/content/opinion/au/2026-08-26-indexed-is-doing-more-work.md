@@ -1,14 +1,21 @@
 ---
 jurisdiction: "au"
-title: "Indexed is doing more work than it can carry"
-dek: "Division 296 is a better tax than the one first proposed. But its thresholds move in $150,000 steps, which means that for most of any given cycle they do not move at all."
+title: "The $3 million super line rises less often than the word indexed suggests"
+dek: "A new tax applies to very large superannuation balances. The threshold is meant to rise with prices, but it only moves in $150,000 jumps — so most of the time it does not move at all."
 kicker: "Tax"
 author: "FinOpine desk"
 date: 2026-08-26
 readMins: 4
 tags: ["superannuation", "tax", "division-296"]
-position: "Indexing the Division 296 thresholds in $150,000 and $500,000 increments rather than continuously means the thresholds sit frozen for long stretches, so the cohort captured widens in nominal terms between steps."
-falsifier: "If the large balance threshold steps up at least once every two years in practice and the number of affected members stays roughly flat, the increment size is immaterial and this argument fails."
+plainly: "Superannuation is taxed lightly to encourage people to save for retirement. From July 2026 that discount shrinks for anyone with more than $3 million in super. The government said the $3 million line would rise with the cost of living so ordinary savers do not get caught over time. This is about whether it actually will."
+position: |
+  The new super tax was defended partly on the ground that its three million dollar line is indexed, so ordinary savers will not be quietly caught by it over the years. But the line does not rise smoothly. It moves in jumps of $150,000, which is five per cent of three million. At inflation inside the target band, five per cent takes roughly two years to accumulate.
+
+  So for most of any given stretch the line does not move at all, while balances keep compounding toward it. People sitting just below the threshold cross it through nothing more than ordinary market returns and the contributions they were always going to make. That may well be the intended outcome, and there is a respectable case for it. But it is not what most people heard when they were told the threshold was indexed.
+falsifier: |
+  Two things settle this, and both are observable within a few years. How often the three million dollar line actually steps up between now and 2030, and what happens to the number of people assessed under the tax across those same years.
+
+  If the line moves at least every second year and the affected group stays roughly flat as a share of fund members, then the step size never mattered and I have made a problem out of a footnote. If the line sits still for three years while the assessed count climbs, the word indexed was carrying weight the mechanism could not support, and the people who raised it early were right to.
 sources:
   - label: "Better targeted superannuation concessions — new legislation guidance"
     publisher: "Australian Taxation Office"
@@ -40,13 +47,13 @@ sources:
 
 Division 296 is law. The Treasury Laws Amendment (Building a Stronger and Fairer Super System) Act 2026 and its companion imposition Act received royal assent on 13 March, after passing Parliament on 10 March. The measure applies from the 2026–27 financial year, with first assessments expected in the year beginning 1 July 2027.
 
-The shape is now clear. If your total super balance at the end of the financial year exceeds the large super balance threshold — set at three million dollars for 2026–27 — an additional 15 per cent applies to the proportion of earnings relating to the excess. Above a very large super balance threshold of ten million, a further amount applies. It is a personal liability assessed to the individual rather than to the fund, it is not deductible, and it can be paid from outside super or by releasing money from it.
+The shape is now clear. If everything you hold in super adds up to more than three million dollars on 30 June, an extra 15 per cent tax applies. Not to the whole balance — only to the share of your investment earnings that relates to the amount above the line. Above a very large super balance threshold of ten million, a further amount applies. It is a personal liability assessed to the individual rather than to the fund, it is not deductible, and it can be paid from outside super or by releasing money from it.
 
 Most of the original objections have been answered. This is a marginal structure, not a cliff. It taxes a proportion of earnings rather than the whole balance. The worst feature of the first design is gone.
 
 ## The word carrying the weight
 
-Both thresholds are indexed to the consumer price index. That single fact did most of the work in defending the measure against the charge that it would quietly capture ordinary balances over time, the way the old superannuation surcharge did.
+Both lines are indexed, meaning they are supposed to rise as the cost of living rises, so that a threshold set today does not quietly catch ordinary savers in fifteen years. That single fact did most of the work in defending the measure against the charge that it would quietly capture ordinary balances over time, the way the old superannuation surcharge did.
 
 Look at how the indexation actually operates. The large balance threshold moves in increments of $150,000. The very large threshold moves in increments of $500,000.
 
@@ -58,7 +65,7 @@ The arithmetic is not subtle. $150,000 against a three million dollar threshold 
 
 The cohort sitting just below three million is not small, and it is growing toward the line from beneath. Every year the threshold stays nominally still, some of that group crosses it through nothing but market returns and contributions they were always going to make.
 
-That is a defensible policy outcome if it is the intended one. It is a much less defensible one if the measure was sold on being indexed, and the audience heard "the threshold keeps pace" when the mechanism delivers something closer to "the threshold catches up, in arrears, every second year or so."
+That is a defensible policy outcome if it is the intended one. It is much less defensible if the measure was sold on being indexed and people heard that the line keeps pace, when what it actually does is catch up late, roughly every second year.
 
 The design is also asymmetric in an interesting way. From 2026–27 onward, the balance used to test the threshold is the greater of the figure immediately before the financial year and the figure at the end of it. That is sensible anti-avoidance — it stops a member ducking under the line with a well-timed June withdrawal. But note the direction of travel: the test reaches for the higher number, while the threshold it is tested against reaches for the lower one until an increment triggers.
 
@@ -66,7 +73,7 @@ The design is also asymmetric in an interesting way. From 2026–27 onward, the 
 
 There is a serious defence, and it has been made well. Division 296 is a proportionate response to concessions flowing to balances far beyond any plausible retirement purpose, and much of the campaign against it has misrepresented what the policy actually does. On that reading, quibbling about increment size is another instance of exactly that: technical objection standing in for opposition to the principle.
 
-The administrative case for increments is also real. Continuous indexation would move thresholds by a few thousand dollars a year, which every fund and every adviser would have to track for a cohort where the difference is trivial against the balances involved. Lumpy indexation is how the transfer balance cap already works. This is not an innovation.
+The administrative case for moving in steps is also real. Raising the line smoothly would shift it by a few thousand dollars a year, which every fund and every adviser would have to track for a cohort where the difference is trivial against the balances involved. Other superannuation limits already move in steps rather than smoothly. This is not an innovation.
 
 And the effect may simply be small. If inflation runs near the middle of the band, steps arrive often enough that the frozen periods never bite hard.
 

@@ -183,3 +183,47 @@ file from earlier in this project.
 No analytics, no cookie banner, no newsletter capture, no contact form key.
 Each is a decision to make once the site is real, not scaffolding to carry now.
 `check-launch.mjs` lists them as warnings rather than blockers.
+
+
+---
+
+## The daily piece, and how to approve it
+
+`daily-wire.yml` runs 01:30 UTC Monday to Friday — 07:00 in India, 11:30 in
+Sydney. It drafts one piece from the verified feeds, commits it with
+`draft: true`, and then waits.
+
+### Turn the approval gate on (one minute, once)
+
+Settings → Environments → New environment → name it exactly **publish** →
+tick **Required reviewers** → add yourself → Save.
+
+From then on:
+
+1. GitHub emails you when a run is waiting
+2. The email links to the run Summary, which contains **the entire draft** —
+   headline, plain-language framing, position, falsifier, sources and full body
+3. Approve, and the draft flag flips and Cloudflare rebuilds
+4. Reject, and it stays in the repo as an unpublished draft
+
+To change something before publishing: edit the file in the GitHub web editor,
+then approve. The approval acts on whatever is in the repo at that moment.
+
+### If you skip that setup
+
+It still works. GitHub creates the environment on the fly with no protection
+rules and the job runs through, fully automated. A piece you disagree with is
+pulled by setting `draft: true` on it in the web editor — the site rebuilds
+without it in about two minutes.
+
+### Why not email replies
+
+Parsing "yes" out of a reply means hosting an inbound mail handler, storing a
+GitHub token in it, and guessing intent from quoted text and signatures. Three
+new failure modes for something GitHub already does natively, with a real
+identity check rather than a From: header anyone can forge.
+
+### Nothing here needs your machine
+
+Secrets, environments, file edits, triggering runs and reading output are all
+browser tasks. The local clone was only ever needed for the first push.

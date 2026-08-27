@@ -1,18 +1,31 @@
 # ---------------------------------------------------------------------------
-# GitHub blocks workflow-file writes over most remote and API paths, so this
-# file usually has to be pasted in by hand through the web editor. That is
-# expected, not a mistake.
+# Writes one opinion piece a day, then waits for you to approve it.
 #
-# Cron in Actions is ALWAYS UTC. There is no timezone setting.
-#   30 22 * * 0-4  = 08:30 AEST Mon-Fri  (UTC+10)
-#   Note the day fields are shifted back one, because 22:30 UTC Sunday is
-#   Monday morning in Sydney. Convert deliberately.
+# HOW THE APPROVAL WORKS
+# The second job targets an environment called "publish". If you add yourself
+# as a required reviewer on that environment, GitHub emails you when a run is
+# waiting, the email links to the run Summary which contains the ENTIRE draft,
+# and you approve or reject in one tap. No email parsing, no tokens, nothing
+# to host.
+#
+#   Settings -> Environments -> New environment -> name it exactly: publish
+#   Tick "Required reviewers", add yourself, Save.
+#
+# IF YOU DO NOT SET THAT UP, this still works - GitHub creates the environment
+# on the fly with no protection rules and the job runs straight through, fully
+# automated. That is the fallback you asked for: it publishes, and you can pull
+# a piece afterwards by setting draft: true in the web editor.
+#
+# Either way the draft is committed first with draft: true, so nothing reaches
+# the site until it is approved. Rejecting leaves it in the repo as a draft.
+#
+# Cron in Actions is ALWAYS UTC. 01:30 UTC = 07:00 IST = 11:30 AEST, Mon-Fri.
 # ---------------------------------------------------------------------------
 name: Daily wire
 
 on:
   schedule:
-    - cron: '30 22 * * 0-4'
+    - cron: '30 1 * * 1-5'
   workflow_dispatch:
 
 permissions:
@@ -21,35 +34,61 @@ permissions:
 jobs:
   draft:
     runs-on: ubuntu-latest
+    outputs:
+      file: ${{ steps.gen.outputs.file }}
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+        with: { node-version: '20' }
+      - run: npm install
 
-      - name: Verify feeds are reachable
+      - name: Confirm the feeds are reachable
         run: node scripts/check-feeds.mjs
         continue-on-error: true
 
       - name: Draft one piece
+        id: gen
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/generate-article.mjs
 
-      - name: Compliance check
-        run: node scripts/check-compliance.mjs
-
-      - name: Commit the draft
+      # The draft must survive the same gates as anything written by hand:
+      # verified sources, a stated position, a falsifier, plain-language framing.
+      - name: Schema and language gates
+        if: steps.gen.outputs.file != ''
         run: |
-          # Per-repo identity only. Never set this globally - it puts a personal
-          # name on a public commit history.
-          git config user.name  "finopine-bot"
-          git config user.email "bot@users.noreply.github.com"
+          npm run build
+          npm run check:compliance
+          npm run check:readability || true
+
+      - name: Commit as an unpublished draft
+        if: steps.gen.outputs.file != ''
+        run: |
+          git config user.name  "FinOpine"
+          git config user.email "Finopine09@gmail.com"
           if [ -n "$(git status --porcelain)" ]; then
             git add -A
             git commit -m "wire: draft $(date -u +%F)"
             git push
-          else
-            echo "Nothing to commit." >> $GITHUB_STEP_SUMMARY
           fi
+
+  publish:
+    needs: draft
+    if: needs.draft.outputs.file != ''
+    runs-on: ubuntu-latest
+    # Approval gate. No reviewers configured = runs straight through.
+    environment: publish
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - run: git pull --rebase
+
+      - name: Publish it
+        run: |
+          sed -i 's/^draft: true$/draft: false/' "${{ needs.draft.outputs.file }}"
+          git config user.name  "FinOpine"
+          git config user.email "Finopine09@gmail.com"
+          git add -A
+          git commit -m "wire: publish $(basename '${{ needs.draft.outputs.file }}')"
+          git push
+          echo "Published. Cloudflare rebuilds on this push." >> $GITHUB_STEP_SUMMARY

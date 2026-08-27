@@ -1,14 +1,21 @@
 ---
-interface Props { position: string; falsifier: string; }
-const { position, falsifier } = Astro.props;
+interface Props { plainly?: string; position: string; falsifier: string; compact?: boolean }
+const { plainly, position, falsifier, compact = false } = Astro.props;
+const paras = (t: string) => String(t).split(/\n\s*\n/).map(x => x.trim()).filter(Boolean);
 ---
 <div class="stance">
+  {plainly && !compact && (
+    <div class="stance-row plain">
+      <div class="stance-tag">Plainly</div>
+      <div class="stance-text">{plainly}</div>
+    </div>
+  )}
   <div class="stance-row pos">
     <div class="stance-tag">Position</div>
-    <div class="stance-text">{position}</div>
+    <div class="stance-text">{paras(position).map(p => <p>{p}</p>)}</div>
   </div>
   <div class="stance-row fal">
     <div class="stance-tag">Wrong if</div>
-    <div class="stance-text">{falsifier}</div>
+    <div class="stance-text">{paras(falsifier).map(p => <p>{p}</p>)}</div>
   </div>
 </div>

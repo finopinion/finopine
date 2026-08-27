@@ -77,11 +77,28 @@ const opinion = defineCollection({
     author: z.string().min(2),
     date: z.coerce.date(),
 
-    position: z.string().min(25,
-      'State the claim in one sentence. An opinion piece without a position is a summary.'),
+    position: z.string().min(400,
+      'Too thin. The position needs two paragraphs: what you claim, and why it matters.')
+      .refine((v) => v.includes('\n\n'),
+        { message: 'The position must be at least two paragraphs. Use a YAML block: position: |' }),
 
-    falsifier: z.string().min(25,
-      'Say what would show this is wrong. FinOpine does not publish unfalsifiable opinion.'),
+    /**
+     * REQUIRED. What this is about, for someone who does not follow finance.
+     *
+     * No jargon, no acronyms, no institution names the reader has to already
+     * know. If you cannot explain the subject without the vocabulary, you do
+     * not understand it well enough to have an opinion worth reading.
+     *
+     * This is not a summary of the argument - that is the dek. This is the
+     * background a reader needs before the argument makes any sense.
+     */
+    plainly: z.string().min(40).max(400,
+      'Keep it to a couple of sentences. If it needs more, the subject is not clear in your own head yet.'),
+
+    falsifier: z.string().min(300,
+      'Too thin. Name the specific things that would show this is wrong, and what follows if they happen.')
+      .refine((v) => v.includes('\n\n'),
+        { message: 'The falsifier must be at least two paragraphs. Use a YAML block: falsifier: |' }),
 
     sources: z.array(citation).min(1,
       'Every piece needs at least one citation. Retrieve it - do not write one from memory.'),

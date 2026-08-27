@@ -1,14 +1,21 @@
 ---
 jurisdiction: "au"
-title: "Designation just became a political instrument"
-dek: "The payments reforms widened the perimeter, which everyone covered. They also moved the power to designate a payment system from the central bank alone to a minister acting in the national interest, which almost nobody did."
+title: "The Treasurer can now switch on payment rules that only the Reserve Bank used to control"
+dek: "New laws widened who regulates digital wallets and buy-now-pay-later, which was well covered. They also handed a politician a power that belonged to the central bank, which was not."
 kicker: "Payments"
 author: "FinOpine desk"
 date: 2026-08-22
 readMins: 4
 tags: ["payments", "fintech", "rba", "bnpl"]
-position: "Extending designation power to the Treasurer on national-interest grounds changes payments regulation from a technocratic function of an independent central bank into one a minister can exercise for reasons including national security."
-falsifier: "If the first ministerial designations rest on competition or consumer-protection grounds indistinguishable from what the RBA would have decided itself, the shift is formal rather than substantive."
+plainly: "When you tap your phone to pay, several companies take a cut and set the terms. Australian law decides which of them a regulator can give orders to. New rules widened that net to cover digital wallets and buy-now-pay-later. This is about a second change buried in the same law: who gets to decide when those powers are switched on."
+position: |
+  The reform widened what counts as a payment system, so that digital wallets, buy-now-pay-later and cash distribution all fall inside it. That part was overdue and well argued. But the same law quietly changed something else: who decides when the regulator's powers actually switch on. That decision used to belong to the Reserve Bank alone, an institution kept deliberately at arm's length from politics and tested against a public interest standard that has been argued over for twenty-five years.
+
+  Now a politician can make it too, where doing so is in the national interest. The grounds expressly include national security and crisis management. Those are not payments questions, and reasons given on those grounds often cannot be published. A decision nobody can see is a decision nobody can argue with. That is a different kind of power from the one the Bank holds, and it arrived without any of the debate the perimeter change got.
+falsifier: |
+  Watch the first designation a Treasurer actually makes, and the reasons published alongside it. If it names a dominant wallet or settles an access dispute on ordinary competition or consumer grounds, the Reserve Bank would have reached the same place on its own, and this whole argument is about a formality.
+
+  The same follows if the power simply sits unused. A power nobody exercises has changed nothing in practice, whatever it changed on paper. If no minister has designated a payment system by 2029, then I was arguing about a provision rather than a policy, and the people who told me the perimeter was the real story were right.
 sources:
   - label: "Treasury Laws Amendment (Payments System Modernisation) Bill 2025 — Explanatory Memorandum"
     publisher: "AustLII"
@@ -45,7 +52,7 @@ sources:
     verified: true
 ---
 
-The Treasury Laws Amendment (Payments System Modernisation) Act 2025 received royal assent on 19 September 2025 and took effect on 19 December. It widened the definitions of payment system and participant under the Payment Systems (Regulation) Act 1998 to capture digital wallets, buy-now-pay-later providers, cash distribution and stablecoin-based platforms.
+The Treasury Laws Amendment (Payments System Modernisation) Act 2025 received royal assent on 19 September 2025 and took effect on 19 December. It widened the legal definition of a payment system so that it now covers digital wallets, buy-now-pay-later providers, cash distribution, and platforms built on stablecoins — digital tokens designed to hold a fixed value, usually one dollar.
 
 That much was well covered, and the case for it is strong. The banking industry pointed out that Australians made around a hundred and sixty billion dollars of mobile wallet payments in a year under rules that had not seen a serious refresh in more than twenty-five years. The layer that actually determines what a transaction costs had moved to the phone, and the perimeter had not followed.
 
@@ -53,15 +60,15 @@ The reforms also did something structurally different, which received almost no 
 
 ## Who gets to designate
 
-Designation is the switch. A payment system that has been designated is subject to the regulator's access regimes, standards and directions; one that has not been is largely outside them. Everything else in the Act is potential. Designation is where potential becomes a named firm with obligations.
+Designation is the switch. It is a formal decision naming a particular payment system as one the regulator can give orders to — who may connect to it, what standards it must meet, what it may charge. A system that has not been designated sits largely outside all of that. Everything else in the Act is potential. Designation is where potential becomes a named firm with obligations.
 
-Previously that switch belonged to the Reserve Bank alone. Under the reforms the Minister may also designate a system, where doing so is in the national interest — and in weighing that, may take into account national security, consumer protection, cybersecurity, crisis management and anti-money-laundering considerations.
+That switch used to belong to the Reserve Bank alone. Now the Treasurer can also flip it, where doing so is in the national interest. In judging that, the Treasurer may weigh national security, consumer protection, cybersecurity, crisis management and money laundering.
 
 > Payments designation has moved from a technocratic judgement made by an independent central bank to one a politician can make on national security grounds.
 
 ## Why that is a bigger change than the perimeter
 
-The RBA's designation power sits inside an institution built to be insulated from the electoral cycle, exercised against a public interest test that has been argued over for a quarter of a century. Whatever you think of the Bank's judgement, its incentives are legible.
+The Reserve Bank’s version of this power sits inside an institution deliberately kept at arm’s length from politics. It is exercised against a public interest test that has been argued over for twenty-five years. Whatever you think of the Bank's judgement, its incentives are legible.
 
 National interest is a different kind of test. It is broader, softer, and the listed considerations reach well past payments efficiency and competition into territory — national security, crisis management — where the reasoning cannot always be published and the evidence cannot always be tested. A designation made on those grounds is very hard to argue with from outside, because the grounds themselves may not be visible.
 
@@ -73,7 +80,7 @@ This is not a scandal, and there is a serious argument the other way.
 
 Payments genuinely have become a national security question. Sanctions enforcement, foreign ownership of wallet infrastructure, the resilience of retail rails during a crisis — these are not things a central bank was designed to weigh, and they are not obviously improved by insisting that only a central bank may weigh them. A minister is accountable to Parliament in a way the Bank is not, and can be removed.
 
-The power is also bounded rather than open. The Minister must have regard to specified matters, which is a constraint the previous arrangement did not impose on the RBA in the same form. And it sits alongside rather than replacing the Bank's own power.
+The power is also bounded rather than open. The Minister must have regard to specified matters, which is a constraint the previous arrangement did not impose on the Reserve Bank in the same form. And it sits alongside rather than replacing the Bank's own power.
 
 There is a further point worth conceding: the same reforms may struggle with decentralised systems regardless of who holds the switch. Imposing access regimes or operational standards on a permissionless network is a problem of a different order, and no allocation of designation power solves it.
 

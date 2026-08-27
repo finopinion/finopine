@@ -164,9 +164,10 @@ Return ONLY this JSON, no fences, no preamble:
   "kicker": "one or two words, e.g. Monetary policy",
   "title": "under 90 chars, states the argument not the topic",
   "dek": "one or two sentences, under 240 chars",
-  "position": "one sentence stating your claim, at least 25 chars",
-  "falsifier": "one sentence naming what would show the claim is wrong, at least 25 chars",
+  "position": "TWO paragraphs separated by a blank line. First: what you claim. Second: why it matters and what follows from it. At least 400 characters total.",
+  "falsifier": "TWO paragraphs separated by a blank line. First: the specific observable thing that would show you wrong. Second: what follows if it happens. At least 300 characters total.",
   "body": "600-900 words of markdown. Use ## subheads. No links.",
+  "plainly": "two or three sentences explaining what the subject IS, for a reader who does not follow finance. No jargon, no acronyms. This is background, not your argument.",
   "tags": ["two or three lowercase tags"],
   "supports": "one sentence saying what the item you picked establishes for your argument, at least 20 chars"
 }`;
@@ -266,7 +267,7 @@ if (/https?:\/\/|www\.|doi:\s*10\./i.test(out.body)) {
   process.exit(1);
 }
 
-for (const [field, min] of [['position', 25], ['falsifier', 25], ['title', 10], ['dek', 20], ['supports', 20]]) {
+for (const [field, min] of [['position', 400], ['falsifier', 300], ['title', 10], ['dek', 20], ['supports', 20], ['plainly', 40]]) {
   if (!out[field] || String(out[field]).length < min) {
     note(`Field "${field}" missing or too short. The schema would reject this at build.`);
     await flushSummary();
@@ -289,8 +290,11 @@ dek: ${yaml(out.dek)}
 kicker: ${yaml(out.kicker || 'Policy')}
 author: "FinOpine desk"
 date: ${today}
-position: ${yaml(out.position)}
-falsifier: ${yaml(out.falsifier)}
+plainly: ${yaml(out.plainly)}
+position: |
+${String(out.position).split('\n').map((l) => '  ' + l).join('\n')}
+falsifier: |
+${String(out.falsifier).split('\n').map((l) => '  ' + l).join('\n')}
 readMins: ${Math.max(2, Math.round(String(out.body).split(/\s+/).length / 220))}
 tags: ${JSON.stringify(out.tags || [])}
 generated: true
@@ -311,6 +315,31 @@ ${out.body}
 
 await writeFile(file, md);
 note(`Wrote ${file}`);
+
+// Hand the path to the next job
+if (process.env.GITHUB_OUTPUT) {
+  await writeFile(process.env.GITHUB_OUTPUT, `file=${file}\n`, { flag: 'a' });
+}
+
+// Put the ENTIRE draft in the run summary. The summary needs no login, renders
+// on a phone, and is what the approval email links to - so the whole point is
+// that the piece can be read and judged without opening a repo.
+if (process.env.GITHUB_STEP_SUMMARY) {
+  await writeFile(process.env.GITHUB_STEP_SUMMARY, [
+    '', '---', '', `# ${out.title}`, '',
+    `*${out.dek}*`, '',
+    '**Plainly**', '', out.plainly, '',
+    '**Position**', '', out.position, '',
+    '**Wrong if**', '', out.falsifier, '',
+    '**Source**', '',
+    `${item.publisher} - ${item.title}`, `<${item.link}>`, '',
+    '---', '', out.body, '', '---', '',
+    '### To publish', '',
+    'Approve the waiting deployment. The draft flag flips and Cloudflare rebuilds.', '',
+    '### To change it first', '',
+    `Edit \`${file}\` in the web editor, then approve. Or reject, and it stays an unpublished draft.`, ''
+  ].join('\n'), { flag: 'a' });
+}
 note(`Grounded in: ${item.publisher} — ${item.title}`);
 note('Written as draft:true. Read it, then flip the flag to publish.');
 

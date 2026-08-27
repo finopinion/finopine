@@ -54,7 +54,7 @@ const fmt = (d, loc) => d.toLocaleDateString(loc, { day: 'numeric', month: 'shor
         {p.data.compares && (
           <p class="compares">Compares {p.data.compares.map((c) => JURISDICTIONS[c].name).join(', ')}</p>
         )}
-        <Stance position={p.data.position} falsifier={p.data.falsifier} />
+        <Stance compact position={p.data.position} falsifier={p.data.falsifier} />
       </article>
     );
   })}

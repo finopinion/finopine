@@ -126,9 +126,14 @@ img { max-width: 100%; height: auto; }
   font-family: var(--mono); font-size: 9px; letter-spacing: .13em;
   text-transform: uppercase; font-weight: 600;
 }
+.stance-row.plain .stance-tag { background: var(--paper-deep); color: var(--ink-2); }
+.stance-row.plain .stance-text { color: var(--ink); }
 .stance-row.pos .stance-tag { background: var(--long-soft); color: var(--long); }
 .stance-row.fal .stance-tag { background: var(--short-soft); color: var(--short); }
-.stance-text { padding: 10px 12px; font-size: 15.5px; line-height: 1.45; }
+.stance-text { padding: 12px; font-size: 15.5px; line-height: 1.55; }
+.stance-text p { margin: 0 0 10px; }
+.stance-text p:last-child { margin-bottom: 0; }
+.stance-row { align-items: flex-start; }
 
 /* --------------------------------------------------------------- article */
 .back {

@@ -16,7 +16,8 @@
     "check:moderation": "node scripts/check-moderation.mjs",
     "check:wire": "node scripts/check-wire.mjs",
     "check:sources": "node scripts/check-sources.mjs",
-    "check:all": "npm run check:compliance && npm run check:launch"
+    "check:all": "npm run check:compliance && npm run check:launch",
+    "check:readability": "node scripts/check-readability.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
