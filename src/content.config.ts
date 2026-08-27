@@ -57,13 +57,7 @@ const citation = z.object({
 
   date: z.string().optional(),
   quote: z.string().max(160).optional()
-}).refine(
-  (c) => {
-    const age = (Date.now() - new Date(c.retrievedAt).getTime()) / 86400000;
-    return age <= MAX_SOURCE_AGE_DAYS;
-  },
-  { message: `Source retrieved more than ${MAX_SOURCE_AGE_DAYS} days ago. Re-open it and update retrievedAt, or drop the claim.`, path: ['retrievedAt'] }
-);
+});
 
 const opinion = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/opinion' }),
@@ -127,6 +121,19 @@ const opinion = defineCollection({
         message: 'Only cross-border pieces use compares. A single-jurisdiction piece that ranges across countries belongs in the general silo.'
       });
     }
+
+    /**
+     * Sources must have been read around the time the piece was written.
+     *
+     * Measured against the ARTICLE'S OWN DATE, never against today. An earlier
+     * version compared retrievedAt to the current date, which meant every
+     * article would fail the build 180 days after publication and take the
+     * whole site down. Archive pieces cite sources read when they were
+     * written, and that is correct.
+     *
+     * Link rot after publication is a real problem but not this check's
+     * problem. verify-sources.yml probes every published citation weekly.
+     */
     for (const [i, src] of d.sources.entries()) {
       const gap = Math.abs(new Date(src.retrievedAt).getTime() - d.date.getTime()) / 86400000;
       if (gap > MAX_SOURCE_AGE_DAYS) {
