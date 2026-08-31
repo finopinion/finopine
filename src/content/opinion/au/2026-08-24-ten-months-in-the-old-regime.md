@@ -7,7 +7,8 @@ author: "FinOpine desk"
 date: 2026-08-24
 readMins: 4
 tags: ["fintech", "digital-assets", "asic", "licensing"]
-plainly: "Until this year, Australian crypto exchanges operated in a grey area — the rules were unclear, so the regulator promised not to prosecute while a proper law was written. That law passed in April 2026 but does not take effect until April 2027. The promise not to prosecute ended in June 2026. This is about the gap between those two dates."
+plainly: "Buying and selling crypto in Australia has never had clear rules. The regulator handled that by formally promising not to prosecute firms while Parliament wrote a proper law. That law passed in April 2026. It does not take effect until April 2027."
+viewInBrief: "The promise not to prosecute expired in June 2026, ten months before the new law starts. Crypto firms are stuck under the old unclear rules with none of the protection that made them liveable. Those two dates should have been lined up."
 position: |
   Australian crypto platforms are sitting in a ten-month gap nobody planned for them. The regulator's formal promise not to prosecute expired at the end of June 2026. The law replacing the old rules does not commence until April 2027. In between, firms are governed by exactly the unclear regime the new law was written to fix, without the relief that made it liveable.
 

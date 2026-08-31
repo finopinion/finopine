@@ -7,7 +7,8 @@ author: "FinOpine desk"
 date: 2026-08-26
 readMins: 4
 tags: ["superannuation", "tax", "division-296"]
-plainly: "Superannuation is taxed lightly to encourage people to save for retirement. From July 2026 that discount shrinks for anyone with more than $3 million in super. The government said the $3 million line would rise with the cost of living so ordinary savers do not get caught over time. This is about whether it actually will."
+plainly: "Money saved for retirement in superannuation is taxed lightly, to encourage people to save. From July 2026 that discount shrinks for anyone holding more than three million dollars. The government promised the three million dollar line would rise with the cost of living, so that ordinary savers would not slowly be caught by a threshold set today."
+viewInBrief: "The line does rise, but only in jumps of $150,000, which takes about two years to earn. In between it sits completely still while savings keep growing towards it. That is not what most people heard when they were told it was indexed."
 position: |
   The new super tax was defended partly on the ground that its three million dollar line is indexed, so ordinary savers will not be quietly caught by it over the years. But the line does not rise smoothly. It moves in jumps of $150,000, which is five per cent of three million. At inflation inside the target band, five per cent takes roughly two years to accumulate.
 
@@ -55,9 +56,9 @@ Most of the original objections have been answered. This is a marginal structure
 
 ## The word carrying the weight
 
-Both lines are indexed, meaning they are supposed to rise as the cost of living rises, so that a threshold set today does not quietly catch ordinary savers in fifteen years. That single fact did most of the work in defending the measure against the charge that it would quietly capture ordinary balances over time, the way the old superannuation surcharge did.
+Both lines are indexed. Indexing means a number is written to rise automatically with the cost of living, so that a threshold set today does not quietly catch ordinary people in fifteen years, so that a threshold set today does not quietly catch ordinary savers in fifteen years. That single fact did most of the work in defending the measure against the charge that it would quietly capture ordinary balances over time, the way the old superannuation surcharge did.
 
-Look at how the indexation actually operates. The large balance threshold moves in increments of $150,000. The very large threshold moves in increments of $500,000.
+Look at how that indexing actually works. The large balance threshold moves in increments of $150,000. The very large threshold moves in increments of $500,000.
 
 > A threshold that only moves in $150,000 steps is a threshold that spends most of its time not moving.
 
@@ -75,7 +76,7 @@ The design is also asymmetric in an interesting way. From 2026–27 onward, the 
 
 There is a serious defence, and it has been made well. Division 296 is a proportionate response to concessions flowing to balances far beyond any plausible retirement purpose, and much of the campaign against it has misrepresented what the policy actually does. On that reading, quibbling about increment size is another instance of exactly that: technical objection standing in for opposition to the principle.
 
-The administrative case for moving in steps is also real. Raising the line smoothly would shift it by a few thousand dollars a year, which every fund and every adviser would have to track for a cohort where the difference is trivial against the balances involved. Other superannuation limits already move in steps rather than smoothly. This is not an innovation.
+The practical case for moving in steps is also real. Raising the line smoothly would shift it by a few thousand dollars a year, which every fund and every adviser would have to track for a cohort where the difference is trivial against the balances involved. Other superannuation limits already move in steps rather than smoothly. This is not an innovation.
 
 And the effect may simply be small. If inflation runs near the middle of the band, steps arrive often enough that the frozen periods never bite hard.
 

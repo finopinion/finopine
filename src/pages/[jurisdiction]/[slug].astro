@@ -38,12 +38,19 @@ const fmt = d.date.toLocaleDateString(j.dateLocale, { day: 'numeric', month: 'lo
     )}
   </div>
 
-  {d.plainly && (
-    <div class="plainly">
-      <span class="plainly-tag">In short</span>
+  {/* Background first, then the view in plain words. A reader who stops here
+      should still know what this is about and what the piece argues. Neither
+      is the argument itself — that starts below, with its own opening. */}
+  <div class="primer">
+    <div class="primer-row">
+      <span class="primer-tag">What this is about</span>
       <p>{d.plainly}</p>
     </div>
-  )}
+    <div class="primer-row view">
+      <span class="primer-tag">Our view</span>
+      <p>{d.viewInBrief}</p>
+    </div>
+  </div>
 
   <div class="prose"><Content /></div>
 

@@ -86,8 +86,22 @@ const opinion = defineCollection({
      * This is not a summary of the argument - that is the dek. This is the
      * background a reader needs before the argument makes any sense.
      */
-    plainly: z.string().min(40).max(400,
+    plainly: z.string().min(120).max(500,
       'Keep it to a couple of sentences. If it needs more, the subject is not clear in your own head yet.'),
+
+    /**
+     * REQUIRED. The argument, in plain words, for someone who has not read it.
+     *
+     * Two sentences at most. No jargon, no hedging, no subordinate clauses
+     * stacked three deep. If a reader stops after this line they should still
+     * know what you think and roughly why.
+     *
+     * This is NOT the position field. Position is the full argument in two
+     * paragraphs and lives in the listing cards. This is the version you would
+     * say out loud to someone who asked what you had written about.
+     */
+    viewInBrief: z.string().min(60).max(280,
+      'Two sentences. If it needs more, the argument is not clear enough yet.'),
 
     falsifier: z.string().min(300,
       'Too thin. Name the specific things that would show this is wrong, and what follows if they happen.')

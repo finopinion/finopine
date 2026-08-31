@@ -7,7 +7,8 @@ author: "FinOpine desk"
 date: 2026-08-22
 readMins: 4
 tags: ["payments", "fintech", "rba", "bnpl"]
-plainly: "When you tap your phone to pay, several companies take a cut and set the terms. Australian law decides which of them a regulator can give orders to. New rules widened that net to cover digital wallets and buy-now-pay-later. This is about a second change buried in the same law: who gets to decide when those powers are switched on."
+plainly: "When you tap a card or a phone, several companies take a cut and set the terms. Australian law lets a regulator give those companies orders — who may connect to a payment system, what standards it must meet, what it may charge. But those powers only switch on after a formal decision, called designation."
+viewInBrief: "That decision used to belong to the Reserve Bank alone. New laws let the Treasurer make it too, on national security grounds that may never be published. A technical judgement has quietly become a political one."
 position: |
   The reform widened what counts as a payment system, so that digital wallets, buy-now-pay-later and cash distribution all fall inside it. That part was overdue and well argued. But the same law quietly changed something else: who decides when the regulator's powers actually switch on. That decision used to belong to the Reserve Bank alone, an institution kept deliberately at arm's length from politics and tested against a public interest standard that has been argued over for twenty-five years.
 
@@ -62,7 +63,7 @@ The reforms also did something structurally different, which received almost no 
 
 ## Who gets to designate
 
-Designation is the switch. It is a formal decision naming a particular payment system as one the regulator can give orders to — who may connect to it, what standards it must meet, what it may charge. A system that has not been designated sits largely outside all of that. Everything else in the Act is potential. Designation is where potential becomes a named firm with obligations.
+Designation is the switch. Designating a system means formally naming it as one the regulator can give orders to — who may connect to it, what standards it must meet, what it may charge. A system that has not been designated sits largely outside all of that. Everything else in the Act is potential. Designation is where potential becomes a named firm with obligations.
 
 That switch used to belong to the Reserve Bank alone. Now the Treasurer can also flip it, where doing so is in the national interest. In judging that, the Treasurer may weigh national security, consumer protection, cybersecurity, crisis management and money laundering.
 

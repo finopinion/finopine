@@ -288,7 +288,8 @@ Return ONLY this JSON, no fences, no preamble:
   "falsifier": "TWO paragraphs separated by a blank line. First: the specific observable thing that would show you wrong. Second: what follows if it happens. At least 300 characters total.",
   "body": "800-900 words of markdown. Use ## subheads. Open with a hook, not a date. No links.",
   "callToAction": "One or two paragraphs, at least 80 chars, saying what should be DONE and by whom. This closes the piece.",
-  "plainly": "two or three sentences explaining what the subject IS, for a reader who does not follow finance. No jargon, no acronyms. This is background, not your argument.",
+  "plainly": "THREE to four sentences of background for a reader who does not follow finance. What is the thing, why does it exist, what changed. No jargon, no acronyms, no argument. Assume they have never heard of the institution involved. At least 120 characters.",
+  "viewInBrief": "TWO sentences at most, plain words, saying what you think and roughly why. If a reader stops after this line they should still know your view. Not the full argument. 60-280 characters.",
   "tags": ["two or three lowercase tags"],
   "supports": "one sentence saying what the item you picked establishes for your argument, at least 20 chars"
 }`;
@@ -393,7 +394,7 @@ if (/https?:\/\/|www\.|doi:\s*10\./i.test(out.body)) {
   process.exit(1);
 }
 
-for (const [field, min] of [['position', 400], ['falsifier', 300], ['title', 10], ['dek', 20], ['supports', 20], ['plainly', 40], ['callToAction', 80]]) {
+for (const [field, min] of [['position', 400], ['falsifier', 300], ['title', 10], ['dek', 20], ['supports', 20], ['plainly', 120], ['viewInBrief', 60], ['callToAction', 80]]) {
   if (!out[field] || String(out[field]).length < min) {
     note(`Field "${field}" missing or too short. The schema would reject this at build.`);
     await flushSummary();
@@ -421,6 +422,7 @@ kicker: ${yaml(out.kicker || 'Policy')}
 author: "FinOpine desk"
 date: ${today}
 plainly: ${yaml(out.plainly)}
+viewInBrief: ${yaml(out.viewInBrief)}
 callToAction: |
 ${String(out.callToAction).split('\n').map((l) => '  ' + l).join('\n')}
 position: |

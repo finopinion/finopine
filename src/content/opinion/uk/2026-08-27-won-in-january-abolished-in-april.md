@@ -7,7 +7,8 @@ author: "FinOpine desk"
 date: 2026-08-27
 readMins: 5
 tags: ["payments", "fca", "psr", "regulation"]
-plainly: "Every time you pay by card, the shop pays a fee that ends up split between banks and the card networks. Britain has had a small regulator whose only job was payments, and it spent two years trying to force those fees down. The government is now closing it and moving its work into the much larger financial regulator."
+plainly: "Every card payment carries fees that pass between banks and card networks. Britain has had a small regulator whose only job was payments, and it spent two years trying to push those fees down. The government is now closing it and moving the work into the much larger financial regulator."
+viewInBrief: "Every legal power transfers across. What does not transfer is appetite — a body with one job behaves differently from one with twenty. The fee work will quietly slow, and nothing in the law will show it happening."
 position: |
   The powers transfer intact. The Financial Services and Markets Bill hands the FCA the general direction power, the specific direction powers, the competition duty, the concurrent Competition Act powers and the mandatory reimbursement scheme for authorised push payment fraud. On paper nothing is lost, and the Treasury has said it intends to keep the substance of the objectives.
 
@@ -61,9 +62,9 @@ Three months later the government announced it would be abolished. On 21 April t
 
 It is worth being precise, because the reflexive reading of this is deregulation and that is not what the Bill does.
 
-The powers survive the move. On commencement the FCA acquires the general direction power, the specific direction powers, the competition duty, the concurrent competition powers, and the mandatory reimbursement scheme for authorised push payment fraud — the rules that force banks to refund customers tricked into sending money to criminals. The Treasury has said it intends to keep the substance of the objectives, and the FCA remains responsible for competition, innovation and the interests of people who make payments.
+The powers survive the move. On commencement the Financial Conduct Authority, the FCA, acquires the general direction power, the specific direction powers, the competition duty, the concurrent competition powers, and the mandatory reimbursement scheme for authorised push payment fraud — the rules that force banks to refund customers tricked into sending money to criminals. The Treasury has said it intends to keep the substance of the objectives, and the FCA remains responsible for competition, innovation and the interests of people who make payments.
 
-The FCA's own framing has been that this is an evolution rather than a revolution. On the law, that is fair.
+The Financial Conduct Authority's own framing has been that this is an evolution rather than a revolution. On the law, that is fair.
 
 ## What does not move
 

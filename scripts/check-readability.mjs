@@ -58,8 +58,16 @@ for (const f of files) {
   for (const term of JARGON) {
     const i = body.search(new RegExp(`\\b${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i'));
     if (i === -1) continue;
-    const window = body.slice(i, i + 200);
-    if (!EXPLAINERS.test(window)) flags.push(term);
+    /**
+     * Look BEHIND the term as well as ahead of it. An explanation often comes
+     * first — "something called seasonal adjustment" — and an appositive
+     * ("the Financial Conduct Authority, the FCA,") explains by restating.
+     * Checking only forwards produced four false positives out of eight.
+     */
+    const ahead  = body.slice(i, i + 200);
+    const behind = body.slice(Math.max(0, i - 160), i);
+    const appositive = new RegExp(`[a-z)], (the )?${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i').test(body);
+    if (!EXPLAINERS.test(ahead) && !EXPLAINERS.test(behind) && !appositive) flags.push(term);
   }
 
   // sentences over 35 words

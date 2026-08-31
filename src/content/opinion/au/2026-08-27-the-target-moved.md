@@ -7,7 +7,8 @@ author: "FinOpine desk"
 date: 2026-08-27
 readMins: 5
 tags: ["rba", "inflation", "cpi", "rates"]
-plainly: "The Reserve Bank has a target: keep inflation between 2 and 3 per cent. To do that it has to pick which measurement of inflation counts. In late 2025 the official measurement changed from a quarterly figure to a monthly one. This is about what happens when the number in the target and the number the Bank actually watches are not the same."
+plainly: "Prices rise over time. The Reserve Bank's job is to keep that rise slow and steady — between 2 and 3 per cent a year. To do that it has to pick one official measurement of rising prices and steer by it. In late 2025 Australia changed which measurement counts, moving from a figure published every three months to one published monthly."
+viewInBrief: "The Bank is now judged against the monthly figure but still makes its decisions using the old quarterly one. That is a sensible choice, badly explained — and it will cost the Bank trust it cannot currently spare."
 position: |
   Australia's inflation target is now measured against a monthly figure that only began publishing in late 2025. But the Reserve Bank has said it will keep making its rate decisions off the older quarterly measure until the new one matures, which may take until 2027. So the number written into the target and the number actually driving decisions are not the same number, and will not be for some time.
 
@@ -66,7 +67,7 @@ That was not a technical reshuffle. The Reserve Bank stated plainly in its Novem
 
 ## And the Bank told us it would not be using it yet
 
-The same publication set out the transition arrangements. The statistician will keep publishing the old quarterly figures for at least eighteen months. The reason is seasonal adjustment: prices swing predictably at certain times of year, and stripping that out takes several years of data before it can be done reliably. For the monthly series, that work will not be finished across every item until the middle of 2027.
+The same publication set out the transition arrangements. The statistician will keep publishing the old quarterly figures for at least eighteen months. The reason is something called seasonal adjustment. Prices swing predictably at certain times of year — school fees in January, fruit in summer — and stripping those swings out takes several years of data before it can be done reliably. For the monthly series, that work will not be finished across every item until the middle of 2027.
 
 During that period, the Bank said, it will keep focusing on the quarterly trimmed mean. That is a measure which throws away the biggest price rises and the biggest price falls, leaving the middle — the idea being to show the underlying trend rather than one-off shocks. The Bank prefers it because its behaviour is well understood.
 
@@ -94,7 +95,7 @@ Say it in the decision statement, not the annex. One sentence, every meeting, un
 
 Two objections worth taking seriously. The Bank has not hidden anything. The arrangements are public, detailed, and were flagged before the switch. There is also a limit to how much method belongs in a statement that has to move markets in the same breath. Overloading it has its own costs.
 
-And the two series may not diverge enough to matter. The ABS has published analysis showing the quarterly data derived from the monthly collection tracking the previously published quarterly series closely. If they stay close, the distinction is academic and I am manufacturing a problem out of a footnote.
+And the two series may not diverge enough to matter. The Bureau has published analysis showing the quarterly data drawn from the monthly collection tracking the previously published quarterly series closely. If they stay close, the distinction is academic and I am manufacturing a problem out of a footnote.
 
 ## How you can tell if this is wrong
 
