@@ -81,7 +81,7 @@ export const JURISDICTIONS: Record<JCode, Jurisdiction> = {
     code: 'uk',
     name: 'United Kingdom',
     adjective: 'British',
-    status: 'planned',
+    status: 'live',
     currency: 'GBP',
     dateLocale: 'en-GB',
     conduct: ['Financial Conduct Authority', 'Prudential Regulation Authority'],

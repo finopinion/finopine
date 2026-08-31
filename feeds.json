@@ -11,8 +11,24 @@
     "refuses to use any feed still marked false, so a fabricated URL cannot reach",
     "a published citation.",
     "",
-    "Only 404 and 410 mean dead. A 403 is a bot wall and a 5xx is a bad day \u2014",
-    "both are recorded as unverified, not removed."
+    "Only 404 and 410 mean dead. A 403 is a bot wall and a 5xx is a bad day —",
+    "both are recorded as unverified, not removed.",
+    "",
+    "Each feed carries a jurisdiction. The generator writes the piece into that",
+    "silo, so a Fed item lands in /us/ and a BIS item in /general/. Add a feed",
+    "without a jurisdiction and it defaults to au.",
+    "",
+    "NO FEED EXISTS FOR NEW ZEALAND OR INDIA.",
+    "Neither the RBNZ nor the RBI publishes an RSS feed. That is a fact about",
+    "those institutions, not a gap in this file, and no amount of guessing at",
+    "URLs will produce one. Those two silos need either a news source or a",
+    "different retrieval method before the generator can write for them.",
+    "",
+    "FEEDS TAGGED jurisdiction: skip ARE NEVER USED BY THE GENERATOR.",
+    "The general silo requires a piece to compare two or more jurisdictions,",
+    "which a generator grounded in one feed item cannot do. Cross-border pieces",
+    "stay human-written. A BIS speech is cross-border in subject but it is still",
+    "one document, and one document is not a comparison."
   ],
   "feeds": [
     {
@@ -21,7 +37,8 @@
       "kind": "primary",
       "weight": 3,
       "url": "https://www.rba.gov.au/rss/rss-cb-media-releases.xml",
-      "verified": false
+      "verified": false,
+      "jurisdiction": "au"
     },
     {
       "id": "rba-speeches",
@@ -29,7 +46,8 @@
       "kind": "primary",
       "weight": 3,
       "url": "https://www.rba.gov.au/rss/rss-cb-speeches.xml",
-      "verified": false
+      "verified": false,
+      "jurisdiction": "au"
     },
     {
       "id": "treasury",
@@ -37,7 +55,8 @@
       "kind": "primary",
       "weight": 3,
       "url": "https://treasury.gov.au/rss.xml",
-      "verified": false
+      "verified": false,
+      "jurisdiction": "au"
     },
     {
       "id": "asic-media",
@@ -45,7 +64,8 @@
       "kind": "primary",
       "weight": 3,
       "url": "https://asic.gov.au/about-asic/news-centre/find-a-media-release/rss/",
-      "verified": false
+      "verified": false,
+      "jurisdiction": "au"
     },
     {
       "id": "apra-news",
@@ -53,7 +73,8 @@
       "kind": "primary",
       "weight": 2,
       "url": "https://www.apra.gov.au/news-and-publications/rss.xml",
-      "verified": false
+      "verified": false,
+      "jurisdiction": "au"
     },
     {
       "id": "abs-releases",
@@ -61,7 +82,8 @@
       "kind": "primary",
       "weight": 3,
       "url": "https://www.abs.gov.au/rss/releases.xml",
-      "verified": false
+      "verified": false,
+      "jurisdiction": "au"
     },
     {
       "id": "legislation-register",
@@ -69,7 +91,8 @@
       "kind": "primary",
       "weight": 2,
       "url": "https://www.legislation.gov.au/Rss/Acts",
-      "verified": false
+      "verified": false,
+      "jurisdiction": "au"
     },
     {
       "id": "abc-business",
@@ -77,22 +100,44 @@
       "kind": "press",
       "weight": 1,
       "url": "https://www.abc.net.au/news/feed/51892/rss.xml",
-      "verified": false
+      "verified": false,
+      "jurisdiction": "au"
     },
     {
       "id": "bis-publications",
       "publisher": "Bank for International Settlements",
       "kind": "primary",
       "weight": 2,
-      "url": "https://www.bis.org/list/bis_publs/rss.xml",
-      "verified": false
+      "url": "https://www.bis.org/doclist/cbspeeches.rss?paging_length=15",
+      "verified": false,
+      "jurisdiction": "skip",
+      "note": "Cross-border by nature. Tagged skip: see _readme on the general silo."
     },
     {
       "id": "fed-press",
       "publisher": "US Federal Reserve",
       "kind": "primary",
       "weight": 2,
-      "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "verified": false,
+      "jurisdiction": "us"
+    },
+    {
+      "id": "boe-news",
+      "publisher": "Bank of England",
+      "kind": "primary",
+      "weight": 3,
+      "jurisdiction": "uk",
+      "url": "https://www.bankofengland.co.uk/rss/news",
+      "verified": false
+    },
+    {
+      "id": "boc-news",
+      "publisher": "Bank of Canada",
+      "kind": "primary",
+      "weight": 3,
+      "jurisdiction": "ca",
+      "url": "https://www.bankofcanada.ca/feed/?utility=news&post_type%5B0%5D=post&post_type%5B1%5D=page",
       "verified": false
     }
   ]

@@ -1,0 +1,70 @@
+# ---------------------------------------------------------------------------
+# STAGE 1 - hourly watch. Gemini, free tier. Costs nothing.
+#
+# Fetches feeds, scores what is new, queues anything material. It does not
+# write, vet or publish.
+#
+# TWO THINGS THAT LOOK LIKE DETAIL AND ARE NOT:
+#
+# 1. IT ONLY COMMITS WHEN THE QUEUE ACTUALLY CHANGES, and tags the commit
+#    [skip ci]. Every push to main triggers a Cloudflare Pages build. Hourly
+#    commits would be ~720 builds a month against a free tier of 500, and the
+#    site would stop deploying inside three weeks because a watcher was taking
+#    notes. Most polls find nothing and commit nothing.
+#
+# 2. THE SEEN-LINKS FILE LIVES IN THE ACTIONS CACHE, not in git. It is dedup
+#    state, it changes every hour, and it has no business in the repo history.
+#    Losing the cache is harmless - the worst case is re-evaluating some items.
+#
+# GitHub Actions cron is NOT punctual. Runs queue behind the platform and are
+# routinely late. Worst case from event to draft is a couple of hours, which is
+# right for considered commentary and useless for a wire. Cron is always UTC.
+# ---------------------------------------------------------------------------
+name: Watch
+
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: watch
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '24' }
+
+      - name: Restore seen-links state
+        uses: actions/cache@v4
+        with:
+          path: events-seen.json
+          key: events-seen-${{ github.run_id }}
+          restore-keys: events-seen-
+
+      - name: Poll feeds and queue anything material
+        id: poll
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/poll-events.mjs
+
+      - name: Commit the queue, only if it changed
+        if: steps.poll.outputs.queued != '0'
+        run: |
+          git config user.name  "FinOpine"
+          git config user.email "Finopine09@gmail.com"
+          if [ -n "$(git status --porcelain events-queue.json)" ]; then
+            git add events-queue.json
+            # [skip ci] stops Cloudflare rebuilding for a queue change that
+            # affects no published page.
+            git commit -m "watch: queued ${{ steps.poll.outputs.queued }} [skip ci]"
+            git pull --rebase --autostash
+            git push
+          fi

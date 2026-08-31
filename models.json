@@ -1,21 +1,46 @@
 {
   "_readme": [
-    "Model fallback ladder, newest to oldest. Free tiers 503 on whatever just",
-    "launched because everyone is hammering it; older models are quieter.",
+    "THREE TIERS, TWO VENDORS. Volume falls at each stage, so cost per stage",
+    "stays roughly flat while capability rises.",
     "",
-    "Verified against the live model list on 27 August 2026 via the Setup check",
-    "workflow. Re-run that workflow before assuming this is still current.",
+    "  poll  Gemini, free tier      ~8,760 calls/yr   reads every new item",
+    "  vet   Claude Haiku 4.5       ~50-300 calls/yr  material or routine?",
+    "  write Claude Opus 5          ~260 calls/yr     the article",
     "",
-    "Excluded on purpose: preview builds, image/audio/video models, embeddings,",
-    "and the pro tiers. Flash models are the right shape for this job and the",
-    "free tier is the point."
+    "Gemini sits at the poll stage precisely because that is the only stage with",
+    "enough volume for a free tier to matter. At hourly polling, paying per call",
+    "would cost more than the writing does.",
+    "",
+    "IF GEMINI IS DOWN THE POLLER DOES NOT STOP. It falls back to deterministic",
+    "corroboration scoring - counting how many independent feeds carry the same",
+    "entity in a window - which needs no model at all. Degraded, not dead.",
+    "",
+    "VERIFY THESE IDS BEFORE THE FIRST RUN. The Gemini ladder was wrong once",
+    "already: two of four IDs did not exist. Run the Setup check workflow.",
+    "Gemini list: /v1beta/models?key=  |  Claude list: docs.claude.com",
+    "",
+    "Claude rates as at 27 Aug 2026, per million tokens in/out:",
+    "  Haiku 4.5  $1/$5      Sonnet 5  $2/$10 (rises to $3/$15 on 1 Sep)",
+    "  Opus 5     $5/$25     Fable 5   $10/$50",
+    "Batch API halves both. The cron is not time-critical, so batch is free money."
   ],
-  "ladder": [
-    "gemini-3.7-flash",
-    "gemini-3.6-flash",
-    "gemini-3.5-flash",
-    "gemini-3.5-flash-lite",
-    "gemini-2.5-flash",
-    "gemini-2.5-flash-lite"
-  ]
+  "poll": {
+    "vendor": "gemini",
+    "ladder": [
+      "gemini-3.7-flash",
+      "gemini-3.6-flash",
+      "gemini-3.5-flash",
+      "gemini-3.5-flash-lite",
+      "gemini-2.5-flash",
+      "gemini-2.5-flash-lite"
+    ]
+  },
+  "vet": {
+    "vendor": "anthropic",
+    "ladder": ["claude-haiku-4-5-20251001"]
+  },
+  "write": {
+    "vendor": "anthropic",
+    "ladder": ["claude-opus-5", "claude-sonnet-5"]
+  }
 }

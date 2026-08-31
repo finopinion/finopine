@@ -39,17 +39,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: '20' }
+        with: { node-version: '24' }
       - run: npm install
 
       - name: Confirm the feeds are reachable
         run: node scripts/check-feeds.mjs
         continue-on-error: true
 
+      # STAGE 2 - Haiku decides whether anything in the queue is worth an
+      # argument. Publishing nothing is a valid outcome here.
+      - name: Vet the event queue
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/vet-events.mjs
+        continue-on-error: true
+
+      # STAGE 3 - Opus writes. Uses the vetted event if there is one, otherwise
+      # falls back to the scheduled candidate pool.
       - name: Draft one piece
         id: gen
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/generate-article.mjs
 
       # The draft must survive the same gates as anything written by hand:
@@ -68,7 +78,7 @@ jobs:
           git config user.email "Finopine09@gmail.com"
           if [ -n "$(git status --porcelain)" ]; then
             git add -A
-            git commit -m "wire: draft $(date -u +%F)"
+            git commit -m "wire: draft $(date -u +%F) [skip ci]"
             git push
           fi
 
