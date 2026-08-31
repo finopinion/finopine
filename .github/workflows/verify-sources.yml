@@ -13,10 +13,13 @@
 # ---------------------------------------------------------------------------
 name: Verify sources
 
+# No pull_request trigger. This is a single-author publication with no
+# expectation of outside contributions, and a fork PR would otherwise run
+# submitted code on this runner. Secrets are never passed to fork-triggered
+# workflows, so keys were never at risk, but the surface is free to remove.
 on:
   push:
     branches: [main]
-  pull_request:
   schedule:
     - cron: '0 20 * * 0'
   workflow_dispatch:

@@ -1,18 +1,16 @@
 ---
 import { SITE } from '../data/site';
-/* Degrade visibly, never silently. Static hosting cannot store replies, so
-   rather than render a widget that posts into the void, say so and give a
-   route that actually works. */
+/**
+ * Degrade quietly. The reader gets a route that works, not a status report on
+ * what has not been built. "Phase two" and "needs a datastore" are operator
+ * concerns.
+ */
 ---
 {SITE.discussion.enabled ? (
   <div id="discussion" data-board></div>
-) : (
+) : SITE.publisher.email ? (
   <div class="note">
-    <b>Replies are not open yet.</b><br />
-    {SITE.discussion.note} The board — positions, threads and vetted reader
-    posts — needs a datastore, which is phase two.
-    {SITE.publisher.email
-      ? <> Until then, argue back at <a href={`mailto:${SITE.publisher.email}`}>{SITE.publisher.email}</a>.</>
-      : <> A contact address will appear here once email routing is set up.</>}
+    <b>Disagree?</b> Write to <a href={`mailto:${SITE.publisher.email}`}>{SITE.publisher.email}</a>.
+    Corrections are published.
   </div>
-)}
+) : null}

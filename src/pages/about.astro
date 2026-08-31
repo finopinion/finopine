@@ -15,16 +15,9 @@ import { SITE } from '../data/site';
     <h2>Every piece carries</h2>
     <ul>{SITE.editorial.everyPieceMustHave.map((s) => <li>{s}</li>)}</ul>
     <p>
-      Those last three are enforced by the build. An article that does not state
-      its claim, name what would disprove it, and cite a source will not compile.
+      Those last three are not a style guide. A piece that does not state its claim,
+      name what would disprove it, and cite a source cannot be published here — the
+      site itself refuses it.
     </p>
   </div>
-
-  {!SITE.publisher.legalName && (
-    <div class="note">
-      <b>Publisher details are not set.</b><br />
-      Who operates this site and which regulator applies has not been settled.
-      Until it is, this page cannot say. See LAUNCH.md, blocker 1.
-    </div>
-  )}
 </Base>

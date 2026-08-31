@@ -75,7 +75,7 @@ export const SITE = {
   /* Nav is derived from the jurisdiction registry at render time so a silo
      going live is a one-word edit in jurisdictions.ts, not a nav change too. */
   nav: [
-    { label: 'Silos', href: '/' },
+    { label: 'Coverage', href: '/' },
     { label: 'The Wire', href: '/wire/' },
     { label: 'About', href: '/about/' }
   ]

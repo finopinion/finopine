@@ -48,9 +48,10 @@ const canonical = new URL(path, SITE.url).href;
   <main class="wrap"><slot /></main>
 
   <footer class="wrap">
-    {SITE.publisher.legalName
-      ? <>Published by {SITE.publisher.legalName}.<br /></>
-      : <>Publisher details are not set yet — see LAUNCH.md.<br /></>}
+    {/* If the publisher is not set, say nothing. An unfinished field is the
+        operator's problem, and check-launch.mjs is where it belongs. A reader
+        should never be told what the site has not got round to. */}
+    {SITE.publisher.legalName && <>Published by {SITE.publisher.legalName}.<br /></>}
     {SITE.name} publishes opinion. It is not advice, and nothing here accounts for
     any reader's objectives, situation or needs.<br />
     <a href="/about/">About</a> &nbsp;·&nbsp;

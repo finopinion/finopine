@@ -1,28 +1,23 @@
 {
   "_readme": [
-    "THREE TIERS, TWO VENDORS. Volume falls at each stage, so cost per stage",
-    "stays roughly flat while capability rises.",
+    "THREE TIERS, TWO VENDORS. Volume falls at each stage, so capability can rise",
+    "without the per-stage load rising with it.",
     "",
-    "  poll  Gemini, free tier      ~8,760 calls/yr   reads every new item",
-    "  vet   Claude Haiku 4.5       ~50-300 calls/yr  material or routine?",
-    "  write Claude Opus 5          ~260 calls/yr     the article",
+    "  poll   reads every new feed item, hourly",
+    "  vet    decides whether a queued item is material or routine",
+    "  write  writes the piece",
     "",
-    "Gemini sits at the poll stage precisely because that is the only stage with",
-    "enough volume for a free tier to matter. At hourly polling, paying per call",
-    "would cost more than the writing does.",
+    "The poll stage carries by far the most calls, which is why it sits on the",
+    "vendor with a free tier.",
     "",
-    "IF GEMINI IS DOWN THE POLLER DOES NOT STOP. It falls back to deterministic",
-    "corroboration scoring - counting how many independent feeds carry the same",
-    "entity in a window - which needs no model at all. Degraded, not dead.",
+    "IF THE POLL MODEL IS DOWN THE POLLER DOES NOT STOP. It falls back to",
+    "deterministic corroboration scoring - counting how many independent feeds",
+    "carry the same entity in a window - which needs no model at all.",
+    "Degraded, not dead.",
     "",
-    "VERIFY THESE IDS BEFORE THE FIRST RUN. The Gemini ladder was wrong once",
-    "already: two of four IDs did not exist. Run the Setup check workflow.",
-    "Gemini list: /v1beta/models?key=  |  Claude list: docs.claude.com",
-    "",
-    "Claude rates as at 27 Aug 2026, per million tokens in/out:",
-    "  Haiku 4.5  $1/$5      Sonnet 5  $2/$10 (rises to $3/$15 on 1 Sep)",
-    "  Opus 5     $5/$25     Fable 5   $10/$50",
-    "Batch API halves both. The cron is not time-critical, so batch is free money."
+    "VERIFY THESE IDS BEFORE THE FIRST RUN. This ladder was wrong once already:",
+    "two of four IDs did not exist. Run the Setup check workflow, which lists what",
+    "the provider currently serves."
   ],
   "poll": {
     "vendor": "gemini",
@@ -37,10 +32,15 @@
   },
   "vet": {
     "vendor": "anthropic",
-    "ladder": ["claude-haiku-4-5-20251001"]
+    "ladder": [
+      "claude-haiku-4-5-20251001"
+    ]
   },
   "write": {
     "vendor": "anthropic",
-    "ladder": ["claude-opus-5", "claude-sonnet-5"]
+    "ladder": [
+      "claude-opus-5",
+      "claude-sonnet-5"
+    ]
   }
 }

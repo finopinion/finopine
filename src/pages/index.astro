@@ -11,7 +11,7 @@ const countBy = (code) => all.filter((p) => p.data.jurisdiction === code).length
 const fmt = (d, loc) => d.toLocaleDateString(loc, { day: 'numeric', month: 'short', year: 'numeric' });
 ---
 <Base path="/">
-  <div class="eyebrow">Silos</div>
+  <div class="eyebrow">Coverage</div>
   <div class="silos">
     {ORDER.map((code) => {
       const j = JURISDICTIONS[code];
@@ -34,9 +34,8 @@ const fmt = (d, loc) => d.toLocaleDateString(loc, { day: 'numeric', month: 'shor
 
   <div class="note">
     <b>Australia first, then the rest.</b><br />
-    A silo goes live when it has verified local feeds, a compliance rule set checked
-    against that country&#39;s regime, and something worth reading. Empty silos are worse
-    than absent ones, so the planned ones stay unlinked until they are none of those.
+    A country opens here when there is something worth reading about it and sources
+    we can stand behind. An empty section is worse than no section, so the rest wait.
   </div>
 
   <div class="eyebrow">Latest</div>

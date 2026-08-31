@@ -14,7 +14,7 @@ const pieces = (await getCollection('opinion', ({ data }) => !data.draft && data
 const fmt = (d) => d.toLocaleDateString(j.dateLocale, { day: 'numeric', month: 'short', year: 'numeric' });
 ---
 <Base title={j.name} description={`Opinion on ${j.name}.`} path={`/${code}/`}>
-  <a class="back" href="/">&larr; All silos</a>
+  <a class="back" href="/">&larr; All opinion</a>
   <div class="eyebrow">{j.name}</div>
 
   {j.regime && (

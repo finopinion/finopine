@@ -47,7 +47,7 @@ const fmt = d.date.toLocaleDateString(j.dateLocale, { day: 'numeric', month: 'lo
       {d.sources.map((s) => (
         <li>
           {s.url ? <a href={s.url} rel="nofollow noopener">{s.label}</a> : s.label}<br />
-          <span class="pub">{s.publisher}{s.date ? ` · ${s.date}` : ''}{s.verified ? '' : ' · unverified'}</span>
+          <span class="pub">{s.publisher}{s.date ? ` · ${s.date}` : ''}</span>
         </li>
       ))}
     </ol>

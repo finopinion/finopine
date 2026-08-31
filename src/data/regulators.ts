@@ -82,7 +82,7 @@ export const REGULATORS: Record<JCode, Body[]> = {
     { abbr: 'PRA', name: 'Prudential Regulation Authority', role: 'prudential',
       does: 'Banks, insurers and major investment firms. Sits inside the Bank of England.' },
     { abbr: 'FCA', name: 'Financial Conduct Authority', role: 'conduct & securities',
-      does: 'Conduct, markets, and the financial promotion restriction under FSMA section 21 — the tightest constraint on published material of any silo here.',
+      does: 'Conduct, markets, and the financial promotion restriction under FSMA section 21 — the tightest constraint on published material of the countries covered here.',
       publisherRelevant: true },
     { abbr: 'PSR', name: 'Payment Systems Regulator', role: 'payments',
       does: 'Economic regulator of designated payment systems.',
@@ -171,7 +171,7 @@ export const REGULATORS: Record<JCode, Body[]> = {
     { abbr: 'IOSCO', name: 'International Organization of Securities Commissions', role: 'conduct & securities',
       does: 'Securities regulation standards. Members include ASIC, FCA, SEC and SEBI.' },
     { abbr: 'FATF', name: 'Financial Action Task Force', role: 'anti-money-laundering',
-      does: 'AML standards. The virtual asset service provider regimes appearing across these silos are FATF-aligned.' },
+      does: 'AML standards. The virtual asset service provider regimes appearing across these countries are FATF-aligned.' },
     { abbr: 'IAIS', name: 'International Association of Insurance Supervisors', role: 'prudential',
       does: 'Insurance supervision standards.' }
   ]

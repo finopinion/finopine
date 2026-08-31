@@ -16,11 +16,9 @@ import { SITE } from '../data/site';
     </form>
   ) : (
     <div class="note">
-      <b>No form yet.</b><br />
       {SITE.publisher.email
-        ? <>Write to <a href={`mailto:${SITE.publisher.email}`}>{SITE.publisher.email}</a>.</>
-        : <>A contact address appears here once Cloudflare Email Routing is set up and
-           the address is recorded in site.ts. Nothing is collected in the meantime.</>}
+        ? <>Write to <a href={`mailto:${SITE.publisher.email}`}>{SITE.publisher.email}</a>. Corrections are published.</>
+        : <>A contact address is being set up.</>}
     </div>
   )}
 </Base>

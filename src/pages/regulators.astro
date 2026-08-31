@@ -20,7 +20,7 @@ const moving = inTransition();
       {moving.map((m) => (
         <>{JURISDICTIONS[m.code].name}: <b>{m.body.abbr}</b> — {m.body.status}.<br /></>
       ))}
-      Re-check before the relevant silo goes live.
+      Re-check before relying on either.
     </div>
   )}
 
@@ -52,6 +52,6 @@ const moving = inTransition();
 
   <div class="note">
     This is a map of who to ask, not an answer. Regulator line-ups move, and the
-    perimeter question for a publisher is one for a local lawyer in each silo.
+    perimeter question for a publisher is one for a local lawyer in each country.
   </div>
 </Base>

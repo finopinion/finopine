@@ -33,7 +33,7 @@ sources:
     verified: true
   - label: "Technical Note: The Transition to a Complete Monthly CPI"
     publisher: "Reserve Bank of Australia"
-    url: "https://www.rba.gov.au/publications/technical-notes/2025/the-transition-to-a-complete-monthly-cpi.html"
+    url: "https://www.rba.gov.au/publications/smp/2025/nov/technical-note-the-transition-to-a-complete-monthly-cpi.html"
     supports: "That the RBA will continue focusing on quarterly trimmed mean during the transition, that quarterly data continues for at least 18 months, and that seasonal adjustment reaches all items by mid-2027."
     retrievedAt: "2026-08-27"
     date: "2025-11"

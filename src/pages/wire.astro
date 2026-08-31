@@ -2,10 +2,16 @@
 import Base from '../layouts/Base.astro';
 import wire from '../../wire.json';
 
-const all = wire.groups.flatMap(g => g.sources);
-const withUrl = all.filter(s => s.url);
-const linked = all.filter(s => s.verified === true && s.url);
-const checked = all.some(s => s.lastChecked);
+/**
+ * READER-FACING. No internal state on this page.
+ *
+ * A source with a confirmed URL is a link. A source without one is plain text.
+ * The reader is never told which is which, why, or what tooling decides it —
+ * that is the operator's business and it lives in check-wire.mjs and
+ * check-launch.mjs. A page that explains its own incompleteness is a page that
+ * has confused two audiences.
+ */
+const linked = wire.groups.flatMap(g => g.sources).filter(s => s.verified === true && s.url).length;
 ---
 <Base title="The Wire" description="Every source FinOpine reads before forming a view." path="/wire/">
   <div class="eyebrow">The Wire</div>
@@ -14,13 +20,6 @@ const checked = all.some(s => s.lastChecked);
     Ordered from primary to interpretation. If an argument on this site rests on
     a number, it should be traceable to something in the first two groups.
   </p>
-
-  <div class="note">
-    <b>A source is a link only once the URL has been confirmed live.</b><br />
-    {linked.length} of {withUrl.length} have been. The rest are listed by name
-    without a link, because a name you can search is more use than a link that
-    404s. {!checked && <>No check has been run yet — run <b>npm run check:wire</b>.</>}
-  </div>
 
   {wire.groups.map((g) => (
     <div class="wire-grp">
@@ -41,13 +40,4 @@ const checked = all.some(s => s.lastChecked);
       </ul>
     </div>
   ))}
-
-  <div class="note">
-    <b>Why so few links.</b><br />
-    Every URL here was copied from a live search result, never written from
-    memory — a model reconstructs the shape of a plausible URL rather than
-    recalling a real one, which is how sites end up citing pages that have never
-    existed. Sources that could not be confirmed that way are listed unlinked
-    rather than guessed at. In fintech that trade is not close.
-  </div>
 </Base>
