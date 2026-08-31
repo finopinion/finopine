@@ -23,6 +23,13 @@
  *   - Write the decisive facts to $GITHUB_STEP_SUMMARY. Actions logs need auth
  *     to read remotely; the summary page does not, and it reads fine on a phone.
  *
+ * THE HOUSE FORMAT LIVES IN THE PROMPT BELOW, as a worked example.
+ *
+ * The fuller written version is kept privately, outside this repository,
+ * deliberately: the format is the thing that distinguishes this site, and a
+ * public style guide is a copyable one. The worked example here is enough for
+ * the generator to reproduce the shape without spelling out the reasoning.
+ *
  * VERIFY THE MODEL IDS IN models.json AGAINST CURRENT PROVIDER DOCS BEFORE THE
  * FIRST RUN. Whatever generation your assistant's training data knows is
  * probably a generation behind.
@@ -240,6 +247,44 @@ BEFORE YOU PICK, DISCARD:
 
 If none of the items clears that bar, pick the closest and write SHORTER rather
 than padding. A tight 400 words beats a padded 800.
+
+WORKED EXAMPLE — this is the house format. Match its shape, not its subject.
+
+  plainly:     "Money saved for retirement in superannuation is taxed lightly,
+                to encourage people to save. From July 2026 that discount
+                shrinks for anyone holding more than three million dollars. The
+                government promised the three million dollar line would rise
+                with the cost of living, so ordinary savers would not slowly be
+                caught by a threshold set today."
+                -> starts from zero. Explains what superannuation IS before
+                   mentioning the tax. Assumes no prior knowledge whatsoever.
+
+  viewInBrief: "The line does rise, but only in jumps of $150,000, which takes
+                about two years to earn. In between it sits completely still
+                while savings keep growing towards it. That is not what most
+                people heard when they were told it was indexed."
+                -> two sentences, plain words, and the reader now knows the
+                   argument without reading a word of the piece.
+
+  body opens:  "The three million dollar line moves in jumps of a hundred and
+                fifty thousand. That is five per cent. At inflation inside the
+                target band, five per cent takes roughly two years to
+                accumulate — and until it does, the line does not move at all
+                while balances keep compounding towards it."
+                -> the surprising arithmetic, first sentence. NOT "The Treasury
+                   Laws Amendment Act 2026 received royal assent on 13 March."
+                   The dates go in paragraph two, as context.
+
+  subheads:    "The word carrying the weight" / "Why this matters more than it
+                sounds" / "The case against this argument" / "What would settle
+                it" -> plain phrases, not section labels like "Background".
+
+  callToAction:"Treasury should publish, each year, how far the line has moved
+                and how many people the tax now reaches..."
+                -> names WHO should do WHAT. Not "this deserves scrutiny".
+
+  Length 791 words. Every acronym spelled out on first use. Every technical
+  term explained in the same sentence it appears.
 
 HOW AN OPINION PIECE IS BUILT (follow this shape):
 
