@@ -17,6 +17,8 @@ falsifier: |
   The comparison fails if the two reforms produce similar outcomes despite the opposite structures. If Australia's first ministerial designation turns out to rest on ordinary competition grounds, and Britain's FCA carries the card fee work forward at the same intensity the PSR set, then both countries changed the plumbing and neither changed the water. Structure would have been the wrong thing to watch.
 
   It also fails if the causes turn out to be domestic rather than structural. Australia's change followed a broad payments modernisation exercise with its own politics; Britain's followed a growth and competitiveness agenda with a stated aim of reducing the number of regulators. If the next two years show each country's payments decisions tracking its own political weather rather than its institutional design, then the design comparison was a tidy frame imposed on two unrelated events.
+callToAction: |
+  Both reforms should be reviewed against what they actually produce rather than what they were argued to produce. Australia should publish reasons with its first ministerial designation. Britain should publish a payments programme before the transfer completes. Neither costs anything, and together they would turn two untested structural bets into something a reader can actually judge.
 sources:
   - label: "A Streamlined Approach to Payment Systems Regulation: consultation response"
     publisher: "HM Treasury (GOV.UK)"
@@ -52,9 +54,9 @@ sources:
     verified: true
 ---
 
-In April 2026 the British Treasury confirmed it would abolish the Payment Systems Regulator and move its work into the Financial Conduct Authority. In December 2025 Australian legislation took effect that widened who counts as a payment system and, in the same Act, allowed the Treasurer to designate one where doing so is in the national interest — a decision that had belonged to the Reserve Bank alone.
+Two governments looked at the same problem in the same year and did opposite things about it. Australia decided its payments powers sat with too narrow a decision-maker, and added a politician. Britain decided they sat inside too narrow an institution, and abolished it. Neither wrote a single new rule about payments.
 
-Read separately, these are domestic housekeeping. Read together, they are two governments answering the same question and disagreeing.
+In April 2026 the British Treasury confirmed it would abolish the Payment Systems Regulator and move its work into the Financial Conduct Authority. Four months earlier, Australian legislation took effect that widened who counts as a payment system and, in the same Act, let the Treasurer designate one where doing so is in the national interest — a decision that had belonged to the Reserve Bank alone. Read separately, these are domestic housekeeping. Read together, they are two governments answering the same question and disagreeing.
 
 ## The same complaint
 

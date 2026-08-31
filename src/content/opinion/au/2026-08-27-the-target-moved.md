@@ -16,6 +16,8 @@ falsifier: |
   The test is the months where the two measures point in different directions. If the Board moves with the monthly figure on those occasions, then the target and the decision variable are effectively the same thing, there is no gap, and I have invented a problem out of a transitional arrangement.
 
   Equally, if the Bank starts naming which measure it weighted in the decision statement itself rather than in an annex, the communication failure I am describing is solved and the argument becomes historical within a meeting or two. Either outcome and I was wrong about how much this matters.
+callToAction: |
+  The Reserve Bank should name which inflation measure it weighted, in the decision statement itself, at every meeting until the transition finishes in 2027. One sentence. The transition was disclosed honestly but only where the market reads, and a bank that has just reversed course twice cannot also afford a public misunderstanding about which number it is watching.
 sources:
   - label: "Statement by the Monetary Policy Board: Monetary Policy Decision, 11 August 2026"
     publisher: "Reserve Bank of Australia"
@@ -52,9 +54,9 @@ sources:
     verified: true
 ---
 
-On 11 August the Reserve Bank left the cash rate at 4.35 per cent. The cash rate is the interest rate the Bank sets, and almost every other rate in the country prices off it. The statement noted three increases since the start of the year, described policy as somewhat restrictive, and said inflation is not expected to return to the middle of the target range until late 2027. It added that the risks sat on the high side of that forecast. The Board said it would raise the cash rate further if those risks materialised.
+Australia's inflation target is measured against one number. The Reserve Bank makes its decisions using a different one. Both facts are public, both are deliberate, and almost nobody outside the market knows about either.
 
-Read that against something the Bank published nine months earlier, in a technical annex almost nobody outside the market has opened.
+The gap showed on 11 August, when the Bank held the cash rate at 4.35 per cent — the rate it sets, and the one almost every other rate in the country prices off. The statement noted three increases since the start of the year, called policy somewhat restrictive, and said inflation is not expected to return to the middle of the target range until late 2027, with the risks on the high side. The Board said it would raise rates further if those risks materialised. Read that against something the Bank published nine months earlier, in a technical annex almost nobody outside the market has opened.
 
 ## The benchmark changed underneath everyone
 

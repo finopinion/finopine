@@ -36,10 +36,32 @@ const fmt = d.date.toLocaleDateString(j.dateLocale, { day: 'numeric', month: 'lo
     {d.compares && (
       <p class="compares">Compares {d.compares.map((c) => JURISDICTIONS[c].name).join(', ')}</p>
     )}
-    <Stance plainly={d.plainly} position={d.position} falsifier={d.falsifier} />
   </div>
 
+  {d.plainly && (
+    <div class="plainly">
+      <span class="plainly-tag">In short</span>
+      <p>{d.plainly}</p>
+    </div>
+  )}
+
   <div class="prose"><Content /></div>
+
+  {/* An opinion piece argues for something to be DONE. This is the closing
+      movement of the argument, not an appendix to it - so it is set as prose,
+      continuous with the body, rather than boxed off. */}
+  <div class="cta">
+    {String(d.callToAction).split(/\n\s*\n/).filter(Boolean).map((para) => <p>{para.trim()}</p>)}
+  </div>
+
+  {/* The falsifier closes the piece rather than prefacing it. Stating what
+      would change your mind AFTER making the argument reads as confidence;
+      the same words above the argument read as hedging, and undercut the
+      bold statement an opinion piece is supposed to open with. */}
+  <div class="changes-mind">
+    <h3>What would change this view</h3>
+    {String(d.falsifier).split(/\n\s*\n/).filter(Boolean).map((para) => <p>{para.trim()}</p>)}
+  </div>
 
   <div class="sources">
     <h3>Worked from</h3>

@@ -94,6 +94,19 @@ const opinion = defineCollection({
       .refine((v) => v.includes('\n\n'),
         { message: 'The falsifier must be at least two paragraphs. Use a YAML block: falsifier: |' }),
 
+    /**
+     * REQUIRED. What should be done, and by whom.
+     *
+     * An opinion piece argues for something to happen. A piece that only
+     * observes is analysis, and analysis belongs somewhere else. This is the
+     * "so what" - the thing a reader should take away and act on, or press
+     * someone else to act on.
+     *
+     * Rendered as the closing movement of the article, not as a box.
+     */
+    callToAction: z.string().min(80,
+      'Say what should be done and by whom. A piece that only observes is not an opinion piece.'),
+
     sources: z.array(citation).min(1,
       'Every piece needs at least one citation. Retrieve it - do not write one from memory.'),
 

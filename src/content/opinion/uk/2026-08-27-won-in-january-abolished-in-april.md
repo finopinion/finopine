@@ -16,6 +16,8 @@ falsifier: |
   Watch the FCA's payments work programme after commencement, and specifically whether the cross-border interchange fee cap and the authorised push payment reimbursement regime are carried forward with the same push behind them. If the FCA publishes a programme that keeps the card fee remedies on the same timetable and continues to litigate them when challenged, then this was an org chart change and the concern was misplaced.
 
   The clearer test is the next contested intervention. If the FCA imposes a remedy the card networks take to court, and defends it as the PSR did, the appetite transferred with the powers. If the fee work quietly slows while the consumer credit and ombudsman reforms in the same Bill absorb the attention, then a specialist regulator was traded for a line item.
+callToAction: |
+  The FCA should publish a payments work programme before the transfer completes, naming which of the PSR's live measures it will carry forward and on what timetable. The Treasury has kept a power to review the FCA's effectiveness in payments; it should use it early rather than after the card fee work has quietly slowed.
 sources:
   - label: "A Streamlined Approach to Payment Systems Regulation: consultation response"
     publisher: "HM Treasury (GOV.UK)"
@@ -51,9 +53,9 @@ sources:
     verified: true
 ---
 
-On 15 January 2026 the High Court dismissed judicial review challenges brought by Mastercard, Visa and Revolut against the Payment Systems Regulator. The challenge went to the regulator's power to cap cross-border interchange fees — the charges that flow between banks every time a card is used. The Administrative Court upheld the general direction power the regulator had relied on.
+Britain's payments regulator spent two years trying to force down the fees banks charge each other every time you tap a card. Mastercard, Visa and Revolut took it to court to stop them. On 15 January 2026 it won — the Administrative Court upheld the power it had relied on.
 
-On 21 April, three months later, the Treasury published its response to the consultation on payment systems regulation and confirmed that the Payment Systems Regulator will be abolished. On 19 May the Financial Services and Markets Bill had its first reading in the House of Lords.
+Three months later the government announced it would be abolished. On 21 April the Treasury confirmed the Payment Systems Regulator will be folded into the Financial Conduct Authority, and on 19 May the Financial Services and Markets Bill had its first reading in the House of Lords.
 
 ## What actually moves
 

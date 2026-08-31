@@ -16,6 +16,8 @@ falsifier: |
   Two things settle this, and both are observable within a few years. How often the three million dollar line actually steps up between now and 2030, and what happens to the number of people assessed under the tax across those same years.
 
   If the line moves at least every second year and the affected group stays roughly flat as a share of fund members, then the step size never mattered and I have made a problem out of a footnote. If the line sits still for three years while the assessed count climbs, the word indexed was carrying weight the mechanism could not support, and the people who raised it early were right to.
+callToAction: |
+  Treasury should publish, each year, how far the three million dollar line has moved and how many people the tax now reaches. If the answer is that the line has not moved in three years while the affected group has grown, the increment size needs revisiting — and that argument is far easier to have with a published number than without one.
 sources:
   - label: "Better targeted superannuation concessions — new legislation guidance"
     publisher: "Australian Taxation Office"
@@ -45,9 +47,9 @@ sources:
     verified: true
 ---
 
-Division 296 is law. The Treasury Laws Amendment (Building a Stronger and Fairer Super System) Act 2026 and its companion imposition Act received royal assent on 13 March, after passing Parliament on 10 March. The measure applies from the 2026–27 financial year, with first assessments expected in the year beginning 1 July 2027.
+The three million dollar line moves in jumps of a hundred and fifty thousand. That is five per cent. At inflation inside the target band, five per cent takes roughly two years to accumulate — and until it does, the line does not move at all while balances keep compounding towards it.
 
-The shape is now clear. If everything you hold in super adds up to more than three million dollars on 30 June, an extra 15 per cent tax applies. Not to the whole balance — only to the share of your investment earnings that relates to the amount above the line. Above a very large super balance threshold of ten million, a further amount applies. It is a personal liability assessed to the individual rather than to the fund, it is not deductible, and it can be paid from outside super or by releasing money from it.
+That line is the threshold for Division 296, which became law on 13 March 2026 and applies from this financial year. If everything you hold in super adds up to more than three million dollars on 30 June, an extra 15 per cent tax applies — not to the whole balance, only to the share of your investment earnings relating to the amount above the line. Above ten million a further amount applies. It is a personal liability, not the fund's, it is not deductible, and it can be paid from outside super or by releasing money from it. First assessments land in the year beginning July 2027.
 
 Most of the original objections have been answered. This is a marginal structure, not a cliff. It taxes a proportion of earnings rather than the whole balance. The worst feature of the first design is gone.
 

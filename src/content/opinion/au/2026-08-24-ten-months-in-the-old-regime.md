@@ -16,6 +16,8 @@ falsifier: |
   Enforcement activity between now and April 2027 decides this. If the regulator brings no action against firms that lodged their applications in time, and simply waits for the new rules to begin, then the gap was paperwork and the concern was theoretical.
 
   If it does act under the old provisions during a window created by its own deadline, the sequencing was a real cost paid by real firms. The lesson for the next framework would then be a simple one: relief should expire when its replacement starts, not ten months before.
+callToAction: |
+  ASIC should say publicly how it intends to treat platforms that lodged in time but are waiting on a decision when the old relief has already lapsed. A short statement of enforcement posture would cost the regulator nothing and would let several hundred firms plan. For the next framework, the rule is simpler still: relief should expire when its replacement commences, not before.
 sources:
   - label: "Crypto, bitcoin, stablecoin regulated under first Australian digital assets legislation"
     publisher: "Law Society Journal"
@@ -54,9 +56,9 @@ sources:
     verified: true
 ---
 
-Australia now has a digital assets law. The Corporations Amendment (Digital Assets Framework) Bill 2025 cleared both houses on 1 April and received royal assent on 8 April 2026. It covers two kinds of business: exchanges where you trade crypto, and firms that hold it on your behalf. Rather than write a separate rulebook, it puts both under the same licence banks, brokers and fund managers already need — an Australian financial services licence, issued by the corporate regulator, ASIC.
+Australia's crypto exchanges are trading right now under rules that everyone — the industry, the regulator, the Parliament — agreed were broken. The law replacing those rules passed in April. It does not start until next April. And the protection that made the broken rules survivable ran out at the end of June.
 
-That design choice deserves the credit it got. A bespoke regime would have needed its own definitions, its own case law and its own decade of argument. Slotting platforms into the existing licence means the obligations arrive pre-argued: governance, disclosure, custody standards, client protection. Treasury has put the prize at around twenty-four billion dollars a year in productivity and cost savings.
+The law itself is good. The Digital Assets Framework received royal assent on 8 April 2026 and covers two kinds of business: exchanges where you trade crypto, and firms that hold it for you. Rather than write a separate rulebook it puts both under the same licence banks and fund managers already need, issued by the corporate regulator, ASIC. That deserves the credit it got — a bespoke regime would have needed its own definitions, its own case law and its own decade of argument, where slotting into the existing licence means the obligations arrive pre-argued. Treasury has put the prize at around twenty-four billion dollars a year.
 
 The framework commences on 9 April 2027.
 

@@ -62,7 +62,29 @@ function extractSilo(code) {
     if (!m) return [];
     return [...m[1].matchAll(/'((?:[^'\\]|\\.)*)'/g)].map((x) => x[1]);
   };
-  const banned = [...block.matchAll(/\[\s*'((?:[^'\\]|\\.)*)'\s*,\s*'((?:[^'\\]|\\.)*)'\s*\]/g)]
+  /**
+   * Read banned patterns ONLY from bannedExtra.
+   *
+   * An earlier version scanned the whole jurisdiction block for any
+   * ['x', 'y'] pair, which swept up
+   *   conduct: ['Financial Conduct Authority', 'Prudential Regulation Authority']
+   * and turned the UK's own regulator into a banned term — a UK piece could not
+   * mention the FCA without failing the build. Scope the match to the one key
+   * that actually holds patterns.
+   */
+  const bannedBlock = (() => {
+    const i = block.indexOf('bannedExtra:');
+    if (i === -1) return '';
+    const open = block.indexOf('[', i);
+    let depth = 0;
+    for (let k = open; k < block.length; k++) {
+      if (block[k] === '[') depth++;
+      else if (block[k] === ']') { depth--; if (depth === 0) return block.slice(open, k + 1); }
+    }
+    return '';
+  })();
+
+  const banned = [...bannedBlock.matchAll(/\[\s*'((?:[^'\\]|\\.)*)'\s*,\s*'((?:[^'\\]|\\.)*)'\s*\]/g)]
     .map((m) => [m[1].replace(/\\\\/g, '\\'), m[2]]);
 
   return {

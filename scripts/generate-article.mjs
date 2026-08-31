@@ -241,6 +241,26 @@ BEFORE YOU PICK, DISCARD:
 If none of the items clears that bar, pick the closest and write SHORTER rather
 than padding. A tight 400 words beats a padded 800.
 
+HOW AN OPINION PIECE IS BUILT (follow this shape):
+
+1. OPEN WITH A HOOK. First sentence earns the second. A short sharp statement,
+   a surprising fact, or a concrete detail. Never open with a date and a
+   procedural summary - "On 11 August the Board met and decided..." is a report,
+   not an opinion piece.
+2. THEN THE CONTEXT. What is this adding to the debate, and why now.
+3. THEN THE ARGUMENT, most important point first, because most readers stop
+   partway. Link paragraphs so each leads into the next.
+4. STEELMAN THE OTHER SIDE, then answer it.
+5. CLOSE WITH WHAT SHOULD BE DONE, and by whom. This is the point of the piece.
+
+LENGTH: 800-900 words. Not 1,200. If you cannot make the case in 900 words you
+have not found the argument yet.
+
+BE FIRM. This is an opinion. Not every sentence needs hedging, and a piece that
+qualifies everything persuades nobody. Go out on a limb - you will state
+separately what would change your mind, which is what earns you the right to be
+blunt in the body.
+
 HARD RULES
 - Write using ONLY what is in the item you picked. If a fact is not there, do not assert it.
 - Never write a URL, a DOI, a journal name or a citation. They are added mechanically.
@@ -266,7 +286,8 @@ Return ONLY this JSON, no fences, no preamble:
   "dek": "one or two sentences, under 240 chars",
   "position": "TWO paragraphs separated by a blank line. First: what you claim. Second: why it matters and what follows from it. At least 400 characters total.",
   "falsifier": "TWO paragraphs separated by a blank line. First: the specific observable thing that would show you wrong. Second: what follows if it happens. At least 300 characters total.",
-  "body": "600-900 words of markdown. Use ## subheads. No links.",
+  "body": "800-900 words of markdown. Use ## subheads. Open with a hook, not a date. No links.",
+  "callToAction": "One or two paragraphs, at least 80 chars, saying what should be DONE and by whom. This closes the piece.",
   "plainly": "two or three sentences explaining what the subject IS, for a reader who does not follow finance. No jargon, no acronyms. This is background, not your argument.",
   "tags": ["two or three lowercase tags"],
   "supports": "one sentence saying what the item you picked establishes for your argument, at least 20 chars"
@@ -372,7 +393,7 @@ if (/https?:\/\/|www\.|doi:\s*10\./i.test(out.body)) {
   process.exit(1);
 }
 
-for (const [field, min] of [['position', 400], ['falsifier', 300], ['title', 10], ['dek', 20], ['supports', 20], ['plainly', 40]]) {
+for (const [field, min] of [['position', 400], ['falsifier', 300], ['title', 10], ['dek', 20], ['supports', 20], ['plainly', 40], ['callToAction', 80]]) {
   if (!out[field] || String(out[field]).length < min) {
     note(`Field "${field}" missing or too short. The schema would reject this at build.`);
     await flushSummary();
@@ -400,6 +421,8 @@ kicker: ${yaml(out.kicker || 'Policy')}
 author: "FinOpine desk"
 date: ${today}
 plainly: ${yaml(out.plainly)}
+callToAction: |
+${String(out.callToAction).split('\n').map((l) => '  ' + l).join('\n')}
 position: |
 ${String(out.position).split('\n').map((l) => '  ' + l).join('\n')}
 falsifier: |

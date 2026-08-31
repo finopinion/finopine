@@ -16,6 +16,8 @@ falsifier: |
   Watch the first designation a Treasurer actually makes, and the reasons published alongside it. If it names a dominant wallet or settles an access dispute on ordinary competition or consumer grounds, the Reserve Bank would have reached the same place on its own, and this whole argument is about a formality.
 
   The same follows if the power simply sits unused. A power nobody exercises has changed nothing in practice, whatever it changed on paper. If no minister has designated a payment system by 2029, then I was arguing about a provision rather than a policy, and the people who told me the perimeter was the real story were right.
+callToAction: |
+  The first time a Treasurer designates a payment system, the reasons should be published in full or the decision should not be made on those grounds. If national security genuinely requires the reasoning to stay private, that is an argument for leaving the decision with the Reserve Bank, where the test is public interest and the reasoning is disclosable.
 sources:
   - label: "Treasury Laws Amendment (Payments System Modernisation) Bill 2025 — Explanatory Memorandum"
     publisher: "AustLII"
@@ -52,9 +54,9 @@ sources:
     verified: true
 ---
 
-The Treasury Laws Amendment (Payments System Modernisation) Act 2025 received royal assent on 19 September 2025 and took effect on 19 December. It widened the legal definition of a payment system so that it now covers digital wallets, buy-now-pay-later providers, cash distribution, and platforms built on stablecoins — digital tokens designed to hold a fixed value, usually one dollar.
+There is a switch buried in Australian payments law. Flipping it means a company can be told who may connect to its system, what standards it must meet and what it may charge. For twenty-five years only the Reserve Bank could reach that switch. Since December, so can the Treasurer.
 
-That much was well covered, and the case for it is strong. The banking industry pointed out that Australians made around a hundred and sixty billion dollars of mobile wallet payments in a year under rules that had not seen a serious refresh in more than twenty-five years. The layer that actually determines what a transaction costs had moved to the phone, and the perimeter had not followed.
+That change arrived inside the Payments System Modernisation Act, which took effect on 19 December 2025. The Act also widened the legal definition of a payment system to cover digital wallets, buy-now-pay-later providers, cash distribution and platforms built on stablecoins — digital tokens designed to hold a fixed value, usually one dollar. That widening was well covered, and the case for it is strong. Australians made around a hundred and sixty billion dollars of mobile wallet payments in a year under rules that had not seen a serious refresh in more than twenty-five years. The layer that determines what a transaction costs had moved to the phone, and the perimeter had not followed.
 
 The reforms also did something structurally different, which received almost no attention.
 
