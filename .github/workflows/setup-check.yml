@@ -1,20 +1,24 @@
 # ---------------------------------------------------------------------------
 # Run from the Actions tab: Setup check -> Run workflow.
 #
-# Answers the three questions that block the pipeline, writes them to the run
-# Summary, and commits the feed verification result so the poller can act on it.
+# Answers the questions that block the pipeline, writes them to the run Summary,
+# and commits what it learns so the rest of the system can act on it:
+#   feeds.json  - which sources the watcher and generator may read
+#   wire.json   - which sources render as links on the public Wire page
 #
 # The Summary needs no authentication to read and works on a phone, unlike the
 # raw logs. That is the whole reason the diagnostics go there.
 #
-# The commit is tagged [skip ci] because a feed status change affects no
-# published page, and every unnecessary Cloudflare build eats a free-tier
-# allowance of 500 a month.
+# The commit is tagged [skip ci] because a status change affects no published
+# page, and every unnecessary Cloudflare build eats a free-tier allowance of
+# 500 a month.
 # ---------------------------------------------------------------------------
 name: Setup check
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 19 * * 0'   # Sunday 19:00 UTC. Cron is always UTC.
 
 permissions:
   contents: write
@@ -57,25 +61,28 @@ jobs:
         run: node scripts/check-feeds.mjs
         continue-on-error: true
 
+      # Nothing on the public Wire page renders as a link until this has run and
+      # confirmed the URL responds. Without it the directory is a list of names.
+      - name: Which Wire sources resolve?
+        run: node scripts/check-wire.mjs
+        continue-on-error: true
+
       - name: Do the published citations still resolve?
         run: node scripts/check-sources.mjs
         continue-on-error: true
 
-      # check-feeds rewrites feeds.json with an honest verified flag. Without
-      # this step the result is reported and thrown away, and the poller keeps
-      # refusing to read feeds it has no record of confirming.
-      - name: Commit verified feed status
+      - name: Commit what the checks learned
         run: |
           git config user.name  "FinOpine"
           git config user.email "Finopine09@gmail.com"
-          if [ -n "$(git status --porcelain feeds.json)" ]; then
-            git add feeds.json
-            git commit -m "feeds: verified status refreshed [skip ci]"
+          if [ -n "$(git status --porcelain feeds.json wire.json)" ]; then
+            git add feeds.json wire.json
+            git commit -m "checks: feed and wire status refreshed [skip ci]"
             git pull --rebase --autostash
             git push
             echo "" >> $GITHUB_STEP_SUMMARY
-            echo "Feed status committed." >> $GITHUB_STEP_SUMMARY
+            echo "Feed and wire status committed." >> $GITHUB_STEP_SUMMARY
           else
             echo "" >> $GITHUB_STEP_SUMMARY
-            echo "No change to feed status." >> $GITHUB_STEP_SUMMARY
+            echo "No change to feed or wire status." >> $GITHUB_STEP_SUMMARY
           fi
