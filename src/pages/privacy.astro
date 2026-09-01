@@ -7,18 +7,32 @@ import { SITE } from '../data/site';
   <h1 class="art-title">What this site collects.</h1>
   <div class="prose">
     <p>
-      This is a static site. It sets no cookies, runs no analytics and stores
-      nothing about you on its own servers, because it has none.
+      This is a static site with no database and no accounts. It sets no cookies,
+      and there is nothing here that could identify you individually.
     </p>
+
+    <h2>Visitor numbers</h2>
+    <p>
+      We do not follow you between sites, build a profile, or store an identifier on your
+      device. We do track traffic to our pages and the sites that linked them here.
+    </p>
+    <p>
+      That exists so it is possible to tell whether anything published here is
+      being read at all. It cannot tell anyone who you are, and neither can we.
+    </p>
+
     <h2>Fonts</h2>
     <p>
       Typefaces load from Google Fonts, so Google receives your IP address when a
-      page loads. Self-host the fonts if that matters to you — it is a small change.
+      page loads. Self-hosting them would remove that, and may happen later.
     </p>
+
     <h2>Hosting</h2>
     <p>
-      Pages are served by Cloudflare, which keeps standard request logs.
+      Pages are served by Cloudflare, which keeps standard request logs including
+      IP addresses, as any web host does.
     </p>
+
     {SITE.keys.web3forms && (
       <><h2>Contact form</h2>
       <p>Messages sent through the form are delivered by Web3Forms.</p></>
