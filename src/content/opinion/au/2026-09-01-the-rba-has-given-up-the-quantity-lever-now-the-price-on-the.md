@@ -23,7 +23,7 @@ readMins: 4
 tags: ["central banking","liquidity","market structure"]
 generated: true
 groundedIn: "https://www.rba.gov.au/speeches/2026/sp-so-2026-08-25.html"
-draft: true
+draft: false
 sources:
   - label: "The Road to Ample - Towards a Demand-driven Liquidity Regime"
     publisher: "Reserve Bank of Australia"
