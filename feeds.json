@@ -19,8 +19,10 @@
       "kind": "primary",
       "weight": 3,
       "url": "https://www.rba.gov.au/rss/rss-cb-media-releases.xml",
-      "verified": false,
-      "jurisdiction": "au"
+      "verified": true,
+      "jurisdiction": "au",
+      "lastChecked": "2026-08-31",
+      "lastResult": "ok, 1 items"
     },
     {
       "id": "rba-speeches",
@@ -28,8 +30,10 @@
       "kind": "primary",
       "weight": 3,
       "url": "https://www.rba.gov.au/rss/rss-cb-speeches.xml",
-      "verified": false,
-      "jurisdiction": "au"
+      "verified": true,
+      "jurisdiction": "au",
+      "lastChecked": "2026-08-31",
+      "lastResult": "ok, 1 items"
     },
     {
       "id": "treasury",
@@ -38,7 +42,9 @@
       "weight": 3,
       "url": "https://treasury.gov.au/rss.xml",
       "verified": false,
-      "jurisdiction": "au"
+      "jurisdiction": "au",
+      "lastChecked": "2026-08-31",
+      "lastResult": "returned 200 but no items - not a feed"
     },
     {
       "id": "asic-media",
@@ -47,7 +53,9 @@
       "weight": 3,
       "url": "https://asic.gov.au/about-asic/news-centre/find-a-media-release/rss/",
       "verified": false,
-      "jurisdiction": "au"
+      "jurisdiction": "au",
+      "lastChecked": "2026-08-31",
+      "lastResult": "DEAD (404) - find the current URL"
     },
     {
       "id": "apra-news",
@@ -56,7 +64,9 @@
       "weight": 2,
       "url": "https://www.apra.gov.au/news-and-publications/rss.xml",
       "verified": false,
-      "jurisdiction": "au"
+      "jurisdiction": "au",
+      "lastChecked": "2026-08-31",
+      "lastResult": "DEAD (404) - find the current URL"
     },
     {
       "id": "abs-releases",
@@ -65,7 +75,9 @@
       "weight": 3,
       "url": "https://www.abs.gov.au/rss/releases.xml",
       "verified": false,
-      "jurisdiction": "au"
+      "jurisdiction": "au",
+      "lastChecked": "2026-08-31",
+      "lastResult": "DEAD (404) - find the current URL"
     },
     {
       "id": "legislation-register",
@@ -74,7 +86,9 @@
       "weight": 2,
       "url": "https://www.legislation.gov.au/Rss/Acts",
       "verified": false,
-      "jurisdiction": "au"
+      "jurisdiction": "au",
+      "lastChecked": "2026-08-31",
+      "lastResult": "returned 200 but no items - not a feed"
     },
     {
       "id": "abc-business",
@@ -82,8 +96,10 @@
       "kind": "press",
       "weight": 1,
       "url": "https://www.abc.net.au/news/feed/51892/rss.xml",
-      "verified": false,
-      "jurisdiction": "au"
+      "verified": true,
+      "jurisdiction": "au",
+      "lastChecked": "2026-08-31",
+      "lastResult": "ok, 25 items"
     },
     {
       "id": "bis-publications",
@@ -91,9 +107,11 @@
       "kind": "primary",
       "weight": 2,
       "url": "https://www.bis.org/doclist/cbspeeches.rss?paging_length=15",
-      "verified": false,
+      "verified": true,
       "jurisdiction": "skip",
-      "note": "Cross-border by nature. Tagged skip: see _readme on the general silo."
+      "note": "Cross-border by nature. Tagged skip so the generator never uses it.",
+      "lastChecked": "2026-08-31",
+      "lastResult": "ok, 50 items"
     },
     {
       "id": "fed-press",
@@ -101,8 +119,10 @@
       "kind": "primary",
       "weight": 2,
       "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-      "verified": false,
-      "jurisdiction": "us"
+      "verified": true,
+      "jurisdiction": "us",
+      "lastChecked": "2026-08-31",
+      "lastResult": "ok, 20 items"
     },
     {
       "id": "boe-news",
@@ -111,7 +131,9 @@
       "weight": 3,
       "jurisdiction": "uk",
       "url": "https://www.bankofengland.co.uk/rss/news",
-      "verified": false
+      "verified": true,
+      "lastChecked": "2026-08-31",
+      "lastResult": "ok, 50 items"
     },
     {
       "id": "boc-news",
@@ -120,7 +142,9 @@
       "weight": 3,
       "jurisdiction": "ca",
       "url": "https://www.bankofcanada.ca/feed/?utility=news&post_type%5B0%5D=post&post_type%5B1%5D=page",
-      "verified": false
+      "verified": true,
+      "lastChecked": "2026-08-31",
+      "lastResult": "ok, 10 items"
     }
   ]
 }
