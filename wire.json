@@ -2,10 +2,14 @@
   "_readme": [
     "Source directory for the public Wire page.",
     "",
-    "A source renders as a link ONLY when verified is true. Everything else",
-    "renders as plain text. Run scripts/check-wire.mjs to probe each URL; it sets",
-    "verified only on a live 200. Adding a URL by hand without running the check",
-    "changes nothing on the site, which is deliberate.",
+    "A source appears on the site ONLY if it has a url AND verified is true.",
+    "There is no unlinked state - an entry the reader cannot click is not worth",
+    "the line it sits on. Empty groups drop out with their heading, and the page",
+    "leaves the navigation entirely if nothing verifies.",
+    "",
+    "To add a source: find the real URL, paste it in with verified false, then run",
+    "scripts/check-wire.mjs. It sets verified only on a live 200. Adding a URL",
+    "without running the check changes nothing on the site, deliberately.",
     "",
     "Only 404 and 410 mean dead. A 403 is a bot wall and a 5xx is a bad day."
   ],
@@ -69,186 +73,6 @@
           "what": "Regulatory guides, consultation papers, market reports.",
           "url": "https://www.asic.gov.au/newsroom/reports-and-publications",
           "verified": false
-        },
-        {
-          "name": "ABS — Labour Force, National Accounts, Retail Trade",
-          "tier": "daily",
-          "what": "The rest of the macro series."
-        },
-        {
-          "name": "Treasury",
-          "tier": "daily",
-          "what": "Consultations, exposure drafts, Budget and MYEFO."
-        },
-        {
-          "name": "APRA",
-          "tier": "cycle",
-          "what": "Quarterly ADI and superannuation statistics, prudential standards."
-        },
-        {
-          "name": "ATO",
-          "tier": "cycle",
-          "what": "Law companion rulings, taxpayer alerts, new-legislation guidance."
-        },
-        {
-          "name": "Federal Register of Legislation",
-          "tier": "daily",
-          "what": "Acts and regulations as made — the actual text."
-        },
-        {
-          "name": "Parliament of Australia",
-          "tier": "daily",
-          "what": "Bills tracker, Hansard, Senate Economics Committee submissions."
-        },
-        {
-          "name": "AUSTRAC",
-          "tier": "cycle",
-          "what": "AML supervision, now including digital asset providers."
-        },
-        {
-          "name": "AFCA",
-          "tier": "cycle",
-          "what": "Determinations — where the rules meet an actual customer."
-        }
-      ]
-    },
-    {
-      "name": "Primary — offshore",
-      "why": "Australian rates are not set in Sydney alone.",
-      "sources": [
-        {
-          "name": "US Federal Reserve",
-          "tier": "daily",
-          "what": "FOMC statements, minutes, projections, Beige Book."
-        },
-        {
-          "name": "Bank of England",
-          "tier": "cycle"
-        },
-        {
-          "name": "European Central Bank",
-          "tier": "cycle"
-        },
-        {
-          "name": "Reserve Bank of New Zealand",
-          "tier": "cycle"
-        },
-        {
-          "name": "Reserve Bank of India",
-          "tier": "cycle"
-        },
-        {
-          "name": "Bank for International Settlements",
-          "tier": "cycle",
-          "what": "Quarterly Review — the best early warning on financial plumbing."
-        },
-        {
-          "name": "SEC EDGAR",
-          "tier": "cycle",
-          "what": "Filings and material disclosures."
-        },
-        {
-          "name": "IMF, OECD, World Bank",
-          "tier": "cycle",
-          "what": "WEO, Global Financial Stability Report, Article IV."
-        }
-      ]
-    },
-    {
-      "name": "Press and wires",
-      "why": "Breaks the story. Read for the fact, not the frame.",
-      "sources": [
-        {
-          "name": "Australian Financial Review",
-          "tier": "daily",
-          "what": "The daily of record for Australian business and policy."
-        },
-        {
-          "name": "ABC News business",
-          "tier": "daily",
-          "what": "Free, and consistently good on the RBA and household economics."
-        },
-        {
-          "name": "Reuters",
-          "tier": "daily",
-          "what": "Wire copy — first and usually cleanest."
-        },
-        {
-          "name": "Bloomberg",
-          "tier": "daily",
-          "what": "Markets and credit."
-        },
-        {
-          "name": "Financial Times",
-          "tier": "daily",
-          "what": "Offshore macro and deals."
-        },
-        {
-          "name": "The Guardian Australia, SMH, The Australian",
-          "tier": "cycle",
-          "what": "Business desks."
-        }
-      ]
-    },
-    {
-      "name": "Specialist trade press",
-      "why": "Where legislation gets pulled apart line by line before it reaches the dailies.",
-      "sources": [
-        {
-          "name": "SMSF Adviser",
-          "tier": "cycle",
-          "what": "The Division 296 detail, argued by people who advise on it."
-        },
-        {
-          "name": "Money Management, Professional Planner",
-          "tier": "cycle",
-          "what": "Advice and licensee news."
-        },
-        {
-          "name": "Banking Day",
-          "tier": "cycle",
-          "what": "Daily banking and credit."
-        },
-        {
-          "name": "Firstlinks",
-          "tier": "cycle",
-          "what": "Free, high quality, argumentative."
-        },
-        {
-          "name": "FinTech Australia",
-          "tier": "cycle",
-          "what": "Industry policy submissions, on the record."
-        }
-      ]
-    },
-    {
-      "name": "Law and political deliberation",
-      "why": "The part most commentary misses until it is already law.",
-      "sources": [
-        {
-          "name": "Exposure drafts and explanatory memoranda",
-          "tier": "daily",
-          "what": "The design argument in the government's own words."
-        },
-        {
-          "name": "Senate Economics Legislation Committee",
-          "tier": "daily",
-          "what": "Industry submissions — the lobbying, on the record."
-        },
-        {
-          "name": "Treasury consultation hub",
-          "tier": "daily",
-          "what": "Open consultations and every submission received."
-        },
-        {
-          "name": "AustLII, Federal Court, High Court",
-          "tier": "cycle",
-          "what": "Judgments — the ruling before the summary."
-        },
-        {
-          "name": "Budget papers and PBO costings",
-          "tier": "cycle",
-          "what": ""
         }
       ]
     }

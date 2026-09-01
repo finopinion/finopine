@@ -2,6 +2,11 @@
 import { SITE } from '../data/site';
 import '../styles/global.css';
 import Schema from '../components/Schema.astro';
+import wire from '../../wire.json';
+
+/* Drop The Wire from navigation entirely when nothing has verified. A nav item
+   leading to an empty page is worse than no nav item. */
+const wireHasLinks = wire.groups.some((g) => g.sources.some((x) => x.verified === true && x.url));
 
 interface Props { title?: string; description?: string; path?: string; }
 const { title, description, path = '/' } = Astro.props;
@@ -37,7 +42,7 @@ const canonical = new URL(path, SITE.url).href;
           <span class="word-sub">{SITE.tagline}</span>
         </div>
         <nav class="mast-nav" aria-label="Sections">
-          {SITE.nav.map((n) => (
+          {SITE.nav.filter((n) => n.href !== '/wire/' || wireHasLinks).map((n) => (
             <a href={n.href} aria-current={Astro.url.pathname === n.href ? 'page' : undefined}>{n.label}</a>
           ))}
         </nav>
