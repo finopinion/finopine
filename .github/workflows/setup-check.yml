@@ -1,15 +1,14 @@
 # ---------------------------------------------------------------------------
 # Run from the Actions tab: Setup check -> Run workflow.
 #
-# Answers the questions that block the pipeline, writes them to the run Summary,
-# and commits what it learns so the rest of the system can act on it:
+# Commits what it learns so the rest of the system can act on it:
 #   feeds.json  - which sources the watcher and generator may read
 #   wire.json   - which sources render as links on the public Wire page
 #
 # The Summary needs no authentication to read and works on a phone, unlike the
-# raw logs. That is the whole reason the diagnostics go there.
+# raw logs. That is why the diagnostics go there.
 #
-# The commit is tagged [skip ci] because a status change affects no published
+# Commits are tagged [skip ci] because a status change affects no published
 # page, and every unnecessary Cloudflare build eats a free-tier allowance of
 # 500 a month.
 # ---------------------------------------------------------------------------
@@ -40,12 +39,11 @@ jobs:
           if [ -z "$GEMINI_API_KEY" ]; then
             echo "## API key" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
-            echo "**GEMINI_API_KEY is not set.** Add it under Settings -> Secrets and variables -> Actions." >> $GITHUB_STEP_SUMMARY
+            echo "**GEMINI_API_KEY is not set.**" >> $GITHUB_STEP_SUMMARY
             exit 0
           fi
           echo "## Available models" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Copy the ones you want into models.json, newest first." >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
           curl -s "https://generativelanguage.googleapis.com/v1beta/models?key=$GEMINI_API_KEY" \
             | grep -o '"name": "models/[^"]*"' | sed 's/"name": "models\///;s/"//' \
@@ -61,8 +59,8 @@ jobs:
         run: node scripts/check-feeds.mjs
         continue-on-error: true
 
-      # Nothing on the public Wire page renders as a link until this has run and
-      # confirmed the URL responds. Without it the directory is a list of names.
+      # Nothing on the public Wire page renders until this has confirmed the
+      # URL responds. Without it the page is empty and drops out of the nav.
       - name: Which Wire sources resolve?
         run: node scripts/check-wire.mjs
         continue-on-error: true
