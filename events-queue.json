@@ -1,4 +1,19 @@
 {
-  "items": [],
-  "updated": null
+  "items": [
+    {
+      "link": "https://www.rba.gov.au/speeches/2026/sp-so-2026-08-25.html",
+      "title": "The Road to Ample - Towards a Demand-driven Liquidity Regime",
+      "publisher": "Reserve Bank of Australia",
+      "jurisdiction": "au",
+      "summary": "Speech by David Jacobs, Head of Domestic Markets, at the RBA.",
+      "at": "2026-08-25T00:14:00.000Z",
+      "score": 6,
+      "corroboration": 0,
+      "why": "Speech outlines RBA transition to a new demand-driven liquidity operational framework.",
+      "urgency": "low",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-01T10:15:45.070Z"
+    }
+  ],
+  "updated": "2026-09-01T10:15:45.070Z"
 }
