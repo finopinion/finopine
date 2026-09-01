@@ -32,6 +32,40 @@ if (!fresh.length) { note('Queue empty. Nothing to vet.'); await flush(); proces
 
 const models = JSON.parse(await readFile('models.json', 'utf8'));
 
+/**
+ * Pull the real page for each queued item before judging it.
+ *
+ * The first live run declined its only candidate because an RSS summary for a
+ * central bank speech is two lines of boilerplate. That was the right call on
+ * the evidence available, and the fix is to improve the evidence rather than
+ * lower the bar.
+ */
+async function fetchText(url) {
+  const ctl = new AbortController();
+  const t = setTimeout(() => ctl.abort(), 12000);
+  try {
+    const res = await fetch(url, {
+      headers: { 'user-agent': 'FinOpine/1.0 (+https://finopine.com)' },
+      signal: ctl.signal, redirect: 'follow'
+    });
+    if (res.status !== 200) return null;
+    const html = await res.text();
+    const text = html
+      .replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<nav[\s\S]*?<\/nav>|<footer[\s\S]*?<\/footer>/gi, ' ')
+      .replace(/<[^>]+>/g, ' ').replace(/&nbsp;/gi, ' ').replace(/&amp;/gi, '&')
+      .replace(/\s+/g, ' ').trim();
+    return text.length > 400 ? text.slice(0, 2600) : null;
+  } catch { return null; }
+  finally { clearTimeout(t); }
+}
+
+{
+  const texts = await Promise.all(fresh.map((c) => fetchText(c.link)));
+  let n = 0;
+  texts.forEach((t, i) => { if (t) { fresh[i].fullText = t; n++; } });
+  note(`Fetched full text for ${n} of ${fresh.length} queued items`);
+}
+
 const prompt = `You select which financial news item, if any, deserves an opinion piece today.
 
 FinOpine publishes arguments about monetary policy, tax law, financial regulation, market
@@ -39,7 +73,7 @@ structure and payments. Every piece must state a position and name what would pr
 
 ${fresh.map((c, i) => `[${i}] ${c.publisher} (${c.jurisdiction}) - ${c.title}
     queued because: ${c.why}
-    ${c.summary.slice(0, 300)}`).join('\n\n')}
+    ${c.fullText ? c.fullText : c.summary.slice(0, 300) + '\n    (summary only - full page unavailable)'}`).join('\n\n')}
 
 Pick the item that supports the strongest ARGUABLE position. That is a different test from
 "most important". A large event everyone agrees about supports no argument. A smaller one

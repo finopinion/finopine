@@ -53,7 +53,13 @@ const fmt = (d, loc) => d.toLocaleDateString(loc, { day: 'numeric', month: 'shor
         {p.data.compares && (
           <p class="compares">Compares {p.data.compares.map((c) => JURISDICTIONS[c].name).join(', ')}</p>
         )}
-        <Stance compact position={p.data.position} falsifier={p.data.falsifier} />
+        {/* A listing card carries the dek and the view in one line. It does NOT
+          carry the full position and falsifier — two paragraphs each, six
+          articles deep, put several thousand words on the front page and
+          buried the headlines they were meant to support. */}
+      {p.data.viewInBrief && (
+        <p class="card-view"><span class="card-view-tag">Our view</span>{p.data.viewInBrief}</p>
+      )}
       </article>
     );
   })}

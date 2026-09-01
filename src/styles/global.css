@@ -302,3 +302,14 @@ footer a { color: var(--ink-2); }
 }
 .changes-mind p { font-size: 16.5px; line-height: 1.6; margin: 0 0 12px; color: var(--ink-2); }
 .changes-mind p:last-child { margin-bottom: 0; }
+
+/* Listing cards: dek, then one line of view. Never the full argument — that
+   is what the article page is for. */
+.card-view {
+  margin: 0 0 12px; font-size: 15.5px; line-height: 1.5; color: var(--ink);
+  border-left: 2px solid var(--short); padding-left: 12px;
+}
+.card-view-tag {
+  display: block; font-family: var(--mono); font-size: 8.5px; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--short); margin-bottom: 4px;
+}

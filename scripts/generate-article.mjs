@@ -221,6 +221,51 @@ if (!candidates.length) {
 }
 note(`Candidates: ${candidates.length} (window ${usedWindow}d, ${alreadyCovered.size} already covered)`);
 
+/**
+ * FETCH THE ACTUAL PAGE, not just the feed blurb.
+ *
+ * The vetting stage declined its first real candidate with a fair objection:
+ * "Speech text unavailable; cannot assess whether the shift is genuinely
+ * demand-driven or merely relabeled supply management without examining actual
+ * operational details." It was right. An RSS summary for a central bank speech
+ * is two lines of boilerplate, and no model can build an argument on that -
+ * it can only pad.
+ *
+ * So pull the real text for the strongest few candidates. Truncated, tags
+ * stripped, short timeout, failures ignored. A candidate whose page will not
+ * load falls back to its summary rather than dropping out.
+ */
+const DEEP = 6;
+const DEEP_CHARS = 2600;
+
+async function fetchText(url) {
+  const ctl = new AbortController();
+  const t = setTimeout(() => ctl.abort(), 12000);
+  try {
+    const res = await fetch(url, {
+      headers: { 'user-agent': 'FinOpine/1.0 (+https://finopine.com)' },
+      signal: ctl.signal, redirect: 'follow'
+    });
+    if (res.status !== 200) return null;
+    const html = await res.text();
+    const text = html
+      .replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<nav[\s\S]*?<\/nav>|<header[\s\S]*?<\/header>|<footer[\s\S]*?<\/footer>/gi, ' ')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/&nbsp;/gi, ' ').replace(/&amp;/gi, '&').replace(/&#\d+;/g, ' ')
+      .replace(/\s+/g, ' ').trim();
+    return text.length > 400 ? text.slice(0, DEEP_CHARS) : null;
+  } catch { return null; }
+  finally { clearTimeout(t); }
+}
+
+{
+  const top = candidates.slice(0, DEEP);
+  const got = await Promise.all(top.map((c) => fetchText(c.link)));
+  let n = 0;
+  got.forEach((text, i) => { if (text) { top[i].fullText = text; n++; } });
+  note(`Fetched full text for ${n} of ${top.length} leading candidates`);
+}
+
 /* --------------------------------------------------------------- the model */
 
 const models = JSON.parse(await readFile('models.json', 'utf8'));
@@ -308,6 +353,9 @@ blunt in the body.
 
 HARD RULES
 - Write using ONLY what is in the item you picked. If a fact is not there, do not assert it.
+- PREFER an item whose full text you were given over one you only have a summary for.
+  You cannot argue about the detail of something you have only seen the headline of,
+  and a piece written from a two-line blurb will be padding.
 - Never write a URL, a DOI, a journal name or a citation. They are added mechanically.
 - Never recommend buying, selling or holding anything. Argue about whether a policy,
   rule or decision is well made.
@@ -350,7 +398,9 @@ async function callModel(model) {
     body: JSON.stringify({
       model,
       max_tokens: 8000,
-      temperature: 0.8,
+      // No temperature. It is deprecated on the Claude 5 series and returns
+      // HTTP 400 - which the ladder correctly treats as non-retryable, so
+      // every model is skipped and the run fails with nothing written.
       messages: [{ role: 'user', content: prompt }]
     })
   });

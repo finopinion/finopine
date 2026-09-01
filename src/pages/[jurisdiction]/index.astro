@@ -37,7 +37,9 @@ const fmt = (d) => d.toLocaleDateString(j.dateLocale, { day: 'numeric', month: '
       </div>
       <h2 class="headline"><a href={`/${code}/${p.id.split('/').pop()}/`}>{p.data.title}</a></h2>
       <p class="dek">{p.data.dek}</p>
-      <Stance compact position={p.data.position} falsifier={p.data.falsifier} />
+      {p.data.viewInBrief && (
+        <p class="card-view"><span class="card-view-tag">Our view</span>{p.data.viewInBrief}</p>
+      )}
     </article>
   ))}
 </Base>
