@@ -1,86 +1,30 @@
-# ---------------------------------------------------------------------------
-# Run from the Actions tab: Setup check -> Run workflow.
-#
-# Commits what it learns so the rest of the system can act on it:
-#   feeds.json  - which sources the watcher and generator may read
-#   wire.json   - which sources render as links on the public Wire page
-#
-# The Summary needs no authentication to read and works on a phone, unlike the
-# raw logs. That is why the diagnostics go there.
-#
-# Commits are tagged [skip ci] because a status change affects no published
-# page, and every unnecessary Cloudflare build eats a free-tier allowance of
-# 500 a month.
-# ---------------------------------------------------------------------------
-name: Setup check
-
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 19 * * 0'   # Sunday 19:00 UTC. Cron is always UTC.
-
-permissions:
-  contents: write
-
-jobs:
-  check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '24'
-      - run: npm install
-
-      - name: Is the API key present and working, and which models exist?
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          if [ -z "$GEMINI_API_KEY" ]; then
-            echo "## API key" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "**GEMINI_API_KEY is not set.**" >> $GITHUB_STEP_SUMMARY
-            exit 0
-          fi
-          echo "## Available models" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo '```' >> $GITHUB_STEP_SUMMARY
-          curl -s "https://generativelanguage.googleapis.com/v1beta/models?key=$GEMINI_API_KEY" \
-            | grep -o '"name": "models/[^"]*"' | sed 's/"name": "models\///;s/"//' \
-            | sort >> $GITHUB_STEP_SUMMARY || echo "key rejected or endpoint changed" >> $GITHUB_STEP_SUMMARY
-          echo '```' >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Ladder currently in models.json:" >> $GITHUB_STEP_SUMMARY
-          echo '```' >> $GITHUB_STEP_SUMMARY
-          grep -o '"gemini-[^"]*"' models.json >> $GITHUB_STEP_SUMMARY
-          echo '```' >> $GITHUB_STEP_SUMMARY
-
-      - name: Which feeds are actually alive?
-        run: node scripts/check-feeds.mjs
-        continue-on-error: true
-
-      # Nothing on the public Wire page renders until this has confirmed the
-      # URL responds. Without it the page is empty and drops out of the nav.
-      - name: Which Wire sources resolve?
-        run: node scripts/check-wire.mjs
-        continue-on-error: true
-
-      - name: Do the published citations still resolve?
-        run: node scripts/check-sources.mjs
-        continue-on-error: true
-
-      - name: Commit what the checks learned
+      # TWO COMMITS, DELIBERATELY.
+      #
+      # feeds.json affects no published page, so it is tagged [skip ci] and
+      # Cloudflare ignores it. wire.json IS a published page - it is what the
+      # Wire renders - so its commit must trigger a build. Lumping them
+      # together under one [skip ci] meant the links verified and never
+      # appeared.
+      - name: Commit feed status
         run: |
           git config user.name  "FinOpine"
           git config user.email "Finopine09@gmail.com"
-          if [ -n "$(git status --porcelain feeds.json wire.json)" ]; then
-            git add feeds.json wire.json
-            git commit -m "checks: feed and wire status refreshed [skip ci]"
+          if [ -n "$(git status --porcelain feeds.json)" ]; then
+            git add feeds.json
+            git commit -m "checks: feed status refreshed [skip ci]"
             git pull --rebase --autostash
             git push
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "Feed and wire status committed." >> $GITHUB_STEP_SUMMARY
-          else
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "No change to feed or wire status." >> $GITHUB_STEP_SUMMARY
+            echo "Feed status committed." >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Commit wire status
+        run: |
+          git config user.name  "FinOpine"
+          git config user.email "Finopine09@gmail.com"
+          if [ -n "$(git status --porcelain wire.json)" ]; then
+            git add wire.json
+            git commit -m "checks: wire link status refreshed"
+            git pull --rebase --autostash
+            git push
+            echo "Wire status committed. Site will rebuild." >> $GITHUB_STEP_SUMMARY
           fi
