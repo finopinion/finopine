@@ -2,10 +2,26 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Stance from '../../components/Stance.astro';
-import { JURISDICTIONS, live } from '../../data/jurisdictions';
+import { JURISDICTIONS, ORDER } from '../../data/jurisdictions';
 
 export async function getStaticPaths() {
-  return live().map((code) => ({ params: { jurisdiction: code }, props: { code } }));
+  /*
+   * ONE CONDITION DECIDES EVERYTHING: does this country have a published piece?
+   *
+   * Not the status flag in jurisdictions.ts. An earlier version built routes
+   * from status === 'live' while the homepage grid built tiles from the piece
+   * count, so the first article in a country still marked 'planned' would have
+   * produced a tile linking to a page that was never built.
+   *
+   * Driving both off the content means a new country needs no code change at
+   * all. Publish a piece into src/content/opinion/nz/ and New Zealand appears
+   * on the next build, tile and page together.
+   */
+  const all = await getCollection('opinion', ({ data }) => !data.draft);
+  const populated = new Set(all.map((p) => p.data.jurisdiction));
+  return ORDER
+    .filter((code) => populated.has(code))
+    .map((code) => ({ params: { jurisdiction: code }, props: { code } }));
 }
 const { code } = Astro.props;
 const j = JURISDICTIONS[code];

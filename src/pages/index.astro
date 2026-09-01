@@ -12,22 +12,19 @@ const fmt = (d, loc) => d.toLocaleDateString(loc, { day: 'numeric', month: 'shor
 ---
 <Base path="/">
   <div class="eyebrow">Coverage</div>
+  {/* Only countries with something published. A tile reading "planned" tells
+      the reader nothing they can use and makes the site look like a promise
+      rather than a publication. A country appears the moment it has a piece. */}
   <div class="silos">
-    {ORDER.map((code) => {
+    {ORDER.filter((code) => countBy(code) > 0).map((code) => {
       const j = JURISDICTIONS[code];
       const n = countBy(code);
-      return j.status === 'live' ? (
+      return (
         <a class="silo" href={`/${code}/`}>
           <span class="silo-code">{code === 'general' ? 'XB' : code.toUpperCase()}</span>
           <span class="silo-name">{j.name}</span>
           <span class="silo-n">{n} {n === 1 ? 'piece' : 'pieces'}</span>
         </a>
-      ) : (
-        <span class="silo off">
-          <span class="silo-code">{code.toUpperCase()}</span>
-          <span class="silo-name">{j.name}</span>
-          <span class="silo-n">planned</span>
-        </span>
       );
     })}
   </div>
