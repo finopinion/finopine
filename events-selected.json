@@ -1,0 +1,22 @@
+{
+  "selected": {
+    "link": "https://www.rba.gov.au/speeches/2026/sp-so-2026-08-25.html",
+    "title": "The Road to Ample - Towards a Demand-driven Liquidity Regime",
+    "publisher": "Reserve Bank of Australia",
+    "jurisdiction": "au",
+    "summary": "Speech by David Jacobs, Head of Domestic Markets, at the RBA.",
+    "at": "2026-08-25T00:14:00.000Z",
+    "score": 6,
+    "corroboration": 0,
+    "why": "Speech outlines RBA transition to a new demand-driven liquidity operational framework.",
+    "urgency": "low",
+    "judgedBy": "gemini",
+    "queuedAt": "2026-09-01T10:15:45.070Z",
+    "fullText": "The Road to Ample &ndash; Towards a Demand-driven Liquidity Regime | Speeches | RBA It appears JavaScript is currently blocked Check your browser settings and network. This website requires JavaScript for some content and functionality. Skip to content Reserve Bank of Australia Menu What are you looking for? Search Speech The Road to Ample &ndash; Towards a Demand-driven Liquidity Regime David Jacobs * Head of Domestic Markets RBA 25 August 2026 &ndash; Sydney Audio 43.3MB Q&A Transcript Watch video: Speech delivered by David Jacobs, Head of Domestic Markets, Reserve Bank of Australia, Sydney Introduction &ndash; destination ample Thank you for joining me at the Reserve Bank. I would like to acknowledge the Gadigal People of the Eora Nation, the traditional owners of the land we meet on. I pay my respects to their Elders past and present and extend that respect to all First Nations peoples present. Today I&#146;m focusing on the RBA&#146;s transition to a new regime for implementing monetary policy. To keep the cash rate near the Monetary Policy Board&#146;s target, the RBA sets terms on which banks can access Exchange Settlement (ES) balances. These are a form of money that banks use to settle payments with each other and are also known as reserves. Different regimes can achieve the cash rate target, but each approach has different implications for the liquidity available to the banking system. The regime we&#146;re leaving is that of high, supply-driven reserves that arose from our policy responses to the pandemic. The RBA&#146;s bond purchases and term funding operations injected nearly $500 billion of reserves into the banking system (Graph 1). Banks had less need to borrow from one another or make use of our regular liquidity operations. The rate paid on reserves &ndash; the ES rate, tied to the Board&#146;s cash rate target &ndash; became the anchor for short-term interest rates. However, reserves have since fallen by more than half as the assets the RBA acquired under pandemic-era policies have matured, and that will continue. Graph 1 The regime we&#146;re moving to is one of ample reserves &ndash; which in the Australian context means a demand-driven framework. This is not about reaching a particular level of reserves. Rather, it is a system that meets and adapts to banks&#146; demand for reserves, and in that way steers short-term interest rates. The Board chose this approach in 2024, rather than returning to the pre-pandemic framework of scarce reserves. Experience had highlighted the benefits of readily available reserves for monetary policy t"
+  },
+  "reason": "RBA's shift to demand-driven ample reserves framework contains genuine debate about implementation effectiveness and unintended consequences.",
+  "angle": "Demand-driven liquidity regimes risk reducing market discipline on banks and creating moral hazard compared to scarcity-based frameworks.",
+  "confidence": 0.72,
+  "vettedBy": "claude-haiku-4-5-20251001",
+  "vettedAt": "2026-09-01T10:44:09.303Z"
+}
