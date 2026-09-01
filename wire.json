@@ -23,56 +23,72 @@
           "tier": "daily",
           "what": "The decision itself, on the day, in the Board's own words.",
           "url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/2026/",
-          "verified": false
+          "verified": true,
+          "lastChecked": "2026-09-01",
+          "lastResult": "LIVE"
         },
         {
           "name": "RBA — media releases",
           "tier": "daily",
           "what": "Everything the Bank announces, including payments and market operations.",
           "url": "https://www.rba.gov.au/media-releases/",
-          "verified": false
+          "verified": true,
+          "lastChecked": "2026-09-01",
+          "lastResult": "LIVE"
         },
         {
           "name": "RBA — Statement on Monetary Policy",
           "tier": "cycle",
           "what": "Quarterly forecasts and the reasoning behind them. February, May, August, November.",
           "url": "https://www.rba.gov.au/publications/smp/",
-          "verified": false
+          "verified": true,
+          "lastChecked": "2026-09-01",
+          "lastResult": "LIVE"
         },
         {
           "name": "RBA — news and speeches",
           "tier": "daily",
           "what": "Speeches often move more than the statement does.",
           "url": "https://www.rba.gov.au/news/",
-          "verified": false
+          "verified": true,
+          "lastChecked": "2026-09-01",
+          "lastResult": "LIVE"
         },
         {
           "name": "ABS — Consumer Price Index",
           "tier": "daily",
           "what": "The complete Monthly CPI, published monthly since October 2025.",
           "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
-          "verified": false
+          "verified": true,
+          "lastChecked": "2026-09-01",
+          "lastResult": "LIVE"
         },
         {
           "name": "ABS — Monthly CPI indicator",
           "tier": "cycle",
           "what": "The older partial indicator series, superseded by the complete Monthly CPI.",
           "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/monthly-consumer-price-index-indicator/latest-release",
-          "verified": false
+          "verified": true,
+          "lastChecked": "2026-09-01",
+          "lastResult": "LIVE"
         },
         {
           "name": "ASIC — media releases",
           "tier": "daily",
           "what": "Enforcement, bannings and regulatory action.",
           "url": "https://www.asic.gov.au/newsroom/media-releases",
-          "verified": false
+          "verified": true,
+          "lastChecked": "2026-09-01",
+          "lastResult": "LIVE"
         },
         {
           "name": "ASIC — reports and publications",
           "tier": "cycle",
           "what": "Regulatory guides, consultation papers, market reports.",
           "url": "https://www.asic.gov.au/newsroom/reports-and-publications",
-          "verified": false
+          "verified": true,
+          "lastChecked": "2026-09-01",
+          "lastResult": "LIVE"
         }
       ]
     }
