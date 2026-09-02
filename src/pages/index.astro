@@ -29,12 +29,6 @@ const fmt = (d, loc) => d.toLocaleDateString(loc, { day: 'numeric', month: 'shor
     })}
   </div>
 
-  <div class="note">
-    <b>Australia first, then the rest.</b><br />
-    A country opens here when there is something worth reading about it and sources
-    we can stand behind. An empty section is worse than no section, so the rest wait.
-  </div>
-
   <div class="eyebrow">Latest</div>
   {all.map((p) => {
     const j = JURISDICTIONS[p.data.jurisdiction];

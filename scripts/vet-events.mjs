@@ -27,7 +27,33 @@ let queue;
 try { queue = JSON.parse(await readFile('events-queue.json', 'utf8')); }
 catch { note('No queue file. Nothing to vet.'); await flush(); process.exit(0); }
 
-const fresh = (queue.items || []).filter(q => Date.now() - new Date(q.queuedAt).getTime() < 4 * 86400000);
+/**
+ * Drop anything already written about.
+ *
+ * Queue items live for seven days, but a piece grounded in one is published
+ * within hours. Without this the vetter can re-select yesterday's subject, and
+ * the generator - which forces the vetted item through in event mode - will
+ * bypass its own already-covered check and write the same piece twice.
+ */
+const { readdir } = await import('node:fs/promises');
+const { join } = await import('node:path');
+async function walk(dir) {
+  let out = [];
+  let entries; try { entries = await readdir(dir, { withFileTypes: true }); } catch { return out; }
+  for (const e of entries) out = e.isDirectory() ? out.concat(await walk(join(dir, e.name))) : out.concat(join(dir, e.name));
+  return out;
+}
+const covered = new Set();
+for (const f of (await walk('src/content/opinion')).filter(f => f.endsWith('.md'))) {
+  const m = (await readFile(f, 'utf8')).match(/^groundedIn:\s*"?(.+?)"?\s*$/m);
+  if (m) covered.add(m[1].trim());
+}
+
+const fresh = (queue.items || [])
+  .filter(q => Date.now() - new Date(q.queuedAt).getTime() < 4 * 86400000)
+  .filter(q => !covered.has(q.link));
+
+if (covered.size) note(`Skipping ${covered.size} item(s) already written about.`);
 if (!fresh.length) { note('Queue empty. Nothing to vet.'); await flush(); process.exit(0); }
 
 const models = JSON.parse(await readFile('models.json', 'utf8'));

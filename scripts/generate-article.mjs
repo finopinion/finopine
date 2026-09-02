@@ -383,8 +383,8 @@ Return ONLY this JSON, no fences, no preamble:
   "callToAction": "One or two paragraphs, at least 80 chars, saying what should be DONE and by whom. This closes the piece.",
   "plainly": "THREE to four sentences of background for a reader who does not follow finance. What is the thing, why does it exist, what changed. No jargon, no acronyms, no argument. Assume they have never heard of the institution involved. At least 120 characters.",
   "viewInBrief": "TWO sentences at most, plain words, saying what you think and roughly why. If a reader stops after this line they should still know your view. Not the full argument. 60-280 characters.",
-  "tags": ["two or three lowercase tags"],
-  "supports": "one sentence saying what the item you picked establishes for your argument, at least 20 chars"
+  "supports": "About the SOURCE, not your argument. One sentence naming what the item you picked establishes - the specific facts you took from it. At least 20 characters. Do not skip this field.",
+  "tags": ["two or three lowercase tags"]
 }`;
 
 async function callModel(model) {
@@ -489,7 +489,7 @@ if (/https?:\/\/|www\.|doi:\s*10\./i.test(out.body)) {
   process.exit(1);
 }
 
-for (const [field, min] of [['position', 400], ['falsifier', 300], ['title', 10], ['dek', 20], ['supports', 20], ['plainly', 120], ['viewInBrief', 60], ['callToAction', 80]]) {
+for (const [field, min] of [['position', 400], ['falsifier', 300], ['title', 10], ['dek', 20], ['plainly', 120], ['viewInBrief', 60], ['callToAction', 80]]) {
   if (!out[field] || String(out[field]).length < min) {
     note(`Field "${field}" missing or too short. The schema would reject this at build.`);
     await flushSummary();
@@ -498,6 +498,27 @@ for (const [field, min] of [['position', 400], ['falsifier', 300], ['title', 10]
 }
 
 /* ------------------------------------------------------------------ write */
+
+/**
+ * supports is REQUIRED by the schema but must not fail the run.
+ *
+ * An earlier version validated it as a hard gate, which threw away a complete,
+ * well-written piece over one field the model had simply not returned - after
+ * paying for 5,875 output tokens. The fallback below already existed; the gate
+ * sat in front of it and made it unreachable.
+ *
+ * Deriving it here is honest rather than laundering. The whole architecture is
+ * retrieval-first: this piece is grounded in an item the script fetched and
+ * read seconds earlier, so what the source establishes is a fact the script
+ * knows independently of the model.
+ */
+if (!out.supports || String(out.supports).trim().length < 20) {
+  const derived = (item.fullText || item.summary || '').trim().replace(/\s+/g, ' ').slice(0, 220);
+  out.supports = derived.length >= 20
+    ? `The ${item.publisher} item this piece argues from. ${derived}`
+    : `The ${item.publisher} item this piece argues from: ${item.title}.`;
+  note('  supports was missing from the model output - derived from the retrieved source.');
+}
 
 const slug = String(out.title).toLowerCase()
   .replace(/[^a-z0-9\s-]/g, '').trim().replace(/\s+/g, '-').slice(0, 60);

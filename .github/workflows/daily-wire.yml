@@ -46,6 +46,23 @@ jobs:
         run: node scripts/check-feeds.mjs
         continue-on-error: true
 
+      # POLL FIRST, rather than trusting the hourly watcher to have run recently.
+      #
+      # On 2 September the wire fired at 01:41 and the watcher queued that day's
+      # item at 02:24 - 43 minutes too late. The queue held only the previous
+      # day's subject, which had already been written about. Australian news
+      # lands roughly 23:00-04:00 UTC, and Actions cron is not punctual, so any
+      # fixed offset between the two jobs will sometimes miss.
+      #
+      # Polling inline removes the dependency: the queue is always current as of
+      # this run. The hourly watcher still exists to catch breaking events
+      # between wires.
+      - name: Refresh the queue
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/poll-events.mjs
+        continue-on-error: true
+
       # STAGE 2 - Haiku decides whether anything in the queue is worth an
       # argument. Publishing nothing is a valid outcome here.
       - name: Vet the event queue
