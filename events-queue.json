@@ -13,7 +13,21 @@
       "urgency": "low",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-01T10:15:45.070Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-02/gdp-june-quarter-2026/107106354",
+      "title": "Breaking: Australian economy grows faster than expected, raising rate hike risk",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Australia's economy grew 0.4 per cent in the June quarter, slightly beating most economist forecasts and further raising the prospect of an interest rate hike as soon as this month.",
+      "at": "2026-09-02T01:36:31.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "GDP beat forecasts, raising prospects for an imminent RBA interest rate hike.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-02T02:24:02.607Z"
     }
   ],
-  "updated": "2026-09-01T10:15:45.070Z"
+  "updated": "2026-09-02T02:24:02.607Z"
 }
