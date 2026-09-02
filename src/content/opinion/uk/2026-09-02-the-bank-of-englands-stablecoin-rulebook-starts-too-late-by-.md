@@ -23,7 +23,7 @@ readMins: 4
 tags: ["stablecoins","bank of england","financial regulation"]
 generated: true
 groundedIn: "https://www.bankofengland.co.uk/news/2026/june/boe-launches-policy-statement-and-draft-rules-on-regulating-systemic-stablecoins"
-draft: true
+draft: false
 sources:
   - label: "Bank of England launches policy statement and draft rules on regulating systemic stablecoins"
     publisher: "Bank of England"
