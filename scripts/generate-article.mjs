@@ -374,15 +374,15 @@ HARD RULES
 Return ONLY this JSON, no fences, no preamble:
 {
   "index": <the number of the item you picked>,
-  "kicker": "one or two words, e.g. Monetary policy",
-  "title": "under 90 chars, states the argument not the topic",
-  "dek": "one or two sentences, under 240 chars",
+  "kicker": "one or two words, e.g. Monetary policy. HARD MAXIMUM 24 characters.",
+  "title": "40-90 characters. States the argument, not the topic. HARD MAXIMUM 90.",
+  "dek": "one or two sentences. HARD MAXIMUM 240 characters.",
   "position": "TWO paragraphs separated by a blank line. First: what you claim. Second: why it matters and what follows from it. At least 400 characters total.",
   "falsifier": "TWO paragraphs separated by a blank line. First: the specific observable thing that would show you wrong. Second: what follows if it happens. At least 300 characters total.",
   "body": "800-900 words of markdown. Use ## subheads. Open with a hook, not a date. No links.",
   "callToAction": "One or two paragraphs, at least 80 chars, saying what should be DONE and by whom. This closes the piece.",
-  "plainly": "THREE to four sentences of background for a reader who does not follow finance. What is the thing, why does it exist, what changed. No jargon, no acronyms, no argument. Assume they have never heard of the institution involved. At least 120 characters.",
-  "viewInBrief": "TWO sentences at most, plain words, saying what you think and roughly why. If a reader stops after this line they should still know your view. Not the full argument. 60-280 characters.",
+  "plainly": "THREE to four sentences of background for a reader who does not follow finance. What is the thing, why does it exist, what changed. No jargon, no acronyms, no argument. Assume they have never heard of the institution involved. BETWEEN 120 AND 500 CHARACTERS - count them, this is a hard ceiling and a long answer is rejected outright.",
+  "viewInBrief": "TWO sentences at most, plain words, saying what you think and roughly why. If a reader stops after this line they should still know your view. Not the full argument. BETWEEN 60 AND 280 CHARACTERS - hard ceiling.",
   "supports": "About the SOURCE, not your argument. One sentence naming what the item you picked establishes - the specific facts you took from it. At least 20 characters. Do not skip this field.",
   "tags": ["two or three lowercase tags"]
 }`;
@@ -512,6 +512,28 @@ for (const [field, min] of [['position', 400], ['falsifier', 300], ['title', 10]
  * read seconds earlier, so what the source establishes is a fact the script
  * knows independently of the model.
  */
+/**
+ * CLAMP FIELDS THAT ARE MERELY TOO LONG.
+ *
+ * A maximum-length breach is not a quality problem, it is a formatting one, and
+ * it should never cost a finished article. Two good pieces were thrown away
+ * before this existed - one for a missing field, one for a `plainly` that ran
+ * past 500 characters.
+ *
+ * Minimums are different and are NOT repaired here: you cannot invent an
+ * argument the model did not make. Those still fail, and should.
+ */
+const CEIL = { title: 90, dek: 240, kicker: 24, plainly: 500, viewInBrief: 280 };
+for (const [field, max] of Object.entries(CEIL)) {
+  const v = String(out[field] ?? '');
+  if (v.length <= max) continue;
+  // cut at the last sentence end that fits, so it never ends mid-clause
+  const cut = v.slice(0, max);
+  const lastStop = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('? '), cut.lastIndexOf('! '));
+  out[field] = (lastStop > max * 0.5 ? cut.slice(0, lastStop + 1) : cut.replace(/\s+\S*$/, '')).trim();
+  note(`  ${field} was ${v.length} chars, over the ${max} limit - trimmed to ${out[field].length}.`);
+}
+
 if (!out.supports || String(out.supports).trim().length < 20) {
   const derived = (item.fullText || item.summary || '').trim().replace(/\s+/g, ' ').slice(0, 220);
   out.supports = derived.length >= 20

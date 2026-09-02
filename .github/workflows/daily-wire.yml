@@ -79,8 +79,24 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/generate-article.mjs
 
-      # The draft must survive the same gates as anything written by hand:
-      # verified sources, a stated position, a falsifier, plain-language framing.
+
+      # KEEP THE DRAFT WHATEVER HAPPENS, THEN VALIDATE.
+      #
+      # The draft is uploaded as an artifact before anything can reject it, so a
+      # failed run leaves a downloadable file rather than nothing. Two finished
+      # articles were lost before this existed.
+      #
+      # Validation must run BEFORE the commit, not after: Astro validates every
+      # content file including drafts, so committing an invalid one to main
+      # would break the Cloudflare build for the whole site, not just this piece.
+      - name: Keep the draft even if it fails
+        if: steps.gen.outputs.file != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: draft-${{ github.run_number }}
+          path: ${{ steps.gen.outputs.file }}
+          retention-days: 30
+
       - name: Schema and language gates
         if: steps.gen.outputs.file != ''
         run: |
@@ -98,6 +114,7 @@ jobs:
             git commit -m "wire: draft $(date -u +%F) [skip ci]"
             git push
           fi
+
 
   publish:
     needs: draft
