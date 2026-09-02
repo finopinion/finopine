@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "link": "https://www.bankofengland.co.uk/news/2026/june/boe-launches-policy-statement-and-draft-rules-on-regulating-systemic-stablecoins",
+      "title": "Bank of England launches policy statement and draft rules on regulating systemic stablecoins",
+      "publisher": "Bank of England",
+      "jurisdiction": "uk",
+      "summary": "The Bank of England has today published its policy statement and draft Code of Practice (rules) for systemic stablecoin issuers.",
+      "at": "2026-06-22T07:30:00.000Z",
+      "score": 10,
+      "corroboration": 1,
+      "why": "New draft rules and policy statement for regulating systemic stablecoins.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-02T15:16:31.012Z"
+    },
+    {
       "link": "https://www.rba.gov.au/speeches/2026/sp-so-2026-08-25.html",
       "title": "The Road to Ample - Towards a Demand-driven Liquidity Regime",
       "publisher": "Reserve Bank of Australia",
@@ -13,6 +27,20 @@
       "urgency": "low",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-01T10:15:45.070Z"
+    },
+    {
+      "link": "https://www.bankofengland.co.uk/news/2026/august/delay-to-the-november-2026-rtgs-standards-release",
+      "title": "Delay to the November 2026 RTGS standards release",
+      "publisher": "Bank of England",
+      "jurisdiction": "uk",
+      "summary": "Bank of England statement",
+      "at": "2026-08-27T13:16:29.000Z",
+      "score": 6,
+      "corroboration": 0,
+      "why": "Unexpected delay to the key RTGS payment system standards release.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-02T15:16:31.012Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-09-02/gdp-june-quarter-2026/107106354",
@@ -29,5 +57,5 @@
       "queuedAt": "2026-09-02T02:24:02.607Z"
     }
   ],
-  "updated": "2026-09-02T02:24:02.607Z"
+  "updated": "2026-09-02T15:16:31.012Z"
 }

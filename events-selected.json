@@ -1,22 +1,22 @@
 {
   "selected": {
-    "link": "https://www.rba.gov.au/speeches/2026/sp-so-2026-08-25.html",
-    "title": "The Road to Ample - Towards a Demand-driven Liquidity Regime",
-    "publisher": "Reserve Bank of Australia",
-    "jurisdiction": "au",
-    "summary": "Speech by David Jacobs, Head of Domestic Markets, at the RBA.",
-    "at": "2026-08-25T00:14:00.000Z",
-    "score": 6,
-    "corroboration": 0,
-    "why": "Speech outlines RBA transition to a new demand-driven liquidity operational framework.",
-    "urgency": "low",
+    "link": "https://www.bankofengland.co.uk/news/2026/june/boe-launches-policy-statement-and-draft-rules-on-regulating-systemic-stablecoins",
+    "title": "Bank of England launches policy statement and draft rules on regulating systemic stablecoins",
+    "publisher": "Bank of England",
+    "jurisdiction": "uk",
+    "summary": "The Bank of England has today published its policy statement and draft Code of Practice (rules) for systemic stablecoin issuers.",
+    "at": "2026-06-22T07:30:00.000Z",
+    "score": 10,
+    "corroboration": 1,
+    "why": "New draft rules and policy statement for regulating systemic stablecoins.",
+    "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-01T10:15:45.070Z",
-    "fullText": "The Road to Ample &ndash; Towards a Demand-driven Liquidity Regime | Speeches | RBA It appears JavaScript is currently blocked Check your browser settings and network. This website requires JavaScript for some content and functionality. Skip to content Reserve Bank of Australia Menu What are you looking for? Search Speech The Road to Ample &ndash; Towards a Demand-driven Liquidity Regime David Jacobs * Head of Domestic Markets RBA 25 August 2026 &ndash; Sydney Audio 43.3MB Q&A Transcript Watch video: Speech delivered by David Jacobs, Head of Domestic Markets, Reserve Bank of Australia, Sydney Introduction &ndash; destination ample Thank you for joining me at the Reserve Bank. I would like to acknowledge the Gadigal People of the Eora Nation, the traditional owners of the land we meet on. I pay my respects to their Elders past and present and extend that respect to all First Nations peoples present. Today I&#146;m focusing on the RBA&#146;s transition to a new regime for implementing monetary policy. To keep the cash rate near the Monetary Policy Board&#146;s target, the RBA sets terms on which banks can access Exchange Settlement (ES) balances. These are a form of money that banks use to settle payments with each other and are also known as reserves. Different regimes can achieve the cash rate target, but each approach has different implications for the liquidity available to the banking system. The regime we&#146;re leaving is that of high, supply-driven reserves that arose from our policy responses to the pandemic. The RBA&#146;s bond purchases and term funding operations injected nearly $500 billion of reserves into the banking system (Graph 1). Banks had less need to borrow from one another or make use of our regular liquidity operations. The rate paid on reserves &ndash; the ES rate, tied to the Board&#146;s cash rate target &ndash; became the anchor for short-term interest rates. However, reserves have since fallen by more than half as the assets the RBA acquired under pandemic-era policies have matured, and that will continue. Graph 1 The regime we&#146;re moving to is one of ample reserves &ndash; which in the Australian context means a demand-driven framework. This is not about reaching a particular level of reserves. Rather, it is a system that meets and adapts to banks&#146; demand for reserves, and in that way steers short-term interest rates. The Board chose this approach in 2024, rather than returning to the pre-pandemic framework of scarce reserves. Experience had highlighted the benefits of readily available reserves for monetary policy t"
+    "queuedAt": "2026-09-02T15:16:31.012Z",
+    "fullText": "Bank of England launches policy statement and draft rules on regulating systemic stablecoins | Bank of England – the UK&#39;s central bank Our use of cookies We use necessary cookies to make our site work. We&rsquo;d also like to use some non-essential cookies (including third-party cookies) to help us improve the site. By clicking &lsquo;Accept recommended settings&rsquo; on this banner, you accept our use of analytics cookies. For more information on how these cookies work please see our Cookie policy . Accept recommended cookies Proceed with necessary cookies only Skip to main content Bank of England launches policy statement and draft rules on regulating systemic stablecoins The Bank of England has today published its policy statement and draft Code of Practice (rules) for systemic stablecoin issuers. Published on 22 June 2026 News release The Bank of England has today published its policy statement and draft Code of Practice (rules) for systemic stablecoin issuers, marking a key milestone in establishing the UK&rsquo;s stablecoin regime. The framework supports safe innovation, enabling UK issued stablecoins to develop as trusted forms of digital money. Alongside other innovations in money and payments, stablecoins could enable faster, cheaper and more flexible services for users, including cross‑border use cases, while supporting new programmable functionality. Today&rsquo;s policy statement and draft rules reflect feedback from last year&rsquo;s consultation. It provides coin issuers with clarity to innovate and scale within a framework that maintains resilience, confidence and trust in money. The Bank and the Financial Conduct Authority (FCA) are working closely to deliver an end-to-end regime, including a managed transition as firms grow from non-systemic to systemic. Further detail will be published alongside the FCA&rsquo;s final rules shortly. Key policy decisions Following extensive engagement with industry and stakeholders, the Bank has made targeted revisions to the proposals consulted on last year. These include: Backing assets: The maximum share held in interest‑bearing assets (short-term UK government debt) has been increased from 60% to 70%, with the remainder in central bank deposits. These deposits enable issuers to meet redemptions promptly. The change supports more viable business models while still allowing issuers to deal with outflows. Temporary issuance guardrails: The Bank will safeguard the economy&rsquo;s access to credit without introducing the temporary holding limits it consulted on last year. Instead, a temporary issuance"
   },
-  "reason": "RBA's shift to demand-driven ample reserves framework contains genuine debate about implementation effectiveness and unintended consequences.",
-  "angle": "Demand-driven liquidity regimes risk reducing market discipline on banks and creating moral hazard compared to scarcity-based frameworks.",
+  "reason": "Bank of England's stablecoin framework raises a contestable tradeoff between innovation and financial stability that admits of genuine disagreement.",
+  "angle": "Allowing 70% of stablecoin backing in interest-bearing assets prioritizes business viability over redemption safety in ways that will prove excessive once outflow pressures mount.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-09-01T10:44:09.303Z"
+  "vettedAt": "2026-09-02T15:16:33.454Z"
 }
