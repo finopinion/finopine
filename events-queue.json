@@ -43,6 +43,20 @@
       "queuedAt": "2026-09-02T15:16:31.012Z"
     },
     {
+      "link": "https://www.rba.gov.au/media-releases/2026/mr-26-24.html",
+      "title": "RITS Consultation and Retail CBDC Update",
+      "publisher": "Reserve Bank of Australia",
+      "jurisdiction": "au",
+      "summary": "Media Release Number 2026-24: The RBA today launched a consultation on the Role of RITS in Supporting Settlement in a Tokenised Ecosystem. As highlighted in Project Acacia, tokenisation has the potential to enhance the efficiency, functionality and resilience of Australia’s wholesale financial markets.",
+      "at": "2026-09-03T00:30:00.000Z",
+      "score": 6,
+      "corroboration": 0,
+      "why": "RBA launches formal consultation on settlement infrastructure for tokenised assets and retail CBDC.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-03T01:13:39.442Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-02/gdp-june-quarter-2026/107106354",
       "title": "Breaking: Australian economy grows faster than expected, raising rate hike risk",
       "publisher": "ABC News",
@@ -57,5 +71,5 @@
       "queuedAt": "2026-09-02T02:24:02.607Z"
     }
   ],
-  "updated": "2026-09-02T15:16:31.012Z"
+  "updated": "2026-09-03T01:13:39.442Z"
 }
