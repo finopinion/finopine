@@ -23,7 +23,7 @@ readMins: 4
 tags: ["payments","bank of england","market infrastructure"]
 generated: true
 groundedIn: "https://www.bankofengland.co.uk/news/2026/august/delay-to-the-november-2026-rtgs-standards-release"
-draft: true
+draft: false
 sources:
   - label: "Delay to the November 2026 RTGS standards release"
     publisher: "Bank of England"
