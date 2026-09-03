@@ -57,6 +57,20 @@
       "queuedAt": "2026-09-03T01:13:39.442Z"
     },
     {
+      "link": "https://www.rba.gov.au/media-releases/2026/mr-26-25.html",
+      "title": "Designation of Linfox Armaguard Pty Ltd under the Cash Distribution Framework Act 2026",
+      "publisher": "Reserve Bank of Australia",
+      "jurisdiction": "au",
+      "summary": "Media Release Number 2026-25: The RBA has today designated Linfox Armaguard Pty Ltd (Armaguard) (ACN 099 701 872) under the Cash Distribution Framework Act 2026 (the Act).",
+      "at": "2026-09-03T03:30:00.000Z",
+      "score": 6,
+      "corroboration": 0,
+      "why": "Official regulatory designation of a critical cash-in-transit provider under new framework.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-03T05:27:04.074Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-02/gdp-june-quarter-2026/107106354",
       "title": "Breaking: Australian economy grows faster than expected, raising rate hike risk",
       "publisher": "ABC News",
@@ -69,7 +83,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-02T02:24:02.607Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-03/government-offers-small-businesses-a-trust-tax-workaround/107112000",
+      "title": "Government offers small businesses a trust tax workaround",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Those with discretionary trusts can be exempt from the new minimum 30 per cent tax if they agree to hold their trust distributions constant.",
+      "at": "2026-09-03T04:02:48.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "New tax policy exemption mechanism for small business discretionary trusts.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-03T05:27:04.074Z"
     }
   ],
-  "updated": "2026-09-03T01:42:46.325Z"
+  "updated": "2026-09-03T05:27:04.074Z"
 }
