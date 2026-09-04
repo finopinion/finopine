@@ -97,7 +97,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-03T05:27:04.074Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-04/asic-at-parliamentary-inquiry-accountancy-firms-audit-misconduct/107115482",
+      "title": "ASIC probing hundreds of audit complaints at big four accounting firms",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Corporate regulator ASIC tells a parliamentary inquiry major accounting firms KPMG, PwC, EY and Deloitte have revealed 551 complaints in three years about alleged audit misconduct.",
+      "at": "2026-09-04T05:01:51.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "ASIC reveals probe into 551 audit misconduct complaints across Big Four accounting firms.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-04T05:14:06.046Z"
     }
   ],
-  "updated": "2026-09-04T01:43:06.041Z"
+  "updated": "2026-09-04T05:14:06.046Z"
 }
