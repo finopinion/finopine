@@ -23,7 +23,7 @@ readMins: 4
 tags: ["tokenisation","payments","rba"]
 generated: true
 groundedIn: "https://www.rba.gov.au/media-releases/2026/mr-26-24.html"
-draft: true
+draft: false
 sources:
   - label: "RITS Consultation and Retail CBDC Update"
     publisher: "Reserve Bank of Australia"
