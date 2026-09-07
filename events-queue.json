@@ -111,7 +111,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-04T05:14:06.046Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-07/one-nation-pauline-hanson-rent-mortgage-super-retirement/107122814",
+      "title": "One Nation pushes for early super access for renters and mortgage holders",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Australians would be given the option to divert a portion of their superannuation into their take-home pay for up to three years.",
+      "at": "2026-09-06T23:27:49.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "New political proposal to allow temporary diversion of superannuation into take-home pay.",
+      "urgency": "low",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-07T00:26:05.299Z"
     }
   ],
-  "updated": "2026-09-04T05:14:06.046Z"
+  "updated": "2026-09-07T00:26:05.299Z"
 }
