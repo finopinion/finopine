@@ -15,20 +15,6 @@
       "queuedAt": "2026-09-02T15:16:31.012Z"
     },
     {
-      "link": "https://www.rba.gov.au/speeches/2026/sp-so-2026-08-25.html",
-      "title": "The Road to Ample - Towards a Demand-driven Liquidity Regime",
-      "publisher": "Reserve Bank of Australia",
-      "jurisdiction": "au",
-      "summary": "Speech by David Jacobs, Head of Domestic Markets, at the RBA.",
-      "at": "2026-08-25T00:14:00.000Z",
-      "score": 6,
-      "corroboration": 0,
-      "why": "Speech outlines RBA transition to a new demand-driven liquidity operational framework.",
-      "urgency": "low",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-01T10:15:45.070Z"
-    },
-    {
       "link": "https://www.bankofengland.co.uk/news/2026/august/delay-to-the-november-2026-rtgs-standards-release",
       "title": "Delay to the November 2026 RTGS standards release",
       "publisher": "Bank of England",
@@ -139,7 +125,35 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-08T01:42:43.709Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-09/government-to-stop-perpetrators-accessing-victims-superannuation/107124668",
+      "title": "Government to stop super being drained through fraud",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Perpetrators of domestic violence would be punished rather than rewarded for their actions when committing abuse against their former partners through the tax and super systems.",
+      "at": "2026-09-08T18:46:47.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "New government policy initiative targeting tax and superannuation system fraud in domestic abuse cases.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-08T19:14:37.953Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-09/solar-battery-scheme-allegations-fraud-misconduct/107098044",
+      "title": "'Battery cowboys' accused of gaming taxpayer-funded scheme",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Almost 100 whistleblower tip-offs claim dodgy operators are rorting a multi-billion-dollar taxpayer-funded solar battery program by mocking up installs, forging signatures and using unlicensed tradies for cash jobs.",
+      "at": "2026-09-08T18:40:34.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major whistleblower allegations regarding fraud in a multi-billion-dollar taxpayer-funded subsidy scheme.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-08T19:14:37.953Z"
     }
   ],
-  "updated": "2026-09-08T01:42:43.709Z"
+  "updated": "2026-09-08T19:14:37.954Z"
 }
