@@ -167,7 +167,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-08T20:15:21.462Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-09/rising-cost-of-business-challenging-country-towns-surcharge/107116412",
+      "title": "Small businesses fighting to stay open amid 'insidious cost creep'",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Small business owners hit with rising costs will no longer be able to add surcharges on card payments from October 1. One operator in regional South Australia has described it as an \"insidious cost creep\".",
+      "at": "2026-09-08T20:30:54.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "New ban prohibiting small businesses from adding card payment surcharges starting October 1 alters payments policy.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-08T21:13:24.461Z"
     }
   ],
-  "updated": "2026-09-08T20:15:21.462Z"
+  "updated": "2026-09-08T21:13:24.461Z"
 }
