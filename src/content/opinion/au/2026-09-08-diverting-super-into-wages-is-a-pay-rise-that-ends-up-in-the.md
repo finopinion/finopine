@@ -23,7 +23,7 @@ readMins: 4
 tags: ["superannuation","housing","australia"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-09-07/one-nation-pauline-hanson-rent-mortgage-super-retirement/107122814"
-draft: true
+draft: false
 sources:
   - label: "One Nation pushes for early super access for renters and mortgage holders"
     publisher: "ABC News"
