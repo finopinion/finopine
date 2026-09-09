@@ -23,7 +23,7 @@ readMins: 4
 tags: ["payments","regulation","small business"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-09-09/rising-cost-of-business-challenging-country-towns-surcharge/107116412"
-draft: true
+draft: false
 sources:
   - label: "Small businesses fighting to stay open amid 'insidious cost creep'"
     publisher: "ABC News"
