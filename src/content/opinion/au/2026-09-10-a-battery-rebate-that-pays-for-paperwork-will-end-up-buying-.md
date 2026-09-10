@@ -23,7 +23,7 @@ readMins: 4
 tags: ["subsidies","fraud","energy policy"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-09-09/solar-battery-scheme-allegations-fraud-misconduct/107098044"
-draft: true
+draft: false
 sources:
   - label: "'Battery cowboys' accused of gaming taxpayer-funded scheme"
     publisher: "ABC News"
