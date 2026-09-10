@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
+      "title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+      "publisher": "US Federal Reserve",
+      "jurisdiction": "us",
+      "summary": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+      "at": "2026-09-10T20:00:00.000Z",
+      "score": 5,
+      "corroboration": 0,
+      "why": "Interagency regulatory rule change expanding exam cycle eligibility for community banks.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-10T20:14:19.509Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-04/asic-at-parliamentary-inquiry-accountancy-firms-audit-misconduct/107115482",
       "title": "ASIC probing hundreds of audit complaints at big four accounting firms",
       "publisher": "ABC News",
@@ -113,5 +127,5 @@
       "queuedAt": "2026-09-10T07:17:46.447Z"
     }
   ],
-  "updated": "2026-09-10T07:17:46.447Z"
+  "updated": "2026-09-10T20:14:19.509Z"
 }
