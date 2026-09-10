@@ -125,7 +125,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-10T07:17:46.447Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-11/the-ai-data-centres-set-to-escape-planned-restrictions/107097556",
+      "title": "Why these big new AI data centres are set to escape new regulations",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Dozens of approved but yet-to-be-built AI data centre projects will escape the federal government's proposed restrictions around energy and water use because the new rules are not expected to be retrospective.",
+      "at": "2026-09-10T22:25:38.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "New proposed energy and water restrictions for data centres will not apply retrospectively to already approved projects.",
+      "urgency": "low",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-10T23:13:08.768Z"
     }
   ],
-  "updated": "2026-09-10T20:14:19.509Z"
+  "updated": "2026-09-10T23:13:08.768Z"
 }
