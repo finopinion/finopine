@@ -1,48 +1,6 @@
 {
   "items": [
     {
-      "link": "https://www.bankofengland.co.uk/news/2026/june/boe-launches-policy-statement-and-draft-rules-on-regulating-systemic-stablecoins",
-      "title": "Bank of England launches policy statement and draft rules on regulating systemic stablecoins",
-      "publisher": "Bank of England",
-      "jurisdiction": "uk",
-      "summary": "The Bank of England has today published its policy statement and draft Code of Practice (rules) for systemic stablecoin issuers.",
-      "at": "2026-06-22T07:30:00.000Z",
-      "score": 10,
-      "corroboration": 1,
-      "why": "New draft rules and policy statement for regulating systemic stablecoins.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-02T15:16:31.012Z"
-    },
-    {
-      "link": "https://www.bankofengland.co.uk/news/2026/august/delay-to-the-november-2026-rtgs-standards-release",
-      "title": "Delay to the November 2026 RTGS standards release",
-      "publisher": "Bank of England",
-      "jurisdiction": "uk",
-      "summary": "Bank of England statement",
-      "at": "2026-08-27T13:16:29.000Z",
-      "score": 6,
-      "corroboration": 0,
-      "why": "Unexpected delay to the key RTGS payment system standards release.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-02T15:16:31.012Z"
-    },
-    {
-      "link": "https://www.rba.gov.au/media-releases/2026/mr-26-24.html",
-      "title": "RITS Consultation and Retail CBDC Update",
-      "publisher": "Reserve Bank of Australia",
-      "jurisdiction": "au",
-      "summary": "Media Release Number 2026-24: The RBA today launched a consultation on the Role of RITS in Supporting Settlement in a Tokenised Ecosystem. As highlighted in Project Acacia, tokenisation has the potential to enhance the efficiency, functionality and resilience of Australia’s wholesale financial markets.",
-      "at": "2026-09-03T00:30:00.000Z",
-      "score": 6,
-      "corroboration": 0,
-      "why": "RBA launches formal consultation on settlement infrastructure for tokenised assets and retail CBDC.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-03T01:13:39.442Z"
-    },
-    {
       "link": "https://www.rba.gov.au/media-releases/2026/mr-26-25.html",
       "title": "Designation of Linfox Armaguard Pty Ltd under the Cash Distribution Framework Act 2026",
       "publisher": "Reserve Bank of Australia",
@@ -55,20 +13,6 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-03T05:27:04.074Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-02/gdp-june-quarter-2026/107106354",
-      "title": "Breaking: Australian economy grows faster than expected, raising rate hike risk",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Australia's economy grew 0.4 per cent in the June quarter, slightly beating most economist forecasts and further raising the prospect of an interest rate hike as soon as this month.",
-      "at": "2026-09-02T01:36:31.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "GDP beat forecasts, raising prospects for an imminent RBA interest rate hike.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-02T02:24:02.607Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-09-03/government-offers-small-businesses-a-trust-tax-workaround/107112000",
@@ -183,5 +127,5 @@
       "queuedAt": "2026-09-08T21:13:24.461Z"
     }
   ],
-  "updated": "2026-09-09T01:42:29.142Z"
+  "updated": "2026-09-10T01:43:04.289Z"
 }
