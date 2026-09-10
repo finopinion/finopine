@@ -1,34 +1,6 @@
 {
   "items": [
     {
-      "link": "https://www.rba.gov.au/media-releases/2026/mr-26-25.html",
-      "title": "Designation of Linfox Armaguard Pty Ltd under the Cash Distribution Framework Act 2026",
-      "publisher": "Reserve Bank of Australia",
-      "jurisdiction": "au",
-      "summary": "Media Release Number 2026-25: The RBA has today designated Linfox Armaguard Pty Ltd (Armaguard) (ACN 099 701 872) under the Cash Distribution Framework Act 2026 (the Act).",
-      "at": "2026-09-03T03:30:00.000Z",
-      "score": 6,
-      "corroboration": 0,
-      "why": "Official regulatory designation of a critical cash-in-transit provider under new framework.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-03T05:27:04.074Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-03/government-offers-small-businesses-a-trust-tax-workaround/107112000",
-      "title": "Government offers small businesses a trust tax workaround",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Those with discretionary trusts can be exempt from the new minimum 30 per cent tax if they agree to hold their trust distributions constant.",
-      "at": "2026-09-03T04:02:48.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "New tax policy exemption mechanism for small business discretionary trusts.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-03T05:27:04.074Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-09-04/asic-at-parliamentary-inquiry-accountancy-firms-audit-misconduct/107115482",
       "title": "ASIC probing hundreds of audit complaints at big four accounting firms",
       "publisher": "ABC News",
@@ -125,7 +97,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-08T21:13:24.461Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-10/nsw-alleged-crime-syndicate-600-million-financial-fraud/107137362",
+      "title": "'Perfect storm': How banks allegedly defrauded of up to $600m",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "NSW police say one of Australia's largest fraud syndicates has fleeced banks of up to $600 million in fraudulent loans in what one investigator described as the largest financial crime he has seen.",
+      "at": "2026-09-10T06:31:31.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major police action uncovering an alleged $600 million bank loan fraud syndicate.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-10T07:17:46.447Z"
     }
   ],
-  "updated": "2026-09-10T01:43:04.289Z"
+  "updated": "2026-09-10T07:17:46.447Z"
 }
