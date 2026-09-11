@@ -23,7 +23,7 @@ readMins: 4
 tags: ["bank supervision","community banks","financial regulation"]
 generated: true
 groundedIn: "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm"
-draft: true
+draft: false
 sources:
   - label: "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle"
     publisher: "US Federal Reserve"
