@@ -15,6 +15,20 @@
       "queuedAt": "2026-09-10T20:14:19.509Z"
     },
     {
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+      "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+      "publisher": "US Federal Reserve",
+      "jurisdiction": "us",
+      "summary": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+      "at": "2026-09-11T14:00:00.000Z",
+      "score": 5,
+      "corroboration": 0,
+      "why": "Proposed interagency guidance sets new regulatory expectations for bank third-party risk management.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-11T14:16:45.337Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-07/one-nation-pauline-hanson-rent-mortgage-super-retirement/107122814",
       "title": "One Nation pushes for early super access for renters and mortgage holders",
       "publisher": "ABC News",
@@ -141,5 +155,5 @@
       "queuedAt": "2026-09-11T09:15:33.338Z"
     }
   ],
-  "updated": "2026-09-11T09:15:33.338Z"
+  "updated": "2026-09-11T14:16:45.338Z"
 }
