@@ -15,20 +15,6 @@
       "queuedAt": "2026-09-10T20:14:19.509Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-09-04/asic-at-parliamentary-inquiry-accountancy-firms-audit-misconduct/107115482",
-      "title": "ASIC probing hundreds of audit complaints at big four accounting firms",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Corporate regulator ASIC tells a parliamentary inquiry major accounting firms KPMG, PwC, EY and Deloitte have revealed 551 complaints in three years about alleged audit misconduct.",
-      "at": "2026-09-04T05:01:51.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "ASIC reveals probe into 551 audit misconduct complaints across Big Four accounting firms.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-04T05:14:06.046Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-09-07/one-nation-pauline-hanson-rent-mortgage-super-retirement/107122814",
       "title": "One Nation pushes for early super access for renters and mortgage holders",
       "publisher": "ABC News",
@@ -139,7 +125,21 @@
       "urgency": "low",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-10T23:13:08.768Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-11/balcony-solar-to-become-legal-in-australia/107144234",
+      "title": "Being a renter, Jenny missed out on solar boon but that is about to change",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Australia readies to lift a ban on plug-in solar, unlocking access to the technology for millions of apartment dwellers and renters for the first time.",
+      "at": "2026-09-11T08:46:43.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Lifting a regulatory ban on plug-in solar represents a significant policy change opening access for renters.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-11T09:15:33.338Z"
     }
   ],
-  "updated": "2026-09-11T01:43:11.534Z"
+  "updated": "2026-09-11T09:15:33.338Z"
 }
