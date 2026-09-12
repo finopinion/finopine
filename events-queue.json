@@ -153,7 +153,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-11T09:15:33.338Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-12/london-tourist-tax-to-be-capped-at-5-per-cent/107146446",
+      "title": "London tourist tax on accommodation will be capped at 5pc, mayor says",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Legislation unveiled by the government this week will allow local authorities to charge a flat fee or percentage of an overnight stay for domestic and international guests in London accommodations.",
+      "at": "2026-09-12T04:12:16.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "New legislation unveiled introducing a tourist tax cap in London.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-12T05:14:14.258Z"
     }
   ],
-  "updated": "2026-09-11T14:16:45.338Z"
+  "updated": "2026-09-12T05:14:14.258Z"
 }
