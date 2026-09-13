@@ -167,7 +167,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-12T05:14:14.258Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-14/pensioners-to-shoulder-1-6b-private-health-changes/107139936",
+      "title": "Pensioners to shoulder huge portion of private health insurance 'cash grab'",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Pensioners will be hit hard by the federal government's controversial private health insurance rebate changes, with new analysis revealing that about half of the $3 billion in forecast savings will be clawed back from those on lower incomes.",
+      "at": "2026-09-13T18:40:50.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "New analysis reveals government health rebate changes disproportionately hit low-income pensioners.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-13T19:12:14.986Z"
     }
   ],
-  "updated": "2026-09-12T05:14:14.258Z"
+  "updated": "2026-09-13T19:12:14.986Z"
 }
