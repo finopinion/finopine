@@ -23,7 +23,7 @@ readMins: 4
 tags: ["bank supervision","outsourcing","community banks"]
 generated: true
 groundedIn: "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm"
-draft: true
+draft: false
 sources:
   - label: "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers"
     publisher: "US Federal Reserve"
