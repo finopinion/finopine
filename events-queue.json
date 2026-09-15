@@ -29,20 +29,6 @@
       "queuedAt": "2026-09-11T14:16:45.337Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-09-08/labor-broken-promise-on-plastic-recycling/107125916",
-      "title": "Government cites cost of living as reason to break its promise on recycling",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Industry groups say they were left blindsided by the federal government's decision to scrap mandatory standards for packaging.",
-      "at": "2026-09-07T19:01:37.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Government policy reversal scrapping promised mandatory packaging standards.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-08T01:42:43.709Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-09-09/government-to-stop-perpetrators-accessing-victims-superannuation/107124668",
       "title": "Government to stop super being drained through fraud",
       "publisher": "ABC News",
@@ -169,5 +155,5 @@
       "queuedAt": "2026-09-13T19:12:14.986Z"
     }
   ],
-  "updated": "2026-09-14T01:42:01.760Z"
+  "updated": "2026-09-15T01:44:03.039Z"
 }
