@@ -23,7 +23,7 @@ readMins: 4
 tags: ["tax","local government","tourism"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-09-12/london-tourist-tax-to-be-capped-at-5-per-cent/107146446"
-draft: true
+draft: false
 sources:
   - label: "London tourist tax on accommodation will be capped at 5pc, mayor says"
     publisher: "ABC News"
