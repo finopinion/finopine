@@ -1,22 +1,4 @@
 {
-  "selected": {
-    "link": "https://www.abc.net.au/news/2026-09-12/london-tourist-tax-to-be-capped-at-5-per-cent/107146446",
-    "title": "London tourist tax on accommodation will be capped at 5pc, mayor says",
-    "publisher": "ABC News",
-    "jurisdiction": "au",
-    "summary": "Legislation unveiled by the government this week will allow local authorities to charge a flat fee or percentage of an overnight stay for domestic and international guests in London accommodations.",
-    "at": "2026-09-12T04:12:16.000Z",
-    "score": 1,
-    "corroboration": 0,
-    "why": "New legislation unveiled introducing a tourist tax cap in London.",
-    "urgency": "medium",
-    "judgedBy": "gemini",
-    "queuedAt": "2026-09-12T05:14:14.258Z",
-    "fullText": "London tourist tax on accommodation will be capped at 5pc, mayor says - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home London tourist tax on accommodation will be capped at 5pc, mayor says Share Share article London tourist tax on accommodation will be capped at 5pc, mayor says By Georgie Hewson Topic: Travel and Tourism Posted Sat 12 Sep 2026 at 2:12pm Sat 12 Sep 2026 at 2:12pm Sat 12 Sep 2026 at 2:12pm The UK welcomes hundreds of thousands of tourists from Australia each year. ( Reuters: Isabel Infantes ) abc.net.au/news/london-tourist-tax-to-be-capped-at-5-per-cent/107146446 Link copied Share Share article A new tax on overnight stays in London will be capped at 5 per cent of the cost of accommodation, the BBC has reported. Under the legislation, local authorities will be able to charge a flat fee or a percentage of the cost of an overnight stay for domestic and international guests in London accommodations. London Mayor Sir Sadiq Khan told BBC London that he welcomed plans by the government and promised it would not be above 5 per cent per night. The exact amount has not yet been determined. &quot;I fully support the government&#x27;s decision, after years of lobbying, to give us the same powers that other cities, from New York to Los Angeles, from Chicago to Paris … have, which is the ability to raise a levy on those who come to our great city,&quot; he said. &quot;We&#x27;ve got to invest in making sure that [our] city continues to be attractive.&quot; There are concerns the costs could put visitors off heading to London, an extremely popular destination for Australians heading abroad. How will the tax work? Between November of last year and February of 2026, the UK government consulted on the design of a new power for English councils to introduce overnight visitor levies or a &quot;tourist tax&quot;. London &#x27;tourist tax&#x27; proposed for international travellers Australians heading to England could soon pay a new &quot;tourist tax&quot; on accommodation. The legal framework to do so will be introduced in the Overnight Visitor Levy bill, which has not yet been tabled in parliament. A visitor levy set by English mayors would apply to hotels, guesthouses, bed and breakfasts, hostels, campsites, self-catering properties, and short-term lets, and university and religious accommodation when let commercially. The levy would be set as a percentage of the price of the accommodation. Mayors would be able to set local exemptions. They would also be able to choose "
-  },
-  "reason": "Tourist tax policy involves genuine tradeoffs between revenue needs and competitiveness that merit debate",
-  "angle": "Capping tourist taxes at 5% risks underinvesting in city services while uncapped rates would unfairly burden visitors subsidizing local infrastructure.",
-  "confidence": 0.6,
-  "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-09-15T01:44:05.365Z"
+  "selected": null,
+  "reason": "Item reports distributional fact without sufficient context for arguable position on policy design. 'This harms pensioners' is conclusion, not argument."
 }

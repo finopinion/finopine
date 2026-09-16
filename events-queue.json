@@ -29,62 +29,6 @@
       "queuedAt": "2026-09-11T14:16:45.337Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-09-09/government-to-stop-perpetrators-accessing-victims-superannuation/107124668",
-      "title": "Government to stop super being drained through fraud",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Perpetrators of domestic violence would be punished rather than rewarded for their actions when committing abuse against their former partners through the tax and super systems.",
-      "at": "2026-09-08T18:46:47.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "New government policy initiative targeting tax and superannuation system fraud in domestic abuse cases.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-08T19:14:37.953Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-09/solar-battery-scheme-allegations-fraud-misconduct/107098044",
-      "title": "'Battery cowboys' accused of gaming taxpayer-funded scheme",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Almost 100 whistleblower tip-offs claim dodgy operators are rorting a multi-billion-dollar taxpayer-funded solar battery program by mocking up installs, forging signatures and using unlicensed tradies for cash jobs.",
-      "at": "2026-09-08T18:40:34.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Major whistleblower allegations regarding fraud in a multi-billion-dollar taxpayer-funded subsidy scheme.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-08T19:14:37.953Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-08/three-g7-countries-announce-import-ban-on-goods-from-settlements/107130998",
-      "title": "Israel closes UK consulate in East Jerusalem as three G7 countries ban settlement imports",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Britain, France and Canada will ban imports from Israeli settlements in the occupied West Bank, in a move that prompted a swift retaliation and could spark a broader geopolitical storm.",
-      "at": "2026-09-08T12:59:19.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Britain, France, and Canada implement new import bans on West Bank settlement goods.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-08T20:15:21.462Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-09/rising-cost-of-business-challenging-country-towns-surcharge/107116412",
-      "title": "Small businesses fighting to stay open amid 'insidious cost creep'",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Small business owners hit with rising costs will no longer be able to add surcharges on card payments from October 1. One operator in regional South Australia has described it as an \"insidious cost creep\".",
-      "at": "2026-09-08T20:30:54.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "New ban prohibiting small businesses from adding card payment surcharges starting October 1 alters payments policy.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-08T21:13:24.461Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-09-10/nsw-alleged-crime-syndicate-600-million-financial-fraud/107137362",
       "title": "'Perfect storm': How banks allegedly defrauded of up to $600m",
       "publisher": "ABC News",
@@ -155,5 +99,5 @@
       "queuedAt": "2026-09-13T19:12:14.986Z"
     }
   ],
-  "updated": "2026-09-15T01:44:03.039Z"
+  "updated": "2026-09-16T01:41:26.646Z"
 }
