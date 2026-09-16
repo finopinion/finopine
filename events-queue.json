@@ -111,7 +111,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-16T07:19:35.431Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-17/us-fed-raises-interest-rates-to-curb-inflation-trump/107162150",
+      "title": "US Fed hikes interest rates to curb inflation in move likely to rile Trump",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The US economy has been dealing with years of higher-than-target inflation, and prices have surged in the wake of Mr Trump's war on Iran, his signature tariff policies and the ongoing AI boom.",
+      "at": "2026-09-16T19:15:28.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major US Federal Reserve monetary policy decision to hike interest rates.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-16T20:16:25.940Z"
     }
   ],
-  "updated": "2026-09-16T07:19:35.431Z"
+  "updated": "2026-09-16T20:16:25.940Z"
 }
