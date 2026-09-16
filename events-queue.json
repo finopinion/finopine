@@ -97,7 +97,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-13T19:12:14.986Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-16/fears-glenden-will-become-a-ghost-town-after-legislation-change/107160630",
+      "title": "Community 'blindsided' by legislation change fears becoming ghost town",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The state government introduces legislation to repeal a requirement for a coal mine to house its workforce in a nearby town.",
+      "at": "2026-09-16T06:37:50.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Government introduced legislation repealing a coal mine's local workforce housing requirement.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-16T07:19:35.431Z"
     }
   ],
-  "updated": "2026-09-16T01:41:26.646Z"
+  "updated": "2026-09-16T07:19:35.431Z"
 }
