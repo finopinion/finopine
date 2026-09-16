@@ -23,7 +23,7 @@ readMins: 4
 tags: ["central-banking","governance","canada"]
 generated: true
 groundedIn: "https://www.bankofcanada.ca/2026/09/bank-canada-board-launches-process-fill-external-deputy-governor-position/"
-draft: true
+draft: false
 sources:
   - label: "Bank of Canada Board launches process to fill external Deputy Governor position"
     publisher: "Bank of Canada"
