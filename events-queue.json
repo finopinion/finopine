@@ -125,7 +125,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-16T20:16:25.940Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-17/asx-markets-business-live-news-september-19-2026/107162296",
+      "title": "Live: US policymakers expect Fed to raise rates again this year",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The US Federal Reserve has raised interest rates by 25 basis points and policymakers expect one more hike before the end of the year.",
+      "at": "2026-09-16T21:41:37.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Fed interest rate hike and signal of further tightening is a major central bank policy decision.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-16T22:17:34.264Z"
     }
   ],
-  "updated": "2026-09-16T20:16:25.940Z"
+  "updated": "2026-09-16T22:17:34.264Z"
 }
