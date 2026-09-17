@@ -29,20 +29,6 @@
       "queuedAt": "2026-09-11T14:16:45.337Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-09-10/nsw-alleged-crime-syndicate-600-million-financial-fraud/107137362",
-      "title": "'Perfect storm': How banks allegedly defrauded of up to $600m",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "NSW police say one of Australia's largest fraud syndicates has fleeced banks of up to $600 million in fraudulent loans in what one investigator described as the largest financial crime he has seen.",
-      "at": "2026-09-10T06:31:31.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Major police action uncovering an alleged $600 million bank loan fraud syndicate.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-10T07:17:46.447Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-09-11/the-ai-data-centres-set-to-escape-planned-restrictions/107097556",
       "title": "Why these big new AI data centres are set to escape new regulations",
       "publisher": "ABC News",
@@ -139,7 +125,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-16T22:17:34.264Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-17/labor-smart-glasses-restrictions-national-ai-standards/107166138",
+      "title": "Smart glasses ban looms as Labor sets out new AI rules",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Smart glasses could be prohibited in Commonwealth workplaces as the government consults on new rules for Australia's growing AI sector.",
+      "at": "2026-09-17T12:00:16.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Government consulting on new AI sector rules and potential workplace smart glasses prohibition.",
+      "urgency": "low",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-17T12:19:45.096Z"
     }
   ],
-  "updated": "2026-09-17T01:42:09.782Z"
+  "updated": "2026-09-17T12:19:45.096Z"
 }
