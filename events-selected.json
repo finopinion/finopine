@@ -1,4 +1,22 @@
 {
-  "selected": null,
-  "reason": "Item reports distributional fact without sufficient context for arguable position on policy design. 'This harms pensioners' is conclusion, not argument."
+  "selected": {
+    "link": "https://www.abc.net.au/news/2026-09-16/fears-glenden-will-become-a-ghost-town-after-legislation-change/107160630",
+    "title": "Community 'blindsided' by legislation change fears becoming ghost town",
+    "publisher": "ABC News",
+    "jurisdiction": "au",
+    "summary": "The state government introduces legislation to repeal a requirement for a coal mine to house its workforce in a nearby town.",
+    "at": "2026-09-16T06:37:50.000Z",
+    "score": 1,
+    "corroboration": 0,
+    "why": "Government introduced legislation repealing a coal mine's local workforce housing requirement.",
+    "urgency": "medium",
+    "judgedBy": "gemini",
+    "queuedAt": "2026-09-16T07:19:35.431Z",
+    "fullText": "Fears Glenden will become a ghost town after legislation change - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home Fears Glenden will become a ghost town after legislation change Share Share article Fears Glenden will become a ghost town after legislation change By Bryn Wakefield and Liam O&#x27;Connell ABC Tropical North Topic: Regional Communities Posted Wed 16 Sep 2026 at 4:37pm Wed 16 Sep 2026 at 4:37pm Wed 16 Sep 2026 at 4:37pm Questions remain about the future of Glenden and other resource towns. ( Supplied: Isaac Regional Council ) In short: The state government has introduced legislation to repeal a requirement for a nearby coal mine to house its workforce in Glenden. The mayor says the council and Glenden community were &quot;blindsided&quot; by an abrupt policy reversal. What happens next? Registrations of interest will open to buy houses, commercial buildings, and a lease of the entire town. abc.net.au/news/fears-glenden-will-become-a-ghost-town-after-legislation-change/107160630 Link copied Share Share article Tell us about your experience. Plans to save a small Queensland mining community from becoming a ghost town are being scrapped under proposed laws. Legislation forcing nearby coal mine workers to relocate from a work camp into the town of Glenden would be removed by amendments introduced to Queensland Parliament this week. The accommodation requirement for workers at QCoal&#x27;s Byerwen mine was legislated in 2023 by the former Labor state government, following a concerted campaign by the local council and residents . The government has instead opened registrations of interest for homes, commercial buildings, and a lease of the entire town, 160 kilometres west of Mackay, to draw private investment. Community &#x27;blindsided&#x27; Isaac Regional Council Mayor Kelly Vea Vea said the community was &quot;extremely surprised&quot; by the decision. &quot;The legislation that was introduced to parliament yesterday completely blindsided my council and blindsided Glenden,&quot; she said. &quot; The only bit of legislation that underpins the viability of Glenden has been ripped away in favour of an expression-of-interest process that tests the market. &quot; Previous plans &#x27;rushed&#x27; Glenden sits on land leased by Newlands coal mine owner Glencore, which took over its assets in 2013. When the mine transitioned to closure three years ago, the Queensland government legislated plans to shut down QCoal&#x27;s Byerwen camp by 2030, over fears the town coul"
+  },
+  "reason": "Government repealing workforce housing requirement for coal mine raises arguable question: does market-driven private investment better serve regional communities than mandated employer obligations?",
+  "angle": "Mandatory workforce housing requirements protect vulnerable regional towns better than deregulation and market-led development.",
+  "confidence": 0.72,
+  "vettedBy": "claude-haiku-4-5-20251001",
+  "vettedAt": "2026-09-17T01:42:12.495Z"
 }
