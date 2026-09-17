@@ -23,7 +23,7 @@ readMins: 4
 tags: ["mining","regulation","planning"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-09-16/fears-glenden-will-become-a-ghost-town-after-legislation-change/107160630"
-draft: true
+draft: false
 sources:
   - label: "Community 'blindsided' by legislation change fears becoming ghost town"
     publisher: "ABC News"
