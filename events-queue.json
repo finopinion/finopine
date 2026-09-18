@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
-      "title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
-      "publisher": "US Federal Reserve",
-      "jurisdiction": "us",
-      "summary": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
-      "at": "2026-09-10T20:00:00.000Z",
-      "score": 5,
-      "corroboration": 0,
-      "why": "Interagency regulatory rule change expanding exam cycle eligibility for community banks.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-10T20:14:19.509Z"
-    },
-    {
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
       "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
       "publisher": "US Federal Reserve",
@@ -27,20 +13,6 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-11T14:16:45.337Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-11/the-ai-data-centres-set-to-escape-planned-restrictions/107097556",
-      "title": "Why these big new AI data centres are set to escape new regulations",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Dozens of approved but yet-to-be-built AI data centre projects will escape the federal government's proposed restrictions around energy and water use because the new rules are not expected to be retrospective.",
-      "at": "2026-09-10T22:25:38.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "New proposed energy and water restrictions for data centres will not apply retrospectively to already approved projects.",
-      "urgency": "low",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-10T23:13:08.768Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-09-11/balcony-solar-to-become-legal-in-australia/107144234",
@@ -141,5 +113,5 @@
       "queuedAt": "2026-09-17T12:19:45.096Z"
     }
   ],
-  "updated": "2026-09-17T12:19:45.096Z"
+  "updated": "2026-09-18T01:40:55.793Z"
 }
