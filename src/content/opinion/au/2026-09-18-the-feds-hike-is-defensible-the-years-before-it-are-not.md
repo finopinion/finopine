@@ -23,7 +23,7 @@ readMins: 4
 tags: ["monetary policy","central bank independence","inflation"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-09-17/us-fed-raises-interest-rates-to-curb-inflation-trump/107162150"
-draft: true
+draft: false
 sources:
   - label: "US Fed hikes interest rates to curb inflation in move likely to rile Trump"
     publisher: "ABC News"
