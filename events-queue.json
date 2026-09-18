@@ -111,7 +111,21 @@
       "urgency": "low",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-17T12:19:45.096Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-18/rba-governor-talks-interest-rates-at-parliamentary-hearing/107167676",
+      "title": "Markets bet 95pc chance of September rate hike after latest RBA comments",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "If you are struggling with current interest rates, the Reserve Bank's leaders delivered the sobering message that they are only just getting back to a \"more sensible level\".",
+      "at": "2026-09-18T04:31:51.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Markets sharply pricing in a surprise September rate hike based on new RBA comments.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-18T05:15:37.991Z"
     }
   ],
-  "updated": "2026-09-18T01:40:55.793Z"
+  "updated": "2026-09-18T05:15:37.991Z"
 }
