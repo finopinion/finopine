@@ -83,7 +83,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-21T14:25:33.225Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-22/byd-ev-privacy-policy-update-china-surveillance-four-corners/107168584",
+      "title": "BYD cuts references to 'China' and 'surveillance' from its privacy policy",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The original policy gave the company almost unlimited powers to collect data on its Australian vehicle owners and broad discretion on how this could be disclosed.",
+      "at": "2026-09-21T18:52:40.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Corporate privacy policy shift regarding data collection and surveillance for a major automaker.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-21T19:14:22.156Z"
     }
   ],
-  "updated": "2026-09-21T14:25:33.225Z"
+  "updated": "2026-09-21T19:14:22.156Z"
 }
