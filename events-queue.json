@@ -1,62 +1,6 @@
 {
   "items": [
     {
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
-      "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
-      "publisher": "US Federal Reserve",
-      "jurisdiction": "us",
-      "summary": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
-      "at": "2026-09-11T14:00:00.000Z",
-      "score": 5,
-      "corroboration": 0,
-      "why": "Proposed interagency guidance sets new regulatory expectations for bank third-party risk management.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-11T14:16:45.337Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-11/balcony-solar-to-become-legal-in-australia/107144234",
-      "title": "Being a renter, Jenny missed out on solar boon but that is about to change",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Australia readies to lift a ban on plug-in solar, unlocking access to the technology for millions of apartment dwellers and renters for the first time.",
-      "at": "2026-09-11T08:46:43.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Lifting a regulatory ban on plug-in solar represents a significant policy change opening access for renters.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-11T09:15:33.338Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-12/london-tourist-tax-to-be-capped-at-5-per-cent/107146446",
-      "title": "London tourist tax on accommodation will be capped at 5pc, mayor says",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Legislation unveiled by the government this week will allow local authorities to charge a flat fee or percentage of an overnight stay for domestic and international guests in London accommodations.",
-      "at": "2026-09-12T04:12:16.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "New legislation unveiled introducing a tourist tax cap in London.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-12T05:14:14.258Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-14/pensioners-to-shoulder-1-6b-private-health-changes/107139936",
-      "title": "Pensioners to shoulder huge portion of private health insurance 'cash grab'",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Pensioners will be hit hard by the federal government's controversial private health insurance rebate changes, with new analysis revealing that about half of the $3 billion in forecast savings will be clawed back from those on lower incomes.",
-      "at": "2026-09-13T18:40:50.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "New analysis reveals government health rebate changes disproportionately hit low-income pensioners.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-13T19:12:14.986Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-09-16/fears-glenden-will-become-a-ghost-town-after-legislation-change/107160630",
       "title": "Community 'blindsided' by legislation change fears becoming ghost town",
       "publisher": "ABC News",
@@ -127,5 +71,5 @@
       "queuedAt": "2026-09-18T05:15:37.991Z"
     }
   ],
-  "updated": "2026-09-18T05:15:37.991Z"
+  "updated": "2026-09-21T01:42:09.249Z"
 }
