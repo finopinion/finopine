@@ -23,7 +23,7 @@ readMins: 4
 tags: ["monetary policy","central bank communication","rba"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-09-18/rba-governor-talks-interest-rates-at-parliamentary-hearing/107167676"
-draft: true
+draft: false
 sources:
   - label: "Markets bet 95pc chance of September rate hike after latest RBA comments"
     publisher: "ABC News"
