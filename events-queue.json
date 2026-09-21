@@ -97,7 +97,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-21T19:14:22.156Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-22/paramount-settles-with-us-states-clearing-way-warner-bros-merger/107179504",
+      "title": "Paramount settles with US states, clearing way for Warner Bros merger",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Opponents say Paramount's multi-billion-dollar merger with Warner Bros will slash Hollywood jobs, reduce the number of films produced, and threaten CNN's independence.",
+      "at": "2026-09-21T20:54:22.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Settlement with state regulators clears key legal hurdle for major corporate merger.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-21T21:14:49.321Z"
     }
   ],
-  "updated": "2026-09-21T19:14:22.156Z"
+  "updated": "2026-09-21T21:14:49.321Z"
 }
