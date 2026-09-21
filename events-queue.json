@@ -69,7 +69,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-18T05:15:37.991Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-22/asic-lays-down-the-law-to-australian-private-credit-sector/107178192",
+      "title": "'Clock is ticking' as ASIC warns private credit sector investors could bail",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "ASIC commissioner Simone Constant has fired a shot across the bow of Australian private credit, warning the clock is ticking on poor lending practices.",
+      "at": "2026-09-21T14:01:13.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "ASIC issues a direct regulatory warning over private credit lending practices, signaling potential future enforcement.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-21T14:25:33.225Z"
     }
   ],
-  "updated": "2026-09-21T01:42:09.249Z"
+  "updated": "2026-09-21T14:25:33.225Z"
 }
