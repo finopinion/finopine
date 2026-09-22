@@ -23,7 +23,7 @@ readMins: 4
 tags: ["private credit","asic","housing finance"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-09-22/asic-lays-down-the-law-to-australian-private-credit-sector/107178192"
-draft: true
+draft: false
 sources:
   - label: "'Clock is ticking' as ASIC warns private credit sector investors could bail"
     publisher: "ABC News"
