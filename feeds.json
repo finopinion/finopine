@@ -157,7 +157,9 @@
       "weight": 2,
       "jurisdiction": "auto",
       "url": "https://www.finextra.com/rss/headlines.aspx",
-      "verified": false
+      "verified": true,
+      "lastChecked": "2026-09-22",
+      "lastResult": "ok, 52 items"
     },
     {
       "id": "fintech-times",
@@ -166,7 +168,9 @@
       "weight": 1,
       "jurisdiction": "auto",
       "url": "https://thefintechtimes.com/feed",
-      "verified": false
+      "verified": false,
+      "lastChecked": "2026-09-22",
+      "lastResult": "403 bot wall — real but unusable unattended"
     },
     {
       "id": "sifted-fintech",
@@ -175,7 +179,9 @@
       "weight": 1,
       "jurisdiction": "auto",
       "url": "https://sifted.eu/sector/fintech/feed",
-      "verified": false
+      "verified": true,
+      "lastChecked": "2026-09-22",
+      "lastResult": "ok, 24 items"
     },
     {
       "id": "banking-dive",
@@ -184,7 +190,9 @@
       "weight": 1,
       "jurisdiction": "us",
       "url": "https://www.bankingdive.com/feeds/news/",
-      "verified": false
+      "verified": true,
+      "lastChecked": "2026-09-22",
+      "lastResult": "ok, 10 items"
     },
     {
       "id": "business-standard",
@@ -193,7 +201,9 @@
       "weight": 1,
       "jurisdiction": "in",
       "url": "https://www.business-standard.com/rss/latest.rss",
-      "verified": false
+      "verified": false,
+      "lastChecked": "2026-09-22",
+      "lastResult": "403 bot wall — real but unusable unattended"
     }
   ]
 }
