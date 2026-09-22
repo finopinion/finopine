@@ -15,6 +15,34 @@
       "queuedAt": "2026-09-22T08:16:12.742Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48447/cleartoken-wins-bank-of-england-approval-to-clear-tokenised-assets?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "ClearToken wins Bank of England approval to clear tokenised assets",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "ClearToken, a a London-based clearing house for global digital assets, has been approved by the Bank of England to operate a Digital Securities Depository (DSD) in the Digital Securities Sandbox.",
+      "at": "2026-09-22T09:43:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Bank of England approval marks key milestone in UK digital securities and clearing infrastructure.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-22T09:16:35.088Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48446/russian-fintech-a7-exploited-swift-controls-to-funnel-billion-of-dollars-in-sanctioned-payments?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Russian fintech A7 exploited Swift controls to funnel billion of dollars in sanctioned payments",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "An FT investigation has uncoverd a massive money laundering scam conducted by Kremlin-controlled fintech A7 that tricked international banks into handling billions of dollars in sanction-busting payments to Russian state companies.",
+      "at": "2026-09-22T09:09:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major investigation reveals multi-billion-dollar sanctions evasion exploiting Swift and international banking controls.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-22T09:16:35.088Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-16/fears-glenden-will-become-a-ghost-town-after-legislation-change/107160630",
       "title": "Community 'blindsided' by legislation change fears becoming ghost town",
       "publisher": "ABC News",
@@ -155,5 +183,5 @@
       "queuedAt": "2026-09-22T01:41:17.012Z"
     }
   ],
-  "updated": "2026-09-22T08:46:32.935Z"
+  "updated": "2026-09-22T09:16:35.088Z"
 }
