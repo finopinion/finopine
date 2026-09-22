@@ -23,7 +23,7 @@ readMins: 4
 tags: ["insurance","consumer protection","asic"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-09-22/asic-price-comparison-websites-warning-misleading-consumers/107179656"
-draft: true
+draft: false
 sources:
   - label: "Consumers duped by price comparison websites, ASIC warns"
     publisher: "ABC News"
