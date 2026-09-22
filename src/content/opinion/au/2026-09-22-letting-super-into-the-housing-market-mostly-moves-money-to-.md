@@ -23,7 +23,7 @@ readMins: 4
 tags: ["superannuation","housing","australia"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-09-22/federal-politics-liberals-float-super-changes-home-ownership/107179680"
-draft: true
+draft: false
 sources:
   - label: "Coalition weighing options to use super to boost home ownership"
     publisher: "ABC News"
