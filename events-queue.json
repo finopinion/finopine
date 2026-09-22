@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "link": "https://www.finextra.com/newsarticle/48439/eurosystem-brings-central-bank-money-to-tokenised-finance?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Eurosystem brings central bank money to tokenised finance",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The European Central Bank has launched Pontes, a solution that enables wholesale transactions in tokenised assets to be settled in central bank money.",
+      "at": "2026-09-21T11:42:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "ECB launches official infrastructure enabling central bank money settlement for tokenised wholesale assets.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-22T08:16:12.742Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-16/fears-glenden-will-become-a-ghost-town-after-legislation-change/107160630",
       "title": "Community 'blindsided' by legislation change fears becoming ghost town",
       "publisher": "ABC News",
@@ -141,5 +155,5 @@
       "queuedAt": "2026-09-22T01:41:17.012Z"
     }
   ],
-  "updated": "2026-09-22T01:41:17.012Z"
+  "updated": "2026-09-22T08:16:12.742Z"
 }
