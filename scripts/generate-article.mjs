@@ -77,7 +77,9 @@ if (!usable.length) {
 }
 note(`Verified feeds: ${usable.length} of ${registry.feeds.length}`);
 {
-  const reach = [...new Set(usable.map((f) => f.jurisdiction))].sort();
+  const reach = [...new Set(usable.map((f) => f.jurisdiction).filter((j) => j !== 'auto'))].sort();
+  const globalFeeds = usable.filter((f) => f.jurisdiction === 'auto').length;
+  if (globalFeeds) note(`Global feeds, country decided per story: ${globalFeeds}`);
   const all = ['au', 'nz', 'uk', 'ca', 'us', 'in'];
   const dark = all.filter((j) => !reach.includes(j));
   note(`Silos reachable: ${reach.join(', ') || 'none'}`);
@@ -119,7 +121,8 @@ function parseFeed(xml, feed) {
 const all = [];
 for (const f of usable) {
   try {
-    const res = await fetch(f.url, { headers: { 'user-agent': 'FinOpine/1.0' }, redirect: 'follow' });
+    // Timed. An untimed fetch to a slow publisher hung one run for ten minutes.
+    const res = await fetch(f.url, { headers: { 'user-agent': 'FinOpine/1.0' }, redirect: 'follow', signal: AbortSignal.timeout(15000) });
     if (res.status !== 200) { note(`  ${f.id}: HTTP ${res.status}, skipped`); continue; }
     const items = parseFeed(await res.text(), f);
     all.push(...items);
@@ -171,6 +174,33 @@ for (const file of seen) {
   if (m) alreadyCovered.add(m[1].trim());
 }
 
+/**
+ * FOCUS. Three runs a day, each timed for a region's morning. A run leans toward
+ * its region's news but is not confined to it: a strong piece beats a local one.
+ */
+const CODES = ['au', 'nz', 'uk', 'ca', 'us', 'in'];
+const FOCUS = CODES.includes(String(process.env.FOCUS || '').trim().toLowerCase())
+  ? String(process.env.FOCUS).trim().toLowerCase() : null;
+if (FOCUS) note(`Focus for this run: ${FOCUS}`);
+
+/**
+ * RECENT OUTPUT. At several pieces a day, three arguments about one central bank
+ * in two days reads like a site with one idea. The model sees the last few days.
+ */
+const recent = [];
+for (const file of seen) {
+  if (!file.endsWith('.md')) continue;
+  const t = await readFile(file, 'utf8');
+  const d = (t.match(/^date:\s*(\d{4}-\d{2}-\d{2})/m) || [])[1];
+  if (!d || Date.now() - new Date(d).getTime() > 4 * 86400000) continue;
+  if (/^draft:\s*true/m.test(t)) continue;
+  const title = (t.match(/^title:\s*"((?:[^"\\]|\\.)*)"/m) || [])[1] || '';
+  const kicker = (t.match(/^kicker:\s*"(.*?)"/m) || [])[1] || '';
+  const j = (t.match(/^jurisdiction:\s*"(.*?)"/m) || [])[1] || '';
+  recent.push({ d, j, kicker, title: title.replace(/\\"/g, '"') });
+}
+recent.sort((a, b) => b.d.localeCompare(a.d));
+
 let candidates = [];
 let usedWindow = null;
 for (const days of WINDOWS) {
@@ -179,7 +209,9 @@ for (const days of WINDOWS) {
     .filter((i) => !i.date || i.date.getTime() >= cutoff)
     .filter((i) => !alreadyCovered.has(i.link))
     .filter(isStable)
-    .sort((a, b) => (b.weight - a.weight) || ((b.date?.getTime() ?? 0) - (a.date?.getTime() ?? 0)))
+    .sort((a, b) =>
+      (Number(!!FOCUS && b.jurisdiction === FOCUS) - Number(!!FOCUS && a.jurisdiction === FOCUS)) ||
+      (b.weight - a.weight) || ((b.date?.getTime() ?? 0) - (a.date?.getTime() ?? 0)))
     .slice(0, MAX_CANDIDATES);
   usedWindow = days;
   if (candidates.length >= MIN_CANDIDATES) break;
@@ -238,7 +270,7 @@ note(`Candidates: ${candidates.length} (window ${usedWindow}d, ${alreadyCovered.
 const DEEP = 6;
 const DEEP_CHARS = 2600;
 
-async function fetchText(url) {
+async function fetchPage(url) {
   const ctl = new AbortController();
   const t = setTimeout(() => ctl.abort(), 12000);
   try {
@@ -247,41 +279,135 @@ async function fetchText(url) {
       signal: ctl.signal, redirect: 'follow'
     });
     if (res.status !== 200) return null;
+    // Only read what can actually be read. res.text() on a PDF is noise, and
+    // citing a document that was not read breaks the sourcing rule.
+    if (!/html|xml/i.test(res.headers.get('content-type') || '')) return null;
     const html = await res.text();
+    const pageTitle = ((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || '')
+      .replace(/<[^>]+>/g, ' ').replace(/&amp;/gi, '&').replace(/&#39;|&rsquo;/gi, "'")
+      .replace(/\s+/g, ' ').trim();
+    const links = [...new Set([...html.matchAll(/href\s*=\s*["']([^"'#\s]+)["']/gi)]
+      .map((m) => { try { return new URL(m[1], res.url || url).href; } catch { return null; } })
+      .filter(Boolean))];
     const text = html
       .replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<nav[\s\S]*?<\/nav>|<header[\s\S]*?<\/header>|<footer[\s\S]*?<\/footer>/gi, ' ')
       .replace(/<[^>]+>/g, ' ')
       .replace(/&nbsp;/gi, ' ').replace(/&amp;/gi, '&').replace(/&#\d+;/g, ' ')
       .replace(/\s+/g, ' ').trim();
-    return text.length > 400 ? text.slice(0, DEEP_CHARS) : null;
+    if (text.length <= 400) return null;
+    return { text: text.slice(0, DEEP_CHARS), links, title: pageTitle, url: res.url || url };
   } catch { return null; }
   finally { clearTimeout(t); }
 }
 
 {
   const top = candidates.slice(0, DEEP);
-  const got = await Promise.all(top.map((c) => fetchText(c.link)));
+  const got = await Promise.all(top.map((c) => fetchPage(c.link)));
   let n = 0;
-  got.forEach((text, i) => { if (text) { top[i].fullText = text; n++; } });
+  got.forEach((pg, i) => { if (pg) { top[i].fullText = pg.text; top[i].outLinks = pg.links; n++; } });
   note(`Fetched full text for ${n} of ${top.length} leading candidates`);
+}
+
+/* ------------------------------------------------------- go to the source */
+
+/**
+ * READ THE REPORT, THEN GO TO WHAT IT REPORTS ON.
+ *
+ * Nine of the first eleven Australian pieces were argued from an ABC report
+ * rather than the policy document it described. So for each news candidate,
+ * follow its links to any primary source - regulator, central bank, parliament,
+ * statistics agency, legislation register, exchange - read it, and cite it.
+ *
+ * Only links present in the fetched article are followed, and only pages that
+ * return 200 with readable text are cited. Nothing here can invent a URL.
+ */
+const PRIMARY = {
+  'rba.gov.au': ['Reserve Bank of Australia', 'au'], 'asic.gov.au': ['ASIC', 'au'],
+  'apra.gov.au': ['APRA', 'au'], 'treasury.gov.au': ['Australian Treasury', 'au'],
+  'ato.gov.au': ['Australian Taxation Office', 'au'], 'abs.gov.au': ['Australian Bureau of Statistics', 'au'],
+  'legislation.gov.au': ['Federal Register of Legislation', 'au'], 'aph.gov.au': ['Parliament of Australia', 'au'],
+  'accc.gov.au': ['ACCC', 'au'], 'austrac.gov.au': ['AUSTRAC', 'au'], 'afca.org.au': ['AFCA', 'au'],
+  'asx.com.au': ['ASX', 'au'], 'pm.gov.au': ['Prime Minister of Australia', 'au'],
+  'bankofengland.co.uk': ['Bank of England', 'uk'], 'fca.org.uk': ['Financial Conduct Authority', 'uk'],
+  'psr.org.uk': ['Payment Systems Regulator', 'uk'], 'legislation.gov.uk': ['legislation.gov.uk', 'uk'],
+  'parliament.uk': ['UK Parliament', 'uk'], 'gov.uk': ['UK Government', 'uk'],
+  'federalreserve.gov': ['US Federal Reserve', 'us'], 'sec.gov': ['US Securities and Exchange Commission', 'us'],
+  'consumerfinance.gov': ['Consumer Financial Protection Bureau', 'us'], 'occ.gov': ['Office of the Comptroller of the Currency', 'us'],
+  'fdic.gov': ['FDIC', 'us'], 'treasury.gov': ['US Treasury', 'us'], 'congress.gov': ['US Congress', 'us'],
+  'finra.org': ['FINRA', 'us'], 'cftc.gov': ['CFTC', 'us'], 'whitehouse.gov': ['The White House', 'us'],
+  'bankofcanada.ca': ['Bank of Canada', 'ca'], 'osfi-bsif.gc.ca': ['OSFI', 'ca'], 'canada.ca': ['Government of Canada', 'ca'],
+  'rbnz.govt.nz': ['Reserve Bank of New Zealand', 'nz'], 'fma.govt.nz': ['Financial Markets Authority', 'nz'],
+  'legislation.govt.nz': ['New Zealand Legislation', 'nz'],
+  'rbi.org.in': ['Reserve Bank of India', 'in'], 'sebi.gov.in': ['SEBI', 'in'], 'npci.org.in': ['NPCI', 'in'],
+  'ifsca.gov.in': ['IFSCA', 'in'], 'pib.gov.in': ['Press Information Bureau', 'in'],
+  'bis.org': ['Bank for International Settlements', null], 'imf.org': ['IMF', null], 'fsb.org': ['Financial Stability Board', null],
+  'iosco.org': ['IOSCO', null], 'fatf-gafi.org': ['FATF', null], 'ecb.europa.eu': ['European Central Bank', null],
+  'oecd.org': ['OECD', null], 'worldbank.org': ['World Bank', null]
+};
+const PRIMARY_KEYS = Object.keys(PRIMARY).sort((a, b) => b.length - a.length);
+function primaryOf(url) {
+  let host; try { host = new URL(url).hostname.toLowerCase().replace(/^www\./, ''); } catch { return null; }
+  const k = PRIMARY_KEYS.find((d) => host === d || host.endsWith('.' + d));
+  return k ? { domain: k, name: PRIMARY[k][0], country: PRIMARY[k][1] } : null;
+}
+// Site furniture, with or without a file extension (/privacy and /privacy.htm).
+const JUNK_PATH = /^\/?$|\/(about|contact|privacy|terms|cookies?|help|faq|careers?|jobs|search|accessibility|copyright|disclaimer|sitemap|subscribe|rss|feeds?|login|sign-?in)(\/|\.[a-z0-9]+$|$)/i;
+// A document, not a section front: /media-releases/ is an index, a release is
+// /media-releases/2026/mr-26-19.html. Require at least two path segments.
+const isDocumentPath = (u) => {
+  try { const p = new URL(u).pathname; return !JUNK_PATH.test(p) && p.split('/').filter(Boolean).length >= 2; }
+  catch { return false; }
+};
+
+{
+  const top = candidates.slice(0, DEEP).filter((c) => c.fullText && !primaryOf(c.link));
+  let followed = 0;
+  await Promise.all(top.map(async (c) => {
+    const links = (c.outLinks || [])
+      .filter((u) => primaryOf(u))
+      .filter(isDocumentPath)
+      .slice(0, 3);
+    if (!links.length) return;
+    const pages = await Promise.all(links.map((u) => fetchPage(u)));
+    c.primary = pages
+      .map((pg, i) => pg && { url: pg.url, title: pg.title || links[i], text: pg.text, ...primaryOf(pg.url) })
+      .filter((x) => x && x.name)
+      .slice(0, 2);
+    followed += c.primary.length;
+  }));
+  note(`Went to the source: ${followed} primary document(s) read behind ${top.length} news candidate(s)`);
 }
 
 /* --------------------------------------------------------------- the model */
 
 const models = JSON.parse(await readFile('models.json', 'utf8'));
 
-const prompt = `You write for FinOpine, which publishes opinion about monetary policy, tax law,
-financial regulation and market structure. Not stock tips. Not advice.
+const prompt = `You write for FinOpine, which publishes opinion on money: monetary policy, banking,
+markets and how they are structured, superannuation and pensions, tax, financial regulation,
+payments, consumer and housing finance, insurance, and fintech - the companies, products and
+business models changing financial services. Not stock tips. Not advice.
 
 Below are ${candidates.length} REAL items retrieved from official and press feeds moments ago.
 
 ${candidates.map((c, i) => `[${i}] ${c.publisher} — ${c.title}
     ${c.date ? c.date.toISOString().slice(0, 10) : 'undated'}
-    ${c.summary}`).join('\n\n')}
+    ${c.fullText ? c.fullText : c.summary + '\n    (headline and summary only - the full page could not be read, so you know less about this one)'}${(c.primary || []).map((p, k) => `
+
+    [${i}.P${k + 1}] PRIMARY SOURCE behind this report - ${p.name}: ${p.title}
+    ${p.text}`).join('')}`).join('\n\n')}
 
 ${forced ? `WRITE ABOUT ITEM [0]. It has already been selected as today's subject by an
 earlier editorial stage. The other items are context only - you may reference them if
 they bear on the argument, but the piece is about [0].` : 'Pick the ONE item that supports the strongest argument and write an opinion piece about it.'}
+
+${FOCUS ? `This run is timed for the morning in ${({ au: 'Australia', nz: 'New Zealand', uk: 'the United Kingdom', ca: 'Canada', us: 'the United States', in: 'India' })[FOCUS]}. Prefer a strong item about that country. If the best item is about somewhere else, write about that instead - a strong piece beats a local one.` : ''}
+
+${recent.length ? `ALREADY PUBLISHED IN THE LAST FEW DAYS. Do not repeat these subjects or angles, and when the choice is otherwise close, prefer a different area of finance:
+${recent.slice(0, 10).map((r) => `  - ${r.d} [${r.j}] ${r.kicker}: ${r.title}`).join('\n')}` : ''}
+
+YOU MAY DECLINE. If no item supports an argument worth publishing - only a restatement, a
+reaction, or something you would have to pad - return {"index": null, "declineReason": "one
+sentence"} and nothing else. Publishing nothing beats publishing filler.
 
 BEFORE YOU PICK, DISCARD:
 - Anything that is a market wrap, a live blog, or a round-up of several stories.
@@ -290,8 +416,8 @@ BEFORE YOU PICK, DISCARD:
   explain WHY the thing happened or WHAT it changes, you will pad instead.
 - Anything you would have to speculate about to fill 600 words.
 
-If none of the items clears that bar, pick the closest and write SHORTER rather
-than padding. A tight 400 words beats a padded 800.
+If an item clears that bar only just, write shorter rather than padding - a tight
+500 words beats a padded 800. If none clears it, decline.
 
 WORKED EXAMPLE — this is the house format. Match its shape, not its subject.
 
@@ -352,7 +478,20 @@ separately what would change your mind, which is what earns you the right to be
 blunt in the body.
 
 HARD RULES
-- Write using ONLY what is in the item you picked. If a fact is not there, do not assert it.
+- Write using ONLY what is in the item you picked and any primary source beneath it. If a
+  fact is not there, do not assert it.
+- When a PRIMARY SOURCE is given beneath a news item, argue from the primary source. The report
+  tells you what happened; the document tells you what was actually decided. Where they
+  differ, the document wins - and saying so is often the most interesting thing to write.
+- You may write about a named fintech, bank or financial company: its business model,
+  product, pricing, conduct, strategy, or how it is regulated. Never about its share price,
+  its valuation, or whether anyone should invest in it.
+- Any claim that a named company broke a rule, misled customers or behaved improperly must
+  be attributed to a regulator, a court or the company's own filing, and only if that source
+  is in front of you. Never make such a claim about a named individual.
+- Decide which country the piece is ABOUT - whose policy, market, regulator or company it
+  argues over - regardless of which outlet reported it. An Australian broadcaster's story
+  about the US Federal Reserve is a US piece.
 - PREFER an item whose full text you were given over one you only have a summary for.
   You cannot argue about the detail of something you have only seen the headline of,
   and a piece written from a two-line blurb will be padding.
@@ -373,7 +512,8 @@ HARD RULES
 
 Return ONLY this JSON, no fences, no preamble:
 {
-  "index": <the number of the item you picked>,
+  "index": <the number of the item you picked, or null to decline>,
+  "jurisdiction": "the country the piece is ABOUT, one of: au, nz, uk, ca, us, in",
   "kicker": "one or two words, e.g. Monetary policy. HARD MAXIMUM 24 characters.",
   "title": "40-90 characters. States the argument, not the topic. HARD MAXIMUM 90.",
   "dek": "one or two sentences. HARD MAXIMUM 240 characters.",
@@ -475,6 +615,25 @@ try {
   process.exit(1);
 }
 
+if (out.index === null || out.index === undefined) {
+  note(`Declined to write: ${out.declineReason || 'no candidate supported an argument worth publishing.'}`);
+  // Drop a declined event from the queue so the next run does not pay to reach
+  // the same conclusion again.
+  if (forced) {
+    try {
+      const q = JSON.parse(await readFile('events-queue.json', 'utf8'));
+      const before = (q.items || []).length;
+      q.items = (q.items || []).filter((x) => x.link !== forced.link);
+      if (q.items.length < before) {
+        await writeFile('events-queue.json', JSON.stringify(q, null, 2) + '\n');
+        note('  removed the declined subject from the queue');
+      }
+    } catch { /* no queue */ }
+  }
+  await flushSummary();
+  process.exit(0);
+}
+
 const item = candidates[out.index];
 if (!item) {
   note(`Model picked index ${out.index}, which is not in range 0..${candidates.length - 1}.`);
@@ -545,12 +704,52 @@ if (!out.supports || String(out.supports).trim().length < 20) {
 const slug = String(out.title).toLowerCase()
   .replace(/[^a-z0-9\s-]/g, '').trim().replace(/\s+/g, '-').slice(0, 60);
 const today = new Date().toISOString().slice(0, 10);
-const silo = item.jurisdiction || 'au';
+/**
+ * THE STORY DECIDES THE COUNTRY, NOT THE FEED.
+ *
+ * Countries used to come from the feed's tag, so an ABC report on the US Federal
+ * Reserve was filed under Australia, and so was one on London's tourist tax.
+ * Order of trust: the model's reading of what the piece argues over, then the
+ * country of a primary source it argued from, then the feed tag, then focus.
+ */
+const primaryCountries = (item.primary || []).map((p) => p.country).filter(Boolean);
+const modelSays = String(out.jurisdiction || '').trim().toLowerCase();
+const silo = CODES.includes(modelSays) ? modelSays
+  : primaryCountries.find((c) => CODES.includes(c))
+  || (CODES.includes(item.jurisdiction) ? item.jurisdiction : null)
+  || FOCUS || 'au';
+if (CODES.includes(item.jurisdiction) && item.jurisdiction !== silo) {
+  note(`  filed under ${silo}, although the feed is tagged ${item.jurisdiction}`);
+}
+if (primaryCountries.length && !primaryCountries.includes(silo)) {
+  note(`  note: primary source is from ${primaryCountries[0]}, piece filed under ${silo}`);
+}
 const siloDir = join(OUT_DIR, silo);
 await mkdir(siloDir, { recursive: true });
 const file = join(siloDir, `${today}-${slug}.md`);
 
 const yaml = (s) => JSON.stringify(String(s));
+
+/* Primary documents first - they are what the argument rests on - then the
+   report that surfaced the story. Every entry was fetched in this run. */
+const primaries = (item.primary || []).map((p) => ({
+  label: (p.title && p.title.length >= 4 ? p.title : `${p.name} document`).slice(0, 200),
+  publisher: p.name,
+  url: p.url,
+  supports: `The primary document the report describes. ${String(p.text).replace(/\s+/g, ' ').slice(0, 200)}`
+}));
+const sourcesYaml = [...primaries, {
+  label: item.title, publisher: item.publisher, url: item.link, supports: out.supports,
+  date: item.date ? item.date.toISOString().slice(0, 10) : today
+}].map((x) => [
+  `  - label: ${yaml(x.label)}`,
+  `    publisher: ${yaml(x.publisher)}`,
+  `    url: ${yaml(x.url)}`,
+  `    supports: ${yaml(x.supports)}`,
+  `    retrievedAt: ${yaml(today)}`,
+  ...(x.date ? [`    date: ${yaml(x.date)}`] : []),
+  '    verified: true'
+].join('\n')).join('\n');
 
 const md = `---
 jurisdiction: ${yaml(silo)}
@@ -573,13 +772,7 @@ generated: true
 groundedIn: ${yaml(item.link)}
 draft: true
 sources:
-  - label: ${yaml(item.title)}
-    publisher: ${yaml(item.publisher)}
-    url: ${yaml(item.link)}
-    supports: ${yaml(out.supports || item.summary.slice(0, 150))}
-    retrievedAt: ${yaml(today)}
-    date: ${yaml(item.date ? item.date.toISOString().slice(0, 10) : today)}
-    verified: true
+${sourcesYaml}
 ---
 
 ${out.body}
@@ -603,8 +796,9 @@ if (process.env.GITHUB_STEP_SUMMARY) {
     '**Plainly**', '', out.plainly, '',
     '**Position**', '', out.position, '',
     '**Wrong if**', '', out.falsifier, '',
-    '**Source**', '',
-    `${item.publisher} - ${item.title}`, `<${item.link}>`, '',
+    '**Sources**', '',
+    ...(item.primary || []).map((p) => `${p.name} (primary) - ${p.title} <${p.url}>`),
+    `${item.publisher} - ${item.title} <${item.link}>`, '',
     '---', '', out.body, '', '---', '',
     '### To publish', '',
     'Approve the waiting deployment. The draft flag flips and Cloudflare rebuilds.', '',

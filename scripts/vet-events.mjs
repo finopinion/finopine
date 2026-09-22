@@ -94,8 +94,12 @@ async function fetchText(url) {
 
 const prompt = `You select which financial news item, if any, deserves an opinion piece today.
 
-FinOpine publishes arguments about monetary policy, tax law, financial regulation, market
-structure and payments. Every piece must state a position and name what would prove it wrong.
+FinOpine publishes arguments about money: monetary policy, banking, markets and their structure,
+superannuation and pensions, tax, financial regulation, payments, consumer and housing finance,
+insurance, and fintech - the companies, products and business models changing financial services
+(never their share price). Every piece must state a position and name what would prove it wrong.
+${['au','nz','uk','ca','us','in'].includes(String(process.env.FOCUS||'').toLowerCase()) ? `
+This run is timed for the morning in ${({au:'Australia',nz:'New Zealand',uk:'the United Kingdom',ca:'Canada',us:'the United States',in:'India'})[String(process.env.FOCUS).toLowerCase()]}. Prefer an item about that country when two are otherwise close.` : ''}
 
 ${fresh.map((c, i) => `[${i}] ${c.publisher} (${c.jurisdiction}) - ${c.title}
     queued because: ${c.why}

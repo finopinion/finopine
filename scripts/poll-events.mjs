@@ -90,7 +90,7 @@ function parseFeed(xml, feed) {
 const fresh = [];
 for (const f of feeds) {
   try {
-    const res = await fetch(f.url, { headers: { 'user-agent': 'FinOpine-watch/1.0' }, redirect: 'follow' });
+    const res = await fetch(f.url, { headers: { 'user-agent': 'FinOpine-watch/1.0' }, redirect: 'follow', signal: AbortSignal.timeout(15000) });
     if (res.status !== 200) { note(`  ${f.id}: HTTP ${res.status}`); continue; }
     const items = parseFeed(await res.text(), f);
     const newOnes = items.filter((i) => !seen[i.link]);
@@ -151,7 +151,9 @@ const KEY = process.env.GEMINI_API_KEY;
 let judged = null;
 
 if (KEY) {
-  const prompt = `You are triaging financial news for an opinion site covering monetary policy,
+  const prompt = `You are triaging financial news for an opinion site covering money broadly - monetary policy,
+banking, markets, superannuation and pensions, consumer and housing finance, insurance, and fintech
+companies and products - as well as
 tax, financial regulation and payments. You are NOT writing anything. You are deciding
 which of these items, if any, is materially new rather than routine.
 

@@ -1,39 +1,53 @@
 # ---------------------------------------------------------------------------
-# Writes one opinion piece a day, then waits for you to approve it.
+# THE WIRE. Up to three pieces a weekday, one per regional morning.
 #
-# HOW THE APPROVAL WORKS
-# The second job targets an environment called "publish". If you add yourself
-# as a required reviewer on that environment, GitHub emails you when a run is
-# waiting, the email links to the run Summary which contains the ENTIRE draft,
-# and you approve or reject in one tap. No email parsing, no tokens, nothing
-# to host.
+#   22:30 UTC Sun-Thu  = 08:30 Mon-Fri in Sydney    focus: Australia
+#   08:30 UTC Mon-Fri  = 09:30 in London            focus: United Kingdom
+#   13:30 UTC Mon-Fri  = 09:30 in New York          focus: United States
 #
-#   Settings -> Environments -> New environment -> name it exactly: publish
-#   Tick "Required reviewers", add yourself, Save.
+# Cron is ALWAYS UTC, so local times drift an hour when clocks change - Sydney
+# in October, London and New York in late October and early November. They
+# stay mornings.
 #
-# IF YOU DO NOT SET THAT UP, this still works - GitHub creates the environment
-# on the fly with no protection rules and the job runs straight through, fully
-# automated. That is the fallback you asked for: it publishes, and you can pull
-# a piece afterwards by setting draft: true in the web editor.
+# "Up to" is deliberate. A run may decline when nothing supports an argument
+# worth publishing. That is the system refusing to pad, not a failure.
 #
-# Either way the draft is committed first with draft: true, so nothing reaches
-# the site until it is approved. Rejecting leaves it in the repo as a draft.
+# Each run leans toward its region's news but is not confined to it: a strong
+# piece about somewhere else beats a weak local one.
 #
-# Cron in Actions is ALWAYS UTC. 01:30 UTC = 07:00 IST = 11:30 AEST, Mon-Fri.
+# APPROVAL (optional): Settings -> Environments -> New environment -> "publish"
+# -> Required reviewers -> add yourself. Without it, pieces publish straight
+# through and can be pulled afterwards by setting draft: true.
 # ---------------------------------------------------------------------------
-name: Daily wire
+name: Wire
 
 on:
   schedule:
-    - cron: '30 1 * * 1-5'
+    - cron: '30 22 * * 0-4'
+    - cron: '30 8 * * 1-5'
+    - cron: '30 13 * * 1-5'
   workflow_dispatch:
+    inputs:
+      focus:
+        description: 'Lean toward a country: au, uk, us, ca, in or nz. Leave blank for none.'
+        required: false
+        default: ''
 
 permissions:
   contents: write
 
+# Never two wires at once. A second run waits rather than racing the first to
+# push, which would fail after the writing had already been paid for.
+concurrency:
+  group: wire
+  cancel-in-progress: false
+
 jobs:
   draft:
     runs-on: ubuntu-latest
+    # An untimed fetch once held a run for ten minutes. Cap it so a hang
+    # cannot burn an hour of runner time.
+    timeout-minutes: 20
     outputs:
       file: ${{ steps.gen.outputs.file }}
     steps:
@@ -42,53 +56,56 @@ jobs:
         with: { node-version: '24' }
       - run: npm install
 
+      # Inputs go through env and are checked against known codes, never
+      # interpolated straight into the shell.
+      - name: Work out this run's focus
+        id: focus
+        env:
+          SCHED: ${{ github.event.schedule }}
+          INPUT_FOCUS: ${{ github.event.inputs.focus }}
+        run: |
+          case "$SCHED" in
+            "30 22 * * 0-4") f=au ;;
+            "30 8 * * 1-5")  f=uk ;;
+            "30 13 * * 1-5") f=us ;;
+            *)               f="$INPUT_FOCUS" ;;
+          esac
+          case "$f" in au|nz|uk|ca|us|in) ;; *) f="" ;; esac
+          echo "focus=$f" >> "$GITHUB_OUTPUT"
+          echo "Focus for this run: ${f:-none}" >> "$GITHUB_STEP_SUMMARY"
+
       - name: Confirm the feeds are reachable
         run: node scripts/check-feeds.mjs
         continue-on-error: true
 
-      # POLL FIRST, rather than trusting the hourly watcher to have run recently.
-      #
-      # On 2 September the wire fired at 01:41 and the watcher queued that day's
-      # item at 02:24 - 43 minutes too late. The queue held only the previous
-      # day's subject, which had already been written about. Australian news
-      # lands roughly 23:00-04:00 UTC, and Actions cron is not punctual, so any
-      # fixed offset between the two jobs will sometimes miss.
-      #
-      # Polling inline removes the dependency: the queue is always current as of
-      # this run. The hourly watcher still exists to catch breaking events
-      # between wires.
+      # Poll inline rather than trusting the hourly watcher's timing. A fixed
+      # offset between two cron jobs will sometimes miss, because Actions cron
+      # is not punctual.
       - name: Refresh the queue
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/poll-events.mjs
         continue-on-error: true
 
-      # STAGE 2 - Haiku decides whether anything in the queue is worth an
-      # argument. Publishing nothing is a valid outcome here.
       - name: Vet the event queue
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FOCUS: ${{ steps.focus.outputs.focus }}
         run: node scripts/vet-events.mjs
         continue-on-error: true
 
-      # STAGE 3 - Opus writes. Uses the vetted event if there is one, otherwise
-      # falls back to the scheduled candidate pool.
+      # Reads each news candidate, follows its links to the primary document
+      # behind it, and argues from that. May decline.
       - name: Draft one piece
         id: gen
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FOCUS: ${{ steps.focus.outputs.focus }}
         run: node scripts/generate-article.mjs
 
-
-      # KEEP THE DRAFT WHATEVER HAPPENS, THEN VALIDATE.
-      #
-      # The draft is uploaded as an artifact before anything can reject it, so a
-      # failed run leaves a downloadable file rather than nothing. Two finished
-      # articles were lost before this existed.
-      #
-      # Validation must run BEFORE the commit, not after: Astro validates every
-      # content file including drafts, so committing an invalid one to main
-      # would break the Cloudflare build for the whole site, not just this piece.
+      # Keep the draft whatever happens, then validate. Validation runs BEFORE
+      # the commit: Astro validates every content file including drafts, so an
+      # invalid one on main would break the build for the whole site.
       - name: Keep the draft even if it fails
         if: steps.gen.outputs.file != ''
         uses: actions/upload-artifact@v4
@@ -104,6 +121,8 @@ jobs:
           npm run check:compliance
           npm run check:readability || true
 
+      # The hourly watcher commits too. Rebase onto whatever landed while this
+      # run was writing, instead of failing the push after paying for the piece.
       - name: Commit as an unpublished draft
         if: steps.gen.outputs.file != ''
         run: |
@@ -112,9 +131,21 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git add -A
             git commit -m "wire: draft $(date -u +%F) [skip ci]"
-            git push
+            for i in 1 2 3; do git pull --rebase --autostash && git push && break; sleep 5; done
           fi
 
+      # Keep the queue even when nothing was written, so a declined subject is
+      # not reconsidered at the next run's expense.
+      - name: Keep pipeline state
+        if: always()
+        run: |
+          git config user.name  "FinOpine"
+          git config user.email "Finopine09@gmail.com"
+          if [ -n "$(git status --porcelain events-queue.json events-seen.json)" ]; then
+            git add events-queue.json events-seen.json
+            git commit -m "wire: queue state [skip ci]"
+            for i in 1 2 3; do git pull --rebase --autostash && git push && break; sleep 5; done
+          fi
 
   publish:
     needs: draft
@@ -125,14 +156,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { ref: main }
-      - run: git pull --rebase
 
       - name: Publish it
+        env:
+          FILE: ${{ needs.draft.outputs.file }}
         run: |
-          sed -i 's/^draft: true$/draft: false/' "${{ needs.draft.outputs.file }}"
           git config user.name  "FinOpine"
           git config user.email "Finopine09@gmail.com"
+          git pull --rebase
+          sed -i 's/^draft: true$/draft: false/' "$FILE"
           git add -A
-          git commit -m "wire: publish $(basename '${{ needs.draft.outputs.file }}')"
-          git push
-          echo "Published. Cloudflare rebuilds on this push." >> $GITHUB_STEP_SUMMARY
+          git commit -m "wire: publish $(basename "$FILE")"
+          for i in 1 2 3; do git pull --rebase --autostash && git push && break; sleep 5; done
+          echo "Published. Cloudflare rebuilds on this push." >> "$GITHUB_STEP_SUMMARY"

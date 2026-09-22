@@ -6,9 +6,13 @@
     "The generator and poller refuse any feed not marked verified, so an incorrect",
     "URL cannot reach a published citation.",
     "",
-    "Each feed carries a jurisdiction. A piece is written into that country's",
-    "folder. Feeds tagged skip are never used: the cross-country section requires",
-    "comparing two or more countries, which a piece grounded in one item cannot do.",
+    "jurisdiction is a HINT, not a decision. The piece is filed under the country",
+    "it argues over, decided per story - so an Australian broadcaster's report on",
+    "the US Federal Reserve lands under the US. Global feeds are tagged auto.",
+    "Feeds tagged skip are never used.",
+    "",
+    "News feeds surface the story; the generator then follows the article's own",
+    "links to the primary document behind it and argues from that.",
     "",
     "Only 404 and 410 mean dead. A 403 is a bot wall and a 5xx is a bad day."
   ],
@@ -145,6 +149,51 @@
       "verified": true,
       "lastChecked": "2026-09-22",
       "lastResult": "ok, 10 items"
+    },
+    {
+      "id": "finextra",
+      "publisher": "Finextra",
+      "kind": "press",
+      "weight": 2,
+      "jurisdiction": "auto",
+      "url": "https://www.finextra.com/rss/headlines.aspx",
+      "verified": false
+    },
+    {
+      "id": "fintech-times",
+      "publisher": "The Fintech Times",
+      "kind": "press",
+      "weight": 1,
+      "jurisdiction": "auto",
+      "url": "https://thefintechtimes.com/feed",
+      "verified": false
+    },
+    {
+      "id": "sifted-fintech",
+      "publisher": "Sifted",
+      "kind": "press",
+      "weight": 1,
+      "jurisdiction": "auto",
+      "url": "https://sifted.eu/sector/fintech/feed",
+      "verified": false
+    },
+    {
+      "id": "banking-dive",
+      "publisher": "Banking Dive",
+      "kind": "press",
+      "weight": 1,
+      "jurisdiction": "us",
+      "url": "https://www.bankingdive.com/feeds/news/",
+      "verified": false
+    },
+    {
+      "id": "business-standard",
+      "publisher": "Business Standard",
+      "kind": "press",
+      "weight": 1,
+      "jurisdiction": "in",
+      "url": "https://www.business-standard.com/rss/latest.rss",
+      "verified": false
     }
   ]
 }

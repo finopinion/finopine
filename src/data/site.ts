@@ -40,9 +40,10 @@ export const SITE = {
      This is not decoration. scripts/check-compliance.mjs enforces it.       */
   editorial: {
     publishes: [
-      'Opinion on monetary policy, tax law, regulation and market structure',
-      'Argument about whether a policy is well designed',
-      'Analysis of published data, with the source named'
+      'Opinion on monetary policy, banking, markets, tax, superannuation and financial regulation',
+      'Analysis of fintech and financial companies: their products, business models and conduct',
+      'Argument about whether a policy, a rule or a product is well designed',
+      'Analysis of published data and documents, with the source named'
     ],
     doesNotPublish: [
       'Recommendations to buy, sell or hold any financial product',

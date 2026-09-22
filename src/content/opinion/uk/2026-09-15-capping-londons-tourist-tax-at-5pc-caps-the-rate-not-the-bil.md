@@ -1,5 +1,5 @@
 ---
-jurisdiction: "au"
+jurisdiction: "uk"
 title: "Capping London's tourist tax at 5pc caps the rate, not the bill"
 dek: "A percentage ceiling floats with room prices, so it is an index rather than a limit. The decision worth arguing about is whether boroughs may each choose their own instrument."
 kicker: "Tax law"

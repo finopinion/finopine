@@ -153,11 +153,8 @@ for (const f of files) {
     }
   }
 
-  /* --- pieces filed into a silo that is not live yet -------------------- */
-  if (isPiece && silo && silo.status === 'planned') {
-    warnings.push({ f, n: 1,
-      why: `Silo "${code}" is marked planned in jurisdictions.ts, so this will not render.`, line: '' });
-  }
+  // No status warning here any more: pages are built from what is published,
+  // not from a status flag, so a piece in a 'planned' country renders normally.
 
   const local = silo
     ? silo.banned.map(([src, why]) => [new RegExp(src, 'i'), `[${code}] ${why}`])
