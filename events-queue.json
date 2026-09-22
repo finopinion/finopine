@@ -71,6 +71,20 @@
       "queuedAt": "2026-09-22T21:13:57.616Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48454/global-banks-take-on-agentic-commerce-scam-and-fraud-concerns?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Global banks take on agentic commerce scam and fraud concerns",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "A group of six global banks, including Bank of America and NatWest, has put together a set of principles designed to address concerns about scams, fraud and data privacy in agentic commerce.",
+      "at": "2026-09-22T14:45:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major global banks establish new principles targeting fraud and privacy risks in AI agentic commerce.",
+      "urgency": "low",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-22T22:40:48.402Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-16/fears-glenden-will-become-a-ghost-town-after-legislation-change/107160630",
       "title": "Community 'blindsided' by legislation change fears becoming ghost town",
       "publisher": "ABC News",
@@ -211,5 +225,5 @@
       "queuedAt": "2026-09-22T01:41:17.012Z"
     }
   ],
-  "updated": "2026-09-22T21:13:57.616Z"
+  "updated": "2026-09-22T22:40:48.402Z"
 }
