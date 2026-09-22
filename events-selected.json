@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.abc.net.au/news/2026-09-22/asic-lays-down-the-law-to-australian-private-credit-sector/107178192",
-    "title": "'Clock is ticking' as ASIC warns private credit sector investors could bail",
-    "publisher": "ABC News",
-    "jurisdiction": "au",
-    "summary": "ASIC commissioner Simone Constant has fired a shot across the bow of Australian private credit, warning the clock is ticking on poor lending practices.",
-    "at": "2026-09-21T14:01:13.000Z",
-    "score": 1,
+    "link": "https://www.finextra.com/newsarticle/48446/russian-fintech-a7-exploited-swift-controls-to-funnel-billion-of-dollars-in-sanctioned-payments?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "Russian fintech A7 exploited Swift controls to funnel billion of dollars in sanctioned payments",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "An FT investigation has uncoverd a massive money laundering scam conducted by Kremlin-controlled fintech A7 that tricked international banks into handling billions of dollars in sanction-busting payments to Russian state companies.",
+    "at": "2026-09-22T09:09:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "ASIC issues a direct regulatory warning over private credit lending practices, signaling potential future enforcement.",
-    "urgency": "medium",
+    "why": "Major investigation reveals multi-billion-dollar sanctions evasion exploiting Swift and international banking controls.",
+    "urgency": "high",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-21T14:25:33.225Z",
-    "fullText": "Investor fears private credit mass exodus as ASIC cracks whip on lending standards - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home Investor fears private credit mass exodus as ASIC cracks whip on lending standards Share Share article Investor fears private credit mass exodus as ASIC cracks whip on lending standards By business correspondent David Taylor Topic: Credit and Lending Posted Tue 22 Sep 2026 at 12:01am Tue 22 Sep 2026 at 12:01am Tue 22 Sep 2026 at 12:01am , updated Tue 22 Sep 2026 at 8:00am Tue 22 Sep 2026 at 8:00am Tue 22 Sep 2026 at 8:00am Simone Constant has fired a shot across the bow of Australian private credit. ( ABC News: John Gunn ) In short: ASIC commissioner Simone Constant has fired a shot across the bow of Australian private credit, warning the clock is ticking on poor lending practices. Meanwhile, a private credit investor has told the ABC a contagion or run on funds in the industry remains &quot;possible&quot; should more investors worry about retrieving their money from funds. What&#x27;s next? Ms Constant will speak today at a gathering in Sydney hosted by the Commercial and Asset Finance Brokers Association. abc.net.au/news/asic-lays-down-the-law-to-australian-private-credit-sector/107178192 Link copied Share Share article Tell us about your experience. ASIC has signalled there is no time to waste in preventing an Australian private credit crisis. Today, ASIC commissioner Simone Constant will tell a gathering in Sydney hosted by the Commercial and Asset Finance Brokers Association (CAFBA) that the &quot;clock is ticking&quot; on &quot;whether we see broader credit stress or not&quot; in Australia. The collapse of NSW property developer Bathla has highlighted how private lenders are exposed to financially vulnerable construction companies. Bathla continued running high-profile promotions during its decline. ( Supplied: Instagram ) CVS Lane First Mortgage Fund and CVS Lane Property Finance Fund had exposure to Bathla across nine different loans. &quot;Our work has shone a light on the weaknesses in private credit, but despite our ongoing calls for uplift across the sector, too many have been too slow to respond,&quot; Ms Constant said. Bathla&#x27;s collapse exposes housing industry issues The collapse of Bathla is a disaster for the national housing supply and affordability project: its now-stalled pipeline of 14,000 apartments represents about 18.5 per cent of new housing stock to be built in NSW this year. &quot;And what we&#x27;re seein"
+    "queuedAt": "2026-09-22T09:16:35.088Z"
   },
-  "reason": "ASIC's private credit warnings assume tighter rules prevent runs; the opposite may be true if forced exits destabilise funds faster",
-  "angle": "Regulatory crackdowns on private credit lending standards could trigger the very contagion event regulators aim to prevent by spoking investors and forcing hasty redemptions.",
-  "confidence": 0.72,
+  "reason": "Sanctions evasion via fintech reveals whether current controls architecture is fundamentally broken or merely needs enforcement upgrades",
+  "angle": "Financial regulation must choose between redesigning cross-border payment infrastructure or accepting that determined actors will always find workarounds.",
+  "confidence": 0.7,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-09-22T08:46:36.051Z"
+  "vettedAt": "2026-09-22T13:40:28.003Z"
 }
