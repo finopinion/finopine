@@ -23,7 +23,7 @@ readMins: 4
 tags: ["sanctions","payments","financial regulation"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48446/russian-fintech-a7-exploited-swift-controls-to-funnel-billion-of-dollars-in-sanctioned-payments?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Russian fintech A7 exploited Swift controls to funnel billion of dollars in sanctioned payments"
     publisher: "Finextra"
