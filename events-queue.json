@@ -57,6 +57,20 @@
       "queuedAt": "2026-09-22T11:15:29.672Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48457/airtel-money-to-launch-london-ipo?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Airtel Money to launch London IPO",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "African mobile payments giant Airtel Money is set to file for a London initial public offering that could raise at least $800 million at a $9 billion valuation.",
+      "at": "2026-09-22T21:03:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major fintech firm preparing $9 billion London IPO.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-22T21:13:57.616Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-16/fears-glenden-will-become-a-ghost-town-after-legislation-change/107160630",
       "title": "Community 'blindsided' by legislation change fears becoming ghost town",
       "publisher": "ABC News",
@@ -197,5 +211,5 @@
       "queuedAt": "2026-09-22T01:41:17.012Z"
     }
   ],
-  "updated": "2026-09-22T13:40:25.612Z"
+  "updated": "2026-09-22T21:13:57.616Z"
 }
