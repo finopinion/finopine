@@ -23,7 +23,7 @@ readMins: 4
 tags: ["tokenisation","market infrastructure","bank of england"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48447/cleartoken-wins-bank-of-england-approval-to-clear-tokenised-assets?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "ClearToken wins Bank of England approval to clear tokenised assets"
     publisher: "Finextra"
