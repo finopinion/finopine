@@ -23,7 +23,7 @@ readMins: 4
 tags: ["insurance","competition","mergers"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-09-23/watchdog-blocks-sale-of-rac-wa-insurance-arm-to-iag/107184622"
-draft: true
+draft: false
 sources:
   - label: "Watchdog again blocks sale of RAC WA insurance arm to east-coast giant"
     publisher: "ABC News"
