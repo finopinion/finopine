@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.abc.net.au/news/2026-09-22/asic-price-comparison-websites-warning-misleading-consumers/107179656",
-    "title": "Consumers duped by price comparison websites, ASIC warns",
-    "publisher": "ABC News",
-    "jurisdiction": "au",
-    "summary": "Australians hunting bargains on comparison websites risk being duped by sites that only offer a selection of preferred providers.",
-    "at": "2026-09-21T21:58:38.000Z",
-    "score": 1,
+    "link": "https://www.finextra.com/newsarticle/48447/cleartoken-wins-bank-of-england-approval-to-clear-tokenised-assets?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "ClearToken wins Bank of England approval to clear tokenised assets",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "ClearToken, a a London-based clearing house for global digital assets, has been approved by the Bank of England to operate a Digital Securities Depository (DSD) in the Digital Securities Sandbox.",
+    "at": "2026-09-22T09:43:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "Financial regulator issues public warning on misleading comparison sites.",
+    "why": "Bank of England approval marks key milestone in UK digital securities and clearing infrastructure.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-22T01:41:17.012Z",
-    "fullText": "Consumers getting duped by price comparison websites, ASIC warns - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home Consumers getting duped by price comparison websites, ASIC warns Share Share article Consumers getting duped by price comparison websites, ASIC warns Topic: Consumer Protection Posted Tue 22 Sep 2026 at 7:58am Tue 22 Sep 2026 at 7:58am Tue 22 Sep 2026 at 7:58am The corporate watchdog issued the warning after launching multiple court actions. ( Getty Images: Gerardo Huitrón ) In short: The corporate watchdog has issued a warning against price comparison websites for allegedly misleading consumers. ASIC has launched multiple court actions regarding the range of products offered and sites promoting multiple leads from a single brand. The watchdog also warned consumers about service agreements, ensuring they don&#x27;t sign away private data. abc.net.au/news/asic-price-comparison-websites-warning-misleading-consumers/107179656 Link copied Share Share article Tell us about your experience. Australians hunting bargains on comparison websites risk being duped by sites that only offer a selection of preferred providers. The corporate watchdog has issued a warning after launching multiple court actions against websites for allegedly misleading consumers about the range of financial services and products on offer and, in some cases, promoting multiple leads from a single brand. While comparison websites are a good place to start for prices and services information, consumers should conduct deeper research, Australian Securities and Investments Commission (ASIC) commissioner Alan Kirkland said. &quot;The products that are listed by many comparison sites are selected and ordered based on what the product providers pay to the comparison sites, and they may not give you a full view of the market,&quot; Mr Kirkland said. &quot; It&#x27;s important to actually use a range of comparison sites in order to get a fuller view of the market. &quot; The Federal Court recently found comparison site Choosi — which offers life, funeral, income protection and health insurance products — misled consumers over four years from mid-2019 after claiming to compare a slew of funeral and life insurance policies, when Hannover Life Re issued all but one of the policies offered. Every single policy in question was distributed by Greenstone Financial Services, a company linked with Choosi. The court has not set a date to hand down Choosi&#x27;s penalty, but an administrative hearing will be h"
+    "queuedAt": "2026-09-22T09:16:35.088Z"
   },
-  "reason": "ASIC's warning assumes comparison sites harm consumers, but the real problem may be consumer behaviour and inadequate financial literacy rather than site design.",
-  "angle": "Regulator should mandate disclosure of ranking methodology rather than warn consumers away from useful tools.",
+  "reason": "UK bank regulator approval for tokenised asset clearing creates testable claims about whether regulatory sandbox success predicts market adoption",
+  "angle": "Regulatory approval of tokenised finance infrastructure proves the technology solves real problems for wholesale finance, not that it will actually be used at scale",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-09-22T22:40:50.493Z"
+  "vettedAt": "2026-09-23T08:45:16.221Z"
 }

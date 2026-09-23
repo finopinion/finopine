@@ -85,18 +85,18 @@
       "queuedAt": "2026-09-22T22:40:48.402Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-09-16/fears-glenden-will-become-a-ghost-town-after-legislation-change/107160630",
-      "title": "Community 'blindsided' by legislation change fears becoming ghost town",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "The state government introduces legislation to repeal a requirement for a coal mine to house its workforce in a nearby town.",
-      "at": "2026-09-16T06:37:50.000Z",
-      "score": 1,
+      "link": "https://www.finextra.com/newsarticle/48453/sofi-bank-goes-live-with-stablecoin-settlement-across-mastercard-network?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "SoFi Bank goes live with stablecoin settlement across Mastercard network",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "SoFi Bank has joined forces with Mastercard to migrate its full card programme to blockchain settlement using its own SoFiUSD stablecoin.",
+      "at": "2026-09-23T00:01:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Government introduced legislation repealing a coal mine's local workforce housing requirement.",
+      "why": "Major shift in payments infrastructure as a bank migrates card settlements to its own stablecoin.",
       "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-09-16T07:19:35.431Z"
+      "queuedAt": "2026-09-23T08:45:13.114Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-09-17/us-fed-raises-interest-rates-to-curb-inflation-trump/107162150",
@@ -251,7 +251,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-23T06:20:21.662Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-23/government-pays-for-collapsed-oil-platform-cliff-head-wa/107187262",
+      "title": "Oil platform 'a warning' as government considers new decommissioning rules",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The federal government is paying to keep an oil platform safe after its owners collapsed. The Cliff Head platform off the WA coast has raised fresh questions about the strength of Australia's offshore decommissioning laws.",
+      "at": "2026-09-23T08:17:29.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Government considering new decommissioning rules and liability laws following corporate collapse.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-23T08:45:13.114Z"
     }
   ],
-  "updated": "2026-09-23T06:20:21.662Z"
+  "updated": "2026-09-23T08:45:13.115Z"
 }

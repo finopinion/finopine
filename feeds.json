@@ -25,7 +25,7 @@
       "url": "https://www.rba.gov.au/rss/rss-cb-media-releases.xml",
       "verified": true,
       "jurisdiction": "au",
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "ok, 1 items"
     },
     {
@@ -36,7 +36,7 @@
       "url": "https://www.rba.gov.au/rss/rss-cb-speeches.xml",
       "verified": true,
       "jurisdiction": "au",
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "ok, 1 items"
     },
     {
@@ -47,7 +47,7 @@
       "url": "https://treasury.gov.au/rss.xml",
       "verified": false,
       "jurisdiction": "au",
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "returned 200 but no <item>/<entry> — not a feed"
     },
     {
@@ -58,7 +58,7 @@
       "url": "https://asic.gov.au/about-asic/news-centre/find-a-media-release/rss/",
       "verified": false,
       "jurisdiction": "au",
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "DEAD (404) — find the current URL"
     },
     {
@@ -69,7 +69,7 @@
       "url": "https://www.apra.gov.au/news-and-publications/rss.xml",
       "verified": false,
       "jurisdiction": "au",
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "DEAD (404) — find the current URL"
     },
     {
@@ -80,7 +80,7 @@
       "url": "https://www.abs.gov.au/rss/releases.xml",
       "verified": false,
       "jurisdiction": "au",
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "DEAD (404) — find the current URL"
     },
     {
@@ -91,8 +91,8 @@
       "url": "https://www.legislation.gov.au/Rss/Acts",
       "verified": false,
       "jurisdiction": "au",
-      "lastChecked": "2026-09-22",
-      "lastResult": "returned 200 but no <item>/<entry> — not a feed"
+      "lastChecked": "2026-09-23",
+      "lastResult": "timeout"
     },
     {
       "id": "abc-business",
@@ -102,7 +102,7 @@
       "url": "https://www.abc.net.au/news/feed/51892/rss.xml",
       "verified": true,
       "jurisdiction": "au",
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "ok, 25 items"
     },
     {
@@ -114,7 +114,7 @@
       "verified": true,
       "jurisdiction": "skip",
       "note": "Cross-border by nature. Tagged skip so the generator never uses it.",
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "ok, 50 items"
     },
     {
@@ -125,7 +125,7 @@
       "url": "https://www.federalreserve.gov/feeds/press_all.xml",
       "verified": true,
       "jurisdiction": "us",
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "ok, 20 items"
     },
     {
@@ -136,7 +136,7 @@
       "jurisdiction": "uk",
       "url": "https://www.bankofengland.co.uk/rss/news",
       "verified": true,
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "ok, 50 items"
     },
     {
@@ -147,7 +147,7 @@
       "jurisdiction": "ca",
       "url": "https://www.bankofcanada.ca/feed/?utility=news&post_type%5B0%5D=post&post_type%5B1%5D=page",
       "verified": true,
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "ok, 10 items"
     },
     {
@@ -158,7 +158,7 @@
       "jurisdiction": "auto",
       "url": "https://www.finextra.com/rss/headlines.aspx",
       "verified": true,
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "ok, 54 items"
     },
     {
@@ -169,7 +169,7 @@
       "jurisdiction": "auto",
       "url": "https://thefintechtimes.com/feed",
       "verified": false,
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "403 bot wall — real but unusable unattended"
     },
     {
@@ -180,7 +180,7 @@
       "jurisdiction": "auto",
       "url": "https://sifted.eu/sector/fintech/feed",
       "verified": true,
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "ok, 24 items"
     },
     {
@@ -191,7 +191,7 @@
       "jurisdiction": "us",
       "url": "https://www.bankingdive.com/feeds/news/",
       "verified": true,
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "ok, 10 items"
     },
     {
@@ -202,7 +202,7 @@
       "jurisdiction": "in",
       "url": "https://www.business-standard.com/rss/latest.rss",
       "verified": false,
-      "lastChecked": "2026-09-22",
+      "lastChecked": "2026-09-23",
       "lastResult": "403 bot wall — real but unusable unattended"
     }
   ]
