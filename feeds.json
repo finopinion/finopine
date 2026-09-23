@@ -92,7 +92,7 @@
       "verified": false,
       "jurisdiction": "au",
       "lastChecked": "2026-09-23",
-      "lastResult": "timeout"
+      "lastResult": "returned 200 but no <item>/<entry> — not a feed"
     },
     {
       "id": "abc-business",

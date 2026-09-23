@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "link": "https://www.finextra.com/pressarticle/110989/adyen-hires-klarnas-niclas-neglen-as-cfo?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Adyen hires Klarna&#39;s Niclas Neglen as CFO",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Adyen N.V. (AMS: ADYEN) today announces the nomination of Niclas Neglen as Chief Financial Officer (CFO) and member of the statutory Management Board, effective February 1, 2027, subject to regulatory and shareholder approval.",
+      "at": "2026-09-23T12:05:00.000Z",
+      "score": 6,
+      "corroboration": 1,
+      "why": "Adyen poaching Klarna's CFO is a major, unexpected executive move impacting two fintech giants.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-23T13:42:07.438Z"
+    },
+    {
+      "link": "https://www.bankingdive.com/news/adyen-hires-klarna-cfo-niclas-neglen-tsao-tandowsky/831109/",
+      "title": "Adyen snaps up Klarna CFO",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "p Niclas Negl eacute;n will begin at the Dutch payments processing firm Feb. 1. The move gives Adyen a permanent successor to Ethan Tandowsky, the company rsquo;s previous CFO, who left Aug. 31. /p",
+      "at": "2026-09-23T11:31:00.000Z",
+      "score": 5,
+      "corroboration": 1,
+      "why": "Adyen poaching Klarna's CFO is a major, unexpected executive move impacting two fintech giants.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-23T13:42:07.438Z"
+    },
+    {
       "link": "https://www.finextra.com/newsarticle/48439/eurosystem-brings-central-bank-money-to-tokenised-finance?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Eurosystem brings central bank money to tokenised finance",
       "publisher": "Finextra",
@@ -281,5 +309,5 @@
       "queuedAt": "2026-09-23T08:45:13.114Z"
     }
   ],
-  "updated": "2026-09-23T09:15:25.334Z"
+  "updated": "2026-09-23T13:42:07.438Z"
 }

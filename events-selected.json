@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48447/cleartoken-wins-bank-of-england-approval-to-clear-tokenised-assets?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "ClearToken wins Bank of England approval to clear tokenised assets",
+    "link": "https://www.finextra.com/newsarticle/48453/sofi-bank-goes-live-with-stablecoin-settlement-across-mastercard-network?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "SoFi Bank goes live with stablecoin settlement across Mastercard network",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "ClearToken, a a London-based clearing house for global digital assets, has been approved by the Bank of England to operate a Digital Securities Depository (DSD) in the Digital Securities Sandbox.",
-    "at": "2026-09-22T09:43:00.000Z",
+    "summary": "SoFi Bank has joined forces with Mastercard to migrate its full card programme to blockchain settlement using its own SoFiUSD stablecoin.",
+    "at": "2026-09-23T00:01:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "Bank of England approval marks key milestone in UK digital securities and clearing infrastructure.",
+    "why": "Major shift in payments infrastructure as a bank migrates card settlements to its own stablecoin.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-22T09:16:35.088Z"
+    "queuedAt": "2026-09-23T08:45:13.114Z"
   },
-  "reason": "UK bank regulator approval for tokenised asset clearing creates testable claims about whether regulatory sandbox success predicts market adoption",
-  "angle": "Regulatory approval of tokenised finance infrastructure proves the technology solves real problems for wholesale finance, not that it will actually be used at scale",
+  "reason": "SoFi's stablecoin settlement via Mastercard raises genuine debate about whether banks should control payment rails versus neutral infrastructure.",
+  "angle": "Bank-issued stablecoins threaten payment system neutrality by letting individual institutions capture settlement infrastructure that should remain open.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-09-23T08:45:16.221Z"
+  "vettedAt": "2026-09-23T13:42:10.703Z"
 }
