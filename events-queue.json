@@ -141,6 +141,20 @@
       "queuedAt": "2026-09-23T09:15:25.334Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48460/trustly-slashes-200-jobs?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Trustly slashes 200 jobs",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Swedish open banking outfit Trustly is cutting a quarter of its staff as part of an effort to cut costs and prioritise profitable growth markets.",
+      "at": "2026-09-24T00:01:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major open banking fintech cuts 25% of workforce in strategic pivot to profitability.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-23T23:12:02.482Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-17/labor-smart-glasses-restrictions-national-ai-standards/107166138",
       "title": "Smart glasses ban looms as Labor sets out new AI rules",
       "publisher": "ABC News",
@@ -309,5 +323,5 @@
       "queuedAt": "2026-09-23T20:16:20.892Z"
     }
   ],
-  "updated": "2026-09-23T22:40:26.728Z"
+  "updated": "2026-09-23T23:12:02.482Z"
 }
