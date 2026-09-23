@@ -307,7 +307,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-23T08:45:13.114Z"
+    },
+    {
+      "link": "https://www.bankingdive.com/news/fintech-avant-applies-occ-charter/831172/",
+      "title": "Fintech Avant applies for OCC charter",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "figure div img src=\"https://imgproxy.divecdn.com/Ynio67rfYurR3M67S-xE1Tz5L6iqiEEwnnzmJ0vwdmA/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMjgzNTM4MzYzLmpwZw==.webp\"/ /div /figure p A charter from the Office of the Comptroller of the Currency would allow the Chicago-based lender to expand its credit products, diversify beyond them, and reduce its cost of funds, the CEO said. /p",
+      "at": "2026-09-23T18:05:52.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major fintech seeking a national bank charter is a significant regulatory development.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-23T18:19:04.261Z"
     }
   ],
-  "updated": "2026-09-23T13:42:07.438Z"
+  "updated": "2026-09-23T18:19:04.261Z"
 }
