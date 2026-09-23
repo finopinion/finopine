@@ -321,7 +321,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-23T18:19:04.261Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-24/plan-to-slug-consumers-for-ev-chargers-gets-regulator-backing/107187978",
+      "title": "All consumers to pay for EV chargers under power monopoly 'waiver'",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "A bitter fight is brewing between EV charging companies and poles-and-wires companies, and now a regulator has weighed in.",
+      "at": "2026-09-23T20:01:07.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Regulator waiver allows power monopolies to pass EV infrastructure costs to all consumers.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-23T20:16:20.892Z"
     }
   ],
-  "updated": "2026-09-23T18:19:04.261Z"
+  "updated": "2026-09-23T20:16:20.892Z"
 }
