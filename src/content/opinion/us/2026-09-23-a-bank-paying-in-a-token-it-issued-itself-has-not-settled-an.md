@@ -23,7 +23,7 @@ readMins: 4
 tags: ["stablecoins","payments","banking"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48453/sofi-bank-goes-live-with-stablecoin-settlement-across-mastercard-network?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "SoFi Bank goes live with stablecoin settlement across Mastercard network"
     publisher: "Finextra"
