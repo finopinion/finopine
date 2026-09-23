@@ -99,6 +99,20 @@
       "queuedAt": "2026-09-23T08:45:13.114Z"
     },
     {
+      "link": "https://www.finextra.com/pressarticle/110979/fca-banks-need-to-up-their-game-to-crack-down-on-money-mules?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "FCA: Banks need to up their game to crack down on money mules",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Financial firms are shutting down hundreds of thousands of suspected money mule accounts, but organised criminal groups are still shifting dirty money through multiple bank accounts before cashing out.",
+      "at": "2026-09-23T09:27:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "FCA warns banks to strengthen controls as criminal networks bypass current money mule detection.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-23T09:15:25.334Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-17/us-fed-raises-interest-rates-to-curb-inflation-trump/107162150",
       "title": "US Fed hikes interest rates to curb inflation in move likely to rile Trump",
       "publisher": "ABC News",
@@ -267,5 +281,5 @@
       "queuedAt": "2026-09-23T08:45:13.114Z"
     }
   ],
-  "updated": "2026-09-23T08:45:13.115Z"
+  "updated": "2026-09-23T09:15:25.334Z"
 }
