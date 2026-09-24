@@ -155,6 +155,20 @@
       "queuedAt": "2026-09-23T23:12:02.482Z"
     },
     {
+      "link": "https://www.finextra.com/pressarticle/111014/asic-strengthens-ai-safeguards?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Asic strengthens AI safeguards",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "ASIC is strengthening safeguards for automated and AI-enabled trading while streamlining regulatory requirements for securities and futures market participants under incoming changes to its Market Integrity Rules (MIRs).",
+      "at": "2026-09-24T10:17:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "ASIC is updating Market Integrity Rules to strengthen safeguards for AI-enabled trading.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-24T10:16:03.342Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-17/labor-smart-glasses-restrictions-national-ai-standards/107166138",
       "title": "Smart glasses ban looms as Labor sets out new AI rules",
       "publisher": "ABC News",
@@ -365,5 +379,5 @@
       "queuedAt": "2026-09-24T07:16:12.472Z"
     }
   ],
-  "updated": "2026-09-24T08:46:45.831Z"
+  "updated": "2026-09-24T10:16:03.342Z"
 }
