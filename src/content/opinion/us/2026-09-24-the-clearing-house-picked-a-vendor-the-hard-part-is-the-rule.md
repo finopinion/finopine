@@ -23,7 +23,7 @@ readMins: 4
 tags: ["payments","tokenised deposits","market structure"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48465/the-clearing-house-taps-quant-for-tokenised-deposit-network?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "The Clearing House taps Quant for tokenised deposit network"
     publisher: "Finextra"
