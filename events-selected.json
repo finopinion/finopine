@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.abc.net.au/news/2026-09-23/watchdog-blocks-sale-of-rac-wa-insurance-arm-to-iag/107184622",
-    "title": "Watchdog again blocks sale of RAC WA insurance arm to east-coast giant",
-    "publisher": "ABC News",
-    "jurisdiction": "au",
-    "summary": "Australia's competition watchdog again blocks the sale of WA's largest insurer to an east-coast industry giant, reiterating the purchase would likely reduce competition in the state's insurance market.",
-    "at": "2026-09-23T02:54:08.000Z",
-    "score": 1,
+    "link": "https://www.finextra.com/newsarticle/48465/the-clearing-house-taps-quant-for-tokenised-deposit-network?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "The Clearing House taps Quant for tokenised deposit network",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "The Clearing House has picked UK-based programmable money infrastructure provider Quant to power a new interoperable payments network that will enable US financial institutions of all sizes to clear and settle tokenised deposit transactions.",
+    "at": "2026-09-24T14:00:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "Competition watchdog blocks major regional insurer sale, protecting insurance market competition.",
+    "why": "The Clearing House launches new tokenised deposit network, a significant US payments infrastructure move.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-23T03:15:19.379Z",
-    "fullText": "ACCC again blocks sale of RAC WA&#x27;s insurance arm to Sydney-based IAG - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home ACCC again blocks sale of RAC WA&#x27;s insurance arm to Sydney-based IAG Share Share article ACCC again blocks sale of RAC WA&#x27;s insurance arm to Sydney-based IAG By Callum Liddelow Topic: Insurance Posted Wed 23 Sep 2026 at 12:54pm Wed 23 Sep 2026 at 12:54pm Wed 23 Sep 2026 at 12:54pm RAC WA had been looking to sell its entire insurance operations to IAG in a $1.35 billion deal. ( ABC News: Jake Sturmer ) In short: The competition regulator has again blocked the sale of RAC to the east-coast-based IAG, saying it would reduce competition in WA&#x27;s insurance markets and increase premiums. The RAC maintains that members would be better off under a national insurer that would &quot;strengthen RAC&#x27;s ability to respond to a changing insurance landscape&quot; and reduce the risk it carries alone. What&#x27;s next? IAG will now lodge a public benefit application with the watchdog, which will then decide whether any public benefit from the acquisition would outweigh the detriment. abc.net.au/news/watchdog-blocks-sale-of-rac-wa-insurance-arm-to-iag/107184622 Link copied Share Share article Tell us about your experience. Australia&#x27;s competition watchdog has again blocked the sale of WA&#x27;s largest insurer to an east-coast industry giant, reiterating the purchase would likely reduce competition in the state&#x27;s insurance markets and drive up premiums. The Royal Automobile Club of WA (RAC WA) announced in May 2025 it would enter into a 20-year &quot;partnership&quot; with Sydney-based Insurance Australia Group (IAG), in a deal worth $1.35 billion. After the Australian Competition and Consumer Commission (ACCC) originally opposed the acquisition in December 2025 , the two companies lodged applications for a reassessment. The Automobile Club of Western Australia, which later became the RAC, began in 1905. ( ABC News: West Matteeussen ) The ACCC conducted an &quot;in-depth assessment&quot; of the proposal, finding the deal would leave IAG in control of more than half of WA&#x27;s motor vehicle and home and contents insurance markets and &quot;would have the effect or likely effect of substantially lessening competition&quot;. ACCC chair Gina Cass-Gottlieb said the acquisition would have seen premiums increase, though the ACCC had not calculated by how much. Gina Cass-Gottlieb says the deal would lead to a significant increase in market c"
+    "queuedAt": "2026-09-24T13:17:01.197Z"
   },
-  "reason": "ACCC blocking RAC-IAG deal tests whether regional competition protection justifies blocking efficiency gains and financial stability",
-  "angle": "Market concentration rules designed to protect consumers may trap a struggling regional player in a losing competitive position, ultimately harming the members they aim to protect",
-  "confidence": 0.75,
+  "reason": "US tokenised deposit network launch raises real questions about whether private infrastructure can compete with central bank solutions, as demonstrated by ECB's parallel Pontes effort.",
+  "angle": "The Clearing House's private tokenised settlement network will fail because central banks have superior incentives to build interoperable infrastructure.",
+  "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-09-23T22:40:29.417Z"
+  "vettedAt": "2026-09-24T13:42:50.944Z"
 }

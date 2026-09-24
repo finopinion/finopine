@@ -183,6 +183,20 @@
       "queuedAt": "2026-09-24T13:17:01.197Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48467/uk-banks-pilot-tokenised-deposit-transactions?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "UK banks pilot tokenised deposit transactions",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "UK banks have collaborated to complete the first live customer transactions using tokenised sterling deposits.",
+      "at": "2026-09-24T09:33:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "UK banks complete first live customer transactions using tokenised sterling deposits.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-24T13:42:46.354Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-18/rba-governor-talks-interest-rates-at-parliamentary-hearing/107167676",
       "title": "Markets bet 95pc chance of September rate hike after latest RBA comments",
       "publisher": "ABC News",
@@ -393,5 +407,5 @@
       "queuedAt": "2026-09-24T11:15:22.418Z"
     }
   ],
-  "updated": "2026-09-24T13:17:01.197Z"
+  "updated": "2026-09-24T13:42:46.354Z"
 }
