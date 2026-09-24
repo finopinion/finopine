@@ -239,6 +239,20 @@
       "queuedAt": "2026-09-24T20:16:11.528Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48472/fednow-to-enable-cross-border-payments?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "FedNow to enable cross-border payments",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The US Federal Reserve is pushing ahead with plans to enable participants in its FedNow real-time payments system to make cross-border transfers.",
+      "at": "2026-09-25T00:01:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major expansion of FedNow real-time payments system to cross-border transfers.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-24T23:13:45.274Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-18/rba-governor-talks-interest-rates-at-parliamentary-hearing/107167676",
       "title": "Markets bet 95pc chance of September rate hike after latest RBA comments",
       "publisher": "ABC News",
@@ -449,5 +463,5 @@
       "queuedAt": "2026-09-24T11:15:22.418Z"
     }
   ],
-  "updated": "2026-09-24T22:40:38.761Z"
+  "updated": "2026-09-24T23:13:45.274Z"
 }
