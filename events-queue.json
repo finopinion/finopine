@@ -377,7 +377,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-24T07:16:12.472Z"
+    },
+    {
+      "link": "https://sifted.eu/articles/exclusive-revolut-customers-fresh-hack/",
+      "title": "Exclusive: Revolut customers hit by fresh security breach",
+      "publisher": "Sifted",
+      "jurisdiction": "auto",
+      "summary": "",
+      "at": "2026-09-24T11:25:39.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Exclusive report detailing a fresh security breach at major fintech Revolut.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-24T11:15:22.418Z"
     }
   ],
-  "updated": "2026-09-24T10:16:03.342Z"
+  "updated": "2026-09-24T11:15:22.418Z"
 }
