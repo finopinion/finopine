@@ -211,6 +211,34 @@
       "queuedAt": "2026-09-24T14:16:30.267Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48474/revolut-customers-impacted-by-new-data-breach?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Revolut customers impacted by new data breach",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Revolut has found itself embroiled in a second data breach in a matter of days after some its customers were impacted by a security incident at US broker DriveWealth.",
+      "at": "2026-09-24T20:04:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Security incident and data breach at a partner broker affecting major fintech customers.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-24T20:16:11.528Z"
+    },
+    {
+      "link": "https://www.finextra.com/pressarticle/111024/tax-compliance-platform-numeral-raises-100m?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Tax compliance platform Numeral raises $100m",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Numeral, the AI-powered sales tax compliance platform, today announced a $100 million Series C led by Insight Partners, with participation from Salesforce Ventures, Geodesic, Benchmark, Mayfield, FCVC, Y Combinator and Uncork.",
+      "at": "2026-09-24T18:49:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major $100m Series C funding round for an AI-powered tax compliance platform.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-24T20:16:11.528Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-18/rba-governor-talks-interest-rates-at-parliamentary-hearing/107167676",
       "title": "Markets bet 95pc chance of September rate hike after latest RBA comments",
       "publisher": "ABC News",
@@ -421,5 +449,5 @@
       "queuedAt": "2026-09-24T11:15:22.418Z"
     }
   ],
-  "updated": "2026-09-24T14:16:30.267Z"
+  "updated": "2026-09-24T20:16:11.528Z"
 }
