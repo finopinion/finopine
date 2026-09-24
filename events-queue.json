@@ -321,7 +321,35 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-23T20:16:20.892Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-24/unemployment-rate-australia-rises-post-covid-era-high-august/107189792",
+      "title": "Breaking: Unemployment rate reaches post-COVID era high of 4.6pc in August",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The national unemployment rate rises to 4.6 per cent, up from 4.5 per cent in July, in seasonally adjusted and trend terms.",
+      "at": "2026-09-24T01:45:48.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Unemployment rate reaching a post-COVID high is a significant macroeconomic data surprise.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-24T02:15:32.904Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-24/diesel-rationing-possible-within-weeks-if-us-goes-ahead-with-ban/107189268",
+      "title": "Analyst warns diesel could top $4 and rationing possible if US ban proceeds",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Saul Kavonic says the US's proposed diesel export ban is \"probably the most worrying development we've seen in global fuel markets since the [Middle East] war began\".",
+      "at": "2026-09-24T01:34:16.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Potential US diesel export ban threatening extreme price spikes and rationing is a major market shock.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-24T02:15:32.904Z"
     }
   ],
-  "updated": "2026-09-23T23:12:02.482Z"
+  "updated": "2026-09-24T02:15:32.905Z"
 }
