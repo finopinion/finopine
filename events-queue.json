@@ -197,6 +197,20 @@
       "queuedAt": "2026-09-24T13:42:46.354Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48469/ibm-integrates-digital-asset-platform-with-swift-shared-ledger?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "IBM integrates digital asset platform with Swift shared ledger",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "IBM is now letting its digital asset platform clients connect to permissioned blockchain networks, including Swift’s shared ledger.",
+      "at": "2026-09-24T14:28:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "IBM integrating its digital asset platform with Swift's shared ledger is a significant fintech interoperability development.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-24T14:16:30.267Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-18/rba-governor-talks-interest-rates-at-parliamentary-hearing/107167676",
       "title": "Markets bet 95pc chance of September rate hike after latest RBA comments",
       "publisher": "ABC News",
@@ -407,5 +421,5 @@
       "queuedAt": "2026-09-24T11:15:22.418Z"
     }
   ],
-  "updated": "2026-09-24T13:42:46.354Z"
+  "updated": "2026-09-24T14:16:30.267Z"
 }
