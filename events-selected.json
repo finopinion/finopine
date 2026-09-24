@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48465/the-clearing-house-taps-quant-for-tokenised-deposit-network?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "The Clearing House taps Quant for tokenised deposit network",
+    "link": "https://www.finextra.com/pressarticle/111014/asic-strengthens-ai-safeguards?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "Asic strengthens AI safeguards",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "The Clearing House has picked UK-based programmable money infrastructure provider Quant to power a new interoperable payments network that will enable US financial institutions of all sizes to clear and settle tokenised deposit transactions.",
-    "at": "2026-09-24T14:00:00.000Z",
+    "summary": "ASIC is strengthening safeguards for automated and AI-enabled trading while streamlining regulatory requirements for securities and futures market participants under incoming changes to its Market Integrity Rules (MIRs).",
+    "at": "2026-09-24T10:17:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "The Clearing House launches new tokenised deposit network, a significant US payments infrastructure move.",
+    "why": "ASIC is updating Market Integrity Rules to strengthen safeguards for AI-enabled trading.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-24T13:17:01.197Z"
+    "queuedAt": "2026-09-24T10:16:03.342Z"
   },
-  "reason": "US tokenised deposit network launch raises real questions about whether private infrastructure can compete with central bank solutions, as demonstrated by ECB's parallel Pontes effort.",
-  "angle": "The Clearing House's private tokenised settlement network will fail because central banks have superior incentives to build interoperable infrastructure.",
+  "reason": "ASIC's AI trading safeguards assume regulators can define and enforce algorithmic risk ex-ante, but markets prove harm emerges unpredictably from novel system interactions.",
+  "angle": "Prescriptive AI rules will lag real risks because algorithmic complexity evolves faster than regulatory frameworks can adapt.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-09-24T13:42:50.944Z"
+  "vettedAt": "2026-09-24T22:40:41.777Z"
 }
