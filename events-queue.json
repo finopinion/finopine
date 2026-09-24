@@ -169,18 +169,18 @@
       "queuedAt": "2026-09-24T10:16:03.342Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-09-17/labor-smart-glasses-restrictions-national-ai-standards/107166138",
-      "title": "Smart glasses ban looms as Labor sets out new AI rules",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Smart glasses could be prohibited in Commonwealth workplaces as the government consults on new rules for Australia's growing AI sector.",
-      "at": "2026-09-17T12:00:16.000Z",
-      "score": 1,
+      "link": "https://www.finextra.com/newsarticle/48465/the-clearing-house-taps-quant-for-tokenised-deposit-network?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "The Clearing House taps Quant for tokenised deposit network",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The Clearing House has picked UK-based programmable money infrastructure provider Quant to power a new interoperable payments network that will enable US financial institutions of all sizes to clear and settle tokenised deposit transactions.",
+      "at": "2026-09-24T14:00:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Government consulting on new AI sector rules and potential workplace smart glasses prohibition.",
-      "urgency": "low",
+      "why": "The Clearing House launches new tokenised deposit network, a significant US payments infrastructure move.",
+      "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-09-17T12:19:45.096Z"
+      "queuedAt": "2026-09-24T13:17:01.197Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-09-18/rba-governor-talks-interest-rates-at-parliamentary-hearing/107167676",
@@ -393,5 +393,5 @@
       "queuedAt": "2026-09-24T11:15:22.418Z"
     }
   ],
-  "updated": "2026-09-24T11:15:22.418Z"
+  "updated": "2026-09-24T13:17:01.197Z"
 }
