@@ -23,7 +23,7 @@ readMins: 4
 tags: ["asic","market structure","ai"]
 generated: true
 groundedIn: "https://www.finextra.com/pressarticle/111014/asic-strengthens-ai-safeguards?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Asic strengthens AI safeguards"
     publisher: "Finextra"
