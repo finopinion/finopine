@@ -253,6 +253,20 @@
       "queuedAt": "2026-09-24T23:13:45.274Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48476/online-scams-agreement-signed-between-uk-and-cambodian-governments?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Online scams agreement signed between UK and Cambodian governments",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The UK and Cambodia will work together to tackle networks of illegal scam centres, locations where sophisticated fraud techniques are deployed and scaled to target thousands of victims.",
+      "at": "2026-09-25T10:02:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "New international government agreement to target cross-border online scam networks.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-25T10:15:28.567Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-22/asic-lays-down-the-law-to-australian-private-credit-sector/107178192",
       "title": "'Clock is ticking' as ASIC warns private credit sector investors could bail",
       "publisher": "ABC News",
@@ -449,5 +463,5 @@
       "queuedAt": "2026-09-24T11:15:22.418Z"
     }
   ],
-  "updated": "2026-09-25T08:45:35.934Z"
+  "updated": "2026-09-25T10:15:28.567Z"
 }
