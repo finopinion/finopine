@@ -23,7 +23,7 @@ readMins: 4
 tags: ["tokenisation","settlement","central banking"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48439/eurosystem-brings-central-bank-money-to-tokenised-finance?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Eurosystem brings central bank money to tokenised finance"
     publisher: "Finextra"
