@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/pressarticle/111014/asic-strengthens-ai-safeguards?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "Asic strengthens AI safeguards",
+    "link": "https://www.finextra.com/newsarticle/48439/eurosystem-brings-central-bank-money-to-tokenised-finance?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "Eurosystem brings central bank money to tokenised finance",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "ASIC is strengthening safeguards for automated and AI-enabled trading while streamlining regulatory requirements for securities and futures market participants under incoming changes to its Market Integrity Rules (MIRs).",
-    "at": "2026-09-24T10:17:00.000Z",
+    "summary": "The European Central Bank has launched Pontes, a solution that enables wholesale transactions in tokenised assets to be settled in central bank money.",
+    "at": "2026-09-21T11:42:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "ASIC is updating Market Integrity Rules to strengthen safeguards for AI-enabled trading.",
+    "why": "ECB launches official infrastructure enabling central bank money settlement for tokenised wholesale assets.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-24T10:16:03.342Z"
+    "queuedAt": "2026-09-22T08:16:12.742Z"
   },
-  "reason": "ASIC's AI trading safeguards assume regulators can define and enforce algorithmic risk ex-ante, but markets prove harm emerges unpredictably from novel system interactions.",
-  "angle": "Prescriptive AI rules will lag real risks because algorithmic complexity evolves faster than regulatory frameworks can adapt.",
+  "reason": "ECB's Pontes launch raises arguable questions about central bank digital money's role in financial infrastructure and whether tokenisation requires central bank intermediation or competes with private settlement.",
+  "angle": "Central banks should provide tokenised settlement infrastructure rather than leave wholesale asset settlement to private blockchain networks.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-09-24T22:40:41.777Z"
+  "vettedAt": "2026-09-25T08:45:38.687Z"
 }

@@ -253,20 +253,6 @@
       "queuedAt": "2026-09-24T23:13:45.274Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-09-18/rba-governor-talks-interest-rates-at-parliamentary-hearing/107167676",
-      "title": "Markets bet 95pc chance of September rate hike after latest RBA comments",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "If you are struggling with current interest rates, the Reserve Bank's leaders delivered the sobering message that they are only just getting back to a \"more sensible level\".",
-      "at": "2026-09-18T04:31:51.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Markets sharply pricing in a surprise September rate hike based on new RBA comments.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-18T05:15:37.991Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-09-22/asic-lays-down-the-law-to-australian-private-credit-sector/107178192",
       "title": "'Clock is ticking' as ASIC warns private credit sector investors could bail",
       "publisher": "ABC News",
@@ -463,5 +449,5 @@
       "queuedAt": "2026-09-24T11:15:22.418Z"
     }
   ],
-  "updated": "2026-09-24T23:13:45.274Z"
+  "updated": "2026-09-25T08:45:35.934Z"
 }
