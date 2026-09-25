@@ -461,7 +461,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-24T11:15:22.418Z"
+    },
+    {
+      "link": "https://www.bankingdive.com/news/fed-proposes-stablecoin-rules/831398/",
+      "title": "Fed proposes stablecoin rules",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "figure div img src=\"https://imgproxy.divecdn.com/-DqnjKLPOoTxBe41IMfQlKwOAe4ddPFzjshnZ1A3j-c/g:nowe:28:0/c:2730:1542/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjUwMjQyNTQzLmpwZw==.webp\"/ /div /figure p In a statement issued alongside proposed rules, Fed Gov. Michael Barr said stablecoins ldquo;will only be stable if they can be reliably and promptly redeemed at par in a range of conditions. rdquo; /p",
+      "at": "2026-09-25T16:23:22.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Federal Reserve proposes new regulatory rules governing stablecoins.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-25T17:14:05.976Z"
     }
   ],
-  "updated": "2026-09-25T13:40:53.941Z"
+  "updated": "2026-09-25T17:14:05.976Z"
 }
