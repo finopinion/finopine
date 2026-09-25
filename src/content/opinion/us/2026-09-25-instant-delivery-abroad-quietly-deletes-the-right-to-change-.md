@@ -23,7 +23,7 @@ readMins: 4
 tags: ["payments","fednow","remittances"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48472/fednow-to-enable-cross-border-payments?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "FedNow to enable cross-border payments"
     publisher: "Finextra"
