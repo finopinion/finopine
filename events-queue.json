@@ -267,6 +267,20 @@
       "queuedAt": "2026-09-25T10:15:28.567Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48481/bitget-hit-by-3875-million-hack?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Bitget hit by $387.5 million hack",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Bitget has halted customer withdrawals after hackers that the crypto exchange suspects are linked to North Korea stole more than $380 million.",
+      "at": "2026-09-25T18:32:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major crypto exchange hacked for nearly $390 million with withdrawals halted.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-25T18:19:23.670Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-22/asic-lays-down-the-law-to-australian-private-credit-sector/107178192",
       "title": "'Clock is ticking' as ASIC warns private credit sector investors could bail",
       "publisher": "ABC News",
@@ -477,5 +491,5 @@
       "queuedAt": "2026-09-25T17:14:05.976Z"
     }
   ],
-  "updated": "2026-09-25T17:14:05.976Z"
+  "updated": "2026-09-25T18:19:23.670Z"
 }
