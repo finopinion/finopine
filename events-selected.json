@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48439/eurosystem-brings-central-bank-money-to-tokenised-finance?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "Eurosystem brings central bank money to tokenised finance",
+    "link": "https://www.finextra.com/newsarticle/48472/fednow-to-enable-cross-border-payments?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "FedNow to enable cross-border payments",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "The European Central Bank has launched Pontes, a solution that enables wholesale transactions in tokenised assets to be settled in central bank money.",
-    "at": "2026-09-21T11:42:00.000Z",
+    "summary": "The US Federal Reserve is pushing ahead with plans to enable participants in its FedNow real-time payments system to make cross-border transfers.",
+    "at": "2026-09-25T00:01:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "ECB launches official infrastructure enabling central bank money settlement for tokenised wholesale assets.",
+    "why": "Major expansion of FedNow real-time payments system to cross-border transfers.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-22T08:16:12.742Z"
+    "queuedAt": "2026-09-24T23:13:45.274Z"
   },
-  "reason": "ECB's Pontes launch raises arguable questions about central bank digital money's role in financial infrastructure and whether tokenisation requires central bank intermediation or competes with private settlement.",
-  "angle": "Central banks should provide tokenised settlement infrastructure rather than leave wholesale asset settlement to private blockchain networks.",
+  "reason": "FedNow cross-border expansion raises concrete questions about whether real-time payments should remain domestic or go global, with tradeoffs in financial stability, sovereignty, and competition.",
+  "angle": "Cross-border real-time payments risk fragmenting the dollar's settlement advantage unless the Fed strictly controls access.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-09-25T08:45:38.687Z"
+  "vettedAt": "2026-09-25T13:41:01.876Z"
 }
