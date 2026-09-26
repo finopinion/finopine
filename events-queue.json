@@ -503,7 +503,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-26T13:41:24.993Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-27/president-donald-trump-xi-jinping-washington-summit-tariffs-ai/107200436",
+      "title": "China, US agree to AI dialogue, $42b in tariff cuts during state visit",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The tariff reductions are set to apply to US exports such as agricultural goods, wood and cosmetics, as well as US imports including small appliances, toys, decorations.",
+      "at": "2026-09-26T20:33:49.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major US-China policy agreement involving $42 billion in tariff cuts and structured AI dialogue.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-26T20:53:26.760Z"
     }
   ],
-  "updated": "2026-09-26T13:41:24.993Z"
+  "updated": "2026-09-26T20:53:26.760Z"
 }
