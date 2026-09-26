@@ -489,7 +489,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-25T17:14:05.976Z"
+    },
+    {
+      "link": "https://sifted.eu/articles/monzo-nubank-sale/",
+      "title": "Monzo in talks about a sale to Nubank, reports",
+      "publisher": "Sifted",
+      "jurisdiction": "auto",
+      "summary": "",
+      "at": "2026-09-26T12:09:33.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major potential cross-border fintech acquisition between two leading digital banks.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-26T13:41:24.993Z"
     }
   ],
-  "updated": "2026-09-25T18:19:23.670Z"
+  "updated": "2026-09-26T13:41:24.993Z"
 }
