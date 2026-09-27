@@ -517,7 +517,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-26T20:53:26.760Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-28/surcharge-ban-interchange-fees-impacts-businesses-and-customers/106660248",
+      "title": "Banks cut rewards programs, free travel insurance amid surcharge ban",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Sweeping reforms from the Reserve Bank start this week, as banks hike fees and slash rewards programs in preparation.",
+      "at": "2026-09-27T18:55:36.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Sweeping Reserve Bank reforms trigger major bank fee hikes and reward cuts.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-27T19:40:01.669Z"
     }
   ],
-  "updated": "2026-09-26T20:53:26.760Z"
+  "updated": "2026-09-27T19:40:01.669Z"
 }
