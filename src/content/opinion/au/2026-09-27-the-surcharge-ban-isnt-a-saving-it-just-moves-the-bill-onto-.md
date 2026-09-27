@@ -23,7 +23,7 @@ readMins: 4
 tags: ["payments","interchange","consumer-finance"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-09-28/surcharge-ban-interchange-fees-impacts-businesses-and-customers/106660248"
-draft: true
+draft: false
 sources:
   - label: "Banks cut rewards programs, free travel insurance amid surcharge ban"
     publisher: "ABC News"
