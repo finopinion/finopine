@@ -281,6 +281,20 @@
       "queuedAt": "2026-09-25T18:19:23.670Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48478/us-prosecutors-seize-tether-linked-payment-firms-bank-accounts---ft?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "US prosecutors seize Tether-linked payment firm&#39;s bank accounts - FT",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "US federal prosecutors have seized bank accounts belonging Capstone, a payments business working on behalf of stablecoin issuer Tether and its sister exchange Bitfinex, according to the Financial Times.",
+      "at": "2026-09-25T14:41:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Federal law enforcement action seizing bank accounts connected to Tether payment processing.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-27T22:41:54.175Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-22/asic-lays-down-the-law-to-australian-private-credit-sector/107178192",
       "title": "'Clock is ticking' as ASIC warns private credit sector investors could bail",
       "publisher": "ABC News",
@@ -533,5 +547,5 @@
       "queuedAt": "2026-09-27T19:40:01.669Z"
     }
   ],
-  "updated": "2026-09-27T19:40:01.669Z"
+  "updated": "2026-09-27T22:41:54.176Z"
 }
