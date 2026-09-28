@@ -323,46 +323,18 @@
       "queuedAt": "2026-09-28T08:29:25.603Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-09-22/asic-lays-down-the-law-to-australian-private-credit-sector/107178192",
-      "title": "'Clock is ticking' as ASIC warns private credit sector investors could bail",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "ASIC commissioner Simone Constant has fired a shot across the bow of Australian private credit, warning the clock is ticking on poor lending practices.",
-      "at": "2026-09-21T14:01:13.000Z",
-      "score": 1,
+      "link": "https://www.finextra.com/newsarticle/48488/swift-provides-cross-border-gateway-to-bizum-payid-and-pix-users?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Swift provides cross-border gateway to Bizum, PayID and Pix users",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Swift has launched an initiative to bring the pay-by-alias experience of domestic national payment systems, Bizum, PayID and Pix, to cross-border transactions, enabling consumers to send money internationally using a mobile number or email address, rather than account details.",
+      "at": "2026-09-28T14:54:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "ASIC issues a direct regulatory warning over private credit lending practices, signaling potential future enforcement.",
+      "why": "Swift launching cross-border pay-by-alias connecting domestic payment networks like Pix and PayID is a major infrastructure expansion.",
       "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-09-21T14:25:33.225Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-22/byd-ev-privacy-policy-update-china-surveillance-four-corners/107168584",
-      "title": "BYD cuts references to 'China' and 'surveillance' from its privacy policy",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "The original policy gave the company almost unlimited powers to collect data on its Australian vehicle owners and broad discretion on how this could be disclosed.",
-      "at": "2026-09-21T18:52:40.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Corporate privacy policy shift regarding data collection and surveillance for a major automaker.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-21T19:14:22.156Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-22/paramount-settles-with-us-states-clearing-way-warner-bros-merger/107179504",
-      "title": "Paramount settles with US states, clearing way for Warner Bros merger",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Opponents say Paramount's multi-billion-dollar merger with Warner Bros will slash Hollywood jobs, reduce the number of films produced, and threaten CNN's independence.",
-      "at": "2026-09-21T20:54:22.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Settlement with state regulators clears key legal hurdle for major corporate merger.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-21T21:14:49.321Z"
+      "queuedAt": "2026-09-28T23:06:05.952Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-09-22/federal-politics-liberals-float-super-changes-home-ownership/107179680",
@@ -561,5 +533,5 @@
       "queuedAt": "2026-09-26T20:53:26.760Z"
     }
   ],
-  "updated": "2026-09-28T13:48:32.926Z"
+  "updated": "2026-09-28T23:06:05.952Z"
 }
