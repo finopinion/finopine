@@ -23,7 +23,7 @@ readMins: 4
 tags: ["tokenisation","banking","payments"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48467/uk-banks-pilot-tokenised-deposit-transactions?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "UK banks pilot tokenised deposit transactions"
     publisher: "Finextra"
