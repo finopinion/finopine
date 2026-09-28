@@ -23,7 +23,7 @@ readMins: 4
 tags: ["stablecoins","federal reserve","payments"]
 generated: true
 groundedIn: "https://www.bankingdive.com/news/fed-proposes-stablecoin-rules/831398/"
-draft: true
+draft: false
 sources:
   - label: "Federal Reserve Board - Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS A"
     publisher: "US Federal Reserve"
