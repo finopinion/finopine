@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.abc.net.au/news/2026-09-28/surcharge-ban-interchange-fees-impacts-businesses-and-customers/106660248",
-    "title": "Banks cut rewards programs, free travel insurance amid surcharge ban",
-    "publisher": "ABC News",
-    "jurisdiction": "au",
-    "summary": "Sweeping reforms from the Reserve Bank start this week, as banks hike fees and slash rewards programs in preparation.",
-    "at": "2026-09-27T18:55:36.000Z",
-    "score": 1,
+    "link": "https://www.finextra.com/newsarticle/48467/uk-banks-pilot-tokenised-deposit-transactions?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "UK banks pilot tokenised deposit transactions",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "UK banks have collaborated to complete the first live customer transactions using tokenised sterling deposits.",
+    "at": "2026-09-24T09:33:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "Sweeping Reserve Bank reforms trigger major bank fee hikes and reward cuts.",
-    "urgency": "high",
+    "why": "UK banks complete first live customer transactions using tokenised sterling deposits.",
+    "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-27T19:40:01.669Z",
-    "fullText": "Rewards programs and insurance perks in firing line after changes to bank surcharging rules - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home Rewards programs and insurance perks in firing line after changes to bank surcharging rules Share Share article Rewards programs and insurance perks in firing line after changes to bank surcharging rules By business reporter Adelaide Miller Topic: Banking Posted Mon 28 Sep 2026 at 4:55am Mon 28 Sep 2026 at 4:55am Mon 28 Sep 2026 at 4:55am Greg Hodge says the ban on surcharges will force him to increase the cost of swimming lessons. ( ABC News: Maren Preuss ) abc.net.au/news/surcharge-ban-interchange-fees-impacts-businesses-and-customers/106660248 Link copied Share Share article After four decades as a Commonwealth Bank customer, Trevor Vienet is changing banks. That is because CBA has wound up its association with the Qantas Frequent Flyer program in preparation for the upcoming changes to credit and debit surcharges announced by the Reserve Bank of Australia. It is the lesser-known side effect of the changes that begin on October 1 because banks&#x27; revenue will drop as they reduce the amount they charge businesses to bank with them. The Commonwealth Bank has introduced a new in-house rewards system called Yello, which Mr Vienet is not eligible for. After decades with the Commonwealth Bank, Trevor Viénet is moving much of his banking elsewhere. ( ABC News: Matthew Holmes ) &quot;The [CBA] letter was, I&#x27;d call it a Dear John letter. It&#x27;s like: &#x27;You&#x27;ve had a long relationship, but it&#x27;s all over,&#x27;&quot; he said. From Thursday, businesses will be banned from adding a surcharge to customers using electronic terminals to pay for goods on card networks including eftpos, Mastercard and Visa. The cap on interchange fees paid by Australian businesses to banks for processing credit card fees will reduce from 0.8 per cent to 0.3 per cent, meaning businesses will pay lower fees but bank revenues will take a hit. In preparation for these changes, the major Australian banks are increasing credit card fees, reducing reward program perks and cutting back on travel insurance inclusions. &quot;I was pretty angry … I&#x27;ve been a customer for 40 years, have held several accounts and three mortgages and paid those off,&quot; Mr Vienet said. Banks not prepared to cop loss The surcharge ban is expected to save consumers about $1.6 billion and businesses $200 million in surcharge fees annually. The changes to intercha"
+    "queuedAt": "2026-09-24T13:42:46.354Z"
   },
-  "reason": "RBA surcharge ban triggers bank reward cuts. Obvious reading: consumer harm. Arguable position: banks rationally shifting revenue models; consumers benefited from interchange subsidy they didn't understand.",
-  "angle": "The RBA's surcharge ban transfers costs from visible to invisible, eliminating cross-subsidies that benefited some customers while obscuring true payment economics.",
+  "reason": "UK tokenised deposits pilot raises a genuine debate about whether central bank digital currency infrastructure should run through commercial banks or separately.",
+  "angle": "Bank-led tokenisation may entrench incumbent power rather than democratise financial plumbing as advocates claim.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-09-27T22:41:57.500Z"
+  "vettedAt": "2026-09-28T08:47:47.876Z"
 }
