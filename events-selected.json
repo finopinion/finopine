@@ -1,21 +1,22 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48467/uk-banks-pilot-tokenised-deposit-transactions?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "UK banks pilot tokenised deposit transactions",
-    "publisher": "Finextra",
-    "jurisdiction": "auto",
-    "summary": "UK banks have collaborated to complete the first live customer transactions using tokenised sterling deposits.",
-    "at": "2026-09-24T09:33:00.000Z",
-    "score": 2,
+    "link": "https://www.bankingdive.com/news/fed-proposes-stablecoin-rules/831398/",
+    "title": "Fed proposes stablecoin rules",
+    "publisher": "Banking Dive",
+    "jurisdiction": "us",
+    "summary": "figure div img src=\"https://imgproxy.divecdn.com/-DqnjKLPOoTxBe41IMfQlKwOAe4ddPFzjshnZ1A3j-c/g:nowe:28:0/c:2730:1542/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjUwMjQyNTQzLmpwZw==.webp\"/ /div /figure p In a statement issued alongside proposed rules, Fed Gov. Michael Barr said stablecoins ldquo;will only be stable if they can be reliably and promptly redeemed at par in a range of conditions. rdquo; /p",
+    "at": "2026-09-25T16:23:22.000Z",
+    "score": 1,
     "corroboration": 0,
-    "why": "UK banks complete first live customer transactions using tokenised sterling deposits.",
-    "urgency": "medium",
+    "why": "Federal Reserve proposes new regulatory rules governing stablecoins.",
+    "urgency": "high",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-24T13:42:46.354Z"
+    "queuedAt": "2026-09-25T17:14:05.976Z",
+    "fullText": "Fed proposes stablecoin rules | Banking Dive Skip to main content CONTINUE TO SITE ➞ Don't miss tomorrow's banking industry news Let Banking Dive's free newsletter keep you informed, straight from your inbox. Daily Dive M-F Fintech Weekly Every Wednesday By signing up to receive our newsletter, you agree to our Terms of Use and Privacy Policy . You can unsubscribe at anytime. Informa TechTarget | CFO Dive Payments Dive Explore our brands An Informa TechTarget Publication Search People also ask Loading questions... An article from Fed proposes stablecoin rules In a statement issued alongside proposed rules, Fed Gov. Michael Barr said stablecoins “will only be stable if they can be reliably and promptly redeemed at par in a range of conditions.” Published Sept. 25, 2026 Gabrielle Saulsbery Senior Reporter Share Copy link Email LinkedIn X/Twitter Facebook Print License Add us on Google The Federal Reserve logo is visible on the William McChesney Martin Jr. Building on December 9, 2025 in Washington, DC. Andrew Harnik via Getty Images The Federal Reserve proposed rules for stablecoin issuers Thursday , which would require issuers to back stablecoins with certain “high-quality, liquid assets” such as Treasury bills and would create an application process for banks wanting to issue stablecoins. The central bank and other federal financial regulators are required by the Genius Act to establish a comprehensive federal regulatory framework for stablecoins. The proposed rules would impose capital requirements on issuers to address credit and operational risks, as well as risk management standards. It would also create rules for Federal Reserve-supervised firms that safekeep the assets that back stablecoins; and would create a process governing appeals, hearings, and final determinations for banks applying to issue stablecoins. “[T]he regulatory framework for stablecoins needs to provide strong guardrails and consumer protections so that new instruments can foster payments improvements that benefit households and businesses,” Fed Gov. Michael Barr said in a statement Thursday . “Stablecoins will only be stable if they can be reliably and promptly redeemed at par in a range of conditions,” he said. “This includes during market stress, when pressure can be put on the value of even otherwise liquid government debt, and during episodes of strain on the individual issuer or its related entities.” The Genius Act required federal regulators and the Treasury Department to establish regulations by July, meaning the Federal Reserve is behind in doing so. The Office of the Co"
   },
-  "reason": "UK tokenised deposits pilot raises a genuine debate about whether central bank digital currency infrastructure should run through commercial banks or separately.",
-  "angle": "Bank-led tokenisation may entrench incumbent power rather than democratise financial plumbing as advocates claim.",
+  "reason": "Fed stablecoin rules create arguable tension between stability mandates and innovation constraints; whether redemption guarantees during stress actually require bank intermediation or limit beneficial competition.",
+  "angle": "Requiring stablecoins to maintain par redemption through high-quality liquid assets may protect consumers but risks entrenching banking incumbents by making non-bank issuance economically unviable.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-09-28T08:47:47.876Z"
+  "vettedAt": "2026-09-28T13:48:36.153Z"
 }
