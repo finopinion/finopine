@@ -309,6 +309,20 @@
       "queuedAt": "2026-09-28T01:29:01.028Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48484/nubank-in-talks-to-take-over-monzo?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Nubank in talks to take over Monzo",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Brazilian neobank Nubank is reportedly eyeing a takeover of UK digital bank Monzo, in a deal that would value the British challenger at $10 billion.",
+      "at": "2026-09-28T08:51:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major cross-border fintech M&A talks valuing Monzo at $10 billion.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-28T08:29:25.603Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-22/asic-lays-down-the-law-to-australian-private-credit-sector/107178192",
       "title": "'Clock is ticking' as ASIC warns private credit sector investors could bail",
       "publisher": "ABC News",
@@ -545,21 +559,7 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-26T20:53:26.760Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-28/surcharge-ban-interchange-fees-impacts-businesses-and-customers/106660248",
-      "title": "Banks cut rewards programs, free travel insurance amid surcharge ban",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Sweeping reforms from the Reserve Bank start this week, as banks hike fees and slash rewards programs in preparation.",
-      "at": "2026-09-27T18:55:36.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Sweeping Reserve Bank reforms trigger major bank fee hikes and reward cuts.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-27T19:40:01.669Z"
     }
   ],
-  "updated": "2026-09-28T01:29:01.028Z"
+  "updated": "2026-09-28T08:29:25.603Z"
 }
