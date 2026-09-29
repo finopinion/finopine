@@ -23,7 +23,7 @@ readMins: 4
 tags: ["stablecoins","payments","banking"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48478/us-prosecutors-seize-tether-linked-payment-firms-bank-accounts---ft?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "US prosecutors seize Tether-linked payment firm&#39;s bank accounts - FT"
     publisher: "Finextra"
