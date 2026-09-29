@@ -337,32 +337,18 @@
       "queuedAt": "2026-09-28T23:06:05.952Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-09-22/federal-politics-liberals-float-super-changes-home-ownership/107179680",
-      "title": "Coalition weighing options to use super to boost home ownership",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "A push to allow Australians to use their super to make it easier to buy their first home is being floated by Shadow Housing Minister Andrew Bragg, as the Coalition works through its policy on how to help people enter the housing market.",
-      "at": "2026-09-22T00:45:32.000Z",
-      "score": 1,
+      "link": "https://www.finextra.com/pressarticle/111042/fca-secures-money-back-for-victims-of-crypto-fraud?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "FCA secures money back for victims of crypto fraud",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Victims of a &#163;1.5m crypto investment fraud will recover lost funds after the Financial Conduct Authority obtained confiscation orders against Raymondip Bedi and Patrick Mavanga.",
+      "at": "2026-09-28T14:31:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "New policy proposal allowing superannuation funds for housing purchases.",
+      "why": "FCA secures confiscation orders to return funds to fraud victims.",
       "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-09-22T01:41:17.012Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-22/asic-price-comparison-websites-warning-misleading-consumers/107179656",
-      "title": "Consumers duped by price comparison websites, ASIC warns",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Australians hunting bargains on comparison websites risk being duped by sites that only offer a selection of preferred providers.",
-      "at": "2026-09-21T21:58:38.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Financial regulator issues public warning on misleading comparison sites.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-22T01:41:17.012Z"
+      "queuedAt": "2026-09-29T02:12:52.467Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-09-23/watchdog-blocks-sale-of-rac-wa-insurance-arm-to-iag/107184622",
@@ -533,5 +519,5 @@
       "queuedAt": "2026-09-26T20:53:26.760Z"
     }
   ],
-  "updated": "2026-09-28T23:06:05.952Z"
+  "updated": "2026-09-29T02:12:52.467Z"
 }
