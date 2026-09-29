@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48484/nubank-in-talks-to-take-over-monzo?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "Nubank in talks to take over Monzo",
+    "link": "https://www.finextra.com/newsarticle/48478/us-prosecutors-seize-tether-linked-payment-firms-bank-accounts---ft?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "US prosecutors seize Tether-linked payment firm&#39;s bank accounts - FT",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "Brazilian neobank Nubank is reportedly eyeing a takeover of UK digital bank Monzo, in a deal that would value the British challenger at $10 billion.",
-    "at": "2026-09-28T08:51:00.000Z",
+    "summary": "US federal prosecutors have seized bank accounts belonging Capstone, a payments business working on behalf of stablecoin issuer Tether and its sister exchange Bitfinex, according to the Financial Times.",
+    "at": "2026-09-25T14:41:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "Major cross-border fintech M&A talks valuing Monzo at $10 billion.",
+    "why": "Federal law enforcement action seizing bank accounts connected to Tether payment processing.",
     "urgency": "high",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-28T08:29:25.603Z"
+    "queuedAt": "2026-09-27T22:41:54.175Z"
   },
-  "reason": "UK-relevant fintech M&A with arguable implications for UK financial services regulation and consumer choice in digital banking.",
-  "angle": "Foreign acquisition of Monzo may accelerate UK digital banking innovation but raises questions about regulatory jurisdiction and data sovereignty.",
+  "reason": "Seizing Tether payment processors raises arguable questions about whether enforcement targets the right layer of crypto infrastructure",
+  "angle": "Prosecuting payment intermediaries may be counterproductive if the goal is regulating stablecoins themselves rather than pushing activity further underground",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-09-29T15:02:21.811Z"
+  "vettedAt": "2026-09-29T18:47:40.900Z"
 }
