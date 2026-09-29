@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48488/swift-provides-cross-border-gateway-to-bizum-payid-and-pix-users?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "Swift provides cross-border gateway to Bizum, PayID and Pix users",
+    "link": "https://www.finextra.com/newsarticle/48484/nubank-in-talks-to-take-over-monzo?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "Nubank in talks to take over Monzo",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "Swift has launched an initiative to bring the pay-by-alias experience of domestic national payment systems, Bizum, PayID and Pix, to cross-border transactions, enabling consumers to send money internationally using a mobile number or email address, rather than account details.",
-    "at": "2026-09-28T14:54:00.000Z",
+    "summary": "Brazilian neobank Nubank is reportedly eyeing a takeover of UK digital bank Monzo, in a deal that would value the British challenger at $10 billion.",
+    "at": "2026-09-28T08:51:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "Swift launching cross-border pay-by-alias connecting domestic payment networks like Pix and PayID is a major infrastructure expansion.",
-    "urgency": "medium",
+    "why": "Major cross-border fintech M&A talks valuing Monzo at $10 billion.",
+    "urgency": "high",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-28T23:06:05.952Z"
+    "queuedAt": "2026-09-28T08:29:25.603Z"
   },
-  "reason": "Swift's pay-by-alias cross-border expansion raises arguable questions about whether standardising on aliases reduces financial transparency and anti-money laundering effectiveness versus improving consumer experience.",
-  "angle": "Cross-border pay-by-alias convenience may undermine beneficial financial transparency that current account-based systems provide for detecting illicit flows.",
+  "reason": "UK-relevant fintech M&A with arguable implications for UK financial services regulation and consumer choice in digital banking.",
+  "angle": "Foreign acquisition of Monzo may accelerate UK digital banking innovation but raises questions about regulatory jurisdiction and data sovereignty.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-09-29T02:12:55.604Z"
+  "vettedAt": "2026-09-29T15:02:21.811Z"
 }
