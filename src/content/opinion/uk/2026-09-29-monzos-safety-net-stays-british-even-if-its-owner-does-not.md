@@ -23,7 +23,7 @@ readMins: 4
 tags: ["banking","regulation","fintech"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48484/nubank-in-talks-to-take-over-monzo?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Nubank in talks to take over Monzo"
     publisher: "Finextra"
