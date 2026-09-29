@@ -23,7 +23,7 @@ readMins: 4
 tags: ["payments","consumer-protection","fintech"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48488/swift-provides-cross-border-gateway-to-bizum-payid-and-pix-users?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Swift provides cross-border gateway to Bizum, PayID and Pix users"
     publisher: "Finextra"
