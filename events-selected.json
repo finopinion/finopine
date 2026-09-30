@@ -1,21 +1,22 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48478/us-prosecutors-seize-tether-linked-payment-firms-bank-accounts---ft?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "US prosecutors seize Tether-linked payment firm&#39;s bank accounts - FT",
-    "publisher": "Finextra",
-    "jurisdiction": "auto",
-    "summary": "US federal prosecutors have seized bank accounts belonging Capstone, a payments business working on behalf of stablecoin issuer Tether and its sister exchange Bitfinex, according to the Financial Times.",
-    "at": "2026-09-25T14:41:00.000Z",
-    "score": 2,
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
+    "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+    "publisher": "US Federal Reserve",
+    "jurisdiction": "us",
+    "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+    "at": "2026-09-30T13:00:00.000Z",
+    "score": 5,
     "corroboration": 0,
-    "why": "Federal law enforcement action seizing bank accounts connected to Tether payment processing.",
-    "urgency": "high",
+    "why": "Finalized regulatory changes modifying bank stress testing and capital requirement volatility.",
+    "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-27T22:41:54.175Z"
+    "queuedAt": "2026-09-30T15:12:07.171Z",
+    "fullText": "Federal Reserve Board - Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements Skip to main content An official website of the United States Government Here&#x27;s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you&#x27;ve safely connected to the .gov website. Share sensitive information only on official, secure websites. Back to Home Board of Governors of the Federal Reserve System Stay Connected Federal Reserve Facebook Page Federal Reserve Instagram Page Federal Reserve YouTube Page Federal Reserve Flickr Page Federal Reserve LinkedIn Page Federal Reserve Threads Page Federal Reserve X Page Federal Reserve Bluesky Page Subscribe to RSS Subscribe to Email Recent Postings Calendar Publications Site Map A-Z index Careers FAQs Videos Contact Search Submit Search Button Advanced Toggle Dropdown Menu Board of Governors of the Federal Reserve System The Federal Reserve, the central bank of the United States, provides the nation with a safe, flexible, and stable monetary and financial system. Main Menu Toggle Button Sections Search Toggle Button Search Search Submit Button Submit Home News & Events Press Releases Press Release Please enable JavaScript if it is disabled in your browser or access the information through the links provided below. September 30, 2026 Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements For release at 9:00 a.m. EDT Share --> --> --> --> --> --> The Federal Reserve Board on Wednesday finalized changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements. The two final rules are largely similar to the proposed rules from 2025. The Board also requested comment on a proposal to better capture differences in banks' business models to generate fee income. The Board conducts stress tests to ensure that large banks are sufficiently capitalized and able to lend to households and businesses even in a severe recession. In December 2024, the Board announced it would modify the test to improve its resilience. \"The stress test is an essential component of our regulatory capital framework,\" said Vice Chair for Supervision Michelle W. Bowman. \"Tod"
   },
-  "reason": "Seizing Tether payment processors raises arguable questions about whether enforcement targets the right layer of crypto infrastructure",
-  "angle": "Prosecuting payment intermediaries may be counterproductive if the goal is regulating stablecoins themselves rather than pushing activity further underground",
+  "reason": "Fed stress test changes present arguable trade-off: transparency gains may obscure rather than clarify capital adequacy by reducing useful volatility signals",
+  "angle": "Reducing stress test volatility could mask genuine variations in bank resilience, undermining the test's core purpose of identifying weakness.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-09-29T18:47:40.900Z"
+  "vettedAt": "2026-09-30T15:12:09.463Z"
 }
