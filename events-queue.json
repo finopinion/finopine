@@ -281,34 +281,6 @@
       "queuedAt": "2026-09-30T01:10:42.164Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-09-23/watchdog-blocks-sale-of-rac-wa-insurance-arm-to-iag/107184622",
-      "title": "Watchdog again blocks sale of RAC WA insurance arm to east-coast giant",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Australia's competition watchdog again blocks the sale of WA's largest insurer to an east-coast industry giant, reiterating the purchase would likely reduce competition in the state's insurance market.",
-      "at": "2026-09-23T02:54:08.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Competition watchdog blocks major regional insurer sale, protecting insurance market competition.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-23T03:15:19.379Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-23/nab-experiencing-digital-outage-across-mobile-online-banking/107187448",
-      "title": "Breaking: NAB customers experiencing phone and internet banking outages",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "NAB is experiencing a digital outage across multiple platforms including its mobile app, internet banking and phone services.",
-      "at": "2026-09-23T06:00:34.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Major national bank experiencing widespread digital outage affecting mobile app, internet, and phone banking services.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-23T06:20:21.662Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-09-23/government-pays-for-collapsed-oil-platform-cliff-head-wa/107187262",
       "title": "Oil platform 'a warning' as government considers new decommissioning rules",
       "publisher": "ABC News",
@@ -433,7 +405,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-26T20:53:26.760Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-09-30/inflation-august-2026-australia-bureau-of-statistics/107210688",
+      "title": "November rate rise less likely with inflation data lower than expected",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The odds of the Reserve Bank lifting interest rates in November have fallen sharply after the latest consumer price index (CPI) came in lower than expected. News figures from the ABS show show headline inflation jumped to 4 per cent in the year to August.",
+      "at": "2026-09-30T01:44:09.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Surprising CPI data significantly alters expectations for upcoming RBA monetary policy decisions.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-30T08:15:05.831Z"
     }
   ],
-  "updated": "2026-09-30T01:26:41.430Z"
+  "updated": "2026-09-30T08:15:05.831Z"
 }
