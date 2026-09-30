@@ -239,6 +239,48 @@
       "queuedAt": "2026-09-30T01:10:42.164Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48504/hsbc-prepares-for-the-launch-of-hk-backed-stablecoin-redcoin?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "HSBC prepares for the launch of HK$-backed stablecoin, RedCoin",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "HSBC&#39;s forthcoming stablecoin launch in Hong Kong will bear the brand RedCoin.",
+      "at": "2026-09-30T11:05:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major bank launching a new HKD-backed stablecoin.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-30T15:46:23.212Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48505/sibos-2026-iso-20022-is-the-sagrada-familia-of-the-financial-industry?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Sibos 2026: &#39;ISO 20022 is the Sagrada Familia of the financial industry&#39;",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Representatives from Swift, Standard Chartered Bank, Federal Reserve Bank of New York and Deloitte took to the stage at Sibos 2026 in Miami to discuss the decision to postpone the removal of unstructured addresses, despite the push towards the long-term objectives of ISO 20022.",
+      "at": "2026-09-30T11:00:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Decision to postpone key ISO 20022 transition deadline.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-30T15:46:23.212Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48503/visa-and-lloyds-complete-live-trials-of-stablecoin-settlement?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Visa and Lloyds complete live trials of stablecoin settlement",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Visa and Lloyds Banking Group have completed a live pilot exploring how stablecoin-based settlement could support faster, more transparent and flexible cross-border transactions.",
+      "at": "2026-09-30T09:44:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Live trial of stablecoin settlement by major financial institutions.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-30T15:46:23.212Z"
+    },
+    {
       "link": "https://www.bankingdive.com/news/fintech-avant-applies-occ-charter/831172/",
       "title": "Fintech Avant applies for OCC charter",
       "publisher": "Banking Dive",
@@ -365,5 +407,5 @@
       "queuedAt": "2026-09-30T08:15:05.831Z"
     }
   ],
-  "updated": "2026-09-30T15:12:07.171Z"
+  "updated": "2026-09-30T15:46:23.212Z"
 }
