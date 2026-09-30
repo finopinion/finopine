@@ -21,7 +21,7 @@ readMins: 4
 tags: ["banking","capital","regulation"]
 generated: true
 groundedIn: "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm"
-draft: true
+draft: false
 sources:
   - label: "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements"
     publisher: "US Federal Reserve"
