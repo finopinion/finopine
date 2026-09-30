@@ -23,7 +23,7 @@ readMins: 4
 tags: ["banking","capital","regulation"]
 generated: true
 groundedIn: "https://www.bankingdive.com/news/fed-stress-test-changes-transparency-volatility-scenarios-capital-buffer-requirements-bowman-barr/831787/"
-draft: true
+draft: false
 sources:
   - label: "Federal Reserve Board - Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requir"
     publisher: "US Federal Reserve"
