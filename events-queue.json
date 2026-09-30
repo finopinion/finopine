@@ -29,34 +29,6 @@
       "queuedAt": "2026-09-23T13:42:07.438Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48457/airtel-money-to-launch-london-ipo?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Airtel Money to launch London IPO",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "African mobile payments giant Airtel Money is set to file for a London initial public offering that could raise at least $800 million at a $9 billion valuation.",
-      "at": "2026-09-22T21:03:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major fintech firm preparing $9 billion London IPO.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-22T21:13:57.616Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48454/global-banks-take-on-agentic-commerce-scam-and-fraud-concerns?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Global banks take on agentic commerce scam and fraud concerns",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "A group of six global banks, including Bank of America and NatWest, has put together a set of principles designed to address concerns about scams, fraud and data privacy in agentic commerce.",
-      "at": "2026-09-22T14:45:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major global banks establish new principles targeting fraud and privacy risks in AI agentic commerce.",
-      "urgency": "low",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-22T22:40:48.402Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48453/sofi-bank-goes-live-with-stablecoin-settlement-across-mastercard-network?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "SoFi Bank goes live with stablecoin settlement across Mastercard network",
       "publisher": "Finextra",
@@ -295,6 +267,20 @@
       "queuedAt": "2026-09-29T02:12:52.467Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48499/valley-bank-to-buy-digital-sme-banking-platform-bluevine?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Valley Bank to buy digital SME banking platform Bluevine",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Regional lender Valley National Bank has agreed to buy SME digital banking platform Bluevine for around $340 million in cash and stock.",
+      "at": "2026-09-30T00:01:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major $340 million acquisition of SME banking platform Bluevine by Valley National Bank.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-30T01:10:42.164Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-23/watchdog-blocks-sale-of-rac-wa-insurance-arm-to-iag/107184622",
       "title": "Watchdog again blocks sale of RAC WA insurance arm to east-coast giant",
       "publisher": "ABC News",
@@ -463,5 +449,5 @@
       "queuedAt": "2026-09-26T20:53:26.760Z"
     }
   ],
-  "updated": "2026-09-29T18:47:38.608Z"
+  "updated": "2026-09-30T01:10:42.165Z"
 }
