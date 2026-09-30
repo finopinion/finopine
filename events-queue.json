@@ -281,20 +281,6 @@
       "queuedAt": "2026-09-30T15:46:23.212Z"
     },
     {
-      "link": "https://www.bankingdive.com/news/fintech-avant-applies-occ-charter/831172/",
-      "title": "Fintech Avant applies for OCC charter",
-      "publisher": "Banking Dive",
-      "jurisdiction": "us",
-      "summary": "figure div img src=\"https://imgproxy.divecdn.com/Ynio67rfYurR3M67S-xE1Tz5L6iqiEEwnnzmJ0vwdmA/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMjgzNTM4MzYzLmpwZw==.webp\"/ /div /figure p A charter from the Office of the Comptroller of the Currency would allow the Chicago-based lender to expand its credit products, diversify beyond them, and reduce its cost of funds, the CEO said. /p",
-      "at": "2026-09-23T18:05:52.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Major fintech seeking a national bank charter is a significant regulatory development.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-23T18:19:04.261Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-09-24/plan-to-slug-consumers-for-ev-chargers-gets-regulator-backing/107187978",
       "title": "All consumers to pay for EV chargers under power monopoly 'waiver'",
       "publisher": "ABC News",
@@ -405,7 +391,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-30T08:15:05.831Z"
+    },
+    {
+      "link": "https://www.bankingdive.com/news/fed-stress-test-changes-transparency-volatility-scenarios-capital-buffer-requirements-bowman-barr/831787/",
+      "title": "Fed finalizes stress-test changes",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "figure div img src=\"https://imgproxy.divecdn.com/_PqJfVWcT6jlTfelmc_ci_7nu32HDq6Z3iEs6uHF70I/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjY3NDQxMzQ2LmpwZw==.webp\"/ /div /figure p The central bank issued updates meant to make test scenarios more transparent and reduce year-to-year volatility banks see in their capital requirements. /p",
+      "at": "2026-09-30T16:22:49.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Federal Reserve finalizes regulatory changes to bank stress-testing framework.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-09-30T18:31:11.105Z"
     }
   ],
-  "updated": "2026-09-30T15:46:23.212Z"
+  "updated": "2026-09-30T18:31:11.105Z"
 }
