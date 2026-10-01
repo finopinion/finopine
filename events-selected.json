@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48513/uk-competition-watchdog-raises-concerns-over-brinks-ncr-atleos-deal?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "UK competition watchdog raises concerns over Brink&#39;s-NCR Atleos deal",
+    "link": "https://www.finextra.com/newsarticle/48517/european-payments-groups-join-forces-to-take-on-us-giants?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "European payments groups join forces to take on US giants",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "The UK&#39;s competition watchdog says it will undertake an in-depth investigation into cash management giant Brink&#39;s&#39; planned $6.6 billion deal to buy ATM operator NCR Atleos - unless the parties take action to address concerns.",
-    "at": "2026-09-30T18:59:00.000Z",
+    "summary": "Some of Europe&#39;s biggest payments groups - Bancomat, Bizum, Wero, Sibs-MB WAY and Vipps MobilePay - have banded together to create a cross-continent network that can take on Visa and Mastercard.",
+    "at": "2026-10-01T14:30:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "UK CMA threatens in-depth probe into $6.6B Brink's-NCR Atleos merger.",
+    "why": "Major European payment schemes unite to build a cross-border alternative to Visa and Mastercard.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-30T20:40:54.700Z"
+    "queuedAt": "2026-10-01T14:22:12.707Z"
   },
-  "reason": "CMA's Brink's-NCR Atleos probe raises genuine debate about whether cash infrastructure consolidation harms competition or enables necessary modernisation",
-  "angle": "Cash industry consolidation may reduce competition but could paradoxically strengthen resilience and innovation in payment infrastructure Britain depends on.",
+  "reason": "European payments groups uniting against US giants raises arguable questions about whether fragmentation or consolidation better serves competition and innovation in payments.",
+  "angle": "European payments consolidation will reduce competition and consumer choice rather than strengthen it against US dominance.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-01T15:37:32.132Z"
+  "vettedAt": "2026-10-01T18:59:07.164Z"
 }

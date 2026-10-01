@@ -309,6 +309,62 @@
       "queuedAt": "2026-10-01T15:37:29.811Z"
     },
     {
+      "link": "https://www.finextra.com/pressarticle/111102/fiserv-digital-platform-goes-live-with-fi-clients?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Fiserv digital platform goes live with FI clients",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Fiserv, Inc. (NASDAQ: FISV), a leading global provider of payments and financial services technology, today announced that its digital asset platform is live with financial institution clients, marking a significant milestone in the commercialization of stablecoin-enabled banking and payments.",
+      "at": "2026-10-01T14:19:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Fiserv launches digital asset platform live with clients.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-01T18:59:05.029Z"
+    },
+    {
+      "link": "https://www.finextra.com/pressarticle/111103/sardine-launches-ai-research-lab?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Sardine launches AI research lab",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Sardine, the leading agentic risk platform for fighting fraud and financial crime, today launched Sardine AI Labs, an applied research group advancing frontier intelligence to fight financial crime.",
+      "at": "2026-10-01T14:23:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Sardine launches new AI research lab for financial crime.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-01T18:59:05.029Z"
+    },
+    {
+      "link": "https://www.finextra.com/pressarticle/111105/bloomberg-closes-canoe-intelligence-acquisition?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Bloomberg closes Canoe Intelligence acquisition",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Bloomberg today announced the completion of its acquisition of Canoe Intelligence (“Canoe”), a leading AI-powered data management and intelligence platform for automating private markets data collection and delivery.",
+      "at": "2026-10-01T18:24:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Bloomberg completes acquisition of Canoe Intelligence.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-01T18:59:05.029Z"
+    },
+    {
+      "link": "https://www.finextra.com/pressarticle/111106/bmo-joins-project-agor?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "BMO joins Project Agor&#225;",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "BMO today announced its participation in Project Agor&#225;, the global public-private collaboration convened by the Bank for International Settlements (BIS) and the Institute of International Finance (IIF) to explore how tokenization and programmability could enhance wholesale cross-border payments.",
+      "at": "2026-10-01T18:26:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "BMO joins BIS Project Agora for tokenization.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-01T18:59:05.029Z"
+    },
+    {
       "link": "https://www.bankingdive.com/news/fed-proposes-stablecoin-rules/831398/",
       "title": "Fed proposes stablecoin rules",
       "publisher": "Banking Dive",
@@ -377,7 +433,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-01T07:02:46.833Z"
+    },
+    {
+      "link": "https://www.bankingdive.com/news/fed-watchdog-finds-mismanagement-not-criminality-25b-renovation/831915/",
+      "title": "Fed watchdog finds mismanagement, not criminality, in $2.5B renovation",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "figure div img src=\"https://imgproxy.divecdn.com/IyLvEyg_KWQkDgLwQcJZ2sCN8leqr9CJkeGNHhspC6c/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjM1NzY2NzI2LmpwZw==.webp\"/ /div /figure p The Federal Reserve Board should establish a guaranteed maximum price for its renovation project, which is now several years in, the Office of the Inspector General said. /p",
+      "at": "2026-10-01T16:33:45.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Fed watchdog finds mismanagement in $2.5B renovation.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-01T18:59:05.029Z"
     }
   ],
-  "updated": "2026-10-01T15:37:29.811Z"
+  "updated": "2026-10-01T18:59:05.029Z"
 }
