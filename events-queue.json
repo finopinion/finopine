@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "link": "https://www.finextra.com/newsarticle/48520/nubank-rejects-monzo-takeover-talk?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Nubank rejects Monzo takeover talk",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Brazilian digital banking giant Nubank has denied that it is pursuing a $10 billion takeover of Britain&#39;s Monzo.",
+      "at": "2026-10-01T15:46:00.000Z",
+      "score": 6,
+      "corroboration": 1,
+      "why": "Official denial of a rumored $10 billion fintech takeover.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-01T15:37:29.811Z"
+    },
+    {
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
       "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
       "publisher": "US Federal Reserve",
@@ -13,6 +27,20 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-09-30T15:12:07.171Z"
+    },
+    {
+      "link": "https://sifted.eu/articles/nubank-halts-monzo-acquisition-talks-after-sales-plunge/",
+      "title": "Nubank halts Monzo acquisition talks after shares plunge",
+      "publisher": "Sifted",
+      "jurisdiction": "auto",
+      "summary": "",
+      "at": "2026-10-01T13:37:31.000Z",
+      "score": 5,
+      "corroboration": 1,
+      "why": "Major acquisition talks reportedly halted following market stock movements.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-01T15:37:29.811Z"
     },
     {
       "link": "https://www.finextra.com/newsarticle/48474/revolut-customers-impacted-by-new-data-breach?utm_medium=rssfinextra utm_source=finextrafeed",
@@ -267,6 +295,20 @@
       "queuedAt": "2026-10-01T14:22:12.707Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48518/stripe-to-buy-embedded-finance-platform-parafin?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Stripe to buy embedded finance platform Parafin",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Stripe has agreed to buy embedded financial products platform Parafin. Financial terms of the deal were not disclosed.",
+      "at": "2026-10-01T14:58:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Acquisition of embedded finance platform Parafin by major fintech firm Stripe.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-01T15:37:29.811Z"
+    },
+    {
       "link": "https://www.bankingdive.com/news/fed-proposes-stablecoin-rules/831398/",
       "title": "Fed proposes stablecoin rules",
       "publisher": "Banking Dive",
@@ -337,5 +379,5 @@
       "queuedAt": "2026-10-01T07:02:46.833Z"
     }
   ],
-  "updated": "2026-10-01T14:22:12.707Z"
+  "updated": "2026-10-01T15:37:29.811Z"
 }

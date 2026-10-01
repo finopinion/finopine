@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.abc.net.au/news/2026-09-30/inflation-august-2026-australia-bureau-of-statistics/107210688",
-    "title": "November rate rise less likely with inflation data lower than expected",
-    "publisher": "ABC News",
-    "jurisdiction": "au",
-    "summary": "The odds of the Reserve Bank lifting interest rates in November have fallen sharply after the latest consumer price index (CPI) came in lower than expected. News figures from the ABS show show headline inflation jumped to 4 per cent in the year to August.",
-    "at": "2026-09-30T01:44:09.000Z",
-    "score": 1,
+    "link": "https://www.finextra.com/newsarticle/48513/uk-competition-watchdog-raises-concerns-over-brinks-ncr-atleos-deal?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "UK competition watchdog raises concerns over Brink&#39;s-NCR Atleos deal",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "The UK&#39;s competition watchdog says it will undertake an in-depth investigation into cash management giant Brink&#39;s&#39; planned $6.6 billion deal to buy ATM operator NCR Atleos - unless the parties take action to address concerns.",
+    "at": "2026-09-30T18:59:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "Surprising CPI data significantly alters expectations for upcoming RBA monetary policy decisions.",
-    "urgency": "high",
+    "why": "UK CMA threatens in-depth probe into $6.6B Brink's-NCR Atleos merger.",
+    "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-09-30T08:15:05.831Z",
-    "fullText": "RBA unlikely to lift rates again in November after lower-than-expected inflation figures - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home RBA unlikely to lift rates again in November after lower-than-expected inflation figures Share Share article RBA unlikely to lift rates again in November after lower-than-expected inflation figures By business reporter Gareth Hutchens Topic: Inflation Posted Wed 30 Sep 2026 at 11:44am Wed 30 Sep 2026 at 11:44am Wed 30 Sep 2026 at 11:44am , updated Wed 30 Sep 2026 at 2:06pm Wed 30 Sep 2026 at 2:06pm Wed 30 Sep 2026 at 2:06pm Annual headline inflation hit 4 per cent in August, up from 3.5 per cent. ( ABC News: Sharon Gordon ) In short: Headline inflation jumped to 4 per cent in August, from 3.5 per cent in July, driven by higher housing costs and automotive fuel prices. But underlying inflation remained at 3.6 per cent for the third month in a row. What&#x27;s next? Some economists think another rate rise is likely, though money markets are predicting there is only a 20pc chance of a November hike. abc.net.au/news/inflation-august-2026-australia-bureau-of-statistics/107210688 Link copied Share Share article The odds of the Reserve Bank lifting interest rates in November have fallen sharply after the latest consumer price index (CPI) came in lower than expected. Annual headline inflation jumped to 4 per cent in August, up from 3.5 per cent in July , according to the Bureau of Statistics (ABS). It was slightly lower than the 4.1 per cent inflation that economists were predicting ahead of the official numbers being released. But trimmed mean inflation, the RBA&#x27;s preferred measure of underlying inflation, remained steady at 3.6 per cent for the third month in a row. The ABS numbers show that consumer prices are still rising, but at a slower rate than was expected. The news comes a day after the central bank lifted interest rates for the fourth time this year, to their highest level in 15 years , to try to drag inflation down and stop high inflation becoming embedded in Australia&#x27;s economy. Money markets are now betting the RBA will likely keep rates on hold at its next meeting in early November. The odds of a rate hike fell to around 20 per cent, according to market data from LSEG. Despite that, Westpac&#x27;s chief economist Luci Ellis is predicting the RBA will lift rates again in a couple of months, &quot;absent a lasting resolution of the Middle East conflict beforehand, or some other event that significantly lowers the out"
+    "queuedAt": "2026-09-30T20:40:54.700Z"
   },
-  "reason": "Australian timing; RBA policy at inflection point with conflicting signals (headline up, trimmed mean flat, markets vs economists diverge)",
-  "angle": "The RBA should hold rates now because underlying inflation's stability matters more than headline volatility, and further hikes risk unnecessary damage to employment.",
+  "reason": "CMA's Brink's-NCR Atleos probe raises genuine debate about whether cash infrastructure consolidation harms competition or enables necessary modernisation",
+  "angle": "Cash industry consolidation may reduce competition but could paradoxically strengthen resilience and innovation in payment infrastructure Britain depends on.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-01T01:26:49.288Z"
+  "vettedAt": "2026-10-01T15:37:32.132Z"
 }
