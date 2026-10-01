@@ -23,7 +23,7 @@ readMins: 4
 tags: ["competition","cash","payments"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48513/uk-competition-watchdog-raises-concerns-over-brinks-ncr-atleos-deal?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "UK competition watchdog raises concerns over Brink&#39;s-NCR Atleos deal"
     publisher: "Finextra"
