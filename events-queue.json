@@ -15,20 +15,6 @@
       "queuedAt": "2026-09-30T15:12:07.171Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48460/trustly-slashes-200-jobs?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Trustly slashes 200 jobs",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Swedish open banking outfit Trustly is cutting a quarter of its staff as part of an effort to cut costs and prioritise profitable growth markets.",
-      "at": "2026-09-24T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major open banking fintech cuts 25% of workforce in strategic pivot to profitability.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-23T23:12:02.482Z"
-    },
-    {
       "link": "https://www.finextra.com/pressarticle/111014/asic-strengthens-ai-safeguards?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Asic strengthens AI safeguards",
       "publisher": "Finextra",
@@ -295,6 +281,34 @@
       "queuedAt": "2026-09-30T20:40:54.700Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48509/capitolis-agrees-200m-eseclending-acquisition?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Capitolis agrees $200m eSecLending acquisition",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Capital markets technology provider Capitolis has added securities lending capabilities to its platform through a $200 million all-cash deal to buy eSecLending.",
+      "at": "2026-10-01T00:01:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Significant $200 million acquisition of eSecLending by Capitolis.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-01T01:26:46.405Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48512/apple-pay-arrives-in-india?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Apple Pay arrives in India",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Apple Pay is finally launching in India, entering a huge but competitive market via a partnership with Axis Bank.",
+      "at": "2026-10-01T00:01:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major market entry for Apple Pay into India's competitive payments sector.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-01T01:26:46.405Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-24/unemployment-rate-australia-rises-post-covid-era-high-august/107189792",
       "title": "Breaking: Unemployment rate reaches post-COVID era high of 4.6pc in August",
       "publisher": "ABC News",
@@ -407,5 +421,5 @@
       "queuedAt": "2026-09-30T18:31:11.105Z"
     }
   ],
-  "updated": "2026-09-30T20:40:54.700Z"
+  "updated": "2026-10-01T01:26:46.405Z"
 }
