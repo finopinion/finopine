@@ -23,7 +23,7 @@ readMins: 4
 tags: ["rba","inflation","interest rates"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-09-30/inflation-august-2026-australia-bureau-of-statistics/107210688"
-draft: true
+draft: false
 sources:
   - label: "November rate rise less likely with inflation data lower than expected"
     publisher: "ABC News"
