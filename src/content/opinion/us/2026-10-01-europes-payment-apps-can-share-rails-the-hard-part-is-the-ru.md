@@ -23,7 +23,7 @@ readMins: 4
 tags: ["payments","cards","interoperability"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48517/european-payments-groups-join-forces-to-take-on-us-giants?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "European payments groups join forces to take on US giants"
     publisher: "Finextra"
