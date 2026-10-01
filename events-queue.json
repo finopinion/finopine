@@ -15,6 +15,20 @@
       "queuedAt": "2026-10-01T15:37:29.811Z"
     },
     {
+      "link": "https://www.bankofengland.co.uk/news/2026/august/delay-to-the-november-2026-rtgs-standards-release",
+      "title": "Delay to the November 2026 RTGS standards release",
+      "publisher": "Bank of England",
+      "jurisdiction": "uk",
+      "summary": "Bank of England statement",
+      "at": "2026-08-27T13:16:29.000Z",
+      "score": 6,
+      "corroboration": 0,
+      "why": "Unexpected delay to the implementation timeline of critical RTGS infrastructure standards.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-01T20:14:50.485Z"
+    },
+    {
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
       "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
       "publisher": "US Federal Reserve",
@@ -449,5 +463,5 @@
       "queuedAt": "2026-10-01T18:59:05.029Z"
     }
   ],
-  "updated": "2026-10-01T18:59:05.029Z"
+  "updated": "2026-10-01T20:14:50.485Z"
 }
