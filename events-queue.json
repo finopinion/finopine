@@ -15,62 +15,6 @@
       "queuedAt": "2026-09-30T15:12:07.171Z"
     },
     {
-      "link": "https://www.finextra.com/pressarticle/111014/asic-strengthens-ai-safeguards?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Asic strengthens AI safeguards",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "ASIC is strengthening safeguards for automated and AI-enabled trading while streamlining regulatory requirements for securities and futures market participants under incoming changes to its Market Integrity Rules (MIRs).",
-      "at": "2026-09-24T10:17:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "ASIC is updating Market Integrity Rules to strengthen safeguards for AI-enabled trading.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-24T10:16:03.342Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48465/the-clearing-house-taps-quant-for-tokenised-deposit-network?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "The Clearing House taps Quant for tokenised deposit network",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The Clearing House has picked UK-based programmable money infrastructure provider Quant to power a new interoperable payments network that will enable US financial institutions of all sizes to clear and settle tokenised deposit transactions.",
-      "at": "2026-09-24T14:00:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "The Clearing House launches new tokenised deposit network, a significant US payments infrastructure move.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-24T13:17:01.197Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48467/uk-banks-pilot-tokenised-deposit-transactions?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "UK banks pilot tokenised deposit transactions",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "UK banks have collaborated to complete the first live customer transactions using tokenised sterling deposits.",
-      "at": "2026-09-24T09:33:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "UK banks complete first live customer transactions using tokenised sterling deposits.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-24T13:42:46.354Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48469/ibm-integrates-digital-asset-platform-with-swift-shared-ledger?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "IBM integrates digital asset platform with Swift shared ledger",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "IBM is now letting its digital asset platform clients connect to permissioned blockchain networks, including Swift’s shared ledger.",
-      "at": "2026-09-24T14:28:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "IBM integrating its digital asset platform with Swift's shared ledger is a significant fintech interoperability development.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-24T14:16:30.267Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48474/revolut-customers-impacted-by-new-data-breach?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Revolut customers impacted by new data breach",
       "publisher": "Finextra",
@@ -309,32 +253,18 @@
       "queuedAt": "2026-10-01T01:26:46.405Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-09-24/bathla-reduces-to-skeleton-staff-lenders-pull-out/107192692",
-      "title": "Breaking: Lenders pull out of Bathla group as construction work halts across sites",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Building work has stopped at sites and company is down to skeleton staff.",
-      "at": "2026-09-24T06:59:53.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Lenders pulling out of a major developer and halting construction is a significant, unexpected market event.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-24T07:16:12.472Z"
-    },
-    {
-      "link": "https://sifted.eu/articles/exclusive-revolut-customers-fresh-hack/",
-      "title": "Exclusive: Revolut customers hit by fresh security breach",
-      "publisher": "Sifted",
+      "link": "https://www.finextra.com/newsarticle/48517/european-payments-groups-join-forces-to-take-on-us-giants?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "European payments groups join forces to take on US giants",
+      "publisher": "Finextra",
       "jurisdiction": "auto",
-      "summary": "",
-      "at": "2026-09-24T11:25:39.000Z",
-      "score": 1,
+      "summary": "Some of Europe&#39;s biggest payments groups - Bancomat, Bizum, Wero, Sibs-MB WAY and Vipps MobilePay - have banded together to create a cross-continent network that can take on Visa and Mastercard.",
+      "at": "2026-10-01T14:30:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Exclusive report detailing a fresh security breach at major fintech Revolut.",
-      "urgency": "high",
+      "why": "Major European payment schemes unite to build a cross-border alternative to Visa and Mastercard.",
+      "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-09-24T11:15:22.418Z"
+      "queuedAt": "2026-10-01T14:22:12.707Z"
     },
     {
       "link": "https://www.bankingdive.com/news/fed-proposes-stablecoin-rules/831398/",
@@ -407,5 +337,5 @@
       "queuedAt": "2026-10-01T07:02:46.833Z"
     }
   ],
-  "updated": "2026-10-01T07:02:46.833Z"
+  "updated": "2026-10-01T14:22:12.707Z"
 }
