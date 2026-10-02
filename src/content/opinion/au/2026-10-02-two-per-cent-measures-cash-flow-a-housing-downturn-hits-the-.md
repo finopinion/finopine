@@ -23,7 +23,7 @@ readMins: 4
 tags: ["housing","financial stability","rba"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-01/rba-financial-stability-review-october-2026/107215072"
-draft: true
+draft: false
 sources:
   - label: "RBA relaxed about housing downturn, deeply worried by AI and bonds"
     publisher: "ABC News"
