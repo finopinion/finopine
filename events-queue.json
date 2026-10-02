@@ -447,7 +447,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-02T00:36:53.841Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-02/qld-state-to-take-data-centre-approvals-from-local-councils/107221348",
+      "title": "Qld government takes data centre approvals from councils to avoid 'inconsistency'",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The Queensland government will take the planning and assessment of data centre applications away from local councils under a system set to be rolled out in coming weeks.",
+      "at": "2026-10-02T03:37:52.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Queensland government takes over data centre planning assessments from local councils, a significant state regulatory change.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-02T06:51:03.221Z"
     }
   ],
-  "updated": "2026-10-02T01:47:17.587Z"
+  "updated": "2026-10-02T06:51:03.221Z"
 }
