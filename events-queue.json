@@ -337,6 +337,20 @@
       "queuedAt": "2026-10-01T18:59:05.029Z"
     },
     {
+      "link": "https://www.finextra.com/pressarticle/111108/new-york-and-wyoming-regulators-ink-virtual-currency-mou?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "New York and Wyoming regulators ink virtual currency MoU",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The New York State Department of Financial Services (DFS) Acting Superintendent Kaitlin Asrow and the Wyoming Division of Banking Commissioner Jeremiah Bishop today announced a memorandum of understanding (MOU) to facilitate coordinated oversight of entities engaged in virtual currency and digital asset activities in New York and Wyoming.",
+      "at": "2026-10-01T19:58:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "New regulatory coordination agreement established between key US state crypto regulators.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-02T01:47:17.587Z"
+    },
+    {
       "link": "https://www.bankingdive.com/news/fed-proposes-stablecoin-rules/831398/",
       "title": "Fed proposes stablecoin rules",
       "publisher": "Banking Dive",
@@ -435,5 +449,5 @@
       "queuedAt": "2026-10-02T00:36:53.841Z"
     }
   ],
-  "updated": "2026-10-02T00:36:53.841Z"
+  "updated": "2026-10-02T01:47:17.587Z"
 }
