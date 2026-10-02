@@ -23,7 +23,7 @@ readMins: 4
 tags: ["federal reserve","governance","procurement"]
 generated: true
 groundedIn: "https://www.bankingdive.com/news/fed-watchdog-finds-mismanagement-not-criminality-25b-renovation/831915/"
-draft: true
+draft: false
 sources:
   - label: "Fed watchdog finds mismanagement, not criminality, in $2.5B renovation"
     publisher: "Banking Dive"
