@@ -123,10 +123,10 @@
       "kind": "primary",
       "weight": 2,
       "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-      "verified": false,
+      "verified": true,
       "jurisdiction": "us",
       "lastChecked": "2026-10-02",
-      "lastResult": "DEAD (404) — find the current URL"
+      "lastResult": "ok, 20 items"
     },
     {
       "id": "boe-news",

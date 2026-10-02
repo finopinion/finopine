@@ -57,20 +57,6 @@
       "queuedAt": "2026-10-01T15:37:29.811Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48481/bitget-hit-by-3875-million-hack?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Bitget hit by $387.5 million hack",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Bitget has halted customer withdrawals after hackers that the crypto exchange suspects are linked to North Korea stole more than $380 million.",
-      "at": "2026-09-25T18:32:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major crypto exchange hacked for nearly $390 million with withdrawals halted.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-25T18:19:23.670Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48478/us-prosecutors-seize-tether-linked-payment-firms-bank-accounts---ft?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "US prosecutors seize Tether-linked payment firm&#39;s bank accounts - FT",
       "publisher": "Finextra",
@@ -337,20 +323,6 @@
       "queuedAt": "2026-10-02T01:47:17.587Z"
     },
     {
-      "link": "https://www.bankingdive.com/news/fed-proposes-stablecoin-rules/831398/",
-      "title": "Fed proposes stablecoin rules",
-      "publisher": "Banking Dive",
-      "jurisdiction": "us",
-      "summary": "figure div img src=\"https://imgproxy.divecdn.com/-DqnjKLPOoTxBe41IMfQlKwOAe4ddPFzjshnZ1A3j-c/g:nowe:28:0/c:2730:1542/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjUwMjQyNTQzLmpwZw==.webp\"/ /div /figure p In a statement issued alongside proposed rules, Fed Gov. Michael Barr said stablecoins ldquo;will only be stable if they can be reliably and promptly redeemed at par in a range of conditions. rdquo; /p",
-      "at": "2026-09-25T16:23:22.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Federal Reserve proposes new regulatory rules governing stablecoins.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-25T17:14:05.976Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-09-27/president-donald-trump-xi-jinping-washington-summit-tariffs-ai/107200436",
       "title": "China, US agree to AI dialogue, $42b in tariff cuts during state visit",
       "publisher": "ABC News",
@@ -449,5 +421,5 @@
       "queuedAt": "2026-10-02T06:51:03.221Z"
     }
   ],
-  "updated": "2026-10-02T14:57:21.948Z"
+  "updated": "2026-10-02T18:35:58.459Z"
 }
