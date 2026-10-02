@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.abc.net.au/news/2026-10-01/rba-financial-stability-review-october-2026/107215072",
-    "title": "RBA relaxed about housing downturn, deeply worried by AI and bonds",
-    "publisher": "ABC News",
-    "jurisdiction": "au",
-    "summary": "Despite Australia's rapid housing downturn, which threatens to be the worst in decades, the Reserve Bank believes the main threats to the nation's financial stability come from overseas.",
-    "at": "2026-10-01T02:00:00.000Z",
-    "score": 1,
+    "link": "https://www.finextra.com/newsarticle/48503/visa-and-lloyds-complete-live-trials-of-stablecoin-settlement?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "Visa and Lloyds complete live trials of stablecoin settlement",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "Visa and Lloyds Banking Group have completed a live pilot exploring how stablecoin-based settlement could support faster, more transparent and flexible cross-border transactions.",
+    "at": "2026-09-30T09:44:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "RBA reveals surprising financial stability assessment, prioritizing AI and bond risks over severe housing downturn.",
+    "why": "Live trial of stablecoin settlement by major financial institutions.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-01T07:02:46.833Z",
-    "fullText": "RBA relaxed about housing downturn but deeply worried by AI and bonds - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home RBA relaxed about housing downturn but deeply worried by AI and bonds Share Share article RBA relaxed about housing downturn but deeply worried by AI and bonds By business editor Michael Janda Topic: Property Prices Posted Thu 1 Oct 2026 at 12:00pm Thu 1 Oct 2026 at 12:00pm Thu 1 Oct 2026 at 12:00pm , updated Thu 1 Oct 2026 at 1:09pm Thu 1 Oct 2026 at 1:09pm Thu 1 Oct 2026 at 1:09pm Michele Bullock&#x27;s comments to the media on Tuesday were interpreted as lowering the chances of a follow-up rate hike in November. ( AAP: Sarah Wilson ) In short: The RBA estimates less than 2 per cent of owner-occupier mortgage borrowers have a cash flow shortfall, while most have large offset or redraw buffers. It is concerned about &quot;circular financing&quot; and increasing borrowing to fund the AI boom, as well as a spike in government bond yields. What&#x27;s next? The RBA Monetary Policy Board will announce its next interest rate decision on November 3. abc.net.au/news/rba-financial-stability-review-october-2026/107215072 Link copied Share Share article Despite Australia&#x27;s rapid housing downturn, which threatens to be the worst in decades, the Reserve Bank believes the main threats to the nation&#x27;s financial stability come from overseas. That is the key takeaway from its latest half-yearly Financial Stability Review (FSR), released two days after the bank increased its cash rate to a 15-year high of 4.6 per cent on Tuesday. While Australian households remain among the world&#x27;s most indebted, a rise in real household disposable income per capita since a recent low point in 2023 and 2024 means most borrowers are better placed to cope with their mortgage repayments, even though rates have passed the peak of 4.35 per cent in that period. As at the end of June, the RBA estimated that less than 2 per cent of variable-rate owner-occupier mortgage borrowers had a &quot;cash flow shortfall&quot; — that is, where their income was insufficient to cover scheduled mortgage repayments and essential expenses. The RBA forecast that this might rise to 2 per cent, or slightly above, in coming months as the cash rate has risen once since then to 4.6 per cent and is expected by financial markets to potentially rise further. &#x27;Pressures bearing down&#x27; on rates Why is Australia stuck in an inflation problem that has sent interest rates to 15-year highs? Howeve"
+    "queuedAt": "2026-09-30T15:46:23.212Z"
   },
-  "reason": "RBA's assessment that housing downturn poses less financial stability risk than AI and bond market risks is counterintuitive and worth challenging",
-  "angle": "The RBA is wrong to downplay housing risks when rapid property price falls typically precede broader financial instability",
+  "reason": "Visa-Lloyds stablecoin trial completion raises arguable question: does this demonstrate stablecoins solve real cross-border problems, or validate unnecessary technology looking for problems to solve?",
+  "angle": "Stablecoin settlement trials prove utility for cross-border payments only if they solve speed or cost problems that existing correspondent banking cannot, which the report does not establish.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-02T01:47:20.184Z"
+  "vettedAt": "2026-10-02T14:57:24.631Z"
 }

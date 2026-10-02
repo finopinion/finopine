@@ -57,20 +57,6 @@
       "queuedAt": "2026-10-01T15:37:29.811Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48476/online-scams-agreement-signed-between-uk-and-cambodian-governments?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Online scams agreement signed between UK and Cambodian governments",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The UK and Cambodia will work together to tackle networks of illegal scam centres, locations where sophisticated fraud techniques are deployed and scaled to target thousands of victims.",
-      "at": "2026-09-25T10:02:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "New international government agreement to target cross-border online scam networks.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-25T10:15:28.567Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48481/bitget-hit-by-3875-million-hack?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Bitget hit by $387.5 million hack",
       "publisher": "Finextra",
@@ -463,5 +449,5 @@
       "queuedAt": "2026-10-02T06:51:03.221Z"
     }
   ],
-  "updated": "2026-10-02T06:51:03.221Z"
+  "updated": "2026-10-02T14:57:21.948Z"
 }
