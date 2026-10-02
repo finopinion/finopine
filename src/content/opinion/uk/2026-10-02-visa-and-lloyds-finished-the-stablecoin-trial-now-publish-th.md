@@ -23,7 +23,7 @@ readMins: 4
 tags: ["stablecoins","cross-border payments","banking"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48503/visa-and-lloyds-complete-live-trials-of-stablecoin-settlement?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Visa and Lloyds complete live trials of stablecoin settlement"
     publisher: "Finextra"
