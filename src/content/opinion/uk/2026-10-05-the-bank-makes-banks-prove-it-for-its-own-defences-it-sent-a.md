@@ -23,7 +23,7 @@ readMins: 4
 tags: ["bank of england","cyber","regulation"]
 generated: true
 groundedIn: "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-the-daily-mail"
-draft: true
+draft: false
 sources:
   - label: "Letter from the Governor to the Daily Mail"
     publisher: "Bank of England"
