@@ -365,6 +365,20 @@
       "queuedAt": "2026-10-05T17:20:29.706Z"
     },
     {
+      "link": "https://www.finextra.com/pressarticle/111138/modern-treasury-applies-to-establish-national-bank-trust?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Modern Treasury applies to establish national bank trust",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Modern Treasury, which provides infrastructure for global money movement, today announced that it has submitted an application to the Office of the Comptroller of the Currency (“OCC”) to establish Modern Treasury National Trust Bank.",
+      "at": "2026-10-05T20:13:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Fintech infrastructure firm applying for a US national bank trust charter with the OCC.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-05T21:16:56.399Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-30/inflation-august-2026-australia-bureau-of-statistics/107210688",
       "title": "November rate rise less likely with inflation data lower than expected",
       "publisher": "ABC News",
@@ -449,5 +463,5 @@
       "queuedAt": "2026-10-02T06:51:03.221Z"
     }
   ],
-  "updated": "2026-10-05T17:20:29.706Z"
+  "updated": "2026-10-05T21:16:56.399Z"
 }

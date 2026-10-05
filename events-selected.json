@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-the-daily-mail",
-    "title": "Letter from the Governor to the Daily Mail",
-    "publisher": "Bank of England",
-    "jurisdiction": "uk",
-    "summary": "Letter from Governor Andrew Bailey to the Daily Mail on the subject of AI and cyber-attacks",
-    "at": "2026-07-23T16:00:00.000Z",
-    "score": 6,
+    "link": "https://www.finextra.com/newsarticle/48530/sec-publishes-new-crypto-custody-rules?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "SEC publishes new crypto custody rules",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "The US Securities and Exchange Commission has proposed new rules designed to establish a dedicated legal framework for crypto custody within the wealth management and advisory market",
+    "at": "2026-10-05T11:46:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "Ad-hoc public intervention by the Governor on AI and cyber-attacks.",
-    "urgency": "medium",
+    "why": "SEC proposed new rules for crypto custody.",
+    "urgency": "high",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-05T01:09:57.101Z",
-    "fullText": "Letter from the Governor to the Daily Mail | Bank of England – the UK&#39;s central bank Our use of cookies We use necessary cookies to make our site work. We&rsquo;d also like to use some non-essential cookies (including third-party cookies) to help us improve the site. By clicking &lsquo;Accept recommended settings&rsquo; on this banner, you accept our use of analytics cookies. For more information on how these cookies work please see our Cookie policy . Accept recommended cookies Proceed with necessary cookies only Skip to main content Letter from the Governor to the Daily Mail Letter from Governor Andrew Bailey to the Daily Mail on the subject of AI and cyber-attacks Published on 23 July 2026 Letter Connor Axiotes is right to draw attention to the seriousness of frontier AI and its potential impact on the risk of cyber attacks (&lsquo; Humanity is no longer in control of its most awesome creation since the atom bomb &rsquo;). But his assertion about the Bank of England&rsquo;s cyber defences being unsophisticated is totally wrong, unfounded and dangerous. For obvious security reasons we do not discuss our defences in detail. But I can assure Daily Mail readers the Bank has the right investment, expertise and capabilities and works extremely closely with expert partners including the National Cyber Security Centre. The issue that should concern the public is the wider risk posed by frontier AI to the financial sector and its customers. Frontier AI may make cyber-attacks faster and easier to perpetrate, outages more disruptive, and scams by criminals more convincing. The Bank has consistently warned for a number of years that firms must strengthen their detection efforts and responses, patch vulnerabilities faster, and be able to recover when things do go wrong. As a regulator we require that banks prove to us that they can do this through stress tests and penetration testing. It is also why the Bank has called for stronger international coordination around testing frontier AI models before wider deployment. No country can seal itself off from these risks. Thankfully the UK is well placed through the AI Security Institute and the NCSC, and the Bank is, as you would expect, working at speed with these organisations and our international partners to help strengthen the cyber resilience of the banks and firms we supervise. The issues of AI and cyber-attack are rightly being scrutinised, but readers can be assured that the Bank and the UK authorities are focused on them and taking action. In view of the strong public interest in this matter, and in the int"
+    "queuedAt": "2026-10-05T17:20:29.706Z"
   },
-  "reason": "Governor's letter defends BoE cyber resilience while acknowledging frontier AI risks. Argues public reassurance without transparency is insufficient; testable through future breach severity.",
-  "angle": "Central banks should publish specific cyber-resilience metrics rather than claiming adequate defences without evidence.",
+  "reason": "SEC crypto custody rules create testable claim about whether dedicated framework actually improves consumer protection or just regulatory arbitrage",
+  "angle": "New SEC crypto custody rules will reduce fraud and losses only if they establish meaningful standards; unclear rules simply legitimize existing practices without protection.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-05T17:20:32.325Z"
+  "vettedAt": "2026-10-05T21:17:00.535Z"
 }
