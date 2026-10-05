@@ -85,34 +85,6 @@
       "queuedAt": "2026-10-04T22:56:08.354Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48479/revolut-gets-green-light-to-buy-argentinian-bank?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Revolut gets green light to buy Argentinian bank",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Revolut has received the regulatory go-ahead to acquire small Argentinian lender Banco Cetelem from BNP Paribas.",
-      "at": "2026-09-28T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Regulatory approval for Revolut to acquire an Argentinian bank and expand presence.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-28T01:29:01.028Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48484/nubank-in-talks-to-take-over-monzo?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Nubank in talks to take over Monzo",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Brazilian neobank Nubank is reportedly eyeing a takeover of UK digital bank Monzo, in a deal that would value the British challenger at $10 billion.",
-      "at": "2026-09-28T08:51:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major cross-border fintech M&A talks valuing Monzo at $10 billion.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-28T08:29:25.603Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48488/swift-provides-cross-border-gateway-to-bizum-payid-and-pix-users?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Swift provides cross-border gateway to Bizum, PayID and Pix users",
       "publisher": "Finextra",
@@ -337,6 +309,62 @@
       "queuedAt": "2026-10-02T01:47:17.587Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48533/south-korean-president-orders-investigation-after-spate-of-bank-data-breaches?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "South Korean president orders investigation after spate of bank data breaches",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "South Korea&#39;s president, Lee Jae Myung, has ordered an investigation into a series of data breaches at banks in the country.",
+      "at": "2026-10-05T15:28:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Presidential order for investigation into major bank data breaches.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-05T17:20:29.706Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48532/basware-buys-payment-fraud-prevention-platform-trustpair?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Basware buys payment fraud prevention platform Trustpair",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Invoice lifecycle management firm Basware has acquired payment fraud prevention platform Trustpair. Financial terms were not disclosed.",
+      "at": "2026-10-05T14:39:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Fintech acquisition of fraud prevention platform.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-05T17:20:29.706Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48531/mynt-valued-at-7bn-for-upcoming-ipo?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Mynt valued at $7bn for upcoming IPO",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Philippines unicorn Mynt could achieve a valuation of more than $7bn following an IPO that is set to be the country&#39;s biggest ever listing",
+      "at": "2026-10-05T12:37:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major IPO valuation for a significant fintech unicorn.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-05T17:20:29.706Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48530/sec-publishes-new-crypto-custody-rules?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "SEC publishes new crypto custody rules",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The US Securities and Exchange Commission has proposed new rules designed to establish a dedicated legal framework for crypto custody within the wealth management and advisory market",
+      "at": "2026-10-05T11:46:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "SEC proposed new rules for crypto custody.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-05T17:20:29.706Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-30/inflation-august-2026-australia-bureau-of-statistics/107210688",
       "title": "November rate rise less likely with inflation data lower than expected",
       "publisher": "ABC News",
@@ -421,5 +449,5 @@
       "queuedAt": "2026-10-02T06:51:03.221Z"
     }
   ],
-  "updated": "2026-10-05T01:09:57.101Z"
+  "updated": "2026-10-05T17:20:29.706Z"
 }
