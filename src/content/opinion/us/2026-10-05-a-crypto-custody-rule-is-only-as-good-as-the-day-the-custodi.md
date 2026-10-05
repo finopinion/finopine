@@ -23,7 +23,7 @@ readMins: 4
 tags: ["crypto","regulation","custody"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48530/sec-publishes-new-crypto-custody-rules?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "SEC publishes new crypto custody rules"
     publisher: "Finextra"
