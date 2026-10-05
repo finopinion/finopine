@@ -23,7 +23,7 @@ readMins: 4
 tags: ["water","utility regulation","pricing"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-02/taswater-agrees-to-rethink-price-increases-sewerage/107219744"
-draft: true
+draft: false
 sources:
   - label: "'We've heard the feedback': TasWater rethinks big sewerage bill increases"
     publisher: "ABC News"
