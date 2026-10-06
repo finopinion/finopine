@@ -23,7 +23,7 @@ readMins: 4
 tags: ["operational resilience","banking","artificial intelligence"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48538/dnb-to-lay-off-400-and-expand-use-of-ai-agents?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "DNB to lay off 400 and expand use of AI agents"
     publisher: "Finextra"
