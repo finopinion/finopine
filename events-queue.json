@@ -43,6 +43,20 @@
       "queuedAt": "2026-10-05T01:09:57.101Z"
     },
     {
+      "link": "https://www.finextra.com/pressarticle/111164/rain-applies-to-establish-national-trust-bank?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Rain applies to establish national trust bank",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Rain, the enterprise-grade infrastructure for stablecoin payments, announced today that it has filed an application with the Office of the Comptroller of the Currency (OCC) to establish Rain National Trust Bank (RNTB), a proposed national trust bank headquartered in New York.",
+      "at": "2026-10-06T18:01:00.000Z",
+      "score": 6,
+      "corroboration": 1,
+      "why": "Fintech firm Rain applies for a national trust bank charter with the OCC.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-06T20:06:44.632Z"
+    },
+    {
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
       "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
       "publisher": "US Federal Reserve",
@@ -83,6 +97,20 @@
       "urgency": "low",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-04T22:56:08.354Z"
+    },
+    {
+      "link": "https://www.bankingdive.com/news/rain-modern-treasury-seek-occ-trust-charters/832257/",
+      "title": "Rain, Modern Treasury seek OCC trust charters",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "p The firms join a growing list of fintech companies looking to get into the folds of federal regulation, days after a trade group sued the OCC over trust charters. /p",
+      "at": "2026-10-06T15:34:37.000Z",
+      "score": 5,
+      "corroboration": 1,
+      "why": "Rain and Modern Treasury seek OCC trust charters amid legal disputes over regulation.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-06T20:06:44.632Z"
     },
     {
       "link": "https://www.finextra.com/newsarticle/48499/valley-bank-to-buy-digital-sme-banking-platform-bluevine?utm_medium=rssfinextra utm_source=finextrafeed",
@@ -393,6 +421,20 @@
       "queuedAt": "2026-10-06T14:56:04.944Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48543/circle-ripple-and-standard-chartered-invest-in-okx?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Circle, Ripple and Standard Chartered invest in OKX",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Crypto exchange OKX has secured strategic investment from Circle, QRT, Ripple and SC Ventures at a $25 billion valuation.",
+      "at": "2026-10-06T18:02:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major strategic investment in OKX at a $25 billion valuation by prominent firms.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-06T20:06:44.632Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-30/inflation-august-2026-australia-bureau-of-statistics/107210688",
       "title": "November rate rise less likely with inflation data lower than expected",
       "publisher": "ABC News",
@@ -477,5 +519,5 @@
       "queuedAt": "2026-10-02T06:51:03.221Z"
     }
   ],
-  "updated": "2026-10-06T18:59:09.191Z"
+  "updated": "2026-10-06T20:06:44.632Z"
 }
