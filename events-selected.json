@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48534/anz-completes-cross-border-tokenised-deposit-payment-with-swift-ledger?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "ANZ completes cross-border tokenised deposit payment with Swift ledger",
+    "link": "https://www.finextra.com/newsarticle/48538/dnb-to-lay-off-400-and-expand-use-of-ai-agents?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "DNB to lay off 400 and expand use of AI agents",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "Australia&#39;s ANZ has carried out a live corporate treasury transactions using tokenised deposits and Swift’s blockchain ledger.",
-    "at": "2026-10-06T00:01:00.000Z",
+    "summary": "Norway&#39;s biggest bank, DNB, is set to lay off 400 staff in its technology teams while it increases its investment in AI agents.",
+    "at": "2026-10-06T11:13:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "First live cross-border tokenised deposit payment by ANZ using Swift.",
+    "why": "Major strategic workforce reduction directly tied to replacing bank tech staff with AI agents.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-06T00:41:43.529Z"
+    "queuedAt": "2026-10-06T14:56:04.944Z"
   },
-  "reason": "ANZ's tokenised deposit trial raises arguable questions about whether Swift's blockchain approach will actually reduce settlement risk or merely add complexity to cross-border payments",
-  "angle": "Tokenisation via blockchain ledgers may solve coordination problems that don't actually exist in modern correspondent banking, creating solutions in search of problems.",
+  "reason": "DNB's AI layoffs raise contestable claims about automation's true productivity gains and whether banks are solving real problems or chasing fashionable tech",
+  "angle": "Banks replacing workers with AI agents may be pursuing automation theatre rather than genuine efficiency when the productivity case remains unproven.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-06T02:25:53.254Z"
+  "vettedAt": "2026-10-06T15:25:08.191Z"
 }
