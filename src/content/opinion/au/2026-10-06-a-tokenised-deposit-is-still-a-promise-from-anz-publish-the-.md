@@ -23,7 +23,7 @@ readMins: 4
 tags: ["payments","banking","tokenisation"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48534/anz-completes-cross-border-tokenised-deposit-payment-with-swift-ledger?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "ANZ completes cross-border tokenised deposit payment with Swift ledger"
     publisher: "Finextra"
