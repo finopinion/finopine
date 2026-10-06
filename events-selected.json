@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48530/sec-publishes-new-crypto-custody-rules?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "SEC publishes new crypto custody rules",
+    "link": "https://www.finextra.com/newsarticle/48534/anz-completes-cross-border-tokenised-deposit-payment-with-swift-ledger?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "ANZ completes cross-border tokenised deposit payment with Swift ledger",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "The US Securities and Exchange Commission has proposed new rules designed to establish a dedicated legal framework for crypto custody within the wealth management and advisory market",
-    "at": "2026-10-05T11:46:00.000Z",
+    "summary": "Australia&#39;s ANZ has carried out a live corporate treasury transactions using tokenised deposits and Swift’s blockchain ledger.",
+    "at": "2026-10-06T00:01:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "SEC proposed new rules for crypto custody.",
-    "urgency": "high",
+    "why": "First live cross-border tokenised deposit payment by ANZ using Swift.",
+    "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-05T17:20:29.706Z"
+    "queuedAt": "2026-10-06T00:41:43.529Z"
   },
-  "reason": "SEC crypto custody rules create testable claim about whether dedicated framework actually improves consumer protection or just regulatory arbitrage",
-  "angle": "New SEC crypto custody rules will reduce fraud and losses only if they establish meaningful standards; unclear rules simply legitimize existing practices without protection.",
+  "reason": "ANZ's tokenised deposit trial raises arguable questions about whether Swift's blockchain approach will actually reduce settlement risk or merely add complexity to cross-border payments",
+  "angle": "Tokenisation via blockchain ledgers may solve coordination problems that don't actually exist in modern correspondent banking, creating solutions in search of problems.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-05T21:17:00.535Z"
+  "vettedAt": "2026-10-06T02:25:53.254Z"
 }

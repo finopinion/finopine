@@ -85,20 +85,6 @@
       "queuedAt": "2026-10-04T22:56:08.354Z"
     },
     {
-      "link": "https://www.finextra.com/pressarticle/111042/fca-secures-money-back-for-victims-of-crypto-fraud?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "FCA secures money back for victims of crypto fraud",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Victims of a &#163;1.5m crypto investment fraud will recover lost funds after the Financial Conduct Authority obtained confiscation orders against Raymondip Bedi and Patrick Mavanga.",
-      "at": "2026-09-28T14:31:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "FCA secures confiscation orders to return funds to fraud victims.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-29T02:12:52.467Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48499/valley-bank-to-buy-digital-sme-banking-platform-bluevine?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Valley Bank to buy digital SME banking platform Bluevine",
       "publisher": "Finextra",
@@ -463,5 +449,5 @@
       "queuedAt": "2026-10-02T06:51:03.221Z"
     }
   ],
-  "updated": "2026-10-06T00:41:43.529Z"
+  "updated": "2026-10-06T02:25:50.230Z"
 }
