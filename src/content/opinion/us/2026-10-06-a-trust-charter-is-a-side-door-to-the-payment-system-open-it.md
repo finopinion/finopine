@@ -21,7 +21,7 @@ readMins: 4
 tags: ["banking","regulation","payments"]
 generated: true
 groundedIn: "https://www.finextra.com/pressarticle/111138/modern-treasury-applies-to-establish-national-bank-trust?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Modern Treasury applies to establish national bank trust"
     publisher: "Finextra"
