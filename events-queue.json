@@ -365,6 +365,34 @@
       "queuedAt": "2026-10-06T00:41:43.529Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48538/dnb-to-lay-off-400-and-expand-use-of-ai-agents?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "DNB to lay off 400 and expand use of AI agents",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Norway&#39;s biggest bank, DNB, is set to lay off 400 staff in its technology teams while it increases its investment in AI agents.",
+      "at": "2026-10-06T11:13:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major strategic workforce reduction directly tied to replacing bank tech staff with AI agents.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-06T14:56:04.944Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48537/french-regulator-targets-crowdfunding-platforms?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "French regulator targets crowdfunding platforms",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "France&#39;s financial watchdog, the Autorit&#233; des March&#233;s Financiers (AMF), has called on crowdfunding platforms to strengthen their practices in order to better protect investors.",
+      "at": "2026-10-06T09:51:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Regulator issuing sector-wide demands for crowdfunding platforms to tighten investor protection standards.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-06T14:56:04.944Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-30/inflation-august-2026-australia-bureau-of-statistics/107210688",
       "title": "November rate rise less likely with inflation data lower than expected",
       "publisher": "ABC News",
@@ -449,5 +477,5 @@
       "queuedAt": "2026-10-02T06:51:03.221Z"
     }
   ],
-  "updated": "2026-10-06T02:25:50.230Z"
+  "updated": "2026-10-06T14:56:04.944Z"
 }
