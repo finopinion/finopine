@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48538/dnb-to-lay-off-400-and-expand-use-of-ai-agents?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "DNB to lay off 400 and expand use of AI agents",
+    "link": "https://www.finextra.com/pressarticle/111138/modern-treasury-applies-to-establish-national-bank-trust?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "Modern Treasury applies to establish national bank trust",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "Norway&#39;s biggest bank, DNB, is set to lay off 400 staff in its technology teams while it increases its investment in AI agents.",
-    "at": "2026-10-06T11:13:00.000Z",
+    "summary": "Modern Treasury, which provides infrastructure for global money movement, today announced that it has submitted an application to the Office of the Comptroller of the Currency (“OCC”) to establish Modern Treasury National Trust Bank.",
+    "at": "2026-10-05T20:13:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "Major strategic workforce reduction directly tied to replacing bank tech staff with AI agents.",
+    "why": "Fintech infrastructure firm applying for a US national bank trust charter with the OCC.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-06T14:56:04.944Z"
+    "queuedAt": "2026-10-05T21:16:56.399Z"
   },
-  "reason": "DNB's AI layoffs raise contestable claims about automation's true productivity gains and whether banks are solving real problems or chasing fashionable tech",
-  "angle": "Banks replacing workers with AI agents may be pursuing automation theatre rather than genuine efficiency when the productivity case remains unproven.",
+  "reason": "Modern Treasury's OCC application raises arguable questions about whether fintech infrastructure firms should obtain banking charters and what regulatory standards should apply.",
+  "angle": "Fintech infrastructure platforms don't need banking charters; regulatory mission creep threatens innovation by requiring compliance designed for deposit-taking institutions.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-06T15:25:08.191Z"
+  "vettedAt": "2026-10-06T18:59:11.048Z"
 }
