@@ -517,7 +517,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-02T06:51:03.221Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-07/ato-special-meeting-small-business-credit-card-ban/107018106",
+      "title": "ATO convenes snap meeting over credit card ban",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Australia's tax chief calls a snap meeting with business groups after the tax office faces backlash over its decision to stop accepting credit card payments.",
+      "at": "2026-10-06T22:57:42.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "ATO calls snap meeting following backlash over its decision to ban credit card tax payments.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-06T23:45:21.615Z"
     }
   ],
-  "updated": "2026-10-06T20:06:44.632Z"
+  "updated": "2026-10-06T23:45:21.615Z"
 }
