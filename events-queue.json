@@ -85,20 +85,6 @@
       "queuedAt": "2026-10-04T22:56:08.354Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48488/swift-provides-cross-border-gateway-to-bizum-payid-and-pix-users?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Swift provides cross-border gateway to Bizum, PayID and Pix users",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Swift has launched an initiative to bring the pay-by-alias experience of domestic national payment systems, Bizum, PayID and Pix, to cross-border transactions, enabling consumers to send money internationally using a mobile number or email address, rather than account details.",
-      "at": "2026-09-28T14:54:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Swift launching cross-border pay-by-alias connecting domestic payment networks like Pix and PayID is a major infrastructure expansion.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-28T23:06:05.952Z"
-    },
-    {
       "link": "https://www.finextra.com/pressarticle/111042/fca-secures-money-back-for-victims-of-crypto-fraud?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "FCA secures money back for victims of crypto fraud",
       "publisher": "Finextra",
@@ -379,6 +365,20 @@
       "queuedAt": "2026-10-05T21:16:56.399Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48534/anz-completes-cross-border-tokenised-deposit-payment-with-swift-ledger?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "ANZ completes cross-border tokenised deposit payment with Swift ledger",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Australia&#39;s ANZ has carried out a live corporate treasury transactions using tokenised deposits and Swift’s blockchain ledger.",
+      "at": "2026-10-06T00:01:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "First live cross-border tokenised deposit payment by ANZ using Swift.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-06T00:41:43.529Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-09-30/inflation-august-2026-australia-bureau-of-statistics/107210688",
       "title": "November rate rise less likely with inflation data lower than expected",
       "publisher": "ABC News",
@@ -463,5 +463,5 @@
       "queuedAt": "2026-10-02T06:51:03.221Z"
     }
   ],
-  "updated": "2026-10-05T21:16:56.399Z"
+  "updated": "2026-10-06T00:41:43.529Z"
 }
