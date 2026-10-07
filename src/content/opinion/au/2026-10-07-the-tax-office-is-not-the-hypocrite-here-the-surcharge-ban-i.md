@@ -23,7 +23,7 @@ readMins: 4
 tags: ["payments","surcharging","small business"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-07/ato-special-meeting-small-business-credit-card-ban/107018106"
-draft: true
+draft: false
 sources:
   - label: "ATO convenes snap meeting over credit card ban"
     publisher: "ABC News"
