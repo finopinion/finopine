@@ -57,20 +57,6 @@
       "queuedAt": "2026-10-06T20:06:44.632Z"
     },
     {
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
-      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "publisher": "US Federal Reserve",
-      "jurisdiction": "us",
-      "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "at": "2026-09-30T13:00:00.000Z",
-      "score": 5,
-      "corroboration": 0,
-      "why": "Finalized regulatory changes modifying bank stress testing and capital requirement volatility.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-30T15:12:07.171Z"
-    },
-    {
       "link": "https://sifted.eu/articles/nubank-halts-monzo-acquisition-talks-after-sales-plunge/",
       "title": "Nubank halts Monzo acquisition talks after shares plunge",
       "publisher": "Sifted",
@@ -393,20 +379,6 @@
       "queuedAt": "2026-10-06T14:56:04.944Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48537/french-regulator-targets-crowdfunding-platforms?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "French regulator targets crowdfunding platforms",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "France&#39;s financial watchdog, the Autorit&#233; des March&#233;s Financiers (AMF), has called on crowdfunding platforms to strengthen their practices in order to better protect investors.",
-      "at": "2026-10-06T09:51:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Regulator issuing sector-wide demands for crowdfunding platforms to tighten investor protection standards.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-06T14:56:04.944Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48543/circle-ripple-and-standard-chartered-invest-in-okx?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Circle, Ripple and Standard Chartered invest in OKX",
       "publisher": "Finextra",
@@ -419,20 +391,6 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-06T20:06:44.632Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-09-30/inflation-august-2026-australia-bureau-of-statistics/107210688",
-      "title": "November rate rise less likely with inflation data lower than expected",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "The odds of the Reserve Bank lifting interest rates in November have fallen sharply after the latest consumer price index (CPI) came in lower than expected. News figures from the ABS show show headline inflation jumped to 4 per cent in the year to August.",
-      "at": "2026-09-30T01:44:09.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Surprising CPI data significantly alters expectations for upcoming RBA monetary policy decisions.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-30T08:15:05.831Z"
     },
     {
       "link": "https://www.bankingdive.com/news/fed-stress-test-changes-transparency-volatility-scenarios-capital-buffer-requirements-bowman-barr/831787/",
@@ -519,5 +477,5 @@
       "queuedAt": "2026-10-06T23:45:21.615Z"
     }
   ],
-  "updated": "2026-10-07T01:44:45.993Z"
+  "updated": "2026-10-07T15:45:13.653Z"
 }
