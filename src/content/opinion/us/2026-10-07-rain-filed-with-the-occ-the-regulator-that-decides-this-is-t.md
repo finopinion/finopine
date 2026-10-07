@@ -23,7 +23,7 @@ readMins: 4
 tags: ["banking","stablecoins","regulation"]
 generated: true
 groundedIn: "https://www.finextra.com/pressarticle/111164/rain-applies-to-establish-national-trust-bank?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Rain applies to establish national trust bank"
     publisher: "Finextra"
