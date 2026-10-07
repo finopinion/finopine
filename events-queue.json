@@ -113,20 +113,6 @@
       "queuedAt": "2026-10-06T20:06:44.632Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48499/valley-bank-to-buy-digital-sme-banking-platform-bluevine?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Valley Bank to buy digital SME banking platform Bluevine",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Regional lender Valley National Bank has agreed to buy SME digital banking platform Bluevine for around $340 million in cash and stock.",
-      "at": "2026-09-30T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major $340 million acquisition of SME banking platform Bluevine by Valley National Bank.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-30T01:10:42.164Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48504/hsbc-prepares-for-the-launch-of-hk-backed-stablecoin-redcoin?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "HSBC prepares for the launch of HK$-backed stablecoin, RedCoin",
       "publisher": "Finextra",
@@ -533,5 +519,5 @@
       "queuedAt": "2026-10-06T23:45:21.615Z"
     }
   ],
-  "updated": "2026-10-06T23:45:21.615Z"
+  "updated": "2026-10-07T01:44:45.993Z"
 }

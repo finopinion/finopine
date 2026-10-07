@@ -1,21 +1,22 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/pressarticle/111138/modern-treasury-applies-to-establish-national-bank-trust?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "Modern Treasury applies to establish national bank trust",
-    "publisher": "Finextra",
-    "jurisdiction": "auto",
-    "summary": "Modern Treasury, which provides infrastructure for global money movement, today announced that it has submitted an application to the Office of the Comptroller of the Currency (“OCC”) to establish Modern Treasury National Trust Bank.",
-    "at": "2026-10-05T20:13:00.000Z",
-    "score": 2,
+    "link": "https://www.abc.net.au/news/2026-10-07/ato-special-meeting-small-business-credit-card-ban/107018106",
+    "title": "ATO convenes snap meeting over credit card ban",
+    "publisher": "ABC News",
+    "jurisdiction": "au",
+    "summary": "Australia's tax chief calls a snap meeting with business groups after the tax office faces backlash over its decision to stop accepting credit card payments.",
+    "at": "2026-10-06T22:57:42.000Z",
+    "score": 1,
     "corroboration": 0,
-    "why": "Fintech infrastructure firm applying for a US national bank trust charter with the OCC.",
-    "urgency": "medium",
+    "why": "ATO calls snap meeting following backlash over its decision to ban credit card tax payments.",
+    "urgency": "high",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-05T21:16:56.399Z"
+    "queuedAt": "2026-10-06T23:45:21.615Z",
+    "fullText": "Tax office convenes snap meeting over credit card ban - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home Tax office convenes snap meeting over credit card ban Share Share article Tax office convenes snap meeting over credit card ban By political reporter Erin Handley Topic: Tax Posted Wed 7 Oct 2026 at 9:57am Wed 7 Oct 2026 at 9:57am Wed 7 Oct 2026 at 9:57am , updated Wed 7 Oct 2026 at 11:36am Wed 7 Oct 2026 at 11:36am Wed 7 Oct 2026 at 11:36am New regulation has put a ban on card surcharges. ( Adobe Stock ) In short: Business groups have accused the ATO of having &quot;double standards&quot; for refusing to accept credit card payments from November 30. The tax office said it was not appropriate for it to absorb the surcharge fees itself because that would effectively transfer the cost to the taxpayer. What&#x27;s next? The ATO has called a special forum for members of its small business stewardship group to discuss the changes. abc.net.au/news/ato-special-meeting-small-business-credit-card-ban/107018106 Link copied Share Share article Australia&#x27;s tax chief has convened a snap meeting with business groups in the wake of backlash over a decision to stop accepting credit card payments. Last week, the Australian Taxation Office (ATO) announced it would stop accepting credit card payments at the end of next month. That step came in response to the Reserve Bank of Australia&#x27;s reforms to scrap card surcharges from October 1, which the bank said was &quot;in the public interest&quot; and would save customers about $1.6 billion a year. The ATO said it would continue accepting credit cards until November 30 to allow for a transition period, saying it was untenable beyond that point. But the move has sparked anger among some business groups and small business owners. They say they have been expected to absorb the fees of card transactions themselves, and have lost the option of using credit card payments to the ATO as a cash flow method. Andrew McKellar, chief executive of the Australian Chamber of Commerce and Industry (ACCI), is calling for the ATO credit card ban to be reversed. &quot;There is a clear double standard here. Government is telling small business to absorb the hit from the surcharge ban and its cost, while the tax office is saying a different set of rules applies to it,&quot; he said. &quot;Small business is the backbone of the economy. They are doing it tough, with rising costs and a fourth interest rate increase last week.&quot; Master Builders CEO De"
   },
-  "reason": "Modern Treasury's OCC application raises arguable questions about whether fintech infrastructure firms should obtain banking charters and what regulatory standards should apply.",
-  "angle": "Fintech infrastructure platforms don't need banking charters; regulatory mission creep threatens innovation by requiring compliance designed for deposit-taking institutions.",
-  "confidence": 0.72,
+  "reason": "ATO credit card ban exposes tension between payment regulation intent and implementation burden—government tells small business to absorb costs while exempting itself.",
+  "angle": "The RBA's surcharge ban achieves its public interest goal only if all payment recipients absorb costs equally; the ATO's exemption proves the policy transfers rather than eliminates the burden.",
+  "confidence": 0.75,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-06T18:59:11.048Z"
+  "vettedAt": "2026-10-07T01:44:48.439Z"
 }
