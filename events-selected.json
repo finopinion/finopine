@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/pressarticle/111164/rain-applies-to-establish-national-trust-bank?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "Rain applies to establish national trust bank",
+    "link": "https://www.finextra.com/newsarticle/48549/hsbc-to-make-deep-wide-and-brutal-uk-wealth-management-job-cuts-in-ai-push?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "HSBC to make &#39;deep, wide and brutal&#39; UK wealth management job cuts in AI push",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "Rain, the enterprise-grade infrastructure for stablecoin payments, announced today that it has filed an application with the Office of the Comptroller of the Currency (OCC) to establish Rain National Trust Bank (RNTB), a proposed national trust bank headquartered in New York.",
-    "at": "2026-10-06T18:01:00.000Z",
-    "score": 6,
-    "corroboration": 1,
-    "why": "Fintech firm Rain applies for a national trust bank charter with the OCC.",
+    "summary": "HSBC is planning to axe up to 70% of its UK financial advisors as part of swingeing cuts to its wealth management business driven by riding use of AI, according to the Financial Times.",
+    "at": "2026-10-07T14:57:00.000Z",
+    "score": 2,
+    "corroboration": 0,
+    "why": "HSBC plans to cut up to 70% of UK financial advisors in AI-driven restructuring.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-06T20:06:44.632Z"
+    "queuedAt": "2026-10-07T19:16:23.102Z"
   },
-  "reason": "Rain's trust charter application raises arguable questions about whether stablecoin infrastructure firms need bank regulation or whether OCC oversight creates inappropriate barriers to payment innovation.",
-  "angle": "Stablecoin payment infrastructure should not require national bank charters; doing so imposes legacy banking regulation on non-deposit-taking platforms.",
+  "reason": "HSBC's AI-driven cuts to wealth advisors raise arguable questions about whether automation destroys genuine financial advice value or merely eliminates redundant intermediation.",
+  "angle": "Cutting 70% of wealth advisors via AI proves financial advice is largely commodity matching, not bespoke expertise requiring human judgment.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-07T19:27:08.124Z"
+  "vettedAt": "2026-10-08T02:12:42.515Z"
 }

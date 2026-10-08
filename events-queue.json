@@ -99,48 +99,6 @@
       "queuedAt": "2026-10-06T20:06:44.632Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48513/uk-competition-watchdog-raises-concerns-over-brinks-ncr-atleos-deal?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "UK competition watchdog raises concerns over Brink&#39;s-NCR Atleos deal",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The UK&#39;s competition watchdog says it will undertake an in-depth investigation into cash management giant Brink&#39;s&#39; planned $6.6 billion deal to buy ATM operator NCR Atleos - unless the parties take action to address concerns.",
-      "at": "2026-09-30T18:59:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "UK CMA threatens in-depth probe into $6.6B Brink's-NCR Atleos merger.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-09-30T20:40:54.700Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48509/capitolis-agrees-200m-eseclending-acquisition?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Capitolis agrees $200m eSecLending acquisition",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Capital markets technology provider Capitolis has added securities lending capabilities to its platform through a $200 million all-cash deal to buy eSecLending.",
-      "at": "2026-10-01T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Significant $200 million acquisition of eSecLending by Capitolis.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-01T01:26:46.405Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48512/apple-pay-arrives-in-india?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Apple Pay arrives in India",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Apple Pay is finally launching in India, entering a huge but competitive market via a partnership with Axis Bank.",
-      "at": "2026-10-01T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major market entry for Apple Pay into India's competitive payments sector.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-01T01:26:46.405Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48517/european-payments-groups-join-forces-to-take-on-us-giants?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "European payments groups join forces to take on US giants",
       "publisher": "Finextra",
@@ -435,5 +393,5 @@
       "queuedAt": "2026-10-06T23:45:21.615Z"
     }
   ],
-  "updated": "2026-10-07T19:27:06.194Z"
+  "updated": "2026-10-08T02:12:40.168Z"
 }
