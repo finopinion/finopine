@@ -23,7 +23,7 @@ readMins: 4
 tags: ["stablecoins","trust charters","occ"]
 generated: true
 groundedIn: "https://www.bankingdive.com/news/rain-modern-treasury-seek-occ-trust-charters/832257/"
-draft: true
+draft: false
 sources:
   - label: "Rain, Modern Treasury seek OCC trust charters"
     publisher: "Banking Dive"
