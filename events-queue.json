@@ -391,7 +391,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-06T23:45:21.615Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-08/firmus-ipo-underwhelms-before-it-hits-the-market/107241548",
+      "title": "Major share market float of Firmus in trouble as interest wanes",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The company is reportedly having to price its shares lower as it closed its books to potential investors abruptly overnight.",
+      "at": "2026-10-08T02:35:03.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Abrupt bookbuild closure and forced repricing mark an unexpected IPO stumble.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-08T05:51:27.007Z"
     }
   ],
-  "updated": "2026-10-08T02:12:40.168Z"
+  "updated": "2026-10-08T05:51:27.007Z"
 }
