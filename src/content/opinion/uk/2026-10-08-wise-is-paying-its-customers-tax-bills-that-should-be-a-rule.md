@@ -23,7 +23,7 @@ readMins: 4
 tags: ["tax","fintech","consumer-finance"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48554/wise-to-pay-clients-tax-bills-after-third-party-software-error?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Wise to pay clients&#39; tax bills after third-party software error"
     publisher: "Finextra"
