@@ -168,9 +168,9 @@
       "weight": 1,
       "jurisdiction": "auto",
       "url": "https://thefintechtimes.com/feed",
-      "verified": false,
+      "verified": true,
       "lastChecked": "2026-10-08",
-      "lastResult": "403 bot wall — real but unusable unattended"
+      "lastResult": "ok, 10 items"
     },
     {
       "id": "sifted-fintech",

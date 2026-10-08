@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "link": "https://www.finextra.com/newsarticle/48520/nubank-rejects-monzo-takeover-talk?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Nubank rejects Monzo takeover talk",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Brazilian digital banking giant Nubank has denied that it is pursuing a $10 billion takeover of Britain&#39;s Monzo.",
-      "at": "2026-10-01T15:46:00.000Z",
-      "score": 6,
-      "corroboration": 1,
-      "why": "Official denial of a rumored $10 billion fintech takeover.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-01T15:37:29.811Z"
-    },
-    {
       "link": "https://www.bankofengland.co.uk/news/2026/august/delay-to-the-november-2026-rtgs-standards-release",
       "title": "Delay to the November 2026 RTGS standards release",
       "publisher": "Bank of England",
@@ -57,20 +43,6 @@
       "queuedAt": "2026-10-06T20:06:44.632Z"
     },
     {
-      "link": "https://sifted.eu/articles/nubank-halts-monzo-acquisition-talks-after-sales-plunge/",
-      "title": "Nubank halts Monzo acquisition talks after shares plunge",
-      "publisher": "Sifted",
-      "jurisdiction": "auto",
-      "summary": "",
-      "at": "2026-10-01T13:37:31.000Z",
-      "score": 5,
-      "corroboration": 1,
-      "why": "Major acquisition talks reportedly halted following market stock movements.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-01T15:37:29.811Z"
-    },
-    {
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
       "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
       "publisher": "US Federal Reserve",
@@ -97,34 +69,6 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-06T20:06:44.632Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48517/european-payments-groups-join-forces-to-take-on-us-giants?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "European payments groups join forces to take on US giants",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Some of Europe&#39;s biggest payments groups - Bancomat, Bizum, Wero, Sibs-MB WAY and Vipps MobilePay - have banded together to create a cross-continent network that can take on Visa and Mastercard.",
-      "at": "2026-10-01T14:30:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major European payment schemes unite to build a cross-border alternative to Visa and Mastercard.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-01T14:22:12.707Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48518/stripe-to-buy-embedded-finance-platform-parafin?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Stripe to buy embedded finance platform Parafin",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Stripe has agreed to buy embedded financial products platform Parafin. Financial terms of the deal were not disclosed.",
-      "at": "2026-10-01T14:58:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Acquisition of embedded finance platform Parafin by major fintech firm Stripe.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-01T15:37:29.811Z"
     },
     {
       "link": "https://www.finextra.com/pressarticle/111102/fiserv-digital-platform-goes-live-with-fi-clients?utm_medium=rssfinextra utm_source=finextrafeed",
@@ -351,6 +295,20 @@
       "queuedAt": "2026-10-08T13:08:56.615Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48560/mastercard-to-enable-offline-payments-across-europe?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Mastercard to enable offline payments across Europe",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Mastercard is introducing offline payment requirements that mean that from 2027 Europeans will be able to pay during power and network outages.",
+      "at": "2026-10-08T15:17:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "New Mastercard mandate requiring offline payment capabilities across Europe by 2027.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-08T15:49:37.136Z"
+    },
+    {
       "link": "https://www.bankingdive.com/news/fed-watchdog-finds-mismanagement-not-criminality-25b-renovation/831915/",
       "title": "Fed watchdog finds mismanagement, not criminality, in $2.5B renovation",
       "publisher": "Banking Dive",
@@ -421,5 +379,5 @@
       "queuedAt": "2026-10-08T05:51:27.007Z"
     }
   ],
-  "updated": "2026-10-08T13:08:56.615Z"
+  "updated": "2026-10-08T15:49:37.136Z"
 }

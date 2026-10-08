@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48549/hsbc-to-make-deep-wide-and-brutal-uk-wealth-management-job-cuts-in-ai-push?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "HSBC to make &#39;deep, wide and brutal&#39; UK wealth management job cuts in AI push",
+    "link": "https://www.finextra.com/newsarticle/48554/wise-to-pay-clients-tax-bills-after-third-party-software-error?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "Wise to pay clients&#39; tax bills after third-party software error",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "HSBC is planning to axe up to 70% of its UK financial advisors as part of swingeing cuts to its wealth management business driven by riding use of AI, according to the Financial Times.",
-    "at": "2026-10-07T14:57:00.000Z",
+    "summary": "Money transfer app Wise has contacted the UK&#39;s tax authorities over technical errors that led thousands of clients to pay the wrong amount of tax on their investments.",
+    "at": "2026-10-08T10:01:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "HSBC plans to cut up to 70% of UK financial advisors in AI-driven restructuring.",
+    "why": "Wise to pay clients' tax bills following software error.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-07T19:16:23.102Z"
+    "queuedAt": "2026-10-08T13:08:56.615Z"
   },
-  "reason": "HSBC's AI-driven cuts to wealth advisors raise arguable questions about whether automation destroys genuine financial advice value or merely eliminates redundant intermediation.",
-  "angle": "Cutting 70% of wealth advisors via AI proves financial advice is largely commodity matching, not bespoke expertise requiring human judgment.",
+  "reason": "UK-focused regulatory and consumer finance issue with arguable positions on Wise's liability, disclosure duties, and software risk in fintech",
+  "angle": "Whether fintech firms should bear full costs of third-party software failures or share responsibility with vendors depends on contractual allocation rules that need clarifying in regulation",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-08T02:12:42.515Z"
+  "vettedAt": "2026-10-08T15:49:40.313Z"
 }
