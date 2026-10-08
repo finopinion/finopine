@@ -23,7 +23,7 @@ readMins: 4
 tags: ["financial advice","ai","consumer protection"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48549/hsbc-to-make-deep-wide-and-brutal-uk-wealth-management-job-cuts-in-ai-push?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "HSBC to make &#39;deep, wide and brutal&#39; UK wealth management job cuts in AI push"
     publisher: "Finextra"
