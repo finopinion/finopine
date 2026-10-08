@@ -1,21 +1,22 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48554/wise-to-pay-clients-tax-bills-after-third-party-software-error?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "Wise to pay clients&#39; tax bills after third-party software error",
-    "publisher": "Finextra",
-    "jurisdiction": "auto",
-    "summary": "Money transfer app Wise has contacted the UK&#39;s tax authorities over technical errors that led thousands of clients to pay the wrong amount of tax on their investments.",
-    "at": "2026-10-08T10:01:00.000Z",
-    "score": 2,
-    "corroboration": 0,
-    "why": "Wise to pay clients' tax bills following software error.",
+    "link": "https://www.bankingdive.com/news/rain-modern-treasury-seek-occ-trust-charters/832257/",
+    "title": "Rain, Modern Treasury seek OCC trust charters",
+    "publisher": "Banking Dive",
+    "jurisdiction": "us",
+    "summary": "p The firms join a growing list of fintech companies looking to get into the folds of federal regulation, days after a trade group sued the OCC over trust charters. /p",
+    "at": "2026-10-06T15:34:37.000Z",
+    "score": 5,
+    "corroboration": 1,
+    "why": "Rain and Modern Treasury seek OCC trust charters amid legal disputes over regulation.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-08T13:08:56.615Z"
+    "queuedAt": "2026-10-06T20:06:44.632Z",
+    "fullText": "Rain, Modern Treasury seek OCC trust charters | Banking Dive Skip to main content CONTINUE TO SITE ➞ Don't miss tomorrow's banking industry news Let Banking Dive's free newsletter keep you informed, straight from your inbox. Daily Dive M-F Fintech Weekly Every Wednesday By signing up to receive our newsletter, you agree to our Terms of Use and Privacy Policy . You can unsubscribe at anytime. Informa TechTarget | CFO Dive Payments Dive Explore our brands An Informa TechTarget Publication Search People also ask Loading questions... An article from Dive Brief Rain, Modern Treasury seek OCC trust charters The firms join a growing list of fintech companies looking to get into the folds of federal regulation, days after a trade group sued the OCC over trust charters. Published Oct. 6, 2026 Gabrielle Saulsbery Senior Reporter Share Copy link Email LinkedIn X/Twitter Facebook Print License Add us on Google Permission granted by Office of the Comptroller of the Currency Dive Brief: Modern Treasury , a San Francisco-based payments infrastructure firm, and Rain , a stablecoin infrastructure platform based in New York City, each applied for national trust charters Monday. If approved, the national trust charters, issued by the Office of the Comptroller of the Currency, would allow Modern Treasury and Rain to offer asset custody and other related services. They would not accept deposits or make loans. Brandon Soto is Rain National Trust Bank’s proposed CEO. He was most recently chief financial officer at Coastal Financial Corp. but previously served as CFO at Square Financial Services and worked at Green Dot Bank, in part as CFO and in part as administrative chief. Modern Treasury has not yet announced its proposed bank CEO. Dive Insight: If approved, Modern Treasury National Trust Bank would give customers a “unified custody solution” of both fiat and digital assets that combines with the firm’s payments and settlement capabilities. Although founder and CEO Matt Marcus said in a LinkedIn post Monday that stablecoins “are becoming foundational to global money movement,” the proposed bank would not issue its own. Rain National Trust Bank, however, does plan to issue stablecoins in accordance with the Genius Act; and to hold and administer reserves for other Genius-permitted stablecoin issuers, as well as custodying both fiat and digital assets, the company said in its release. Farooq Malik, CEO and co-founder of Rain, said in a prepared statement Monday that the firms using Rain to build out their stablecoin infrastructure “want the assets behind their programs held b"
   },
-  "reason": "UK-focused regulatory and consumer finance issue with arguable positions on Wise's liability, disclosure duties, and software risk in fintech",
-  "angle": "Whether fintech firms should bear full costs of third-party software failures or share responsibility with vendors depends on contractual allocation rules that need clarifying in regulation",
+  "reason": "Trust charters for fintech firms raise legitimate debate about whether federal regulation captures or stifles innovation in payments and digital assets.",
+  "angle": "Trust charters may entrench fintech incumbents by raising regulatory barriers that smaller competitors cannot afford, limiting rather than expanding competition.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-08T15:49:40.313Z"
+  "vettedAt": "2026-10-08T19:24:41.488Z"
 }
