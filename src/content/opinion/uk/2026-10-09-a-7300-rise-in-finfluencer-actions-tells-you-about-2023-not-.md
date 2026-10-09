@@ -23,7 +23,7 @@ readMins: 4
 tags: ["fca","financial-promotions","enforcement"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48563/fca-cracks-down-on-finfluencers?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "FCA cracks down on finfluencers"
     publisher: "Finextra"
