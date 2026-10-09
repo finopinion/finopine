@@ -23,7 +23,7 @@ readMins: 4
 tags: ["mortgages","fair-lending","regulation"]
 generated: true
 groundedIn: "https://www.bankingdive.com/news/hud-probes-wells-fargo-over-racialized-lending/832515/"
-draft: true
+draft: false
 sources:
   - label: "HUD probes Wells Fargo over ‘racialized’ lending"
     publisher: "Banking Dive"
