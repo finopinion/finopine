@@ -1,21 +1,22 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48563/fca-cracks-down-on-finfluencers?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "FCA cracks down on finfluencers",
-    "publisher": "Finextra",
-    "jurisdiction": "auto",
-    "summary": "The UK&#39;s financial watchdog has stepped up its enforcement of illegal &#39;finfluencer&#39; promotions, resulting in a 7,300% increase in actions between 2023 and 2025.",
-    "at": "2026-10-09T10:55:00.000Z",
-    "score": 2,
+    "link": "https://www.bankingdive.com/news/hud-probes-wells-fargo-over-racialized-lending/832515/",
+    "title": "HUD probes Wells Fargo over ‘racialized’ lending",
+    "publisher": "Banking Dive",
+    "jurisdiction": "us",
+    "summary": "figure div img src=\"https://imgproxy.divecdn.com/PMamuLVdY-c2-a1IqCGpNk8RnuFsyyqtdo1BEqlMyh8/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjcyMjU5NTMxLmpwZw==.webp\"/ /div /figure p Wells rsquo; programs to bolster Black home ownership ndash; put in place in 2017 and 2022 ndash; are ldquo;immoral, unethical and un-American, rdquo; Secretary Scott Turner said. /p",
+    "at": "2026-10-08T16:25:00.000Z",
+    "score": 1,
     "corroboration": 0,
-    "why": "Significant regulatory crackdown on finfluencers with massive increase in enforcement.",
+    "why": "Federal probe into a major US bank regarding discriminatory lending practices.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-09T15:09:36.581Z"
+    "queuedAt": "2026-10-08T19:24:39.474Z",
+    "fullText": "HUD probes Wells Fargo over ‘racialized’ lending | Banking Dive Skip to main content CONTINUE TO SITE ➞ Don't miss tomorrow's banking industry news Let Banking Dive's free newsletter keep you informed, straight from your inbox. Daily Dive M-F Fintech Weekly Every Wednesday By signing up to receive our newsletter, you agree to our Terms of Use and Privacy Policy . You can unsubscribe at anytime. Informa TechTarget | CFO Dive Payments Dive Explore our brands An Informa TechTarget Publication Search People also ask Loading questions... An article from HUD probes Wells Fargo over ‘racialized’ lending Wells’ programs to bolster Black home ownership – put in place in 2017 and 2022 – are “immoral, unethical and un-American,” Secretary Scott Turner said. Published Oct. 8, 2026 Gabrielle Saulsbery Senior Reporter Share Copy link Email LinkedIn X/Twitter Facebook Print License Add us on Google Wells Fargo & Company Chairman and CEO Charlie Scharf is interviewed during an Economic Club of Washington luncheon at the Westin hotel on April 20, 2026 in Washington, DC. Chip Somodevilla / Staff via Getty Images The Trump administration has accused Wells Fargo of discriminatory lending in violation of the Fair Housing Act, according to a letter sent to Wells CEO Charlie Scharf Wednesday. The U.S. Department of Housing and Urban Development is initiating an investigation into the bank’s mortgage lending policies and practices, including its $60 billion lending commitment in 2017 “to create at least 250,000 African American homeowners by 2027” and its $150 million special purpose credit program in 2022 to allow eligible Black homeowners to refinance their mortgages to lower rates. “Despite the Fair Housing Act’s unambiguous, categorical prohibition on race-based home loans, the previous administration used special purpose credit programs as a vehicle to import racial discrimination into the housing market,” wrote Craig Trainor, assistant secretary for fair housing and equal opportunity, in the letter to Scharf. “Though banks sometimes reluctantly acceded to pernicious race-conscious lending practices, Wells Fargo emerged as the ‘first mortgage lender to make a public commitment’ to implement a racialized home loan policy,” Trainor wrote. A spokesperson for Wells Fargo declined to comment. Wells’ initial $60 billion commitment happened in the early days of the first Trump administration. But its 2022 program followed Biden-era interagency guidance encouraging financial institutions to use the credit programs to better meet the needs of “economically disadvantaged” communitie"
   },
-  "reason": "FCA finfluencer enforcement surge raises question whether regulatory sledgehammer matches the threat, or whether disclosure rules would work better.",
-  "angle": "A 7,300% enforcement increase suggests either prior under-enforcement or mission creep; the FCA should publish harm data to justify the cost of its crackdown versus lighter-touch alternatives.",
-  "confidence": 0.72,
+  "reason": "Fair Housing Act interpretation: are race-conscious lending programs discriminatory or remedial? Genuine legal/policy disagreement exists.",
+  "angle": "Wells Fargo's targeted lending to Black borrowers violates the Fair Housing Act rather than serving its civil rights purpose.",
+  "confidence": 0.75,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-09T15:32:15.156Z"
+  "vettedAt": "2026-10-09T18:55:09.744Z"
 }
