@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "link": "https://www.bankofengland.co.uk/news/2026/august/delay-to-the-november-2026-rtgs-standards-release",
-      "title": "Delay to the November 2026 RTGS standards release",
-      "publisher": "Bank of England",
-      "jurisdiction": "uk",
-      "summary": "Bank of England statement",
-      "at": "2026-08-27T13:16:29.000Z",
-      "score": 6,
-      "corroboration": 0,
-      "why": "Unexpected delay to the implementation timeline of critical RTGS infrastructure standards.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-01T20:14:50.485Z"
-    },
-    {
       "link": "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-the-daily-mail",
       "title": "Letter from the Governor to the Daily Mail",
       "publisher": "Bank of England",
@@ -69,6 +55,20 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-06T20:06:44.632Z"
+    },
+    {
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
+      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+      "publisher": "US Federal Reserve",
+      "jurisdiction": "us",
+      "summary": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+      "at": "2026-10-08T20:30:00.000Z",
+      "score": 5,
+      "corroboration": 0,
+      "why": "Federal Reserve enforcement action against a major financial institution for anti-money laundering failures.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-09T00:13:01.725Z"
     },
     {
       "link": "https://www.finextra.com/pressarticle/111108/new-york-and-wyoming-regulators-ink-virtual-currency-mou?utm_medium=rssfinextra utm_source=finextrafeed",
@@ -323,5 +323,5 @@
       "queuedAt": "2026-10-08T19:24:39.474Z"
     }
   ],
-  "updated": "2026-10-08T19:24:39.474Z"
+  "updated": "2026-10-09T00:13:01.725Z"
 }
