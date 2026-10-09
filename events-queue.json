@@ -239,18 +239,32 @@
       "queuedAt": "2026-10-08T15:49:37.136Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-02/qld-state-to-take-data-centre-approvals-from-local-councils/107221348",
-      "title": "Qld government takes data centre approvals from councils to avoid 'inconsistency'",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "The Queensland government will take the planning and assessment of data centre applications away from local councils under a system set to be rolled out in coming weeks.",
-      "at": "2026-10-02T03:37:52.000Z",
-      "score": 1,
+      "link": "https://www.finextra.com/newsarticle/48563/fca-cracks-down-on-finfluencers?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "FCA cracks down on finfluencers",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The UK&#39;s financial watchdog has stepped up its enforcement of illegal &#39;finfluencer&#39; promotions, resulting in a 7,300% increase in actions between 2023 and 2025.",
+      "at": "2026-10-09T10:55:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Queensland government takes over data centre planning assessments from local councils, a significant state regulatory change.",
+      "why": "Significant regulatory crackdown on finfluencers with massive increase in enforcement.",
       "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-10-02T06:51:03.221Z"
+      "queuedAt": "2026-10-09T15:09:36.581Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48562/amex-hit-with-350m-penalty-for-aml-deficiencies?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Amex hit with $350m penalty for AML deficiencies",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The Office of the Comptroller of the Currency (OCC), the main banking regulator in the US, has issued a $350m civil money penalty against American Express National Bank for deficiencies in its anti-money laundering (AML) and bank secrecy act (BSA) processes.",
+      "at": "2026-10-09T09:36:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major $350 million regulatory penalty against American Express for AML failures.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-09T15:09:36.581Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-10-07/ato-special-meeting-small-business-credit-card-ban/107018106",
@@ -323,5 +337,5 @@
       "queuedAt": "2026-10-09T02:28:29.749Z"
     }
   ],
-  "updated": "2026-10-09T02:28:29.749Z"
+  "updated": "2026-10-09T15:09:36.581Z"
 }
