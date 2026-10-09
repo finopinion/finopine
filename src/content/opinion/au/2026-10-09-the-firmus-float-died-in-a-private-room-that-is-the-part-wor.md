@@ -23,7 +23,7 @@ readMins: 4
 tags: ["ipos","disclosure","asic"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230"
-draft: true
+draft: false
 sources:
   - label: "Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand"
     publisher: "ABC News"
