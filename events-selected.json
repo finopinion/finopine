@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
-    "title": "Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand",
-    "publisher": "ABC News",
-    "jurisdiction": "au",
-    "summary": "Firmus searches for private funding as it withdraws its application to list on the ASX just a day after closing its books to investors.",
-    "at": "2026-10-08T22:12:14.000Z",
-    "score": 1,
+    "link": "https://www.finextra.com/newsarticle/48563/fca-cracks-down-on-finfluencers?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "FCA cracks down on finfluencers",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "The UK&#39;s financial watchdog has stepped up its enforcement of illegal &#39;finfluencer&#39; promotions, resulting in a 7,300% increase in actions between 2023 and 2025.",
+    "at": "2026-10-09T10:55:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "Unexpected withdrawal of a major ASX initial public offering.",
+    "why": "Significant regulatory crackdown on finfluencers with massive increase in enforcement.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-09T02:28:29.749Z",
-    "fullText": "Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand Share Share article Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand By business reporters Nassim Khadem and Lin Lin The Business Topic: Stock Market Posted Fri 9 Oct 2026 at 9:12am Fri 9 Oct 2026 at 9:12am Fri 9 Oct 2026 at 9:12am , updated Fri 9 Oct 2026 at 12:26pm Fri 9 Oct 2026 at 12:26pm Fri 9 Oct 2026 at 12:26pm Firmus Technologies is building AI data centres in Tasmania, but most of its planned centres are not built yet. ( Supplied: Firmus Technologies ) In short: The mega float of data centre operator Firmus has been pulled. It follows poor interest from investors amid concerns about the company&#x27;s debt and a lack of detail. What&#x27;s next? The company says it will pursue private funding. abc.net.au/news/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230 Link copied Share Share article AI data centre company Firmus has withdrawn its application to list on the ASX, scrapping what was set to be one of Australia&#x27;s biggest share market floats. The company cited recent market volatility and conditions, saying the offer would not appropriately reflect its long-term growth prospects. Firmus said it would now pursue private market funding while considering other options. &quot;We will provide additional information to shareholders as those options progress,&quot; the company said in a statement. Firmus, the AI factory builder backed by chip-making giant Nvidia, was set to be the biggest float in the Australian share market since Telstra in 1997. The company&#x27;s founders, co-chief executives Oliver Curtis and Tim Rosenfield, targeted a $44 billion valuation, but prospective investors pulled back based on the high sale price of $11 a share and concerns over an AI bubble. Yesterday, reports emerged that Firmus and its advisors were considering reducing the size of the initial public offering (IPO) and lowering the per-share price from $11 to $8.25. Tasmanian Premier Jeremy Rockliff with Oliver Curtis and Tim Rosenfield at Firmus&#x27;s St Leonards, Launceston site. ( Supplied: Tasmanian government ) Many investors were also focused on Mr Curtis&#x27;s criminal background — he is a former investment banker who served one year in prison a decade ago for insider trading. With AI infrastructure demand ac"
+    "queuedAt": "2026-10-09T15:09:36.581Z"
   },
-  "reason": "Market discipline worked: Firmus withdrawal shows investors correctly rejected an overvalued, debt-laden company despite hype, proving IPO gatekeeping functions without regulatory intervention.",
-  "angle": "Failed IPOs are market success, not failure—they prevent capital misallocation that regulators would later have to clean up.",
+  "reason": "FCA finfluencer enforcement surge raises question whether regulatory sledgehammer matches the threat, or whether disclosure rules would work better.",
+  "angle": "A 7,300% enforcement increase suggests either prior under-enforcement or mission creep; the FCA should publish harm data to justify the cost of its crackdown versus lighter-touch alternatives.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-09T02:28:32.558Z"
+  "vettedAt": "2026-10-09T15:32:15.156Z"
 }
