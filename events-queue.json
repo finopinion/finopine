@@ -71,20 +71,6 @@
       "queuedAt": "2026-10-09T00:13:01.725Z"
     },
     {
-      "link": "https://www.finextra.com/pressarticle/111108/new-york-and-wyoming-regulators-ink-virtual-currency-mou?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "New York and Wyoming regulators ink virtual currency MoU",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The New York State Department of Financial Services (DFS) Acting Superintendent Kaitlin Asrow and the Wyoming Division of Banking Commissioner Jeremiah Bishop today announced a memorandum of understanding (MOU) to facilitate coordinated oversight of entities engaged in virtual currency and digital asset activities in New York and Wyoming.",
-      "at": "2026-10-01T19:58:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "New regulatory coordination agreement established between key US state crypto regulators.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-02T01:47:17.587Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48533/south-korean-president-orders-investigation-after-spate-of-bank-data-breaches?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "South Korean president orders investigation after spate of bank data breaches",
       "publisher": "Finextra",
@@ -253,20 +239,6 @@
       "queuedAt": "2026-10-08T15:49:37.136Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-02/taswater-agrees-to-rethink-price-increases-sewerage/107219744",
-      "title": "'We've heard the feedback': TasWater rethinks big sewerage bill increases",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Tasmanian businesses and sport clubs had said they were hit hard by the changes to sewerage prices, with one business stating their bill had risen from $630 to $3,800 a month.",
-      "at": "2026-10-01T23:50:18.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Utility policy reversal rethinking massive price increases following commercial feedback.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-02T00:36:53.841Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-10-02/qld-state-to-take-data-centre-approvals-from-local-councils/107221348",
       "title": "Qld government takes data centre approvals from councils to avoid 'inconsistency'",
       "publisher": "ABC News",
@@ -321,7 +293,35 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-08T19:24:39.474Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-09/asic-sues-hollard-insurance-court-orders-2-million-penalty/107245154",
+      "title": "Breaking: Hollard insurance fined $2m for handling of claim that destroyed home",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The Federal Court blasts Hollard's handling of an insurance claim which left a regional Victorian destroyed and uninhabitable.",
+      "at": "2026-10-09T01:21:22.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Federal Court fines Hollard Insurance $2 million for claims handling failures.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-09T02:28:29.749Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-09/firmus-float-gets-pulled-following-lacklustre-investor-demand/107246230",
+      "title": "Data centre operator Firmus pulls blockbuster ASX float after lacklustre demand",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Firmus searches for private funding as it withdraws its application to list on the ASX just a day after closing its books to investors.",
+      "at": "2026-10-08T22:12:14.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Unexpected withdrawal of a major ASX initial public offering.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-09T02:28:29.749Z"
     }
   ],
-  "updated": "2026-10-09T00:13:01.725Z"
+  "updated": "2026-10-09T02:28:29.749Z"
 }
