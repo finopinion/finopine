@@ -349,7 +349,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-10T00:38:55.986Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-11/cruise-ship-workers-still-vulnerable-to-exploitation/107249988",
+      "title": "Union says cruise ship crews still open to exploitation under legal loophole",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Cruise ship workers will get some new protections following an ABC investigation, but critics say the exemption that left them vulnerable should never have existed and remains largely in place through to 2028.",
+      "at": "2026-10-10T18:00:00.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "New protections introduced for cruise ship workers following investigation.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-10T18:22:22.839Z"
     }
   ],
-  "updated": "2026-10-10T00:38:55.986Z"
+  "updated": "2026-10-10T18:22:22.839Z"
 }
