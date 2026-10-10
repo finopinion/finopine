@@ -335,7 +335,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-09T02:28:29.749Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-10/trump-strikes-deal-with-putin-for-russia-to-supply-diesel-to-us/107250922",
+      "title": "Trump strikes deal with Putin for Russia to supply diesel to US",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "In an apparent reversal of Washington's campaign to squeeze Russian fuel revenue powering the war in Ukraine, Donald Trump says Moscow will supply diesel to the US.",
+      "at": "2026-10-09T22:43:29.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major sanctions and trade policy reversal with significant implications for global energy markets.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-10T00:38:55.986Z"
     }
   ],
-  "updated": "2026-10-09T18:55:07.288Z"
+  "updated": "2026-10-10T00:38:55.986Z"
 }
