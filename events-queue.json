@@ -71,6 +71,20 @@
       "queuedAt": "2026-10-09T00:13:01.725Z"
     },
     {
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
+      "title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+      "publisher": "US Federal Reserve",
+      "jurisdiction": "us",
+      "summary": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+      "at": "2026-09-10T20:00:00.000Z",
+      "score": 5,
+      "corroboration": 0,
+      "why": "Agencies issue rule easing examination burden and extending exam cycles for eligible community banks.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-11T01:44:54.993Z"
+    },
+    {
       "link": "https://www.finextra.com/newsarticle/48533/south-korean-president-orders-investigation-after-spate-of-bank-data-breaches?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "South Korean president orders investigation after spate of bank data breaches",
       "publisher": "Finextra",
@@ -365,5 +379,5 @@
       "queuedAt": "2026-10-10T18:22:22.839Z"
     }
   ],
-  "updated": "2026-10-10T18:22:22.839Z"
+  "updated": "2026-10-11T01:44:54.993Z"
 }
