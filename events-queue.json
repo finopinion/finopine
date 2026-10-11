@@ -29,20 +29,6 @@
       "queuedAt": "2026-10-06T20:06:44.632Z"
     },
     {
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
-      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-      "publisher": "US Federal Reserve",
-      "jurisdiction": "us",
-      "summary": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-      "at": "2026-09-04T15:00:00.000Z",
-      "score": 5,
-      "corroboration": 0,
-      "why": "Federal Reserve terminates enforcement actions against United Texas Bank and Quontic Bank entities.",
-      "urgency": "low",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-04T22:56:08.354Z"
-    },
-    {
       "link": "https://www.bankingdive.com/news/rain-modern-treasury-seek-occ-trust-charters/832257/",
       "title": "Rain, Modern Treasury seek OCC trust charters",
       "publisher": "Banking Dive",
@@ -83,6 +69,20 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-11T01:44:54.993Z"
+    },
+    {
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+      "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+      "publisher": "US Federal Reserve",
+      "jurisdiction": "us",
+      "summary": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+      "at": "2026-09-11T14:00:00.000Z",
+      "score": 5,
+      "corroboration": 0,
+      "why": "US regulators propose new joint guidance on third-party risk management for banks.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-11T23:36:54.521Z"
     },
     {
       "link": "https://www.finextra.com/newsarticle/48533/south-korean-president-orders-investigation-after-spate-of-bank-data-breaches?utm_medium=rssfinextra utm_source=finextrafeed",
@@ -407,5 +407,5 @@
       "queuedAt": "2026-10-11T20:05:35.469Z"
     }
   ],
-  "updated": "2026-10-11T20:05:35.469Z"
+  "updated": "2026-10-11T23:36:54.522Z"
 }
