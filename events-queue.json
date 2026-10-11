@@ -377,7 +377,35 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-10T18:22:22.839Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-12/nrma-insurance-underpaid-hundreds-injured-nsw-motorists/107230062",
+      "title": "Insurer underpaid hundreds of NSW accident victims in 'mind blowing' error",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The error was picked up by a lawyer of a crash victim who noticed his client's payment did not add up, not by NRMA Insurance or the NSW regulator.",
+      "at": "2026-10-11T19:31:39.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Systemic underpayment error by a major insurer affecting hundreds of victims uncovered.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-11T20:05:35.469Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-12/critics-decry-santos-gas-reservation-loopholes/107249780",
+      "title": "Critics warn of 'Santos-sized loopholes' in gas reservation plan",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Industry players say draft gas reservation plans are full of carve-outs that will let a venture many blame for rising prices off the hook.",
+      "at": "2026-10-11T18:00:00.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Draft gas reservation policy contains contentious loopholes affecting energy market regulation.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-11T20:05:35.469Z"
     }
   ],
-  "updated": "2026-10-11T01:44:54.993Z"
+  "updated": "2026-10-11T20:05:35.469Z"
 }
