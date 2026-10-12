@@ -71,62 +71,6 @@
       "queuedAt": "2026-10-11T23:36:54.521Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48533/south-korean-president-orders-investigation-after-spate-of-bank-data-breaches?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "South Korean president orders investigation after spate of bank data breaches",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "South Korea&#39;s president, Lee Jae Myung, has ordered an investigation into a series of data breaches at banks in the country.",
-      "at": "2026-10-05T15:28:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Presidential order for investigation into major bank data breaches.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-05T17:20:29.706Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48532/basware-buys-payment-fraud-prevention-platform-trustpair?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Basware buys payment fraud prevention platform Trustpair",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Invoice lifecycle management firm Basware has acquired payment fraud prevention platform Trustpair. Financial terms were not disclosed.",
-      "at": "2026-10-05T14:39:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Fintech acquisition of fraud prevention platform.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-05T17:20:29.706Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48531/mynt-valued-at-7bn-for-upcoming-ipo?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Mynt valued at $7bn for upcoming IPO",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Philippines unicorn Mynt could achieve a valuation of more than $7bn following an IPO that is set to be the country&#39;s biggest ever listing",
-      "at": "2026-10-05T12:37:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major IPO valuation for a significant fintech unicorn.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-05T17:20:29.706Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48530/sec-publishes-new-crypto-custody-rules?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "SEC publishes new crypto custody rules",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The US Securities and Exchange Commission has proposed new rules designed to establish a dedicated legal framework for crypto custody within the wealth management and advisory market",
-      "at": "2026-10-05T11:46:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "SEC proposed new rules for crypto custody.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-05T17:20:29.706Z"
-    },
-    {
       "link": "https://www.finextra.com/pressarticle/111138/modern-treasury-applies-to-establish-national-bank-trust?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Modern Treasury applies to establish national bank trust",
       "publisher": "Finextra",
@@ -267,6 +211,34 @@
       "queuedAt": "2026-10-09T15:09:36.581Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48570/bahrain-central-bank-to-treble-tech-budget?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Bahrain central bank to treble tech budget",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The Central Bank of Bahrain (CBB) plans to increase its investment in technology by threefold over the next three years as part of a plan to develop Bahrain to the region&#39;s primary banking hub.",
+      "at": "2026-10-12T12:03:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Significant tripling of central bank technology budget.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-12T18:09:37.489Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48569/pepkors-13bn-fintech-deal-comes-under-shareholder-scrutiny?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Pepkor&#39;s $1.3bn fintech deal comes under shareholder scrutiny",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "South African retailer Pepkor is facing complaints from directors and investors over a deal to merge its fintech arm with a rival company.",
+      "at": "2026-10-12T10:09:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major shareholder scrutiny and conflict over a large fintech deal.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-12T18:09:37.489Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-10-07/ato-special-meeting-small-business-credit-card-ban/107018106",
       "title": "ATO convenes snap meeting over credit card ban",
       "publisher": "ABC News",
@@ -393,5 +365,5 @@
       "queuedAt": "2026-10-11T20:05:35.469Z"
     }
   ],
-  "updated": "2026-10-12T01:35:19.997Z"
+  "updated": "2026-10-12T18:09:37.489Z"
 }
