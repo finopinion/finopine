@@ -71,20 +71,6 @@
       "queuedAt": "2026-10-11T23:36:54.521Z"
     },
     {
-      "link": "https://www.finextra.com/pressarticle/111138/modern-treasury-applies-to-establish-national-bank-trust?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Modern Treasury applies to establish national bank trust",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Modern Treasury, which provides infrastructure for global money movement, today announced that it has submitted an application to the Office of the Comptroller of the Currency (“OCC”) to establish Modern Treasury National Trust Bank.",
-      "at": "2026-10-05T20:13:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Fintech infrastructure firm applying for a US national bank trust charter with the OCC.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-05T21:16:56.399Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48534/anz-completes-cross-border-tokenised-deposit-payment-with-swift-ledger?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "ANZ completes cross-border tokenised deposit payment with Swift ledger",
       "publisher": "Finextra",
@@ -365,5 +351,5 @@
       "queuedAt": "2026-10-11T20:05:35.469Z"
     }
   ],
-  "updated": "2026-10-12T18:09:37.489Z"
+  "updated": "2026-10-12T21:49:25.656Z"
 }
