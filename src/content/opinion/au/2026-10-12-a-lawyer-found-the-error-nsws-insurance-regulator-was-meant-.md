@@ -23,7 +23,7 @@ readMins: 4
 tags: ["insurance","regulation","conduct"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-12/nrma-insurance-underpaid-hundreds-injured-nsw-motorists/107230062"
-draft: true
+draft: false
 sources:
   - label: "Insurer underpaid hundreds of NSW accident victims in 'mind blowing' error"
     publisher: "ABC News"
