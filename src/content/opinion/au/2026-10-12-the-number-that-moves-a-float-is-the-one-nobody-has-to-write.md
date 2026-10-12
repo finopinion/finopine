@@ -23,7 +23,7 @@ readMins: 4
 tags: ["ipos","asic","market-structure"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-08/firmus-ipo-underwhelms-before-it-hits-the-market/107241548"
-draft: true
+draft: false
 sources:
   - label: "Major share market float of Firmus in trouble as interest wanes"
     publisher: "ABC News"
