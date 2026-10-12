@@ -23,7 +23,7 @@ readMins: 4
 tags: ["anti-money laundering","bank supervision","federal reserve"]
 generated: true
 groundedIn: "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm"
-draft: true
+draft: false
 sources:
   - label: "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering"
     publisher: "US Federal Reserve"
