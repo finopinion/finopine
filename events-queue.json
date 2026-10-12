@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "link": "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-the-daily-mail",
-      "title": "Letter from the Governor to the Daily Mail",
-      "publisher": "Bank of England",
-      "jurisdiction": "uk",
-      "summary": "Letter from Governor Andrew Bailey to the Daily Mail on the subject of AI and cyber-attacks",
-      "at": "2026-07-23T16:00:00.000Z",
-      "score": 6,
-      "corroboration": 0,
-      "why": "Ad-hoc public intervention by the Governor on AI and cyber-attacks.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-05T01:09:57.101Z"
-    },
-    {
       "link": "https://www.finextra.com/pressarticle/111164/rain-applies-to-establish-national-trust-bank?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Rain applies to establish national trust bank",
       "publisher": "Finextra",
@@ -407,5 +393,5 @@
       "queuedAt": "2026-10-11T20:05:35.469Z"
     }
   ],
-  "updated": "2026-10-11T23:36:54.522Z"
+  "updated": "2026-10-12T01:35:19.997Z"
 }
