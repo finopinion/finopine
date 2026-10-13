@@ -71,20 +71,6 @@
       "queuedAt": "2026-10-11T23:36:54.521Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48534/anz-completes-cross-border-tokenised-deposit-payment-with-swift-ledger?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "ANZ completes cross-border tokenised deposit payment with Swift ledger",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Australia&#39;s ANZ has carried out a live corporate treasury transactions using tokenised deposits and Swift’s blockchain ledger.",
-      "at": "2026-10-06T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "First live cross-border tokenised deposit payment by ANZ using Swift.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-06T00:41:43.529Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48538/dnb-to-lay-off-400-and-expand-use-of-ai-agents?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "DNB to lay off 400 and expand use of AI agents",
       "publisher": "Finextra",
@@ -351,5 +337,5 @@
       "queuedAt": "2026-10-11T20:05:35.469Z"
     }
   ],
-  "updated": "2026-10-12T21:49:25.656Z"
+  "updated": "2026-10-13T03:08:13.148Z"
 }
