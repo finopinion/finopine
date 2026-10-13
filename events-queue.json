@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "link": "https://www.bankofengland.co.uk/minutes/2026/september/money-markets-committee-minutes-september-2026",
+      "title": "Minutes of the Money Market Committee meeting – September 2026",
+      "publisher": "Bank of England",
+      "jurisdiction": "uk",
+      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+      "at": "2026-10-13T15:04:27.000Z",
+      "score": 10,
+      "corroboration": 1,
+      "why": "deterministic: corroborated across feeds",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-13T19:07:05.599Z"
+    },
+    {
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+      "title": "Minutes of the Board&#39;s discount rate meetings on August 17, September 9, and September 16, 2026",
+      "publisher": "US Federal Reserve",
+      "jurisdiction": "us",
+      "summary": "Minutes of the Board&#39;s discount rate meetings on August 17, September 9, and September 16, 2026",
+      "at": "2026-10-13T18:00:00.000Z",
+      "score": 9,
+      "corroboration": 1,
+      "why": "deterministic: corroborated across feeds",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-13T19:07:05.599Z"
+    },
+    {
       "link": "https://www.finextra.com/pressarticle/111164/rain-applies-to-establish-national-trust-bank?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Rain applies to establish national trust bank",
       "publisher": "Finextra",
@@ -323,5 +351,5 @@
       "queuedAt": "2026-10-11T20:05:35.469Z"
     }
   ],
-  "updated": "2026-10-13T16:21:24.057Z"
+  "updated": "2026-10-13T19:07:05.599Z"
 }
