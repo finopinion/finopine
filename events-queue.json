@@ -29,34 +29,6 @@
       "queuedAt": "2026-10-13T19:07:05.599Z"
     },
     {
-      "link": "https://www.finextra.com/pressarticle/111164/rain-applies-to-establish-national-trust-bank?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Rain applies to establish national trust bank",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Rain, the enterprise-grade infrastructure for stablecoin payments, announced today that it has filed an application with the Office of the Comptroller of the Currency (OCC) to establish Rain National Trust Bank (RNTB), a proposed national trust bank headquartered in New York.",
-      "at": "2026-10-06T18:01:00.000Z",
-      "score": 6,
-      "corroboration": 1,
-      "why": "Fintech firm Rain applies for a national trust bank charter with the OCC.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-06T20:06:44.632Z"
-    },
-    {
-      "link": "https://www.bankingdive.com/news/rain-modern-treasury-seek-occ-trust-charters/832257/",
-      "title": "Rain, Modern Treasury seek OCC trust charters",
-      "publisher": "Banking Dive",
-      "jurisdiction": "us",
-      "summary": "p The firms join a growing list of fintech companies looking to get into the folds of federal regulation, days after a trade group sued the OCC over trust charters. /p",
-      "at": "2026-10-06T15:34:37.000Z",
-      "score": 5,
-      "corroboration": 1,
-      "why": "Rain and Modern Treasury seek OCC trust charters amid legal disputes over regulation.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-06T20:06:44.632Z"
-    },
-    {
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
       "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
       "publisher": "US Federal Reserve",
@@ -97,20 +69,6 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-11T23:36:54.521Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48543/circle-ripple-and-standard-chartered-invest-in-okx?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Circle, Ripple and Standard Chartered invest in OKX",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Crypto exchange OKX has secured strategic investment from Circle, QRT, Ripple and SC Ventures at a $25 billion valuation.",
-      "at": "2026-10-06T18:02:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major strategic investment in OKX at a $25 billion valuation by prominent firms.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-06T20:06:44.632Z"
     },
     {
       "link": "https://www.finextra.com/newsarticle/48549/hsbc-to-make-deep-wide-and-brutal-uk-wealth-management-job-cuts-in-ai-push?utm_medium=rssfinextra utm_source=finextrafeed",
@@ -349,7 +307,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-11T20:05:35.469Z"
+    },
+    {
+      "link": "https://www.bankingdive.com/news/bofa-fined-1-21-billion-over-aml-bsa-occ-treasury/832915/",
+      "title": "BofA fined $1.21B over AML",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "figure div img src=\"https://imgproxy.divecdn.com/6nCf-gZ68WzeIqpcSmeMmjh03fWFO9S17Enrax7SOd4/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xOTI3ODgyMTQ0LmpwZw==.webp\"/ /div /figure p Bank of America failed to properly monitor trillions of dollars in transactions, according to the Office of the Comptroller of the Currency. /p",
+      "at": "2026-10-13T20:25:16.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major regulatory enforcement action with a substantial fine against a tier-one bank.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-13T23:15:29.650Z"
     }
   ],
-  "updated": "2026-10-13T19:56:47.423Z"
+  "updated": "2026-10-13T23:15:29.650Z"
 }
