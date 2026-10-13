@@ -23,7 +23,7 @@ readMins: 4
 tags: ["regulation","labour","subsidies"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-11/cruise-ship-workers-still-vulnerable-to-exploitation/107249988"
-draft: true
+draft: false
 sources:
   - label: "Union says cruise ship crews still open to exploitation under legal loophole"
     publisher: "ABC News"
