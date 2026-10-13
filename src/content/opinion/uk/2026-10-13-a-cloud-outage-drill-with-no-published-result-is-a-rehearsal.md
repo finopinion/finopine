@@ -23,7 +23,7 @@ readMins: 4
 tags: ["operational resilience","banking","cloud"]
 generated: true
 groundedIn: "https://www.bankofengland.co.uk/news/2026/october/cmorg-holds-sector-wide-cloud-outage-simulation-exercise"
-draft: true
+draft: false
 sources:
   - label: "CMORG holds sector-wide cloud outage simulation exercise"
     publisher: "Bank of England"
