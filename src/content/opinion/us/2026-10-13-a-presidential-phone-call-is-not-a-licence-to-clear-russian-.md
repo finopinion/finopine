@@ -23,7 +23,7 @@ readMins: 4
 tags: ["sanctions","banking","compliance"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-10/trump-strikes-deal-with-putin-for-russia-to-supply-diesel-to-us/107250922"
-draft: true
+draft: false
 sources:
   - label: "Trump strikes deal with Putin for Russia to supply diesel to US"
     publisher: "ABC News"
