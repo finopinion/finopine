@@ -1,22 +1,4 @@
 {
-  "selected": {
-    "link": "https://www.abc.net.au/news/2026-10-11/cruise-ship-workers-still-vulnerable-to-exploitation/107249988",
-    "title": "Union says cruise ship crews still open to exploitation under legal loophole",
-    "publisher": "ABC News",
-    "jurisdiction": "au",
-    "summary": "Cruise ship workers will get some new protections following an ABC investigation, but critics say the exemption that left them vulnerable should never have existed and remains largely in place through to 2028.",
-    "at": "2026-10-10T18:00:00.000Z",
-    "score": 1,
-    "corroboration": 0,
-    "why": "New protections introduced for cruise ship workers following investigation.",
-    "urgency": "medium",
-    "judgedBy": "gemini",
-    "queuedAt": "2026-10-10T18:22:22.839Z",
-    "fullText": "Cruise ship crews still vulnerable to exploitation as government announces updated protections - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home Cruise ship crews still vulnerable to exploitation as government announces updated protections Share Share article Cruise ship crews still vulnerable to exploitation as government announces updated protections By business reporter Jasper Wells Topic: Cruises Posted Sun 11 Oct 2026 at 5:00am Sun 11 Oct 2026 at 5:00am Sun 11 Oct 2026 at 5:00am A decades-old exemption to Australian labour law for cruise ships has been extended with some new protections for workers. ( ABC News: Jasper Wells ) In short: A legal exemption for cruise ships from Australian labour law has been altered to allow some new protections for crew. Critics say the legal loophole that left them vulnerable shouldn&#x27;t have existed in the first place and allows for worker exploitation. What&#x27;s next? The exemption was due to expire at the end of the year but has been extended to 2028. abc.net.au/news/cruise-ship-workers-still-vulnerable-to-exploitation/107249988 Link copied Share Share article The union that represents cruise ship workers has warned that the exploitation of staff will become &quot;embedded&quot; in the industry after the federal government extended a decades-old exemption that allowed cruise ships to circumvent Australian labour law. The government has announced new protections for cruise workers following an ABC News investigation that revealed allegations of shocking conditions among the crew on some Carnival Cruise vessels. It includes the ability to collectively bargain and make complaints to the maritime safety regulator. Punishing conditions face Carnival crew Passengers boarding a Carnival cruise ship are promised a world of endless food, relaxation and oceanic luxury. But for the crew, life is vastly different. But the government has decided to continue the practice of allowing cruise ships an exemption to labour laws, extending the long-standing exemption until 2028. The ABC revealed in August that workers were accusing the company of 12-hour work days for seven days a week, medical neglect, not providing safe drinking water and wages less than $3 an hour. Carnival denied the allegations. Transport Minister Catherine King called the allegations &quot;horrifying&quot;. Catherine King said the new conditions on the exemption would help draw tourists as well as protect workers. ( ABC News ) In response to the investigation Australia&"
-  },
-  "reason": "Australian labour exemption renewal creates arguable debate: whether targeted protections within an exemption framework beats waiting for full law change.",
-  "angle": "Extending the cruise ship labour exemption with new protections is better policy than letting it expire and forcing complete legislative overhaul that may never happen.",
-  "confidence": 0.72,
-  "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-13T03:08:16.692Z"
+  "selected": null,
+  "reason": "Item 0: too little detail. Item 1: insufficient context on deal terms. Item 2: geopolitical, not financial regulation/markets structure. Item 3: Australian, not UK-focused, and 'loopholes bad' admits no counterargument."
 }
