@@ -23,7 +23,7 @@ readMins: 4
 tags: ["anti-money-laundering","banking regulation","enforcement"]
 generated: true
 groundedIn: "https://www.bankingdive.com/news/bofa-fined-1-21-billion-over-aml-bsa-occ-treasury/832915/"
-draft: true
+draft: false
 sources:
   - label: "U.S. Treasury Announces Record Enforcement Actions Against Bank of America | U.S. Department of the Treasury"
     publisher: "US Treasury"
