@@ -85,20 +85,6 @@
       "queuedAt": "2026-10-11T23:36:54.521Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48549/hsbc-to-make-deep-wide-and-brutal-uk-wealth-management-job-cuts-in-ai-push?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "HSBC to make &#39;deep, wide and brutal&#39; UK wealth management job cuts in AI push",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "HSBC is planning to axe up to 70% of its UK financial advisors as part of swingeing cuts to its wealth management business driven by riding use of AI, according to the Financial Times.",
-      "at": "2026-10-07T14:57:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "HSBC plans to cut up to 70% of UK financial advisors in AI-driven restructuring.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-07T19:16:23.102Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48558/singapore-central-bank-issues-risk-rules-on-banks-ai-use?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Singapore central bank issues risk rules on banks&#39; AI use",
       "publisher": "Finextra",
@@ -253,6 +239,20 @@
       "queuedAt": "2026-10-14T19:14:50.009Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48585/jpmorgan-chase-blocks-outside-ai-agents-from-directly-accessing-customer-accounts?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "JPMorgan Chase blocks outside AI agents from directly accessing customer accounts",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Weeks after the launch of Meta&#39;s Muse AI assistant, Jamie Dimon says JPMorgan Chase is not going to allow outside agents to directly access accounts on behalf of retail customers.",
+      "at": "2026-10-15T00:01:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major US bank sets precedent by banning third-party AI agents from directly accessing customer accounts.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-14T23:04:52.225Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-10-08/firmus-ipo-underwhelms-before-it-hits-the-market/107241548",
       "title": "Major share market float of Firmus in trouble as interest wanes",
       "publisher": "ABC News",
@@ -393,5 +393,5 @@
       "queuedAt": "2026-10-14T01:22:09.121Z"
     }
   ],
-  "updated": "2026-10-14T19:14:50.009Z"
+  "updated": "2026-10-14T23:04:52.225Z"
 }
