@@ -23,7 +23,7 @@ readMins: 4
 tags: ["energy","regulation","commodities"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-12/critics-decry-santos-gas-reservation-loopholes/107249780"
-draft: true
+draft: false
 sources:
   - label: "Critics warn of 'Santos-sized loopholes' in gas reservation plan"
     publisher: "ABC News"
