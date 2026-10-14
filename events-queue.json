@@ -183,6 +183,20 @@
       "queuedAt": "2026-10-12T18:09:37.489Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48578/spanish-banks-report-150-spike-in-fraud?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Spanish banks report 150% spike in fraud",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Fraud from stolen devices has surged in Spain according to recently published research.",
+      "at": "2026-10-14T09:50:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Significant 150% spike in banking fraud represents major consumer risk.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-14T09:59:58.163Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-10-08/firmus-ipo-underwhelms-before-it-hits-the-market/107241548",
       "title": "Major share market float of Firmus in trouble as interest wanes",
       "publisher": "ABC News",
@@ -323,5 +337,5 @@
       "queuedAt": "2026-10-14T01:22:09.121Z"
     }
   ],
-  "updated": "2026-10-14T01:22:09.121Z"
+  "updated": "2026-10-14T09:59:58.163Z"
 }
