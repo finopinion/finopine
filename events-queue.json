@@ -211,6 +211,48 @@
       "queuedAt": "2026-10-14T09:59:58.163Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48584/visa-secures-china-card-business-green-light?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Visa secures China card business green light",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "US behemoth Visa has secured approval from the People’s Bank of China to set up a domestic bank card clearing business in the country.",
+      "at": "2026-10-14T16:04:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Visa gains rare approval for domestic Chinese bank card clearing.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-14T19:14:50.009Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48583/starling-becomes-first-bank-to-train-ai-model-on-uk-sovereign-cloud?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Starling becomes first bank to train AI model on UK sovereign cloud",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Starling is working with AI chip making giant Nvidia to build a transactional foundational model that is trained and hosted within a UK sovereign cloud.",
+      "at": "2026-10-14T15:32:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "First UK bank to train foundational AI model on sovereign cloud.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-14T19:14:50.009Z"
+    },
+    {
+      "link": "https://www.finextra.com/pressarticle/111262/eba-classifies-usdc-as-significant-e-money-token-under-mica?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "EBA classifies USDC as significant e-money token under MiCA",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The European Banking Authority (EBA) has classified USDC, issued by Circle Internet Financial Europe SAS, as a significant e-money token (EMT) under the Markets in Crypto Assets Regulation (MiCA), following its assessment of the criteria set out in the Regulation.",
+      "at": "2026-10-14T18:26:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "EBA classifies major stablecoin as significant under MiCA.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-14T19:14:50.009Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-10-08/firmus-ipo-underwhelms-before-it-hits-the-market/107241548",
       "title": "Major share market float of Firmus in trouble as interest wanes",
       "publisher": "ABC News",
@@ -351,5 +393,5 @@
       "queuedAt": "2026-10-14T01:22:09.121Z"
     }
   ],
-  "updated": "2026-10-14T18:07:16.122Z"
+  "updated": "2026-10-14T19:14:50.009Z"
 }
