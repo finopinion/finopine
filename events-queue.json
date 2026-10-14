@@ -183,20 +183,6 @@
       "queuedAt": "2026-10-12T18:09:37.489Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-07/ato-special-meeting-small-business-credit-card-ban/107018106",
-      "title": "ATO convenes snap meeting over credit card ban",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Australia's tax chief calls a snap meeting with business groups after the tax office faces backlash over its decision to stop accepting credit card payments.",
-      "at": "2026-10-06T22:57:42.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "ATO calls snap meeting following backlash over its decision to ban credit card tax payments.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-06T23:45:21.615Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-10-08/firmus-ipo-underwhelms-before-it-hits-the-market/107241548",
       "title": "Major share market float of Firmus in trouble as interest wanes",
       "publisher": "ABC News",
@@ -321,7 +307,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-13T23:15:29.650Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-14/federal-court-overturns-commonwealth-gold-mine-decision/107260458",
+      "title": "Court dumps Plibersek heritage decision that halted $1b gold mine",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The Federal Court rules that a Commonwealth decision that blocked a NSW gold mine was \"made without authority\".",
+      "at": "2026-10-14T00:20:18.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Unexpected Federal Court ruling overturning ministerial block on $1b gold mine project.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-14T01:22:09.121Z"
     }
   ],
-  "updated": "2026-10-13T23:15:29.650Z"
+  "updated": "2026-10-14T01:22:09.121Z"
 }
