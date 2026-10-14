@@ -29,6 +29,20 @@
       "queuedAt": "2026-10-13T19:07:05.599Z"
     },
     {
+      "link": "https://thefintechtimes.com/wise-adds-esim-plans-and-cross-continent-qr-payments-to-travel-hub/",
+      "title": "Wise Adds eSIM Plans and Cross-continent QR Payments to Travel Hub",
+      "publisher": "The Fintech Times",
+      "jurisdiction": "auto",
+      "summary": "Wise has expanded its Travel Hub with customisable eSIM data plans and a unified QR payment scanner covering local schemes across five continents. The post Wise Adds eSIM Plans and Cross-continent QR Payments to Travel Hub appeared first on The Fintech Times .",
+      "at": "2026-10-14T07:00:56.000Z",
+      "score": 9,
+      "corroboration": 2,
+      "why": "deterministic: corroborated across feeds",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-14T13:58:54.564Z"
+    },
+    {
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
       "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
       "publisher": "US Federal Reserve",
@@ -337,5 +351,5 @@
       "queuedAt": "2026-10-14T01:22:09.121Z"
     }
   ],
-  "updated": "2026-10-14T09:59:58.163Z"
+  "updated": "2026-10-14T13:58:54.564Z"
 }
