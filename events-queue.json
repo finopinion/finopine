@@ -85,34 +85,6 @@
       "queuedAt": "2026-10-11T23:36:54.521Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48558/singapore-central-bank-issues-risk-rules-on-banks-ai-use?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Singapore central bank issues risk rules on banks&#39; AI use",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Banks in Singapore must seek an independent review of any forthcoming AI projects before implementation, according to new rules.",
-      "at": "2026-10-08T12:49:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Singapore central bank mandates independent reviews for bank AI projects.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-08T13:08:56.615Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48554/wise-to-pay-clients-tax-bills-after-third-party-software-error?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Wise to pay clients&#39; tax bills after third-party software error",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Money transfer app Wise has contacted the UK&#39;s tax authorities over technical errors that led thousands of clients to pay the wrong amount of tax on their investments.",
-      "at": "2026-10-08T10:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Wise to pay clients' tax bills following software error.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-08T13:08:56.615Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48560/mastercard-to-enable-offline-payments-across-europe?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Mastercard to enable offline payments across Europe",
       "publisher": "Finextra",
@@ -253,18 +225,18 @@
       "queuedAt": "2026-10-14T23:04:52.225Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-08/firmus-ipo-underwhelms-before-it-hits-the-market/107241548",
-      "title": "Major share market float of Firmus in trouble as interest wanes",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "The company is reportedly having to price its shares lower as it closed its books to potential investors abruptly overnight.",
-      "at": "2026-10-08T02:35:03.000Z",
-      "score": 1,
+      "link": "https://www.finextra.com/newsarticle/48587/spanish-banks-arrange-syndicated-finance-on-blockchain?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Spanish banks arrange syndicated finance on blockchain",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Two Spanish banks, Santander and BBVA, and utility company Iberdrola, are claiming a blockchain first after arranging a syndicated financing facility executed through a blockchain platform",
+      "at": "2026-10-15T10:04:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Abrupt bookbuild closure and forced repricing mark an unexpected IPO stumble.",
+      "why": "Major Spanish banks execute first syndicated financing on blockchain.",
       "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-10-08T05:51:27.007Z"
+      "queuedAt": "2026-10-15T13:14:11.655Z"
     },
     {
       "link": "https://www.bankingdive.com/news/hud-probes-wells-fargo-over-racialized-lending/832515/",
@@ -393,5 +365,5 @@
       "queuedAt": "2026-10-14T01:22:09.121Z"
     }
   ],
-  "updated": "2026-10-15T00:44:46.820Z"
+  "updated": "2026-10-15T13:14:11.655Z"
 }
