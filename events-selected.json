@@ -1,21 +1,22 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48585/jpmorgan-chase-blocks-outside-ai-agents-from-directly-accessing-customer-accounts?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "JPMorgan Chase blocks outside AI agents from directly accessing customer accounts",
-    "publisher": "Finextra",
-    "jurisdiction": "auto",
-    "summary": "Weeks after the launch of Meta&#39;s Muse AI assistant, Jamie Dimon says JPMorgan Chase is not going to allow outside agents to directly access accounts on behalf of retail customers.",
-    "at": "2026-10-15T00:01:00.000Z",
-    "score": 2,
-    "corroboration": 0,
-    "why": "Major US bank sets precedent by banning third-party AI agents from directly accessing customer accounts.",
+    "link": "https://www.bankofengland.co.uk/minutes/2026/september/money-markets-committee-minutes-september-2026",
+    "title": "Minutes of the Money Market Committee meeting – September 2026",
+    "publisher": "Bank of England",
+    "jurisdiction": "uk",
+    "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+    "at": "2026-10-13T15:04:27.000Z",
+    "score": 10,
+    "corroboration": 1,
+    "why": "deterministic: corroborated across feeds",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-14T23:04:52.225Z"
+    "queuedAt": "2026-10-13T19:07:05.599Z",
+    "fullText": "Minutes of the Money Market Committee meeting – September 2026 | Bank of England – the UK&#39;s central bank Our use of cookies We use necessary cookies to make our site work. We&rsquo;d also like to use some non-essential cookies (including third-party cookies) to help us improve the site. By clicking &lsquo;Accept recommended settings&rsquo; on this banner, you accept our use of analytics cookies. For more information on how these cookies work please see our Cookie policy . Accept recommended cookies Proceed with necessary cookies only Skip to main content Minutes of the Money Market Committee meeting – September 2026 The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets. Published on 13 October 2026 Date: 25 September 2026 Time: 10am &ndash; 11.30am | Location: Bank of England, 20 Moorgate, London, EC2R 6DA Minutes Item 1 &ndash; Welcome The Chair thanked members for attending and confirmed that the Minutes of the Money Markets Committee (MMC) June 2026 meeting had been published on the Bank&rsquo;s website. footnote [1] The Chair updated on recent usage of the Bank&rsquo;s market-wide repo facilities. Members were reminded that use of the Bank&rsquo;s facilities, including against a broad range of eligible collateral, was consistent with the intended transition to a repo-led operating framework. The Chair provided a brief update on the Monetary Policy Committee&rsquo;s (MPC&rsquo;s) September decision on Quantitative Tightening footnote [2] , including the exchange of letters between the Governor and the Chancellor regarding QT and the APF. footnote [3] The Chair also noted the related announcements made by the Bank and HM Treasury that came out at the same time. footnote [4] Item 2 &ndash; Discussion on market conditions Members noted that money markets continued to function smoothly and that funding conditions remained stable, even during recent increased bond market volatility. Liquidity was reported to be ample, with limited signs of stress. Members also reported stable cross-currency funding conditions despite recent geopolitical developments and broader market volatility, with quarter-end and year-end conditions expected to remain orderly. While some highlighted the potential for volatility in outright asset markets to transmit into funding conditions through reduced risk appetite or position unwinds, the overall assessment was that money market functioning remained robust. Some nevertheless noted emerging funding pressures f"
   },
-  "reason": "JPMorgan's AI access ban tests whether financial regulation should mandate direct account access for AI agents or allow banks to set their own guardrails.",
-  "angle": "Banks should retain discretion to block third-party AI agents from direct account access rather than regulators requiring interoperability.",
+  "reason": "Bank of England money market minutes reveal policy shift to repo-led framework with ongoing QT. Stable conditions mask structural debate about whether transition increases systemic fragility.",
+  "angle": "Moving to repo-led operations reduces flexibility during future stress and should be reconsidered despite current market calm.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-15T00:44:49.408Z"
+  "vettedAt": "2026-10-15T13:38:59.243Z"
 }
