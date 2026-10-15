@@ -23,7 +23,7 @@ readMins: 4
 tags: ["money markets","bank of england","transparency"]
 generated: true
 groundedIn: "https://www.bankofengland.co.uk/minutes/2026/september/money-markets-committee-minutes-september-2026"
-draft: true
+draft: false
 sources:
   - label: "Minutes of the Money Market Committee meeting – September 2026"
     publisher: "Bank of England"
