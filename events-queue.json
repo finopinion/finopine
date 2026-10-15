@@ -85,20 +85,6 @@
       "queuedAt": "2026-10-11T23:36:54.521Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48560/mastercard-to-enable-offline-payments-across-europe?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Mastercard to enable offline payments across Europe",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Mastercard is introducing offline payment requirements that mean that from 2027 Europeans will be able to pay during power and network outages.",
-      "at": "2026-10-08T15:17:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "New Mastercard mandate requiring offline payment capabilities across Europe by 2027.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-08T15:49:37.136Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48563/fca-cracks-down-on-finfluencers?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "FCA cracks down on finfluencers",
       "publisher": "Finextra",
@@ -239,6 +225,48 @@
       "queuedAt": "2026-10-15T13:14:11.655Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48591/ramp-hits-60bn-valuation?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Ramp hits $60bn valuation",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Expense management firm Ramp has closed its second major raise in a matter of months, securing $1.85 billion in a primary financing round led by Dragoneer Investment Group that values the company at $60 billion.",
+      "at": "2026-10-15T15:35:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Massive $60 billion valuation and huge primary funding round for a major fintech.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-15T17:54:16.832Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48590/mastercard-and-bvnk-bring-fiat-and-stablecoin-payments-together-in-global-money-platform?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Mastercard and BVNK bring fiat and stablecoin payments together in global money platform",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Mastercard has launched a platform that brings together its global payments capabilities with the stablecoin infrastructure of its recently acquired BVNK unit through a single API.",
+      "at": "2026-10-15T15:17:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Mastercard launching a combined fiat and stablecoin global platform via BVNK.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-15T17:54:16.832Z"
+    },
+    {
+      "link": "https://www.finextra.com/pressarticle/111296/seb-pays-33m-to-nydfs-over-aml-failures?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "SEB pays $33m to NYDFS over AML failures",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "New York State Department of Financial Services (DFS) Acting Superintendent Kaitlin Asrow announced today that Skandinaviska Enskilda Banken AB and its New York Branch (together, SEB or the Bank) have agreed to pay a $33 million penalty as part of a Consent Order to resolve the Department’s investigation into SEB’s compliance with New York Banking Law and anti-money laundering program failures.",
+      "at": "2026-10-15T15:50:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major enforcement action: $33 million AML penalty from NYDFS against SEB.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-15T17:54:16.832Z"
+    },
+    {
       "link": "https://www.bankingdive.com/news/hud-probes-wells-fargo-over-racialized-lending/832515/",
       "title": "HUD probes Wells Fargo over ‘racialized’ lending",
       "publisher": "Banking Dive",
@@ -365,5 +393,5 @@
       "queuedAt": "2026-10-14T01:22:09.121Z"
     }
   ],
-  "updated": "2026-10-15T13:38:54.986Z"
+  "updated": "2026-10-15T17:54:16.832Z"
 }
