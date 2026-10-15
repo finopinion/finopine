@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.bankingdive.com/news/bofa-fined-1-21-billion-over-aml-bsa-occ-treasury/832915/",
-    "title": "BofA fined $1.21B over AML",
-    "publisher": "Banking Dive",
-    "jurisdiction": "us",
-    "summary": "figure div img src=\"https://imgproxy.divecdn.com/6nCf-gZ68WzeIqpcSmeMmjh03fWFO9S17Enrax7SOd4/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xOTI3ODgyMTQ0LmpwZw==.webp\"/ /div /figure p Bank of America failed to properly monitor trillions of dollars in transactions, according to the Office of the Comptroller of the Currency. /p",
-    "at": "2026-10-13T20:25:16.000Z",
-    "score": 1,
+    "link": "https://www.finextra.com/newsarticle/48585/jpmorgan-chase-blocks-outside-ai-agents-from-directly-accessing-customer-accounts?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "JPMorgan Chase blocks outside AI agents from directly accessing customer accounts",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "Weeks after the launch of Meta&#39;s Muse AI assistant, Jamie Dimon says JPMorgan Chase is not going to allow outside agents to directly access accounts on behalf of retail customers.",
+    "at": "2026-10-15T00:01:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "Major regulatory enforcement action with a substantial fine against a tier-one bank.",
-    "urgency": "high",
+    "why": "Major US bank sets precedent by banning third-party AI agents from directly accessing customer accounts.",
+    "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-13T23:15:29.650Z",
-    "fullText": "BofA fined $1.21B over AML flaws | Banking Dive Skip to main content CONTINUE TO SITE ➞ Don't miss tomorrow's banking industry news Let Banking Dive's free newsletter keep you informed, straight from your inbox. Daily Dive M-F Fintech Weekly Every Wednesday By signing up to receive our newsletter, you agree to our Terms of Use and Privacy Policy . You can unsubscribe at anytime. Informa TechTarget | CFO Dive Payments Dive Explore our brands An Informa TechTarget Publication Search People also ask Loading questions... An article from BofA fined $1.21B over AML flaws Bank of America failed to properly monitor trillions of dollars in transactions, according to the Office of the Comptroller of the Currency. Published Oct. 13, 2026 • Updated 12 seconds ago Gabrielle Saulsbery Senior Reporter Caitlin Mullen Senior Editor Share Copy link Email LinkedIn X/Twitter Facebook Print License Add us on Google A Bank of America branch stands in New York City on January 12, 2024. Spencer Platt / Staff via Getty Images Bank of America must pay more than $1.21 billion in penalties for violating anti-money laundering and sanctions laws, the Treasury Department announced Tuesday . Within that amount, a $1.2 billion fine levied by the Financial Crimes Enforcement Network is the third-largest in Treasury history. The Office of the Comptroller of the Currency concurrently assessed a $750 million civil monetary penalty – the largest in its 163-year history – over a “deficient and ineffective” compliance program. The Office of Foreign Assets Control also announced an $11.6 million settlement with Bank of America over sanctions violations tied to Iran, Russia, global terrorism and narcotics. The Treasury credited the OCC’s penalty toward its $1.2 billion fine. No asset cap was imposed. Charlotte, North Carolina-based Bank of America admitted to willful violations of the Bank Secrecy Act, FinCEN said. The bank admits it failed to implement and maintain an AML program that satisfied the BSA and FinCEN’s implementing regulations, and that it failed to conduct due diligence for correspondent accounts for foreign financial institutions. The bank also failed to file suspicious activity reports for $5 billion in transactions, FinCEN found. Bank of America failed to properly monitor trillions of dollars in transactions, and “knew for years that it was failing to escalate potentially suspicious activities to investigators for review,” the OCC said. Additionally, the bank’s BSA officer and staff “lacked sufficient skills and expertise” to effectively manage the bank’s BSA/AML program, accor"
+    "queuedAt": "2026-10-14T23:04:52.225Z"
   },
-  "reason": "Bank of America's $1.21B AML fine raises arguable question: does scale of penalties actually deter compliance failures, or do they become predictable costs of business?",
-  "angle": "Large fines against systemically important banks may signal regulatory capture rather than effective deterrence if violations recur.",
+  "reason": "JPMorgan's AI access ban tests whether financial regulation should mandate direct account access for AI agents or allow banks to set their own guardrails.",
+  "angle": "Banks should retain discretion to block third-party AI agents from direct account access rather than regulators requiring interoperability.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-14T13:58:57.627Z"
+  "vettedAt": "2026-10-15T00:44:49.408Z"
 }
