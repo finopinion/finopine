@@ -21,7 +21,7 @@ readMins: 4
 tags: ["banking","ai","open banking"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48585/jpmorgan-chase-blocks-outside-ai-agents-from-directly-accessing-customer-accounts?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "JPMorgan Chase blocks outside AI agents from directly accessing customer accounts"
     publisher: "Finextra"
