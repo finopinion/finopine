@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.abc.net.au/news/2026-10-16/underquoting-victoria-new-laws/107259380",
-    "title": "New Victorian laws reveal auction reserves, so buyers stop wasting weekends",
-    "publisher": "ABC News",
-    "jurisdiction": "au",
-    "summary": "The real estate industry says new laws targeting agents underquoting a house price are well-intentioned but poorly designed.",
-    "at": "2026-10-15T21:49:06.000Z",
-    "score": 1,
+    "link": "https://www.finextra.com/newsarticle/48583/starling-becomes-first-bank-to-train-ai-model-on-uk-sovereign-cloud?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "Starling becomes first bank to train AI model on UK sovereign cloud",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "Starling is working with AI chip making giant Nvidia to build a transactional foundational model that is trained and hosted within a UK sovereign cloud.",
+    "at": "2026-10-14T15:32:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "New state consumer housing finance legislation regulating property auction reserves and underquoting.",
+    "why": "First UK bank to train foundational AI model on sovereign cloud.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-16T00:36:49.434Z",
-    "fullText": "Victorian laws force house price transparency in national fight against underquoting - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home Victorian laws force house price transparency in national fight against underquoting Share Share article Victorian laws force house price transparency in national fight against underquoting By business reporters Daniel Ziffer and Jasper Wells Topic: Real Estate Industry Posted Fri 16 Oct 2026 at 8:49am Fri 16 Oct 2026 at 8:49am Fri 16 Oct 2026 at 8:49am , updated Fri 16 Oct 2026 at 10:49am Fri 16 Oct 2026 at 10:49am Fri 16 Oct 2026 at 10:49am Victoria has already had one of the weakest property markets in the country in recent years. ( ABC News: Ian Cutmore ) In short: Victoria has introduced new laws to target real estate agents underquoting house prices to try to bring more transparency to the market. Parts of the industry are supportive of the move but say the laws are confusing and inconsistent. Industry figures say the laws do not take into account changing market and auction dynamics, which can significantly move the reserve price. abc.net.au/news/underquoting-victoria-new-laws/107259380 Link copied Share Share article New laws will let prospective homebuyers know the price a seller is willing to say &quot;yes&quot; to. The Victorian laws that took effect at the start of the month are being watched closely nationwide and bring radical transparency before and after sales. They will force agents to: Make the reserve price public at least a week before an auction. Publish the sale price for at least 18 months after the sale. Agents use underquoting to artificially increase turnout to auctions by attracting bidders unlikely to be able to afford the property. ( Supplied: Mount Isa City Council ) The laws aim to reduce underquoting, when agents market a property for a price for well below what it is expected to sell for to artificially generate interest in a property. &quot;Victorians are sick of wasting their weekends chasing homes they were never going to get,&quot; said state Minister for Consumer Affairs Paul Edbrooke. Paul Edbrooke says Victorians are sick of wasting their time chasing homes they can not afford. ( ABC News ) But Real Estate Institute of Victoria (REIV) chief executive Toby Balazs, who represents agents, opposes the details of the new laws. &quot;If you look at the problem that was trying to be solved, egregious underquoting, and the results — people wasting their time and money on getting things like building repo"
+    "queuedAt": "2026-10-14T19:14:50.009Z"
   },
-  "reason": "Victoria's transparency laws create testable trade-offs between market efficiency and consumer protection that merit debate about unintended consequences.",
-  "angle": "Mandatory reserve price disclosure reduces information asymmetry but may suppress auction competitiveness and limit agents' ability to price-discover in volatile markets.",
+  "reason": "UK bank training AI on sovereign cloud raises real questions about whether data sovereignty requirements benefit or harm financial innovation and competition",
+  "angle": "Mandatory sovereign AI infrastructure may protect data but will entrench incumbent banks over challengers who lack resources for parallel systems",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-16T00:36:53.037Z"
+  "vettedAt": "2026-10-16T13:29:41.898Z"
 }
