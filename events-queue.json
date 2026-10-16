@@ -307,7 +307,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-16T00:36:49.434Z"
+    },
+    {
+      "link": "https://www.bankingdive.com/news/warren-garcia-massie-epstein-bills-fed-fdic-occ-sec-disclosure-bank-executive-penalties/833252/",
+      "title": "Epstein bill would push regulators to disclose bank probes",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "figure div img src=\"https://imgproxy.divecdn.com/u4mu2wwDbZgNpBbpyv_AdKarBIU1cRoYbW0c7iuGOCM/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjYwMDg4OTc4LmpwZw==.webp\"/ /div /figure p Bank executives could face industry bans, fines and criminal referrals under legislation proposed by Sen. Elizabeth Warren, D-MA. /p",
+      "at": "2026-10-16T16:20:33.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Proposed legislation forcing bank regulators to disclose confidential probes.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-16T19:28:19.678Z"
     }
   ],
-  "updated": "2026-10-16T17:35:45.923Z"
+  "updated": "2026-10-16T19:28:19.678Z"
 }
