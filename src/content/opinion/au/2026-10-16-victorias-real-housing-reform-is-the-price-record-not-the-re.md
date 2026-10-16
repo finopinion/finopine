@@ -23,7 +23,7 @@ readMins: 4
 tags: ["housing","consumer-finance","transparency"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-16/underquoting-victoria-new-laws/107259380"
-draft: true
+draft: false
 sources:
   - label: "New Victorian laws reveal auction reserves, so buyers stop wasting weekends"
     publisher: "ABC News"
