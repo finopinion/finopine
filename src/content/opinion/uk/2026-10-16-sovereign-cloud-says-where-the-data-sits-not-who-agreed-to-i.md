@@ -23,7 +23,7 @@ readMins: 4
 tags: ["ai","banking","data-protection"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48583/starling-becomes-first-bank-to-train-ai-model-on-uk-sovereign-cloud?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Starling becomes first bank to train AI model on UK sovereign cloud"
     publisher: "Finextra"
