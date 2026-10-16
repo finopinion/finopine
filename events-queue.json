@@ -71,34 +71,6 @@
       "queuedAt": "2026-10-11T23:36:54.521Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48563/fca-cracks-down-on-finfluencers?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "FCA cracks down on finfluencers",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The UK&#39;s financial watchdog has stepped up its enforcement of illegal &#39;finfluencer&#39; promotions, resulting in a 7,300% increase in actions between 2023 and 2025.",
-      "at": "2026-10-09T10:55:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Significant regulatory crackdown on finfluencers with massive increase in enforcement.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-09T15:09:36.581Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48562/amex-hit-with-350m-penalty-for-aml-deficiencies?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Amex hit with $350m penalty for AML deficiencies",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The Office of the Comptroller of the Currency (OCC), the main banking regulator in the US, has issued a $350m civil money penalty against American Express National Bank for deficiencies in its anti-money laundering (AML) and bank secrecy act (BSA) processes.",
-      "at": "2026-10-09T09:36:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major $350 million regulatory penalty against American Express for AML failures.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-09T15:09:36.581Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48570/bahrain-central-bank-to-treble-tech-budget?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Bahrain central bank to treble tech budget",
       "publisher": "Finextra",
@@ -125,20 +97,6 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-12T18:09:37.489Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48578/spanish-banks-report-150-spike-in-fraud?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Spanish banks report 150% spike in fraud",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Fraud from stolen devices has surged in Spain according to recently published research.",
-      "at": "2026-10-14T09:50:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Significant 150% spike in banking fraud represents major consumer risk.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-14T09:59:58.163Z"
     },
     {
       "link": "https://www.finextra.com/newsarticle/48584/visa-secures-china-card-business-green-light?utm_medium=rssfinextra utm_source=finextrafeed",
@@ -351,5 +309,5 @@
       "queuedAt": "2026-10-16T00:36:49.434Z"
     }
   ],
-  "updated": "2026-10-16T13:29:39.091Z"
+  "updated": "2026-10-16T17:35:45.923Z"
 }
