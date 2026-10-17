@@ -211,20 +211,6 @@
       "queuedAt": "2026-10-15T17:54:16.832Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-10/trump-strikes-deal-with-putin-for-russia-to-supply-diesel-to-us/107250922",
-      "title": "Trump strikes deal with Putin for Russia to supply diesel to US",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "In an apparent reversal of Washington's campaign to squeeze Russian fuel revenue powering the war in Ukraine, Donald Trump says Moscow will supply diesel to the US.",
-      "at": "2026-10-09T22:43:29.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Major sanctions and trade policy reversal with significant implications for global energy markets.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-10T00:38:55.986Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-10-11/cruise-ship-workers-still-vulnerable-to-exploitation/107249988",
       "title": "Union says cruise ship crews still open to exploitation under legal loophole",
       "publisher": "ABC News",
@@ -321,7 +307,35 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-16T19:28:19.678Z"
+    },
+    {
+      "link": "https://thefintechtimes.com/uk-businesses-file-700m-cat-claim-over-visa-and-mastercard-eea-fees/",
+      "title": "UK Businesses File £700m CAT Claim over Visa and Mastercard EEA Fees",
+      "publisher": "The Fintech Times",
+      "jurisdiction": "auto",
+      "summary": "A Competition Appeal Tribunal claim alleges the card networks raised UK-EEA interchange fees five-fold after Brexit, costing businesses up to £200m a year. The post UK Businesses File £700m CAT Claim over Visa and Mastercard EEA Fees appeared first on The Fintech Times .",
+      "at": "2026-10-17T13:00:52.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major £700m antitrust claim filed against card networks over cross-border interchange fees.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-17T15:18:41.626Z"
+    },
+    {
+      "link": "https://www.bankingdive.com/news/nydfs-fines-swedish-bank-seb-33-million-aml-panama-papers/833251/",
+      "title": "NYDFS fines Swedish bank SEB $33M over AML issues",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "figure div img src=\"https://imgproxy.divecdn.com/oJJRGJ8I24lnNSoZ9RfRv4pBHj8Zc4OvE92AK-rBmh0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTk5MDk0MjIyLmpwZw==.webp\"/ /div /figure p Anti-money laundering program deficiencies at Stockholm-based Skandinaviska Enskilda Banken came to light following the 2016 Panama Papers leak that ensnared hundreds of banks. /p",
+      "at": "2026-10-16T16:20:21.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Regulatory enforcement action fining major Swedish bank $33m for AML compliance failures.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-17T15:18:41.626Z"
     }
   ],
-  "updated": "2026-10-16T19:28:19.678Z"
+  "updated": "2026-10-17T15:18:41.626Z"
 }
