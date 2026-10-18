@@ -43,20 +43,6 @@
       "queuedAt": "2026-10-14T13:58:54.564Z"
     },
     {
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
-      "title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
-      "publisher": "US Federal Reserve",
-      "jurisdiction": "us",
-      "summary": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
-      "at": "2026-09-10T20:00:00.000Z",
-      "score": 5,
-      "corroboration": 0,
-      "why": "Agencies issue rule easing examination burden and extending exam cycles for eligible community banks.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-11T01:44:54.993Z"
-    },
-    {
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
       "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
       "publisher": "US Federal Reserve",
@@ -211,20 +197,6 @@
       "queuedAt": "2026-10-15T17:54:16.832Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-11/cruise-ship-workers-still-vulnerable-to-exploitation/107249988",
-      "title": "Union says cruise ship crews still open to exploitation under legal loophole",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Cruise ship workers will get some new protections following an ABC investigation, but critics say the exemption that left them vulnerable should never have existed and remains largely in place through to 2028.",
-      "at": "2026-10-10T18:00:00.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "New protections introduced for cruise ship workers following investigation.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-10T18:22:22.839Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-10-12/nrma-insurance-underpaid-hundreds-injured-nsw-motorists/107230062",
       "title": "Insurer underpaid hundreds of NSW accident victims in 'mind blowing' error",
       "publisher": "ABC News",
@@ -335,7 +307,35 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-17T15:18:41.626Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-18/federal-politics-insiders-daniel-mulino-ato-credit-card-ban/107280382",
+      "title": "Assistant treasurer knew about ATO's credit card ban plans months ago",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Assistant Treasurer Daniel Mulino concedes the government knew the Australian Taxation Office was considering banning credit card payments in July, months before the decision was made public.",
+      "at": "2026-10-17T23:58:19.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Reveals government timeline and knowledge regarding ATO policy to ban credit card tax payments.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-18T03:57:08.697Z"
+    },
+    {
+      "link": "https://thefintechtimes.com/sbi-mesh-connect-and-money-forward-form-digital-asset-jv-in-japan/",
+      "title": "SBI, Mesh Connect and Money Forward Form Digital-Asset JV in Japan",
+      "publisher": "The Fintech Times",
+      "jurisdiction": "auto",
+      "summary": "The three firms have agreed to establish Mesh SBI Money Forward Network KK to build API-connected digital asset payment infrastructure in Japan. The post SBI, Mesh Connect and Money Forward Form Digital-Asset JV in Japan appeared first on The Fintech Times .",
+      "at": "2026-10-18T02:00:30.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major financial firms establish a new joint venture for API-connected digital asset payment infrastructure.",
+      "urgency": "low",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-18T03:57:08.697Z"
     }
   ],
-  "updated": "2026-10-17T15:18:41.626Z"
+  "updated": "2026-10-18T03:57:08.697Z"
 }
