@@ -335,7 +335,21 @@
       "urgency": "low",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-18T03:57:08.697Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-19/anz-suncorp-mortgage-repayments-to-rise/107274552",
+      "title": "Suncorp borrower's mortgage payments could spike amid transfer to ANZ",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Suncorp mortgage borrowers have received an alarming email informing them ANZ's takeover could see their minimum monthly mortgage repayments increase by hundreds of dollars.",
+      "at": "2026-10-18T18:54:39.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "ANZ takeover unexpectedly causes significant mortgage repayment increases for Suncorp retail borrowers.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-18T19:20:21.845Z"
     }
   ],
-  "updated": "2026-10-18T03:57:08.697Z"
+  "updated": "2026-10-18T19:20:21.845Z"
 }
