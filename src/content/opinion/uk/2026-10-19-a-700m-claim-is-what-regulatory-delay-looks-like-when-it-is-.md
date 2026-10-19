@@ -23,7 +23,7 @@ readMins: 4
 tags: ["payments","competition","interchange"]
 generated: true
 groundedIn: "https://thefintechtimes.com/uk-businesses-file-700m-cat-claim-over-visa-and-mastercard-eea-fees/"
-draft: true
+draft: false
 sources:
   - label: "UK Businesses File £700m CAT Claim over Visa and Mastercard EEA Fees"
     publisher: "The Fintech Times"
