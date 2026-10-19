@@ -23,7 +23,7 @@ readMins: 4
 tags: ["banking","artificial intelligence","small business lending"]
 generated: true
 groundedIn: "https://www.bankingdive.com/news/huntington-launches-small-biz-operating-platform/833339/"
-draft: true
+draft: false
 sources:
   - label: "Huntington launches small-biz operating platform"
     publisher: "Banking Dive"
