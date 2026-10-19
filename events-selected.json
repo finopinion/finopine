@@ -1,21 +1,22 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48583/starling-becomes-first-bank-to-train-ai-model-on-uk-sovereign-cloud?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "Starling becomes first bank to train AI model on UK sovereign cloud",
-    "publisher": "Finextra",
-    "jurisdiction": "auto",
-    "summary": "Starling is working with AI chip making giant Nvidia to build a transactional foundational model that is trained and hosted within a UK sovereign cloud.",
-    "at": "2026-10-14T15:32:00.000Z",
-    "score": 2,
+    "link": "https://www.abc.net.au/news/2026-10-18/federal-politics-insiders-daniel-mulino-ato-credit-card-ban/107280382",
+    "title": "Assistant treasurer knew about ATO's credit card ban plans months ago",
+    "publisher": "ABC News",
+    "jurisdiction": "au",
+    "summary": "Assistant Treasurer Daniel Mulino concedes the government knew the Australian Taxation Office was considering banning credit card payments in July, months before the decision was made public.",
+    "at": "2026-10-17T23:58:19.000Z",
+    "score": 1,
     "corroboration": 0,
-    "why": "First UK bank to train foundational AI model on sovereign cloud.",
+    "why": "Reveals government timeline and knowledge regarding ATO policy to ban credit card tax payments.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-14T19:14:50.009Z"
+    "queuedAt": "2026-10-18T03:57:08.697Z",
+    "fullText": "Assistant Treasurer Daniel Mulino concedes he knew of ATO&#x27;s credit card ban plans in July - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home Assistant Treasurer Daniel Mulino concedes he knew of ATO&#x27;s credit card ban plans in July Share Share article Assistant Treasurer Daniel Mulino concedes he knew of ATO&#x27;s credit card ban plans in July By political reporter Erin Handley Topic: Federal Parliament Posted Sun 18 Oct 2026 at 10:58am Sun 18 Oct 2026 at 10:58am Sun 18 Oct 2026 at 10:58am , updated Sun 18 Oct 2026 at 2:34pm Sun 18 Oct 2026 at 2:34pm Sun 18 Oct 2026 at 2:34pm Daniel Mulino says the ATO was told to negotiate with credit card companies. ( ABC News: Ian Cutmore ) In short: The assistant treasurer says the government knew in July the tax office was considering a credit card ban following the Reserve Bank&#x27;s surcharge changes. Outrage about the change from the business community forced the prime minister to step in. What&#x27;s next? The issue has exposed tensions between the prime minister and the treasurer. abc.net.au/news/federal-politics-insiders-daniel-mulino-ato-credit-card-ban/107280382 Link copied Share Share article Assistant Treasurer Daniel Mulino has conceded the government knew the Australian Taxation Office (ATO) was considering banning credit card payments in July, months before the decision was made public. The ATO&#x27;s decision in late September to stop accepting credit card payments from December 1 sparked backlash from the business community. That outrage eventually forced an intervention from the prime minister and the treasurer to underwrite the costs and allow credit cards to be accepted by the tax office until mid-2027. Mr Mulino today said he and Treasurer Jim Chalmers were first made aware of the ATO&#x27;s intentions months ago. &quot;In July, the government became aware that the ATO was looking at options and that at that point their preference was to not accept credit cards,&quot; Mr Mulino told ABC&#x27;s Insiders. &quot;The indication we gave to the ATO was that they should continue to engage with the credit card companies, and that there should be a transition period.&quot; The admission comes after the Australian Financial Review yesterday revealed the ATO had privately informed the government about its credit card ban and presented the government with options. The ATO&#x27;s decision followed changes from the Reserve Bank of Australia to scrap card surcharges from October 1, which the bank has said was &quot;"
   },
-  "reason": "UK bank training AI on sovereign cloud raises real questions about whether data sovereignty requirements benefit or harm financial innovation and competition",
-  "angle": "Mandatory sovereign AI infrastructure may protect data but will entrench incumbent banks over challengers who lack resources for parallel systems",
+  "reason": "Australian government knew of ATO credit card ban months before public announcement, revealing policy process failures and political tensions worth examining",
+  "angle": "Advance knowledge without intervention suggests the ban wasn't a reactive emergency measure but a deliberate policy choice inadequately communicated to affected businesses.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-16T13:29:41.898Z"
+  "vettedAt": "2026-10-19T00:26:37.280Z"
 }

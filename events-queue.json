@@ -43,20 +43,6 @@
       "queuedAt": "2026-10-14T13:58:54.564Z"
     },
     {
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
-      "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
-      "publisher": "US Federal Reserve",
-      "jurisdiction": "us",
-      "summary": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
-      "at": "2026-09-11T14:00:00.000Z",
-      "score": 5,
-      "corroboration": 0,
-      "why": "US regulators propose new joint guidance on third-party risk management for banks.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-11T23:36:54.521Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48570/bahrain-central-bank-to-treble-tech-budget?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Bahrain central bank to treble tech budget",
       "publisher": "Finextra",
@@ -197,32 +183,18 @@
       "queuedAt": "2026-10-15T17:54:16.832Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-12/nrma-insurance-underpaid-hundreds-injured-nsw-motorists/107230062",
-      "title": "Insurer underpaid hundreds of NSW accident victims in 'mind blowing' error",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "The error was picked up by a lawyer of a crash victim who noticed his client's payment did not add up, not by NRMA Insurance or the NSW regulator.",
-      "at": "2026-10-11T19:31:39.000Z",
-      "score": 1,
+      "link": "https://www.finextra.com/newsarticle/48599/acorns-buys-gen-z-social-finance-app-frich?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Acorns buys Gen Z social finance app Frich",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Savings and investment app Acorns has acquired Gen Z-focused social finance app Frich. Financial terms of the deal were not disclosed.",
+      "at": "2026-10-19T00:01:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Systemic underpayment error by a major insurer affecting hundreds of victims uncovered.",
-      "urgency": "medium",
+      "why": "Acorns acquires Gen Z social finance app Frich in notable fintech deal.",
+      "urgency": "low",
       "judgedBy": "gemini",
-      "queuedAt": "2026-10-11T20:05:35.469Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-10-12/critics-decry-santos-gas-reservation-loopholes/107249780",
-      "title": "Critics warn of 'Santos-sized loopholes' in gas reservation plan",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Industry players say draft gas reservation plans are full of carve-outs that will let a venture many blame for rising prices off the hook.",
-      "at": "2026-10-11T18:00:00.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Draft gas reservation policy contains contentious loopholes affecting energy market regulation.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-11T20:05:35.469Z"
+      "queuedAt": "2026-10-19T00:26:34.097Z"
     },
     {
       "link": "https://www.bankingdive.com/news/bofa-fined-1-21-billion-over-aml-bsa-occ-treasury/832915/",
@@ -349,7 +321,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-18T19:20:21.845Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-19/judges-reasons-on-mcphillamys-goldmine-court-case/107268788",
+      "title": "Judge finds Aboriginal protection order on goldmine 'fundamentally flawed'",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The Federal Court identifies fundamental flaws in the process involved in granting Aboriginal protection to part of a goldmine site in New South Wales.",
+      "at": "2026-10-19T00:01:20.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Federal Court ruling sets aside regulatory heritage protection order on major goldmine project.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-19T00:26:34.097Z"
     }
   ],
-  "updated": "2026-10-18T19:20:21.845Z"
+  "updated": "2026-10-19T00:26:34.097Z"
 }
