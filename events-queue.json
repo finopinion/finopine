@@ -43,6 +43,20 @@
       "queuedAt": "2026-10-14T13:58:54.564Z"
     },
     {
+      "link": "https://www.bankingdive.com/news/huntington-launches-small-biz-operating-platform/833339/",
+      "title": "Huntington launches small-biz operating platform",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "p ldquo;We have a desire to have the most compelling value proposition for small businesses in the country, rdquo; Huntington President Brant Standridge said of the bank rsquo;s AI-powered 1866 Studio. /p",
+      "at": "2026-10-19T14:11:52.000Z",
+      "score": 9,
+      "corroboration": 2,
+      "why": "deterministic: corroborated across feeds",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-19T15:50:06.225Z"
+    },
+    {
       "link": "https://www.finextra.com/newsarticle/48570/bahrain-central-bank-to-treble-tech-budget?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Bahrain central bank to treble tech budget",
       "publisher": "Finextra",
@@ -351,5 +365,5 @@
       "queuedAt": "2026-10-19T00:26:34.097Z"
     }
   ],
-  "updated": "2026-10-19T12:43:04.648Z"
+  "updated": "2026-10-19T15:50:06.225Z"
 }
