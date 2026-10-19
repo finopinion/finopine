@@ -349,7 +349,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-19T00:26:34.097Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-20/nab-slashes-jobs-in-massive-restructure/107286316",
+      "title": "NAB to slash up to 2,500 jobs in massive restructure",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "National Australia Bank says it will cut about 6 per cent of its workforce by mid-2027, as it overhauls its operating model.",
+      "at": "2026-10-19T22:30:39.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major Australian bank announces unexpected mass redundancies and operational restructuring.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-19T23:29:46.367Z"
     }
   ],
-  "updated": "2026-10-19T19:25:14.501Z"
+  "updated": "2026-10-19T23:29:46.367Z"
 }
