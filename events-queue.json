@@ -197,6 +197,20 @@
       "queuedAt": "2026-10-19T00:26:34.097Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48604/fca-calls-for-disclaimers-on-ai-financial-advice?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "FCA calls for disclaimers on AI financial advice",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The UK&#39;s financial services watchdog is calling on AI providers to issue disclaimers for services that provide financial advice to consumers via agentic AI.",
+      "at": "2026-10-19T11:30:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "FCA initiates new regulatory expectations regarding disclaimers on consumer AI financial advice.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-19T12:43:04.648Z"
+    },
+    {
       "link": "https://www.bankingdive.com/news/bofa-fined-1-21-billion-over-aml-bsa-occ-treasury/832915/",
       "title": "BofA fined $1.21B over AML",
       "publisher": "Banking Dive",
@@ -337,5 +351,5 @@
       "queuedAt": "2026-10-19T00:26:34.097Z"
     }
   ],
-  "updated": "2026-10-19T00:26:34.097Z"
+  "updated": "2026-10-19T12:43:04.648Z"
 }
