@@ -57,34 +57,6 @@
       "queuedAt": "2026-10-19T15:50:06.225Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48570/bahrain-central-bank-to-treble-tech-budget?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Bahrain central bank to treble tech budget",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The Central Bank of Bahrain (CBB) plans to increase its investment in technology by threefold over the next three years as part of a plan to develop Bahrain to the region&#39;s primary banking hub.",
-      "at": "2026-10-12T12:03:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Significant tripling of central bank technology budget.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-12T18:09:37.489Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48569/pepkors-13bn-fintech-deal-comes-under-shareholder-scrutiny?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Pepkor&#39;s $1.3bn fintech deal comes under shareholder scrutiny",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "South African retailer Pepkor is facing complaints from directors and investors over a deal to merge its fintech arm with a rival company.",
-      "at": "2026-10-12T10:09:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major shareholder scrutiny and conflict over a large fintech deal.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-12T18:09:37.489Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48584/visa-secures-china-card-business-green-light?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Visa secures China card business green light",
       "publisher": "Finextra",
@@ -223,6 +195,20 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-19T12:43:04.648Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48607/jp-morgan-brings-jpm-coin-to-ethereum?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "JP Morgan brings JPM Coin to Ethereum",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "JP Morgan has brought its deposit token product, JPM Coin, to the Ethereum layer 1 blockchain network.",
+      "at": "2026-10-19T15:37:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major Wall Street bank expands flagship deposit token to public permissionless blockchain.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-19T19:10:49.856Z"
     },
     {
       "link": "https://www.bankingdive.com/news/bofa-fined-1-21-billion-over-aml-bsa-occ-treasury/832915/",
@@ -365,5 +351,5 @@
       "queuedAt": "2026-10-19T00:26:34.097Z"
     }
   ],
-  "updated": "2026-10-19T15:50:06.225Z"
+  "updated": "2026-10-19T19:10:49.856Z"
 }
