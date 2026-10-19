@@ -23,7 +23,7 @@ readMins: 4
 tags: ["payments","card surcharges","tax administration"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-18/federal-politics-insiders-daniel-mulino-ato-credit-card-ban/107280382"
-draft: true
+draft: false
 sources:
   - label: "Assistant treasurer knew about ATO's credit card ban plans months ago"
     publisher: "ABC News"
