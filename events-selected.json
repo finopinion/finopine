@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48604/fca-calls-for-disclaimers-on-ai-financial-advice?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "FCA calls for disclaimers on AI financial advice",
+    "link": "https://www.finextra.com/newsarticle/48607/jp-morgan-brings-jpm-coin-to-ethereum?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "JP Morgan brings JPM Coin to Ethereum",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "The UK&#39;s financial services watchdog is calling on AI providers to issue disclaimers for services that provide financial advice to consumers via agentic AI.",
-    "at": "2026-10-19T11:30:00.000Z",
+    "summary": "JP Morgan has brought its deposit token product, JPM Coin, to the Ethereum layer 1 blockchain network.",
+    "at": "2026-10-19T15:37:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "FCA initiates new regulatory expectations regarding disclaimers on consumer AI financial advice.",
+    "why": "Major Wall Street bank expands flagship deposit token to public permissionless blockchain.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-19T12:43:04.648Z"
+    "queuedAt": "2026-10-19T19:10:49.856Z"
   },
-  "reason": "FCA's AI financial advice disclaimer call raises genuine debate: whether disclosure requirements solve the problem or create false confidence in inadequate regulation",
-  "angle": "Mandating disclaimers on AI financial advice may obscure the need for substantive competence standards and create liability theater rather than investor protection",
+  "reason": "JPM Coin on Ethereum raises real questions about whether public blockchain adoption by major banks signals genuine systemic change or regulatory capture disguised as innovation.",
+  "angle": "Major banks moving to public blockchains may entrench their market power rather than democratize finance as claimed.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-20T13:49:25.825Z"
+  "vettedAt": "2026-10-20T18:04:38.667Z"
 }
