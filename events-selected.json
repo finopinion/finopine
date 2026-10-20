@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.abc.net.au/news/2026-10-19/anz-suncorp-mortgage-repayments-to-rise/107274552",
-    "title": "Suncorp borrower's mortgage payments could spike amid transfer to ANZ",
-    "publisher": "ABC News",
-    "jurisdiction": "au",
-    "summary": "Suncorp mortgage borrowers have received an alarming email informing them ANZ's takeover could see their minimum monthly mortgage repayments increase by hundreds of dollars.",
-    "at": "2026-10-18T18:54:39.000Z",
-    "score": 1,
+    "link": "https://www.finextra.com/newsarticle/48604/fca-calls-for-disclaimers-on-ai-financial-advice?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "FCA calls for disclaimers on AI financial advice",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "The UK&#39;s financial services watchdog is calling on AI providers to issue disclaimers for services that provide financial advice to consumers via agentic AI.",
+    "at": "2026-10-19T11:30:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "ANZ takeover unexpectedly causes significant mortgage repayment increases for Suncorp retail borrowers.",
+    "why": "FCA initiates new regulatory expectations regarding disclaimers on consumer AI financial advice.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-18T19:20:21.845Z",
-    "fullText": "ANZ&#x27;s Suncorp Bank acquisition could see mortgage payments rise upward of $1,000 - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home ANZ&#x27;s Suncorp Bank acquisition could see mortgage payments rise upward of $1,000 Share Share article ANZ&#x27;s Suncorp Bank acquisition could see mortgage payments rise upward of $1,000 By business correspondent David Taylor Topic: Mortgages Posted Mon 19 Oct 2026 at 5:54am Mon 19 Oct 2026 at 5:54am Mon 19 Oct 2026 at 5:54am , updated Mon 19 Oct 2026 at 9:51am Mon 19 Oct 2026 at 9:51am Mon 19 Oct 2026 at 9:51am Suncorp mortgage borrowers have learned their minimum payments could increase significantly. ( ABC News: Liana Walker ) In short: Suncorp Bank mortgage customers have been warned their repayments could increase by $1,000 a month when transferred to ANZ. ANZ bought Suncorp in 2024. Consumer advocates say the way Suncorp and ANZ are treating people shows how little power borrowers have in Australia. abc.net.au/news/anz-suncorp-mortgage-repayments-to-rise/107274552 Link copied Share Share article Suncorp Bank mortgage customers received an alarming email last week advising them that their monthly mortgage repayments could rise by hundreds of dollars. ANZ Bank bought Suncorp Bank in 2024 and is now logistically transferring hundreds of thousands of borrowers off Suncorp&#x27;s books and onto the ANZ loan platforms. The email sent by Suncorp to Suncorp customers on October 13 said: &quot;If you&#x27;ve made advance payments and have funds available in your Cashback/redraw, your minimum loan repayment at ANZ is likely to increase.&quot; One Suncorp customer who contacted the ABC said Suncorp&#x27;s email indicated home loan repayments could rise by more than $1,000. More than a million Suncorp customers are set to move to ANZ by 2027. ( The Business ) Suncorp had previously allowed customers with redraw and cashback facilities to reduce their minimum monthly repayments. ANZ does not have this policy, so some customers are being warned their minimum repayments will increase if they do nothing. &quot;This increase could be significant depending on the loan balance, how much is paid in advance and the remaining loan term,&quot; Suncorp&#x27;s email said. Erin Turner says Australians deserve better protections in the mortgage market. ( ABC News: Loretta Florance ) Consumer advocates say the way Suncorp and ANZ are treating people shows how little power borrowers have in Australia. &quot;Australians deserve better protections in the"
+    "queuedAt": "2026-10-19T12:43:04.648Z"
   },
-  "reason": "ANZ-Suncorp mortgage repayments spike raises questions about whether Australia's banking merger regime adequately protects retail borrowers from policy changes that increase their costs post-acquisition.",
-  "angle": "Australian regulators should require acquiring banks to maintain predecessor lending terms for a transition period, not immediately impose stricter repayment policies on inherited customers.",
+  "reason": "FCA's AI financial advice disclaimer call raises genuine debate: whether disclosure requirements solve the problem or create false confidence in inadequate regulation",
+  "angle": "Mandating disclaimers on AI financial advice may obscure the need for substantive competence standards and create liability theater rather than investor protection",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-20T01:11:03.308Z"
+  "vettedAt": "2026-10-20T13:49:25.825Z"
 }
