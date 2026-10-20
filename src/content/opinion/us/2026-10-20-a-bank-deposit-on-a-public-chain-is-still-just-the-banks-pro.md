@@ -23,7 +23,7 @@ readMins: 4
 tags: ["payments","banking","digital assets"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48607/jp-morgan-brings-jpm-coin-to-ethereum?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "JP Morgan brings JPM Coin to Ethereum"
     publisher: "Finextra"
