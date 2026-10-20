@@ -21,7 +21,7 @@ readMins: 4
 tags: ["mortgages","bank mergers","consumer credit"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-19/anz-suncorp-mortgage-repayments-to-rise/107274552"
-draft: true
+draft: false
 sources:
   - label: "Suncorp borrower's mortgage payments could spike amid transfer to ANZ"
     publisher: "ABC News"
