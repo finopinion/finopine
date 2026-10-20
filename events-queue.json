@@ -211,6 +211,34 @@
       "queuedAt": "2026-10-19T19:10:49.856Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48618/uk-sets-out-proposal-to-open-up-access-to-iphone-contactless-payments?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "UK sets out proposal to open up access to iPhone contactless payments",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The UK&#39;s competition watchdog is consulting on proposals to unlock contactless technology on iPhones, making it easier for Apple Pay rivals to flourish by lowering fees and removing technical ​barriers.",
+      "at": "2026-10-20T14:03:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "UK regulator proposes formal competition rules opening Apple contactless payments to rivals.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-20T14:52:35.455Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48614/nab-cuts-2500-jobs-citing-technological-change?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "NAB cuts 2,500 jobs citing technological change",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "National Australia Bank (NAB) is to axe 2,500 employees in its latest restructuring, equivalent to 6% of the workforce",
+      "at": "2026-10-20T12:03:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major bank restructuring cutting 2,500 jobs citing technological change.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-20T14:52:35.455Z"
+    },
+    {
       "link": "https://www.bankingdive.com/news/bofa-fined-1-21-billion-over-aml-bsa-occ-treasury/832915/",
       "title": "BofA fined $1.21B over AML",
       "publisher": "Banking Dive",
@@ -365,5 +393,5 @@
       "queuedAt": "2026-10-19T23:29:46.367Z"
     }
   ],
-  "updated": "2026-10-20T13:49:23.130Z"
+  "updated": "2026-10-20T14:52:35.456Z"
 }
