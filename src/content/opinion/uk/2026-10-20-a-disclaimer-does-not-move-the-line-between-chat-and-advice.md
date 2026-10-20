@@ -23,7 +23,7 @@ readMins: 4
 tags: ["fintech","regulation","consumer-finance"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48604/fca-calls-for-disclaimers-on-ai-financial-advice?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "FCA calls for disclaimers on AI financial advice"
     publisher: "Finextra"
