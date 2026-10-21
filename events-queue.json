@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "link": "https://thefintechtimes.com/wise-adds-esim-plans-and-cross-continent-qr-payments-to-travel-hub/",
-      "title": "Wise Adds eSIM Plans and Cross-continent QR Payments to Travel Hub",
-      "publisher": "The Fintech Times",
-      "jurisdiction": "auto",
-      "summary": "Wise has expanded its Travel Hub with customisable eSIM data plans and a unified QR payment scanner covering local schemes across five continents. The post Wise Adds eSIM Plans and Cross-continent QR Payments to Travel Hub appeared first on The Fintech Times .",
-      "at": "2026-10-14T07:00:56.000Z",
-      "score": 9,
-      "corroboration": 2,
-      "why": "deterministic: corroborated across feeds",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-14T13:58:54.564Z"
-    },
-    {
       "link": "https://www.bankingdive.com/news/huntington-launches-small-biz-operating-platform/833339/",
       "title": "Huntington launches small-biz operating platform",
       "publisher": "Banking Dive",
@@ -477,5 +463,5 @@
       "queuedAt": "2026-10-21T07:23:34.781Z"
     }
   ],
-  "updated": "2026-10-21T13:37:13.827Z"
+  "updated": "2026-10-21T14:04:35.430Z"
 }
