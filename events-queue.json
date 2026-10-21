@@ -1,34 +1,6 @@
 {
   "items": [
     {
-      "link": "https://www.bankofengland.co.uk/minutes/2026/september/money-markets-committee-minutes-september-2026",
-      "title": "Minutes of the Money Market Committee meeting – September 2026",
-      "publisher": "Bank of England",
-      "jurisdiction": "uk",
-      "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
-      "at": "2026-10-13T15:04:27.000Z",
-      "score": 10,
-      "corroboration": 1,
-      "why": "deterministic: corroborated across feeds",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-13T19:07:05.599Z"
-    },
-    {
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
-      "title": "Minutes of the Board&#39;s discount rate meetings on August 17, September 9, and September 16, 2026",
-      "publisher": "US Federal Reserve",
-      "jurisdiction": "us",
-      "summary": "Minutes of the Board&#39;s discount rate meetings on August 17, September 9, and September 16, 2026",
-      "at": "2026-10-13T18:00:00.000Z",
-      "score": 9,
-      "corroboration": 1,
-      "why": "deterministic: corroborated across feeds",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-13T19:07:05.599Z"
-    },
-    {
       "link": "https://thefintechtimes.com/wise-adds-esim-plans-and-cross-continent-qr-payments-to-travel-hub/",
       "title": "Wise Adds eSIM Plans and Cross-continent QR Payments to Travel Hub",
       "publisher": "The Fintech Times",
@@ -253,18 +225,60 @@
       "queuedAt": "2026-10-20T19:05:12.816Z"
     },
     {
-      "link": "https://www.bankingdive.com/news/bofa-fined-1-21-billion-over-aml-bsa-occ-treasury/832915/",
-      "title": "BofA fined $1.21B over AML",
-      "publisher": "Banking Dive",
-      "jurisdiction": "us",
-      "summary": "figure div img src=\"https://imgproxy.divecdn.com/6nCf-gZ68WzeIqpcSmeMmjh03fWFO9S17Enrax7SOd4/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xOTI3ODgyMTQ0LmpwZw==.webp\"/ /div /figure p Bank of America failed to properly monitor trillions of dollars in transactions, according to the Office of the Comptroller of the Currency. /p",
-      "at": "2026-10-13T20:25:16.000Z",
-      "score": 1,
+      "link": "https://www.finextra.com/newsarticle/48620/programmable-banking-platform-hyperlayer--raises-195m?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Programmable banking platform Hyperlayer raises &#163;19.5m",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Hyperlayer, the London-based fintech founded by former Morgan Stanley executives to help banks modernise without replacing their core systems, has raised &#163;19.5 million at a &#163;195 million valuation.",
+      "at": "2026-10-21T00:01:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Major regulatory enforcement action with a substantial fine against a tier-one bank.",
-      "urgency": "high",
+      "why": "Significant funding round for a prominent enterprise fintech serving traditional banks.",
+      "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-10-13T23:15:29.650Z"
+      "queuedAt": "2026-10-21T00:48:05.421Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48623/starling-build-agentic-fincrime-investigator-that-takes-17-seconds?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Starling build agentic fincrime investigator that takes 17 seconds",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Starling has deployed an agentic financial crime investigator that the UK digital bank says can carry out an end-to-end investigation within 17 seconds.",
+      "at": "2026-10-21T00:01:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major deployment of autonomous AI agents for financial crime investigations in banking.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-21T00:48:05.421Z"
+    },
+    {
+      "link": "https://www.finextra.com/pressarticle/111375/checkoutcom-expands-into-in-person-payments?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Checkout.com expands into in-person payments",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Checkout.com, a leading global payments company, today announced its expansion into in-person payments, in response to significant demand from enterprise merchants seeking the performance and resilience of its online acquiring platform in stores.",
+      "at": "2026-10-20T20:32:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major online payment player expanding into physical point-of-sale infrastructure.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-21T00:48:05.421Z"
+    },
+    {
+      "link": "https://www.finextra.com/pressarticle/111376/evervault-launches-browser-tokens-enabling-secure-agentic-payments?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Evervault launches Browser Tokens, enabling secure agentic payments",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Evervault today announced the launch of Browser Tokens at Money20/20, giving developers building agentic commerce products a secure way for AI agents and browser automations to make purchases, log in to accounts and complete sensitive online workflows without exposing payment cards, passwords or personal data to the agent or browser provider.",
+      "at": "2026-10-20T20:40:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "New product launch enabling AI agent autonomous payment workflows.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-21T00:48:05.421Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-10-14/federal-court-overturns-commonwealth-gold-mine-decision/107260458",
@@ -407,5 +421,5 @@
       "queuedAt": "2026-10-19T23:29:46.367Z"
     }
   ],
-  "updated": "2026-10-20T19:05:12.817Z"
+  "updated": "2026-10-21T00:48:05.421Z"
 }

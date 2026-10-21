@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48607/jp-morgan-brings-jpm-coin-to-ethereum?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "JP Morgan brings JPM Coin to Ethereum",
+    "link": "https://www.finextra.com/newsarticle/48614/nab-cuts-2500-jobs-citing-technological-change?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "NAB cuts 2,500 jobs citing technological change",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "JP Morgan has brought its deposit token product, JPM Coin, to the Ethereum layer 1 blockchain network.",
-    "at": "2026-10-19T15:37:00.000Z",
+    "summary": "National Australia Bank (NAB) is to axe 2,500 employees in its latest restructuring, equivalent to 6% of the workforce",
+    "at": "2026-10-20T12:03:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "Major Wall Street bank expands flagship deposit token to public permissionless blockchain.",
+    "why": "Major bank restructuring cutting 2,500 jobs citing technological change.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-19T19:10:49.856Z"
+    "queuedAt": "2026-10-20T14:52:35.455Z"
   },
-  "reason": "JPM Coin on Ethereum raises real questions about whether public blockchain adoption by major banks signals genuine systemic change or regulatory capture disguised as innovation.",
-  "angle": "Major banks moving to public blockchains may entrench their market power rather than democratize finance as claimed.",
+  "reason": "NAB job cuts frame tech as the cause, but bank strategy choices—not technological inevitability—drive redundancies. Argues banks use 'tech change' to obscure decisions about profit allocation over employment.",
+  "angle": "Banks invoke technological change as cover for restructuring choices that reflect capital priorities, not technical necessity.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-20T18:04:38.667Z"
+  "vettedAt": "2026-10-21T00:48:08.373Z"
 }
