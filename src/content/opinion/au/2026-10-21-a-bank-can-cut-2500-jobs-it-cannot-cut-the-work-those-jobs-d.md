@@ -23,7 +23,7 @@ readMins: 4
 tags: ["banking","operational risk","automation"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48614/nab-cuts-2500-jobs-citing-technological-change?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "NAB cuts 2,500 jobs citing technological change"
     publisher: "Finextra"
