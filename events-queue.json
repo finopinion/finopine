@@ -281,20 +281,6 @@
       "queuedAt": "2026-10-21T00:48:05.421Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-14/federal-court-overturns-commonwealth-gold-mine-decision/107260458",
-      "title": "Court dumps Plibersek heritage decision that halted $1b gold mine",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "The Federal Court rules that a Commonwealth decision that blocked a NSW gold mine was \"made without authority\".",
-      "at": "2026-10-14T00:20:18.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Unexpected Federal Court ruling overturning ministerial block on $1b gold mine project.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-14T01:22:09.121Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-10-16/underquoting-victoria-new-laws/107259380",
       "title": "New Victorian laws reveal auction reserves, so buyers stop wasting weekends",
       "publisher": "ABC News",
@@ -419,7 +405,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-19T23:29:46.367Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-21/reserve-bank-hauser-warns-inflation-outlook-materially-worse/107288574",
+      "title": "RBA deputy warns inflation outlook 'materially worse' as next decision looms",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "As markets put the chance of a rate hike in November at 42 per cent, Reserve Bank deputy governor Andrew Hauser warns of a \"central banker's nightmare\".",
+      "at": "2026-10-21T01:01:00.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Hawkish central bank warning signaling worsening inflation and potential rate hike.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-21T01:25:11.021Z"
     }
   ],
-  "updated": "2026-10-21T00:48:05.421Z"
+  "updated": "2026-10-21T01:25:11.021Z"
 }
