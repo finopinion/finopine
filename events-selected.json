@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48618/uk-sets-out-proposal-to-open-up-access-to-iphone-contactless-payments?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "UK sets out proposal to open up access to iPhone contactless payments",
+    "link": "https://www.finextra.com/newsarticle/48623/starling-build-agentic-fincrime-investigator-that-takes-17-seconds?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "Starling build agentic fincrime investigator that takes 17 seconds",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "The UK&#39;s competition watchdog is consulting on proposals to unlock contactless technology on iPhones, making it easier for Apple Pay rivals to flourish by lowering fees and removing technical ​barriers.",
-    "at": "2026-10-20T14:03:00.000Z",
+    "summary": "Starling has deployed an agentic financial crime investigator that the UK digital bank says can carry out an end-to-end investigation within 17 seconds.",
+    "at": "2026-10-21T00:01:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "UK regulator proposes formal competition rules opening Apple contactless payments to rivals.",
+    "why": "Major deployment of autonomous AI agents for financial crime investigations in banking.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-20T14:52:35.455Z"
+    "queuedAt": "2026-10-21T00:48:05.421Z"
   },
-  "reason": "UK iPhone payments competition rule: clear policy choice with genuine tradeoffs between access, security, fees and Apple's business model.",
-  "angle": "Opening iPhone NFC to rivals will reduce fees but may fragment security standards and worsen fraud risk.",
-  "confidence": 0.72,
+  "reason": "AI financial crime investigation speed claims need scrutiny: does 17 seconds indicate genuine capability or regulatory theater that may miss complex patterns?",
+  "angle": "Autonomous agents replacing human financial crime investigators may create speed-theater that mistakes efficiency for effectiveness, potentially missing sophisticated laundering schemes.",
+  "confidence": 0.7,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-21T14:04:38.248Z"
+  "vettedAt": "2026-10-21T18:10:29.347Z"
 }
