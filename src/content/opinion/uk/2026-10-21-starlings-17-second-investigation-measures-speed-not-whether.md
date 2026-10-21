@@ -23,7 +23,7 @@ readMins: 4
 tags: ["ai","financial crime","banking"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48623/starling-build-agentic-fincrime-investigator-that-takes-17-seconds?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Starling build agentic fincrime investigator that takes 17 seconds"
     publisher: "Finextra"
