@@ -23,7 +23,7 @@ readMins: 4
 tags: ["payments","competition","mobile wallets"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48618/uk-sets-out-proposal-to-open-up-access-to-iphone-contactless-payments?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "UK sets out proposal to open up access to iPhone contactless payments"
     publisher: "Finextra"
