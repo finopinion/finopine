@@ -23,7 +23,7 @@ readMins: 4
 tags: ["banking","pay","regulation"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48622/natwest-orders-30000-staff-to-spend-more-time-in-the-office?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "NatWest orders 30,000 staff to spend more time in the office"
     publisher: "Finextra"
