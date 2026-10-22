@@ -15,62 +15,6 @@
       "queuedAt": "2026-10-19T15:50:06.225Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48584/visa-secures-china-card-business-green-light?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Visa secures China card business green light",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "US behemoth Visa has secured approval from the People’s Bank of China to set up a domestic bank card clearing business in the country.",
-      "at": "2026-10-14T16:04:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Visa gains rare approval for domestic Chinese bank card clearing.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-14T19:14:50.009Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48583/starling-becomes-first-bank-to-train-ai-model-on-uk-sovereign-cloud?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Starling becomes first bank to train AI model on UK sovereign cloud",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Starling is working with AI chip making giant Nvidia to build a transactional foundational model that is trained and hosted within a UK sovereign cloud.",
-      "at": "2026-10-14T15:32:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "First UK bank to train foundational AI model on sovereign cloud.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-14T19:14:50.009Z"
-    },
-    {
-      "link": "https://www.finextra.com/pressarticle/111262/eba-classifies-usdc-as-significant-e-money-token-under-mica?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "EBA classifies USDC as significant e-money token under MiCA",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The European Banking Authority (EBA) has classified USDC, issued by Circle Internet Financial Europe SAS, as a significant e-money token (EMT) under the Markets in Crypto Assets Regulation (MiCA), following its assessment of the criteria set out in the Regulation.",
-      "at": "2026-10-14T18:26:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "EBA classifies major stablecoin as significant under MiCA.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-14T19:14:50.009Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48585/jpmorgan-chase-blocks-outside-ai-agents-from-directly-accessing-customer-accounts?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "JPMorgan Chase blocks outside AI agents from directly accessing customer accounts",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Weeks after the launch of Meta&#39;s Muse AI assistant, Jamie Dimon says JPMorgan Chase is not going to allow outside agents to directly access accounts on behalf of retail customers.",
-      "at": "2026-10-15T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major US bank sets precedent by banning third-party AI agents from directly accessing customer accounts.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-14T23:04:52.225Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48587/spanish-banks-arrange-syndicated-finance-on-blockchain?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Spanish banks arrange syndicated finance on blockchain",
       "publisher": "Finextra",
@@ -461,7 +405,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-21T07:23:34.781Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-22/nab-staff-speak-out-after-mass-redundancy-announcement/107292280",
+      "title": "NAB staff speak out after mass job cuts revealed",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "NAB workers say the writing was on the wall regarding mass redundancies as the major bank pushes towards an offshore workforce and the uptake of AI.",
+      "at": "2026-10-21T23:59:52.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major bank mass job cuts revealed as part of AI and offshoring shift.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-22T00:50:07.492Z"
     }
   ],
-  "updated": "2026-10-21T18:10:26.536Z"
+  "updated": "2026-10-22T00:50:07.492Z"
 }

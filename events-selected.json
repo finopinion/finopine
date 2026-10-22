@@ -1,21 +1,22 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48623/starling-build-agentic-fincrime-investigator-that-takes-17-seconds?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "Starling build agentic fincrime investigator that takes 17 seconds",
-    "publisher": "Finextra",
-    "jurisdiction": "auto",
-    "summary": "Starling has deployed an agentic financial crime investigator that the UK digital bank says can carry out an end-to-end investigation within 17 seconds.",
-    "at": "2026-10-21T00:01:00.000Z",
-    "score": 2,
+    "link": "https://www.abc.net.au/news/2026-10-21/reserve-bank-hauser-warns-inflation-outlook-materially-worse/107288574",
+    "title": "RBA deputy warns inflation outlook 'materially worse' as next decision looms",
+    "publisher": "ABC News",
+    "jurisdiction": "au",
+    "summary": "As markets put the chance of a rate hike in November at 42 per cent, Reserve Bank deputy governor Andrew Hauser warns of a \"central banker's nightmare\".",
+    "at": "2026-10-21T01:01:00.000Z",
+    "score": 1,
     "corroboration": 0,
-    "why": "Major deployment of autonomous AI agents for financial crime investigations in banking.",
-    "urgency": "medium",
+    "why": "Hawkish central bank warning signaling worsening inflation and potential rate hike.",
+    "urgency": "high",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-21T00:48:05.421Z"
+    "queuedAt": "2026-10-21T01:25:11.021Z",
+    "fullText": "RBA deputy warns inflation outlook &#x27;materially worse&#x27; ahead of November meeting - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home RBA deputy warns inflation outlook &#x27;materially worse&#x27; ahead of November meeting Share Share article RBA deputy warns inflation outlook &#x27;materially worse&#x27; ahead of November meeting By business reporter Stephanie Chalmers Topic: Interest Rates Posted Wed 21 Oct 2026 at 12:01pm Wed 21 Oct 2026 at 12:01pm Wed 21 Oct 2026 at 12:01pm , updated Wed 21 Oct 2026 at 3:46pm Wed 21 Oct 2026 at 3:46pm Wed 21 Oct 2026 at 3:46pm Andrew Hauser warns the inflation outlook has become more grim. ( ABC News: John Gunn ) In short: The RBA deputy governor says there are signs some people do not expect inflation to come back to the RBA&#x27;s target, which is &quot;central banker&#x27;s nightmare&quot;. Markets are putting the chance of a November rate hike at more than 50 per cent. What&#x27;s next? The RBA&#x27;s rate-setting board will next meet at the beginning of November, with a decision handed down on Melbourne Cup day. abc.net.au/news/reserve-bank-hauser-warns-inflation-outlook-materially-worse/107288574 Link copied Share Share article Reserve Bank deputy governor Andrew Hauser says the inflation outlook is &quot;materially worse&quot; than the RBA had forecast, raising the prospect of another interest rate hike as soon as November. Just under a fortnight out from the next interest rate decision, Mr Hauser warned high inflation was becoming entrenched in the Australian economy. &quot;We are beginning to see some signs that some people in the community are not sure if we&#x27;re going to bring inflation back into target at all, or certainly not for an extended period,&quot; Mr Hauser told the Citi Investment Conference in Sydney. The RBA targets headline inflation between 2 and 3 per cent on average over time. Inflation currently sits at 4 per cent, according to the August consumer price index . Mr Hauser said the central bank&#x27;s liaison program and surveys showed there was &quot;an increasing share of businesses who are thinking that, maybe, sort of 3 per cent, 3.5 per cent [inflation] is the new normal&quot;. &quot;Look, that is the central banker&#x27;s nightmare. &quot;We can&#x27;t allow expectations to shift away from target.&quot; More on Interest Rates The more big companies axe staff, the closer we get to a recession D Analysis by David Taylor The more big companies axe staff, the closer we get to a recession D An"
   },
-  "reason": "AI financial crime investigation speed claims need scrutiny: does 17 seconds indicate genuine capability or regulatory theater that may miss complex patterns?",
-  "angle": "Autonomous agents replacing human financial crime investigators may create speed-theater that mistakes efficiency for effectiveness, potentially missing sophisticated laundering schemes.",
-  "confidence": 0.7,
+  "reason": "RBA inflation warning creates genuine debate: does entrenched inflation justify rate hikes despite employment cost, or should the bank tolerate higher inflation to avoid recession?",
+  "angle": "Central banks facing de-anchored inflation expectations should raise rates aggressively now rather than wait, even if it costs jobs immediately.",
+  "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-21T18:10:29.347Z"
+  "vettedAt": "2026-10-22T00:50:10.551Z"
 }
