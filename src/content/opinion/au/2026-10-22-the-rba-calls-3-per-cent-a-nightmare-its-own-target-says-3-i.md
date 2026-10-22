@@ -23,7 +23,7 @@ readMins: 4
 tags: ["rba","inflation","monetary-policy"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-21/reserve-bank-hauser-warns-inflation-outlook-materially-worse/107288574"
-draft: true
+draft: false
 sources:
   - label: "RBA deputy warns inflation outlook 'materially worse' as next decision looms"
     publisher: "ABC News"
