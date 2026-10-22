@@ -23,7 +23,7 @@ readMins: 4
 tags: ["payments","fintech","ai"]
 generated: true
 groundedIn: "https://www.finextra.com/pressarticle/111376/evervault-launches-browser-tokens-enabling-secure-agentic-payments?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Evervault launches Browser Tokens, enabling secure agentic payments"
     publisher: "Finextra"
