@@ -239,6 +239,20 @@
       "queuedAt": "2026-10-22T18:06:41.019Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48634/banks-move-to-limit-agents-access-to-customer-accounts?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Banks move to limit agents&#39; access to customer accounts",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The CEOs of Canada&#39;s RBC and BMO are the latest bank chiefs to warn customers about the dangers of linking their accounts to AI agents.",
+      "at": "2026-10-22T14:26:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major Canadian banks are moving to restrict AI agents from accessing customer accounts over security concerns.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-22T18:26:17.424Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-10-16/underquoting-victoria-new-laws/107259380",
       "title": "New Victorian laws reveal auction reserves, so buyers stop wasting weekends",
       "publisher": "ABC News",
@@ -407,5 +421,5 @@
       "queuedAt": "2026-10-22T00:50:07.492Z"
     }
   ],
-  "updated": "2026-10-22T18:06:41.019Z"
+  "updated": "2026-10-22T18:26:17.424Z"
 }
