@@ -15,20 +15,6 @@
       "queuedAt": "2026-10-19T15:50:06.225Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48587/spanish-banks-arrange-syndicated-finance-on-blockchain?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Spanish banks arrange syndicated finance on blockchain",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Two Spanish banks, Santander and BBVA, and utility company Iberdrola, are claiming a blockchain first after arranging a syndicated financing facility executed through a blockchain platform",
-      "at": "2026-10-15T10:04:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major Spanish banks execute first syndicated financing on blockchain.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-15T13:14:11.655Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48591/ramp-hits-60bn-valuation?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Ramp hits $60bn valuation",
       "publisher": "Finextra",
@@ -253,6 +239,34 @@
       "queuedAt": "2026-10-21T13:37:13.827Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48633/coinbase-fined-325m-by-irish-central-bank?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Coinbase fined €3.25m by Irish central bank",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Crypto exchange Coinbase Ireland has been penalised by the Central Bank of Ireland (CBI) for a series of operational and governance failings over a five-year period.",
+      "at": "2026-10-22T12:24:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Regulatory enforcement action against a major crypto firm by a central bank.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-22T14:04:06.877Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48631/lseg-to-acquire-data-provider-octus-for-35bn?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "LSEG to acquire data provider Octus for $3.5bn",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The London Stock Exchange (LSEG) has agreed to acquire credit data provider Octus in a cash deal worth $3.535bn.",
+      "at": "2026-10-22T10:04:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major multibillion-dollar acquisition reshaping financial market data infrastructure.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-22T14:04:06.877Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-10-16/underquoting-victoria-new-laws/107259380",
       "title": "New Victorian laws reveal auction reserves, so buyers stop wasting weekends",
       "publisher": "ABC News",
@@ -421,5 +435,5 @@
       "queuedAt": "2026-10-22T00:50:07.492Z"
     }
   ],
-  "updated": "2026-10-22T00:50:07.492Z"
+  "updated": "2026-10-22T14:04:06.877Z"
 }
