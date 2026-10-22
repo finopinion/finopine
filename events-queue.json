@@ -15,6 +15,20 @@
       "queuedAt": "2026-10-19T15:50:06.225Z"
     },
     {
+      "link": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
+      "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
+      "publisher": "Bank of England",
+      "jurisdiction": "uk",
+      "summary": "The number of financial services roles required to face enhanced checks from regulators will fall significantly under proposals that will support growth.",
+      "at": "2026-10-22T20:00:00.000Z",
+      "score": 6,
+      "corroboration": 0,
+      "why": "Major regulatory proposal significantly scaling back certification requirements for financial roles.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-22T22:13:06.667Z"
+    },
+    {
       "link": "https://www.finextra.com/newsarticle/48599/acorns-buys-gen-z-social-finance-app-frich?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Acorns buys Gen Z social finance app Frich",
       "publisher": "Finextra",
@@ -253,6 +267,34 @@
       "queuedAt": "2026-10-22T18:26:17.424Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48637/uk-and-eu-financial-regulators-seek-answers-from-google-over-cloud-outage?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "UK and EU financial regulators seek answers from Google over cloud outage",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The European Banking Authority and the UK&#39;s Financial Conduct Authority have been in contact with Google over the major cloud outage earlier this week that knocked out several bank websites.",
+      "at": "2026-10-22T21:18:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Joint regulatory inquiry by UK and EU authorities into Google over a major cloud outage.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-22T22:13:06.667Z"
+    },
+    {
+      "link": "https://www.finextra.com/pressarticle/111421/sofi-launches-tokenised-deposits?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "SoFi launches tokenised deposits",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "SoFi Technologies, Inc. (NASDAQ: SOFI), the everything app for digital financial services, today announced the launch of SoFi Earn (SOFIE), the first and only national bank-issued tokenized deposit for consumers.",
+      "at": "2026-10-22T19:19:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "First national bank-issued tokenised deposit for consumers launched by SoFi.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-22T22:13:06.667Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-10-16/underquoting-victoria-new-laws/107259380",
       "title": "New Victorian laws reveal auction reserves, so buyers stop wasting weekends",
       "publisher": "ABC News",
@@ -421,5 +463,5 @@
       "queuedAt": "2026-10-22T00:50:07.492Z"
     }
   ],
-  "updated": "2026-10-22T18:26:17.424Z"
+  "updated": "2026-10-22T22:13:06.667Z"
 }
