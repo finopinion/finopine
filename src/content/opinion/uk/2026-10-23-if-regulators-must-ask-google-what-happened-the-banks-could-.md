@@ -23,7 +23,7 @@ readMins: 4
 tags: ["operational resilience","cloud","banking"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48637/uk-and-eu-financial-regulators-seek-answers-from-google-over-cloud-outage?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "UK and EU financial regulators seek answers from Google over cloud outage"
     publisher: "Finextra"
