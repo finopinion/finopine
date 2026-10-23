@@ -295,6 +295,20 @@
       "queuedAt": "2026-10-22T22:13:06.667Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48638/hsbc-launches-first-stablecoin?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "HSBC launches first stablecoin",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Global bank HSBC has launched RedCoin, its first stablecoin, for public use.",
+      "at": "2026-10-23T11:09:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major global bank launches its first public stablecoin, marking significant digital asset expansion.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-23T13:18:16.955Z"
+    },
+    {
       "link": "https://www.bankingdive.com/news/warren-garcia-massie-epstein-bills-fed-fdic-occ-sec-disclosure-bank-executive-penalties/833252/",
       "title": "Epstein bill would push regulators to disclose bank probes",
       "publisher": "Banking Dive",
@@ -449,5 +463,5 @@
       "queuedAt": "2026-10-22T00:50:07.492Z"
     }
   ],
-  "updated": "2026-10-23T00:52:24.699Z"
+  "updated": "2026-10-23T13:18:16.955Z"
 }
