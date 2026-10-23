@@ -23,7 +23,7 @@ readMins: 4
 tags: ["financial regulation","banking","conduct"]
 generated: true
 groundedIn: "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime"
-draft: true
+draft: false
 sources:
   - label: "Regulators unveil plans to simplify Senior Manager and Certification Regime"
     publisher: "Bank of England"
