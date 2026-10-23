@@ -295,20 +295,6 @@
       "queuedAt": "2026-10-22T22:13:06.667Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-16/underquoting-victoria-new-laws/107259380",
-      "title": "New Victorian laws reveal auction reserves, so buyers stop wasting weekends",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "The real estate industry says new laws targeting agents underquoting a house price are well-intentioned but poorly designed.",
-      "at": "2026-10-15T21:49:06.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "New state consumer housing finance legislation regulating property auction reserves and underquoting.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-16T00:36:49.434Z"
-    },
-    {
       "link": "https://www.bankingdive.com/news/warren-garcia-massie-epstein-bills-fed-fdic-occ-sec-disclosure-bank-executive-penalties/833252/",
       "title": "Epstein bill would push regulators to disclose bank probes",
       "publisher": "Banking Dive",
@@ -463,5 +449,5 @@
       "queuedAt": "2026-10-22T00:50:07.492Z"
     }
   ],
-  "updated": "2026-10-22T22:13:06.667Z"
+  "updated": "2026-10-23T00:52:24.699Z"
 }

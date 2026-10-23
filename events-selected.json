@@ -1,21 +1,22 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/pressarticle/111376/evervault-launches-browser-tokens-enabling-secure-agentic-payments?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "Evervault launches Browser Tokens, enabling secure agentic payments",
-    "publisher": "Finextra",
-    "jurisdiction": "auto",
-    "summary": "Evervault today announced the launch of Browser Tokens at Money20/20, giving developers building agentic commerce products a secure way for AI agents and browser automations to make purchases, log in to accounts and complete sensitive online workflows without exposing payment cards, passwords or personal data to the agent or browser provider.",
-    "at": "2026-10-20T20:40:00.000Z",
-    "score": 2,
+    "link": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
+    "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
+    "publisher": "Bank of England",
+    "jurisdiction": "uk",
+    "summary": "The number of financial services roles required to face enhanced checks from regulators will fall significantly under proposals that will support growth.",
+    "at": "2026-10-22T20:00:00.000Z",
+    "score": 6,
     "corroboration": 0,
-    "why": "New product launch enabling AI agent autonomous payment workflows.",
+    "why": "Major regulatory proposal significantly scaling back certification requirements for financial roles.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-21T00:48:05.421Z"
+    "queuedAt": "2026-10-22T22:13:06.667Z",
+    "fullText": "Regulators unveil plans to simplify Senior Manager and Certification Regime | Bank of England – the UK&#39;s central bank Our use of cookies We use necessary cookies to make our site work. We&rsquo;d also like to use some non-essential cookies (including third-party cookies) to help us improve the site. By clicking &lsquo;Accept recommended settings&rsquo; on this banner, you accept our use of analytics cookies. For more information on how these cookies work please see our Cookie policy . Accept recommended cookies Proceed with necessary cookies only Skip to main content Regulators unveil plans to simplify Senior Manager and Certification Regime The number of financial services roles required to face enhanced checks from regulators will fall significantly under proposals that will support growth. Published on 22 October 2026 News release The number of financial services roles required to face enhanced checks from regulators will fall significantly under proposals that will support growth. The changes are expected to save firms around &pound;2 billion over a 10-year period. The Prudential Regulation Authority (PRA) and Financial Conduct Authority (FCA) have today announced parallel consultations on proposals to significantly streamline the Senior Managers and Certification regime (SM&CR). The SM&CR was introduced 10 years ago to instil a culture of accountability among senior decision-makers in regulated firms. Under the proposals, unnecessary burdens will be removed while high standards of individual accountability and conduct will remain unchanged, including the regulators&rsquo; commitment to ensuring that individuals are accountable for misconduct that affects society as well as their employers. The changes will allow firms to focus more resources to ensure good customer and market outcomes, recruit and appoint talent, and prioritise innovation and investment, all supporting UK growth and competitiveness. The key changes to the regime include: Regulator pre-approval will be removed for a range of regulatory functions, including Chief Actuaries and Chairs of Risk and Audit Committees. Firms will instead notify regulators of these appointments directly, gaining speed and flexibility while remaining responsible for ensuring candidates are fit and proper. Removing the Certification Regime and associated administrative requirements for around 139,000 individuals below senior manager level to be subject to annual certification checks and appear on the Financial Services Register. Raising the conduct rule breach reporting threshold for most staff below senio"
   },
-  "reason": "AI agents handling autonomous payments without human oversight raises genuine regulatory and consumer protection questions that merit reasoned debate.",
-  "angle": "Enabling AI agents to execute payments autonomously prioritizes developer convenience over the financial system's need for human decision-making checkpoints in high-stakes transactions.",
+  "reason": "Regulatory simplification creates genuine debate: does removing oversight improve competition and growth, or dangerously weaken accountability?",
+  "angle": "Cutting SM&CR requirements will boost UK financial sector competitiveness without materially increasing misconduct risk because modern compliance tech and reputational markets now provide adequate discipline.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-22T18:06:44.086Z"
+  "vettedAt": "2026-10-23T00:52:27.622Z"
 }
