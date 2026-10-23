@@ -21,7 +21,7 @@ readMins: 4
 tags: ["tokenised deposits","deposit insurance","banking"]
 generated: true
 groundedIn: "https://www.finextra.com/pressarticle/111421/sofi-launches-tokenised-deposits?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "SoFi launches tokenised deposits"
     publisher: "Finextra"
