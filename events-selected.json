@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48637/uk-and-eu-financial-regulators-seek-answers-from-google-over-cloud-outage?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "UK and EU financial regulators seek answers from Google over cloud outage",
+    "link": "https://www.finextra.com/pressarticle/111421/sofi-launches-tokenised-deposits?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "SoFi launches tokenised deposits",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "The European Banking Authority and the UK&#39;s Financial Conduct Authority have been in contact with Google over the major cloud outage earlier this week that knocked out several bank websites.",
-    "at": "2026-10-22T21:18:00.000Z",
+    "summary": "SoFi Technologies, Inc. (NASDAQ: SOFI), the everything app for digital financial services, today announced the launch of SoFi Earn (SOFIE), the first and only national bank-issued tokenized deposit for consumers.",
+    "at": "2026-10-22T19:19:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "Joint regulatory inquiry by UK and EU authorities into Google over a major cloud outage.",
-    "urgency": "high",
+    "why": "First national bank-issued tokenised deposit for consumers launched by SoFi.",
+    "urgency": "medium",
     "judgedBy": "gemini",
     "queuedAt": "2026-10-22T22:13:06.667Z"
   },
-  "reason": "UK and EU regulators investigating Google cloud outage creates substantive debate about cloud concentration risk in financial services and whether regulation should mandate redundancy.",
-  "angle": "Financial regulators should mandate multi-cloud architecture for banks rather than relying on regulatory oversight of single providers.",
+  "reason": "SoFi's tokenized deposits raise genuine debate about whether bank-issued tokens reduce or increase systemic risk and whether they represent genuine innovation or regulatory arbitrage.",
+  "angle": "Bank-issued tokenized deposits may increase financial instability by fragmenting deposit markets and complicating central bank policy transmission, not enhance it.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-23T13:45:35.703Z"
+  "vettedAt": "2026-10-23T17:56:16.850Z"
 }
