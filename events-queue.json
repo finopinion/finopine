@@ -309,6 +309,20 @@
       "queuedAt": "2026-10-23T13:18:16.955Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48641/thailand-and-malaysia-back-singapores-bloom-cross-border-digital-money-initiative?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Thailand and Malaysia back Singapore&#39;s BLOOM cross-border digital money initiative",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The central banks Thailand and Malaysia are backing a Monetary Authority of Singapore-led public-private sector initiative to advance cross-border settlement in digital money.",
+      "at": "2026-10-23T13:52:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Central bank support for cross-border digital money initiative marks significant monetary tech policy expansion.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-23T13:45:32.978Z"
+    },
+    {
       "link": "https://www.bankingdive.com/news/warren-garcia-massie-epstein-bills-fed-fdic-occ-sec-disclosure-bank-executive-penalties/833252/",
       "title": "Epstein bill would push regulators to disclose bank probes",
       "publisher": "Banking Dive",
@@ -463,5 +477,5 @@
       "queuedAt": "2026-10-22T00:50:07.492Z"
     }
   ],
-  "updated": "2026-10-23T13:18:16.955Z"
+  "updated": "2026-10-23T13:45:32.978Z"
 }

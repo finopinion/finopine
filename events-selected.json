@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
-    "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
-    "publisher": "Bank of England",
-    "jurisdiction": "uk",
-    "summary": "The number of financial services roles required to face enhanced checks from regulators will fall significantly under proposals that will support growth.",
-    "at": "2026-10-22T20:00:00.000Z",
-    "score": 6,
+    "link": "https://www.finextra.com/newsarticle/48637/uk-and-eu-financial-regulators-seek-answers-from-google-over-cloud-outage?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "UK and EU financial regulators seek answers from Google over cloud outage",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "The European Banking Authority and the UK&#39;s Financial Conduct Authority have been in contact with Google over the major cloud outage earlier this week that knocked out several bank websites.",
+    "at": "2026-10-22T21:18:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "Major regulatory proposal significantly scaling back certification requirements for financial roles.",
-    "urgency": "medium",
+    "why": "Joint regulatory inquiry by UK and EU authorities into Google over a major cloud outage.",
+    "urgency": "high",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-22T22:13:06.667Z",
-    "fullText": "Regulators unveil plans to simplify Senior Manager and Certification Regime | Bank of England – the UK&#39;s central bank Our use of cookies We use necessary cookies to make our site work. We&rsquo;d also like to use some non-essential cookies (including third-party cookies) to help us improve the site. By clicking &lsquo;Accept recommended settings&rsquo; on this banner, you accept our use of analytics cookies. For more information on how these cookies work please see our Cookie policy . Accept recommended cookies Proceed with necessary cookies only Skip to main content Regulators unveil plans to simplify Senior Manager and Certification Regime The number of financial services roles required to face enhanced checks from regulators will fall significantly under proposals that will support growth. Published on 22 October 2026 News release The number of financial services roles required to face enhanced checks from regulators will fall significantly under proposals that will support growth. The changes are expected to save firms around &pound;2 billion over a 10-year period. The Prudential Regulation Authority (PRA) and Financial Conduct Authority (FCA) have today announced parallel consultations on proposals to significantly streamline the Senior Managers and Certification regime (SM&CR). The SM&CR was introduced 10 years ago to instil a culture of accountability among senior decision-makers in regulated firms. Under the proposals, unnecessary burdens will be removed while high standards of individual accountability and conduct will remain unchanged, including the regulators&rsquo; commitment to ensuring that individuals are accountable for misconduct that affects society as well as their employers. The changes will allow firms to focus more resources to ensure good customer and market outcomes, recruit and appoint talent, and prioritise innovation and investment, all supporting UK growth and competitiveness. The key changes to the regime include: Regulator pre-approval will be removed for a range of regulatory functions, including Chief Actuaries and Chairs of Risk and Audit Committees. Firms will instead notify regulators of these appointments directly, gaining speed and flexibility while remaining responsible for ensuring candidates are fit and proper. Removing the Certification Regime and associated administrative requirements for around 139,000 individuals below senior manager level to be subject to annual certification checks and appear on the Financial Services Register. Raising the conduct rule breach reporting threshold for most staff below senio"
+    "queuedAt": "2026-10-22T22:13:06.667Z"
   },
-  "reason": "Regulatory simplification creates genuine debate: does removing oversight improve competition and growth, or dangerously weaken accountability?",
-  "angle": "Cutting SM&CR requirements will boost UK financial sector competitiveness without materially increasing misconduct risk because modern compliance tech and reputational markets now provide adequate discipline.",
+  "reason": "UK and EU regulators investigating Google cloud outage creates substantive debate about cloud concentration risk in financial services and whether regulation should mandate redundancy.",
+  "angle": "Financial regulators should mandate multi-cloud architecture for banks rather than relying on regulatory oversight of single providers.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-23T00:52:27.622Z"
+  "vettedAt": "2026-10-23T13:45:35.703Z"
 }
