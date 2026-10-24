@@ -323,48 +323,6 @@
       "queuedAt": "2026-10-23T13:45:32.978Z"
     },
     {
-      "link": "https://www.bankingdive.com/news/warren-garcia-massie-epstein-bills-fed-fdic-occ-sec-disclosure-bank-executive-penalties/833252/",
-      "title": "Epstein bill would push regulators to disclose bank probes",
-      "publisher": "Banking Dive",
-      "jurisdiction": "us",
-      "summary": "figure div img src=\"https://imgproxy.divecdn.com/u4mu2wwDbZgNpBbpyv_AdKarBIU1cRoYbW0c7iuGOCM/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjYwMDg4OTc4LmpwZw==.webp\"/ /div /figure p Bank executives could face industry bans, fines and criminal referrals under legislation proposed by Sen. Elizabeth Warren, D-MA. /p",
-      "at": "2026-10-16T16:20:33.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Proposed legislation forcing bank regulators to disclose confidential probes.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-16T19:28:19.678Z"
-    },
-    {
-      "link": "https://thefintechtimes.com/uk-businesses-file-700m-cat-claim-over-visa-and-mastercard-eea-fees/",
-      "title": "UK Businesses File £700m CAT Claim over Visa and Mastercard EEA Fees",
-      "publisher": "The Fintech Times",
-      "jurisdiction": "auto",
-      "summary": "A Competition Appeal Tribunal claim alleges the card networks raised UK-EEA interchange fees five-fold after Brexit, costing businesses up to £200m a year. The post UK Businesses File £700m CAT Claim over Visa and Mastercard EEA Fees appeared first on The Fintech Times .",
-      "at": "2026-10-17T13:00:52.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Major £700m antitrust claim filed against card networks over cross-border interchange fees.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-17T15:18:41.626Z"
-    },
-    {
-      "link": "https://www.bankingdive.com/news/nydfs-fines-swedish-bank-seb-33-million-aml-panama-papers/833251/",
-      "title": "NYDFS fines Swedish bank SEB $33M over AML issues",
-      "publisher": "Banking Dive",
-      "jurisdiction": "us",
-      "summary": "figure div img src=\"https://imgproxy.divecdn.com/oJJRGJ8I24lnNSoZ9RfRv4pBHj8Zc4OvE92AK-rBmh0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTk5MDk0MjIyLmpwZw==.webp\"/ /div /figure p Anti-money laundering program deficiencies at Stockholm-based Skandinaviska Enskilda Banken came to light following the 2016 Panama Papers leak that ensnared hundreds of banks. /p",
-      "at": "2026-10-16T16:20:21.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Regulatory enforcement action fining major Swedish bank $33m for AML compliance failures.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-17T15:18:41.626Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-10-18/federal-politics-insiders-daniel-mulino-ato-credit-card-ban/107280382",
       "title": "Assistant treasurer knew about ATO's credit card ban plans months ago",
       "publisher": "ABC News",
@@ -475,7 +433,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-22T00:50:07.492Z"
+    },
+    {
+      "link": "https://sifted.eu/articles/exclusive-revolut-customers-fresh-hack/",
+      "title": "Exclusive: Revolut customers hit by fresh security breach",
+      "publisher": "Sifted",
+      "jurisdiction": "auto",
+      "summary": "",
+      "at": "2026-09-24T11:25:39.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Exclusive report of a fresh security breach affecting customers at major fintech Revolut.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-24T18:01:43.192Z"
     }
   ],
-  "updated": "2026-10-23T17:56:12.691Z"
+  "updated": "2026-10-24T18:01:43.193Z"
 }
