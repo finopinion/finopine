@@ -29,6 +29,20 @@
       "queuedAt": "2026-10-22T22:13:06.667Z"
     },
     {
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
+      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+      "publisher": "US Federal Reserve",
+      "jurisdiction": "us",
+      "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+      "at": "2026-09-24T18:30:00.000Z",
+      "score": 5,
+      "corroboration": 0,
+      "why": "New rule proposals establishing a regulatory framework for Fed-supervised payment stablecoin issuers.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-25T00:56:21.184Z"
+    },
+    {
       "link": "https://www.finextra.com/newsarticle/48599/acorns-buys-gen-z-social-finance-app-frich?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Acorns buys Gen Z social finance app Frich",
       "publisher": "Finextra",
@@ -449,5 +463,5 @@
       "queuedAt": "2026-10-24T18:01:43.192Z"
     }
   ],
-  "updated": "2026-10-24T18:01:43.193Z"
+  "updated": "2026-10-25T00:56:21.184Z"
 }
