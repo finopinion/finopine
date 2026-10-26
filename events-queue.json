@@ -405,7 +405,35 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-24T18:01:43.192Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-26/perfection-fresh-admits-to-aldi-vegetable-price-fixing/107308678",
+      "title": "Australia's second largest veggie company admits 'cartel conduct'",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Perfection Fresh Australia has admitted fixing the price of broccoli, cauliflower and lettuce sold to Aldi stores in New South Wales.",
+      "at": "2026-10-26T02:52:05.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major producer admits illegal price-fixing cartel conduct in supermarket supply chain.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-26T04:09:46.769Z"
+    },
+    {
+      "link": "https://thefintechtimes.com/l2-capital-picks-newton-to-tokenize-500m-pre-ipo-ai-shares/",
+      "title": "L2 Capital Picks Newton to Tokenize $500m Pre-IPO AI Shares",
+      "publisher": "The Fintech Times",
+      "jurisdiction": "auto",
+      "summary": "The Hong Kong investment firm will use Newton Labs' compliance protocol to put late-stage private technology holdings onchain for eligible investors. The post L2 Capital Picks Newton to Tokenize $500m Pre-IPO AI Shares appeared first on The Fintech Times .",
+      "at": "2026-10-26T03:01:18.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major fintech deal tokenizing $500m of late-stage private AI equity.",
+      "urgency": "low",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-26T04:09:46.769Z"
     }
   ],
-  "updated": "2026-10-26T00:37:10.695Z"
+  "updated": "2026-10-26T04:09:46.769Z"
 }
