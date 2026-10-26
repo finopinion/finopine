@@ -1,21 +1,22 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/pressarticle/111421/sofi-launches-tokenised-deposits?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "SoFi launches tokenised deposits",
-    "publisher": "Finextra",
-    "jurisdiction": "auto",
-    "summary": "SoFi Technologies, Inc. (NASDAQ: SOFI), the everything app for digital financial services, today announced the launch of SoFi Earn (SOFIE), the first and only national bank-issued tokenized deposit for consumers.",
-    "at": "2026-10-22T19:19:00.000Z",
-    "score": 2,
+    "link": "https://www.abc.net.au/news/2026-10-22/nab-staff-speak-out-after-mass-redundancy-announcement/107292280",
+    "title": "NAB staff speak out after mass job cuts revealed",
+    "publisher": "ABC News",
+    "jurisdiction": "au",
+    "summary": "NAB workers say the writing was on the wall regarding mass redundancies as the major bank pushes towards an offshore workforce and the uptake of AI.",
+    "at": "2026-10-21T23:59:52.000Z",
+    "score": 1,
     "corroboration": 0,
-    "why": "First national bank-issued tokenised deposit for consumers launched by SoFi.",
+    "why": "Major bank mass job cuts revealed as part of AI and offshoring shift.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-22T22:13:06.667Z"
+    "queuedAt": "2026-10-22T00:50:07.492Z",
+    "fullText": "NAB staff speak out after mass job cut announcement - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home NAB staff speak out after mass job cut announcement Share Share article NAB staff speak out after mass job cut announcement By Alex Turner-Cohen , Katie Silver and Bronwyn Herbert Topic: Banking Posted Thu 22 Oct 2026 at 10:59am Thu 22 Oct 2026 at 10:59am Thu 22 Oct 2026 at 10:59am NAB workers have spoken out after the bank announced plans to shed staff. ( ABC News: Keana Naughton ) In short: Entire teams of National Australia Bank workers are having to reapply for their jobs and compete among themselves as part of a major restructure. Staff say the writing was on the wall as they witnessed the bank pushing to offshore workers and take up AI. What&#x27;s next? The major bank revealed plans to slash 2,500 roles by June next year, with 1,500 expected to be out the door before Christmas. abc.net.au/news/nab-staff-speak-out-after-mass-redundancy-announcement/107292280 Link copied Share Share article National Australia Bank (NAB) workers have accused the banking giant of a &quot;spill and fill&quot; redundancy strategy, forcing entire teams to reapply for their positions as part of a sweeping restructure. Earlier this week the major bank revealed plans to slash 2,500 roles by June , including 1,500 before Christmas. This is about 6 per cent of its total workforce, with corporate roles bearing the brunt. Several workers who spoke to the ABC on condition of anonymity said the writing was on the wall as the bank pushed the uptake of AI and moved work offshore. &quot;Until today, it&#x27;s been a lovely place to work,&quot; said Dylan*, who has worked in NAB&#x27;s technology team for a decade but learnt he could be unemployed by the end of the year. His team will have to reapply for their jobs in what is known as a &quot;spill and fill&quot; type of workforce restructure, where existing roles are made vacant and current employees have to fight for a smaller number of positions. There is a two-week consultation period for Dylan&#x27;s team and, for those being shown the door, their last day will be December 2 or 17. Do you know more about this or have a similar story? Email turner-cohen.alex@abc.net.au Andrew Irvine says the changes are &quot;expected to improve outcomes for customers&quot;. ( AAP: Mick Tsikas ) NAB chief executive Andrew Irvine said in a note to staff he encouraged colleagues to be &quot;thoughtful&quot; and check in on one another, and indicated support woul"
   },
-  "reason": "SoFi's tokenized deposits raise genuine debate about whether bank-issued tokens reduce or increase systemic risk and whether they represent genuine innovation or regulatory arbitrage.",
-  "angle": "Bank-issued tokenized deposits may increase financial instability by fragmenting deposit markets and complicating central bank policy transmission, not enhance it.",
-  "confidence": 0.72,
+  "reason": "Australian bank job cuts reveal a genuine policy debate: whether automation's efficiency gains justify social costs, and whether banks should bear those costs differently.",
+  "angle": "NAB's job cuts are presented as inevitable tech progress, but the bank should be required to phase automation more slowly and retrain rather than discard skilled workers.",
+  "confidence": 0.75,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-23T17:56:16.850Z"
+  "vettedAt": "2026-10-26T00:37:13.381Z"
 }
