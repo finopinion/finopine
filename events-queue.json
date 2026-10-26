@@ -43,20 +43,6 @@
       "queuedAt": "2026-10-25T00:56:21.184Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48604/fca-calls-for-disclaimers-on-ai-financial-advice?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "FCA calls for disclaimers on AI financial advice",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The UK&#39;s financial services watchdog is calling on AI providers to issue disclaimers for services that provide financial advice to consumers via agentic AI.",
-      "at": "2026-10-19T11:30:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "FCA initiates new regulatory expectations regarding disclaimers on consumer AI financial advice.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-19T12:43:04.648Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48607/jp-morgan-brings-jpm-coin-to-ethereum?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "JP Morgan brings JPM Coin to Ethereum",
       "publisher": "Finextra",
@@ -337,6 +323,34 @@
       "queuedAt": "2026-10-26T00:37:10.695Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48647/revolut-launches-personal-loans-in-the-uk?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Revolut launches personal loans in the UK",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Revolut is stepping up its challenge to the UK&#39;s high street banks with the introduction of a personal loan product.",
+      "at": "2026-10-26T14:38:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Revolut expands into UK consumer lending with the launch of personal loans.",
+      "urgency": "low",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-26T15:25:25.203Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48646/japan-tells-banks-to-review-cyber-policies-following-wave-of-attacks?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Japan tells banks to review cyber policies following wave of attacks",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Japan is drafting an emergency cybersecurity policy package and telling banks to review their own policies in response to a wave of hacks.",
+      "at": "2026-10-26T14:10:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Japan drafting emergency cybersecurity regulatory package instructing banks to review policies following attacks.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-26T15:25:25.203Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-10-20/nab-slashes-jobs-in-massive-restructure/107286316",
       "title": "NAB to slash up to 2,500 jobs in massive restructure",
       "publisher": "ABC News",
@@ -435,5 +449,5 @@
       "queuedAt": "2026-10-26T04:09:46.769Z"
     }
   ],
-  "updated": "2026-10-26T04:09:46.769Z"
+  "updated": "2026-10-26T15:25:25.203Z"
 }
