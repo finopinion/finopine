@@ -323,6 +323,20 @@
       "queuedAt": "2026-10-26T15:25:25.203Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48651/canada-opens-stablecoin-consultation?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Canada opens stablecoin consultation",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The Canadian government has kicked off a 60-day public consultation on draft stablecoin regulations that would maintain a ban on yield payments.",
+      "at": "2026-10-26T19:38:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Canada launched a public consultation on new draft stablecoin regulations.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-26T22:35:12.577Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-10-20/nab-slashes-jobs-in-massive-restructure/107286316",
       "title": "NAB to slash up to 2,500 jobs in massive restructure",
       "publisher": "ABC News",
@@ -421,5 +435,5 @@
       "queuedAt": "2026-10-26T04:09:46.769Z"
     }
   ],
-  "updated": "2026-10-26T19:29:21.176Z"
+  "updated": "2026-10-26T22:35:12.577Z"
 }
