@@ -23,7 +23,7 @@ readMins: 4
 tags: ["consumer-credit","fintech","banking"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48647/revolut-launches-personal-loans-in-the-uk?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Revolut launches personal loans in the UK"
     publisher: "Finextra"
