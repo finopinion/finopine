@@ -23,7 +23,7 @@ readMins: 4
 tags: ["banking","automation","disclosure"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-22/nab-staff-speak-out-after-mass-redundancy-announcement/107292280"
-draft: true
+draft: false
 sources:
   - label: "NAB staff speak out after mass job cuts revealed"
     publisher: "ABC News"
