@@ -23,7 +23,7 @@ readMins: 4
 tags: ["stablecoins","federal reserve","payments"]
 generated: true
 groundedIn: "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm"
-draft: true
+draft: false
 sources:
   - label: "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act"
     publisher: "US Federal Reserve"
