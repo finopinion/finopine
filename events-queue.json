@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "link": "https://www.bankingdive.com/news/huntington-launches-small-biz-operating-platform/833339/",
-      "title": "Huntington launches small-biz operating platform",
-      "publisher": "Banking Dive",
-      "jurisdiction": "us",
-      "summary": "p ldquo;We have a desire to have the most compelling value proposition for small businesses in the country, rdquo; Huntington President Brant Standridge said of the bank rsquo;s AI-powered 1866 Studio. /p",
-      "at": "2026-10-19T14:11:52.000Z",
-      "score": 9,
-      "corroboration": 2,
-      "why": "deterministic: corroborated across feeds",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-19T15:50:06.225Z"
-    },
-    {
       "link": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
       "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
       "publisher": "Bank of England",
@@ -41,20 +27,6 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-25T00:56:21.184Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48607/jp-morgan-brings-jpm-coin-to-ethereum?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "JP Morgan brings JPM Coin to Ethereum",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "JP Morgan has brought its deposit token product, JPM Coin, to the Ethereum layer 1 blockchain network.",
-      "at": "2026-10-19T15:37:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major Wall Street bank expands flagship deposit token to public permissionless blockchain.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-19T19:10:49.856Z"
     },
     {
       "link": "https://www.finextra.com/newsarticle/48618/uk-sets-out-proposal-to-open-up-access-to-iphone-contactless-payments?utm_medium=rssfinextra utm_source=finextrafeed",
@@ -449,5 +421,5 @@
       "queuedAt": "2026-10-26T04:09:46.769Z"
     }
   ],
-  "updated": "2026-10-26T15:25:25.203Z"
+  "updated": "2026-10-26T19:29:21.176Z"
 }
