@@ -1,21 +1,22 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48653/bank-of-england-orders-review-of-revolut-product-approvals---ft?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "Bank of England orders review of Revolut product approvals - FT",
-    "publisher": "Finextra",
-    "jurisdiction": "auto",
-    "summary": "The Bank of England has instigated a review into how Revolut&#39;s product approval process works, according to the Financial Times.",
-    "at": "2026-10-27T13:44:00.000Z",
-    "score": 2,
-    "corroboration": 0,
-    "why": "Bank of England ordering a review into Revolut's product approvals represents significant regulatory scrutiny.",
+    "link": "https://www.bankingdive.com/news/ripple-occ-charter-bny-robinhood-partnerships-garlinghouse-alderoty/872896/",
+    "title": "Ripple gets OCC’s unconditional charter approval",
+    "publisher": "Banking Dive",
+    "jurisdiction": "us",
+    "summary": "figure div img src=\"https://imgproxy.divecdn.com/xzzDxWGLCdEGAklAphCI2_9BbX1F1ojLMnbOXu1OJ4c/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy05NTExNjU3NjIuanBn.webp\"/ /div /figure p The fintech is building on its charter victory by announcing expanded partnerships with BNY and Robinhood. /p",
+    "at": "2026-10-27T16:20:17.000Z",
+    "score": 5,
+    "corroboration": 1,
+    "why": "Major crypto firm receives unconditional OCC approval for a national bank charter.",
     "urgency": "high",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-27T14:52:10.127Z"
+    "queuedAt": "2026-10-27T18:55:39.654Z",
+    "fullText": "Ripple gets OCC’s unconditional charter approval | Banking Dive Skip to main content CONTINUE TO SITE ➞ Don't miss tomorrow's banking industry news Let Banking Dive's free newsletter keep you informed, straight from your inbox. Daily Dive M-F Fintech Weekly Every Wednesday By signing up to receive our newsletter, you agree to our Terms of Use and Privacy Policy . You can unsubscribe at anytime. Informa TechTarget | CFO Dive Payments Dive Explore our brands An Informa TechTarget Publication Search People also ask Loading questions... An article from Ripple gets OCC’s unconditional charter approval The fintech is building on its charter victory by announcing expanded partnerships with BNY and Robinhood. Published Oct. 27, 2026 Dan Ennis Senior Editor Share Copy link Email LinkedIn X/Twitter Facebook Print License Add us on Google In this photo illustration of the ripple cryptocurrency &#x27;altcoin&#x27; sits arranged for a photograph on April 25, 2018 in London. Jack Taylor via Getty Images Ripple has received final approval from the Office of the Comptroller of the Currency to launch a national trust bank, the company announced Monday . The development comes nearly a year after the regulator gave Ripple and four other cryptocurrency firms conditional approval for a trust bank charter. The green light “is the result of a simple choice we made years ago: build within the regulatory perimeter, not around it,” Stuart Alderoty , Ripple’s chief legal officer, said in a Monday post on X. “Clear rules + rigorous oversight create trust,” he said. “And trust is what allows new financial infrastructure to scale.” A national trust charter does not allow Ripple to take deposits or lend commercially. Ripple will be permitted, however, to provide fiduciary digital-asset custody services, manage the reserves supporting the company’s stablecoin RLUSD and act as a collateral trustee for those reserves, the firm said. BNY has served as primary reserve custodian of RLUSD. And Ripple on Tuesday doubled down on its relationship with the nation’s oldest bank, announcing the two would “broaden institutional digital asset custody capabilities and explore new institutional use cases for blockchain technology, including tokenized trade finance.” “We’ve always said crypto and banks work better together – this is what that looks like,” Ripple CEO Brad Garlinghouse said Monday in a post on X, referring, at the time, to the charter. With Tuesday’s deepened collaboration, BNY intends to boost its support for tokenized assets and investment products issued on Ripple’s XRP Ledger. The ba"
   },
-  "reason": "Bank of England's Revolut review raises substantive questions about regulatory approach to fintech product oversight and whether prescriptive approval processes protect consumers or stifle innovation.",
-  "angle": "Regulatory micro-management of fintech product approvals risks shifting responsibility from firms to regulators without improving consumer outcomes.",
+  "reason": "Ripple's OCC charter approval creates defensible debate about whether regulatory capture by fintech firms risks weakening banking safeguards.",
+  "angle": "Granting national bank charters to crypto firms without deposit-taking powers may legitimize an industry without subjecting it to traditional banking's protective constraints.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-27T14:52:12.960Z"
+  "vettedAt": "2026-10-27T18:55:43.367Z"
 }

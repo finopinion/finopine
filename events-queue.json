@@ -15,6 +15,20 @@
       "queuedAt": "2026-10-22T22:13:06.667Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48655/ripple-secures-national-bank-charter-inks-deals-with-bny-and-robinhood?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Ripple secures national bank charter; inks deals with BNY and Robinhood",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Digital asset infrastructure firm Ripple has been granted approval to establish a national trust bank and struck separate partnerships agreements with BNY and Robinhood.",
+      "at": "2026-10-27T15:16:00.000Z",
+      "score": 6,
+      "corroboration": 1,
+      "why": "Ripple secures OCC approval for a national trust bank charter alongside major institutional deals.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-27T18:55:39.654Z"
+    },
+    {
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
       "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
       "publisher": "US Federal Reserve",
@@ -29,32 +43,18 @@
       "queuedAt": "2026-10-25T00:56:21.184Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48618/uk-sets-out-proposal-to-open-up-access-to-iphone-contactless-payments?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "UK sets out proposal to open up access to iPhone contactless payments",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The UK&#39;s competition watchdog is consulting on proposals to unlock contactless technology on iPhones, making it easier for Apple Pay rivals to flourish by lowering fees and removing technical ​barriers.",
-      "at": "2026-10-20T14:03:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "UK regulator proposes formal competition rules opening Apple contactless payments to rivals.",
-      "urgency": "medium",
+      "link": "https://www.bankingdive.com/news/ripple-occ-charter-bny-robinhood-partnerships-garlinghouse-alderoty/872896/",
+      "title": "Ripple gets OCC’s unconditional charter approval",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "figure div img src=\"https://imgproxy.divecdn.com/xzzDxWGLCdEGAklAphCI2_9BbX1F1ojLMnbOXu1OJ4c/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy05NTExNjU3NjIuanBn.webp\"/ /div /figure p The fintech is building on its charter victory by announcing expanded partnerships with BNY and Robinhood. /p",
+      "at": "2026-10-27T16:20:17.000Z",
+      "score": 5,
+      "corroboration": 1,
+      "why": "Major crypto firm receives unconditional OCC approval for a national bank charter.",
+      "urgency": "high",
       "judgedBy": "gemini",
-      "queuedAt": "2026-10-20T14:52:35.455Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48614/nab-cuts-2500-jobs-citing-technological-change?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "NAB cuts 2,500 jobs citing technological change",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "National Australia Bank (NAB) is to axe 2,500 employees in its latest restructuring, equivalent to 6% of the workforce",
-      "at": "2026-10-20T12:03:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major bank restructuring cutting 2,500 jobs citing technological change.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-20T14:52:35.455Z"
+      "queuedAt": "2026-10-27T18:55:39.654Z"
     },
     {
       "link": "https://www.finextra.com/newsarticle/48622/natwest-orders-30000-staff-to-spend-more-time-in-the-office?utm_medium=rssfinextra utm_source=finextrafeed",
@@ -351,6 +351,20 @@
       "queuedAt": "2026-10-27T14:52:10.127Z"
     },
     {
+      "link": "https://www.finextra.com/pressarticle/111470/sezzle-applies-for-national-bank-charter?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Sezzle applies for national bank charter",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Sezzle Inc. (NASDAQ: SEZL) (Sezzle or Company) today announced that it has filed an application with the Office of the Comptroller of the Currency (OCC) to charter a national bank, Sezzle Bank, N.A. and applied to the Federal Deposit Insurance Corporation (FDIC) for deposit insurance.",
+      "at": "2026-10-27T14:30:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "BNPL provider Sezzle formally applies to OCC for a national bank charter.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-27T18:55:39.654Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-10-21/reserve-bank-hauser-warns-inflation-outlook-materially-worse/107288574",
       "title": "RBA deputy warns inflation outlook 'materially worse' as next decision looms",
       "publisher": "ABC News",
@@ -435,5 +449,5 @@
       "queuedAt": "2026-10-26T04:09:46.769Z"
     }
   ],
-  "updated": "2026-10-27T14:52:10.127Z"
+  "updated": "2026-10-27T18:55:39.655Z"
 }
