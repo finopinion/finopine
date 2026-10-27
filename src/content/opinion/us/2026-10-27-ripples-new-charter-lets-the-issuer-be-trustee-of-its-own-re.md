@@ -23,7 +23,7 @@ readMins: 4
 tags: ["stablecoins","bank charters","regulation"]
 generated: true
 groundedIn: "https://www.bankingdive.com/news/ripple-occ-charter-bny-robinhood-partnerships-garlinghouse-alderoty/872896/"
-draft: true
+draft: false
 sources:
   - label: "Ripple gets OCC’s unconditional charter approval"
     publisher: "Banking Dive"
