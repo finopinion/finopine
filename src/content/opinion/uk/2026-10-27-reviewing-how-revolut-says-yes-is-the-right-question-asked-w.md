@@ -23,7 +23,7 @@ readMins: 4
 tags: ["banking","regulation","fintech"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48653/bank-of-england-orders-review-of-revolut-product-approvals---ft?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Bank of England orders review of Revolut product approvals - FT"
     publisher: "Finextra"
