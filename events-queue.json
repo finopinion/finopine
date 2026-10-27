@@ -57,20 +57,6 @@
       "queuedAt": "2026-10-27T18:55:39.654Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48622/natwest-orders-30000-staff-to-spend-more-time-in-the-office?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "NatWest orders 30,000 staff to spend more time in the office",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "UK banking giant NatWest has told tens of thousands of employees to spend more time in the office in a move described as a kick in the teeth by union Unite.",
-      "at": "2026-10-20T17:47:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major UK bank imposes broad return-to-office mandate affecting 30,000 employees.",
-      "urgency": "low",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-20T19:05:12.816Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48620/programmable-banking-platform-hyperlayer--raises-195m?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Programmable banking platform Hyperlayer raises &#163;19.5m",
       "publisher": "Finextra",
@@ -447,7 +433,21 @@
       "urgency": "low",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-26T04:09:46.769Z"
+    },
+    {
+      "link": "https://sifted.eu/articles/revolut-faces-bank-of-england-scrutiny-over-product-approval-process-reports-say/",
+      "title": "Revolut faces Bank of England scrutiny over product approval process, reports say",
+      "publisher": "Sifted",
+      "jurisdiction": "auto",
+      "summary": "",
+      "at": "2026-10-27T22:38:01.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Bank of England scrutiny of a major fintech's product approvals is a key regulatory development.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-27T23:39:32.066Z"
     }
   ],
-  "updated": "2026-10-27T18:55:39.655Z"
+  "updated": "2026-10-27T23:39:32.066Z"
 }
