@@ -23,7 +23,7 @@ readMins: 4
 tags: ["stablecoins","payments","financial regulation"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48651/canada-opens-stablecoin-consultation?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Canada opens stablecoin consultation"
     publisher: "Finextra"
