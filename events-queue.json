@@ -337,6 +337,20 @@
       "queuedAt": "2026-10-26T22:35:12.577Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48653/bank-of-england-orders-review-of-revolut-product-approvals---ft?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Bank of England orders review of Revolut product approvals - FT",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The Bank of England has instigated a review into how Revolut&#39;s product approval process works, according to the Financial Times.",
+      "at": "2026-10-27T13:44:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Bank of England ordering a review into Revolut's product approvals represents significant regulatory scrutiny.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-27T14:52:10.127Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-10-21/reserve-bank-hauser-warns-inflation-outlook-materially-worse/107288574",
       "title": "RBA deputy warns inflation outlook 'materially worse' as next decision looms",
       "publisher": "ABC News",
@@ -421,5 +435,5 @@
       "queuedAt": "2026-10-26T04:09:46.769Z"
     }
   ],
-  "updated": "2026-10-27T01:35:27.688Z"
+  "updated": "2026-10-27T14:52:10.127Z"
 }

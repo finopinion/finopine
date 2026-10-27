@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48651/canada-opens-stablecoin-consultation?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "Canada opens stablecoin consultation",
+    "link": "https://www.finextra.com/newsarticle/48653/bank-of-england-orders-review-of-revolut-product-approvals---ft?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "Bank of England orders review of Revolut product approvals - FT",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "The Canadian government has kicked off a 60-day public consultation on draft stablecoin regulations that would maintain a ban on yield payments.",
-    "at": "2026-10-26T19:38:00.000Z",
+    "summary": "The Bank of England has instigated a review into how Revolut&#39;s product approval process works, according to the Financial Times.",
+    "at": "2026-10-27T13:44:00.000Z",
     "score": 2,
     "corroboration": 0,
-    "why": "Canada launched a public consultation on new draft stablecoin regulations.",
-    "urgency": "medium",
+    "why": "Bank of England ordering a review into Revolut's product approvals represents significant regulatory scrutiny.",
+    "urgency": "high",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-26T22:35:12.577Z"
+    "queuedAt": "2026-10-27T14:52:10.127Z"
   },
-  "reason": "Canada's stablecoin ban on yield payments tests whether financial regulation should restrict product features or market access—a live policy debate with testable outcomes.",
-  "angle": "Prohibiting yield on stablecoins protects depositors from shadow banking but sacrifices competitive efficiency and may push yield-seeking users to riskier alternatives.",
+  "reason": "Bank of England's Revolut review raises substantive questions about regulatory approach to fintech product oversight and whether prescriptive approval processes protect consumers or stifle innovation.",
+  "angle": "Regulatory micro-management of fintech product approvals risks shifting responsibility from firms to regulators without improving consumer outcomes.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-27T01:35:33.539Z"
+  "vettedAt": "2026-10-27T14:52:12.960Z"
 }
