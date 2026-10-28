@@ -295,20 +295,6 @@
       "queuedAt": "2026-10-27T18:55:39.654Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-21/west-footscray-data-centre-delays-nextdc-value-asx-vic/107291744",
-      "title": "Tech giant shares plunge 40pc after delays to Melbourne data centre",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Community opposition to one of Victoria's largest data centres has seen the value of shares in NextDC plummet.",
-      "at": "2026-10-21T02:15:12.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Unexpected massive market sell-off with 40% share price collapse for major ASX tech firm.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-21T07:23:34.781Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-10-22/nab-staff-speak-out-after-mass-redundancy-announcement/107292280",
       "title": "NAB staff speak out after mass job cuts revealed",
       "publisher": "ABC News",
@@ -405,7 +391,35 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-28T04:59:55.676Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-28/essential-caravans-victorian-company-voluntary-administration/107318630",
+      "title": "Victorian caravan maker Essential Caravans enters voluntary administration",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The Victorian manufacturer joins a string of caravan companies to have collapsed amid financial pressure in recent years.",
+      "at": "2026-10-28T07:08:53.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Insolvency of a notable manufacturer amid economic pressures.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-28T11:10:54.917Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-28/chalmers-downplays-further-fuel-discounts-amid-high-inflation/107319372",
+      "title": "Chalmers lowers expectations for fuel discounts after high inflation result",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Faced with another high inflation result and the likelihood of a rate hike next Tuesday, Treasurer Jim Chalmers calls for \"perspective\" and points to external factors.",
+      "at": "2026-10-28T05:12:09.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Treasurer adjusting expectations ahead of a likely rate hike.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-28T11:10:54.917Z"
     }
   ],
-  "updated": "2026-10-28T04:59:55.676Z"
+  "updated": "2026-10-28T11:10:54.918Z"
 }
