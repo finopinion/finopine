@@ -23,7 +23,7 @@ readMins: 4
 tags: ["competition","enforcement","consumer prices"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-26/perfection-fresh-admits-to-aldi-vegetable-price-fixing/107308678"
-draft: true
+draft: false
 sources:
   - label: "Australia's second largest veggie company admits 'cartel conduct'"
     publisher: "ABC News"
