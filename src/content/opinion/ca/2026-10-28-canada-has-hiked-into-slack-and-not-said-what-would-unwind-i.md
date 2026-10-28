@@ -23,7 +23,7 @@ readMins: 4
 tags: ["monetary policy","inflation","central banks"]
 generated: true
 groundedIn: "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
-draft: true
+draft: false
 sources:
   - label: "Bank of Canada raises the policy rate by 25 basis points to 2½%"
     publisher: "Bank of Canada"
