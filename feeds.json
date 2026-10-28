@@ -168,9 +168,9 @@
       "weight": 1,
       "jurisdiction": "auto",
       "url": "https://thefintechtimes.com/feed",
-      "verified": false,
+      "verified": true,
       "lastChecked": "2026-10-28",
-      "lastResult": "network"
+      "lastResult": "ok, 10 items"
     },
     {
       "id": "sifted-fintech",
