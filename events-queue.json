@@ -57,62 +57,6 @@
       "queuedAt": "2026-10-27T18:55:39.654Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48620/programmable-banking-platform-hyperlayer--raises-195m?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Programmable banking platform Hyperlayer raises &#163;19.5m",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Hyperlayer, the London-based fintech founded by former Morgan Stanley executives to help banks modernise without replacing their core systems, has raised &#163;19.5 million at a &#163;195 million valuation.",
-      "at": "2026-10-21T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Significant funding round for a prominent enterprise fintech serving traditional banks.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-21T00:48:05.421Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48623/starling-build-agentic-fincrime-investigator-that-takes-17-seconds?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Starling build agentic fincrime investigator that takes 17 seconds",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Starling has deployed an agentic financial crime investigator that the UK digital bank says can carry out an end-to-end investigation within 17 seconds.",
-      "at": "2026-10-21T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major deployment of autonomous AI agents for financial crime investigations in banking.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-21T00:48:05.421Z"
-    },
-    {
-      "link": "https://www.finextra.com/pressarticle/111375/checkoutcom-expands-into-in-person-payments?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Checkout.com expands into in-person payments",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Checkout.com, a leading global payments company, today announced its expansion into in-person payments, in response to significant demand from enterprise merchants seeking the performance and resilience of its online acquiring platform in stores.",
-      "at": "2026-10-20T20:32:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major online payment player expanding into physical point-of-sale infrastructure.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-21T00:48:05.421Z"
-    },
-    {
-      "link": "https://www.finextra.com/pressarticle/111376/evervault-launches-browser-tokens-enabling-secure-agentic-payments?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Evervault launches Browser Tokens, enabling secure agentic payments",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Evervault today announced the launch of Browser Tokens at Money20/20, giving developers building agentic commerce products a secure way for AI agents and browser automations to make purchases, log in to accounts and complete sensitive online workflows without exposing payment cards, passwords or personal data to the agent or browser provider.",
-      "at": "2026-10-20T20:40:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "New product launch enabling AI agent autonomous payment workflows.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-21T00:48:05.421Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48627/standard-chartered-to-acquire-zodia-custody?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Standard Chartered to acquire Zodia Custody",
       "publisher": "Finextra",
@@ -351,20 +295,6 @@
       "queuedAt": "2026-10-27T18:55:39.654Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-21/reserve-bank-hauser-warns-inflation-outlook-materially-worse/107288574",
-      "title": "RBA deputy warns inflation outlook 'materially worse' as next decision looms",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "As markets put the chance of a rate hike in November at 42 per cent, Reserve Bank deputy governor Andrew Hauser warns of a \"central banker's nightmare\".",
-      "at": "2026-10-21T01:01:00.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Hawkish central bank warning signaling worsening inflation and potential rate hike.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-21T01:25:11.021Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-10-21/west-footscray-data-centre-delays-nextdc-value-asx-vic/107291744",
       "title": "Tech giant shares plunge 40pc after delays to Melbourne data centre",
       "publisher": "ABC News",
@@ -449,5 +379,5 @@
       "queuedAt": "2026-10-27T23:39:32.066Z"
     }
   ],
-  "updated": "2026-10-27T23:39:32.066Z"
+  "updated": "2026-10-28T01:33:52.370Z"
 }
