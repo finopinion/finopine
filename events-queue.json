@@ -377,7 +377,35 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-27T23:39:32.066Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-28/inflation-september-cpi-ahead-of-november-interest-rate-call/107317382",
+      "title": "Inflation surges more than expected ahead of RBA meeting",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Australia's inflation rate picked up more than expected in September, increasing expectations of an interest rate hike next week.",
+      "at": "2026-10-28T00:38:39.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Surprising CPI data beat shifting RBA monetary policy and interest rate expectations.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-28T04:59:55.676Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-28/star-entertainment-fined-over-casino-money-laundering-austrac/107317384",
+      "title": "Star Casino fined $260m for money laundering violations",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Australia's financial intelligence agency, AUSTRAC, had sought a much steeper fine that could have forced the casino company into financial collapse.",
+      "at": "2026-10-27T23:45:23.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major regulatory enforcement penalty of $260m by AUSTRAC for AML violations.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-28T04:59:55.676Z"
     }
   ],
-  "updated": "2026-10-28T01:33:52.370Z"
+  "updated": "2026-10-28T04:59:55.676Z"
 }
