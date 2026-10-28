@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "link": "https://www.bankofcanada.ca/publications/mpr/mpr-2026-10-28/",
+      "title": "Monetary Policy Report—October 2026",
+      "publisher": "Bank of Canada",
+      "jurisdiction": "ca",
+      "summary": "Inflation in Canada has been higher than anticipated and is projected to remain around 3% through much of 2027. It then returns close to 2% by the middle of 2028. The outlook for growth has improved, but uncertainty remains elevated.",
+      "at": "2026-10-28T09:46:34.000Z",
+      "score": 10,
+      "corroboration": 1,
+      "why": "deterministic: corroborated across feeds",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-28T18:14:19.255Z"
+    },
+    {
+      "link": "https://www.bankofcanada.ca/2026/10/opening-statement-2026-10-28/",
+      "title": "Monetary Policy Report Press Conference Opening Statement",
+      "publisher": "Bank of Canada",
+      "jurisdiction": "ca",
+      "summary": "Governor Tiff Macklem discusses the Monetary Policy Report and the key issues involved in the Governing Council’s deliberations about the monetary policy decision.",
+      "at": "2026-10-28T09:45:35.000Z",
+      "score": 10,
+      "corroboration": 1,
+      "why": "deterministic: corroborated across feeds",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-28T18:14:19.255Z"
+    },
+    {
       "link": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
       "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
       "publisher": "Bank of England",
@@ -407,5 +435,5 @@
       "queuedAt": "2026-10-28T11:10:54.917Z"
     }
   ],
-  "updated": "2026-10-28T15:23:05.331Z"
+  "updated": "2026-10-28T18:14:19.255Z"
 }
