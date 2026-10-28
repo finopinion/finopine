@@ -23,7 +23,7 @@ readMins: 4
 tags: ["tokenisation","market-structure","exchanges"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48663/firms-object-to-shares-being-part-of-okx-ice-tokenised-stock-trading-venture?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Firms object to shares being part of OKX-ICE tokenised stock trading venture"
     publisher: "Finextra"
