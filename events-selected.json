@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://sifted.eu/articles/revolut-faces-bank-of-england-scrutiny-over-product-approval-process-reports-say/",
-    "title": "Revolut faces Bank of England scrutiny over product approval process, reports say",
-    "publisher": "Sifted",
+    "link": "https://www.finextra.com/newsarticle/48663/firms-object-to-shares-being-part-of-okx-ice-tokenised-stock-trading-venture?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "Firms object to shares being part of OKX-ICE tokenised stock trading venture",
+    "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "",
-    "at": "2026-10-27T22:38:01.000Z",
-    "score": 1,
+    "summary": "A host of companies, including JPMorgan Chase, Goldman Sachs and Microsoft, have registered their objection to their shares trading on a planned tokenised platform developed by Nyse parent Intercontinental Exchange and crypto exchange OKX.",
+    "at": "2026-10-28T14:51:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "Bank of England scrutiny of a major fintech's product approvals is a key regulatory development.",
+    "why": "Major corporations formally object to tokenised stock trading platform, creating significant industry conflict.",
     "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-27T23:39:32.066Z"
+    "queuedAt": "2026-10-28T18:59:23.529Z"
   },
-  "reason": "Bank of England scrutiny of Revolut's product approval process raises a genuine debate about regulatory philosophy: whether intensive pre-approval oversight or post-market enforcement better serves consumers and innovation.",
-  "angle": "Regulators should enforce compliance after launch rather than bottleneck innovation through exhaustive pre-approval processes",
+  "reason": "Major corporations blocking tokenised stock trading reveals genuine disagreement about whether blockchain improves or threatens market structure and access.",
+  "angle": "Corporate objections to OKX-ICE tokenised stock platform suggest incumbent gatekeepers fear competition, but the objections may reveal legitimate structural risks that tokenisation doesn't solve.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-28T15:23:08.213Z"
+  "vettedAt": "2026-10-28T18:59:28.930Z"
 }
