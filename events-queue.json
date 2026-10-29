@@ -337,20 +337,6 @@
       "queuedAt": "2026-10-28T18:59:23.529Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-22/nab-staff-speak-out-after-mass-redundancy-announcement/107292280",
-      "title": "NAB staff speak out after mass job cuts revealed",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "NAB workers say the writing was on the wall regarding mass redundancies as the major bank pushes towards an offshore workforce and the uptake of AI.",
-      "at": "2026-10-21T23:59:52.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Major bank mass job cuts revealed as part of AI and offshoring shift.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-22T00:50:07.492Z"
-    },
-    {
       "link": "https://sifted.eu/articles/exclusive-revolut-customers-fresh-hack/",
       "title": "Exclusive: Revolut customers hit by fresh security breach",
       "publisher": "Sifted",
@@ -463,5 +449,5 @@
       "queuedAt": "2026-10-28T11:10:54.917Z"
     }
   ],
-  "updated": "2026-10-28T18:59:23.529Z"
+  "updated": "2026-10-29T01:58:57.610Z"
 }
