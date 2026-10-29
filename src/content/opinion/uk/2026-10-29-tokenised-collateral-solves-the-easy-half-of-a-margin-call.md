@@ -23,7 +23,7 @@ readMins: 4
 tags: ["clearing","tokenisation","financial-stability"]
 generated: true
 groundedIn: "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing"
-draft: true
+draft: false
 sources:
   - label: "Bank of England sets out approach to tokenised collateral in central clearing"
     publisher: "Bank of England"
