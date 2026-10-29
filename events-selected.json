@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.abc.net.au/news/2026-10-28/inflation-september-cpi-ahead-of-november-interest-rate-call/107317382",
-    "title": "Inflation surges more than expected ahead of RBA meeting",
-    "publisher": "ABC News",
-    "jurisdiction": "au",
-    "summary": "Australia's inflation rate picked up more than expected in September, increasing expectations of an interest rate hike next week.",
-    "at": "2026-10-28T00:38:39.000Z",
-    "score": 1,
+    "link": "https://www.finextra.com/newsarticle/48664/uk-government-takes-on-till-fraud-with-pos-software-standards?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "UK Government takes on till fraud with POS software standards",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "The UK government is introducing mandatory software standards for point-of-sale systems in an effort to clamp down on till fraud.",
+    "at": "2026-10-28T17:41:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "Surprising CPI data beat shifting RBA monetary policy and interest rate expectations.",
-    "urgency": "high",
+    "why": "New government regulation introducing mandatory POS software standards to curb till fraud.",
+    "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-28T04:59:55.676Z",
-    "fullText": "Inflation rate rises to 4.3 per cent in September, raising rate hike expectations - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home Inflation rate rises to 4.3 per cent in September, raising rate hike expectations Share Share article Inflation rate rises to 4.3 per cent in September, raising rate hike expectations By business reporter Stephanie Chalmers Topic: Inflation Posted Wed 28 Oct 2026 at 11:38am Wed 28 Oct 2026 at 11:38am Wed 28 Oct 2026 at 11:38am , updated Wed 28 Oct 2026 at 2:20pm Wed 28 Oct 2026 at 2:20pm Wed 28 Oct 2026 at 2:20pm The RBA deputy recently warned the inflation outlook was now &quot;materially worse&quot;. ( AAP: Alan Porritt ) In short: Inflation rose to 4.3 per cent in the year to September, driven by housing and transport costs. Underlying inflation also edged up, after August&#x27;s figures were revised lower. What&#x27;s next? Markets now overwhelmingly expect the Reserve Bank to hike interest rates next Tuesday. abc.net.au/news/inflation-september-cpi-ahead-of-november-interest-rate-call/107317382 Link copied Share Share article Australia&#x27;s inflation rate rose more than expected in September, raising expectations of an interest rate hike next week. The consumer price index rose to 0.8 per cent in the month, from 0.4 per cent in August, taking annual inflation to 4.3 per cent, up from 4 per cent a month earlier, the Australian Bureau of Statistics (ABS) said. &quot;Housing was the largest contributor to annual inflation in September, rising by 5.2 per cent,&quot; ABS head of price statistics Rachael McCririck said. Transport also drove annual inflation higher, largely due to higher fuel prices, which rose 9.4 per cent in September. The annual trimmed mean, a measure of underlying inflation, also picked up to 3.6 per cent in September. The August trimmed mean was revised lower to 3.5 per cent. The increase in underlying inflation was despite fuel prices being excluded from the trimmed mean due to their volatility. Following the CPI release, market pricing for a November interest rate hike surged, putting the chance of a 0.25 per cent increase next week at about 85 per cent, according to Bloomberg data. KPMG Australia chief economist Brendan Rynne described the inflation figures as &quot;the last data point necessary for the RBA to increase the cash rate for a fifth time this year&quot;. &quot;It is clear pricing pressures in the Australian economy are growing, not weakening, and the upswing in inflation is catching the market off gua"
+    "queuedAt": "2026-10-28T18:59:23.529Z"
   },
-  "reason": "Australian inflation surprise creates genuine debate about RBA rate hike necessity versus economic damage risks, with defensible positions on both sides",
-  "angle": "The RBA should resist the market's 85% rate-hike expectation because energy shocks require patience, not tightening that will worsen housing affordability and consumer debt stress.",
+  "reason": "POS software standards to combat till fraud assume technology can solve a behavioural problem; the position that mandates risk shifting costs to compliant businesses without addressing root causes deserves examination.",
+  "angle": "Mandatory POS software standards may increase compliance costs for honest retailers without effectively deterring sophisticated fraud that can adapt to new systems.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-29T01:59:00.724Z"
+  "vettedAt": "2026-10-29T15:34:03.925Z"
 }
