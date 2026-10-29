@@ -127,34 +127,6 @@
       "queuedAt": "2026-10-27T18:55:39.654Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48636/fireblocks-pours-cold-water-on-reports-of-25bn-acquisition-talks-with-visa?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Fireblocks pours cold water on reports of $2.5bn acquisition talks with Visa",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Digital asset and stablecoin infrastructure provider Fireblocks says that reports that it is in talks to be acquired by Visa for $2.5 billion are news to us .",
-      "at": "2026-10-22T15:46:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Denial of major $2.5bn fintech acquisition talks.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-22T18:06:41.019Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48634/banks-move-to-limit-agents-access-to-customer-accounts?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Banks move to limit agents&#39; access to customer accounts",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The CEOs of Canada&#39;s RBC and BMO are the latest bank chiefs to warn customers about the dangers of linking their accounts to AI agents.",
-      "at": "2026-10-22T14:26:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major Canadian banks are moving to restrict AI agents from accessing customer accounts over security concerns.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-22T18:26:17.424Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48637/uk-and-eu-financial-regulators-seek-answers-from-google-over-cloud-outage?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "UK and EU financial regulators seek answers from Google over cloud outage",
       "publisher": "Finextra",
@@ -477,5 +449,5 @@
       "queuedAt": "2026-10-29T09:43:14.716Z"
     }
   ],
-  "updated": "2026-10-29T16:47:56.156Z"
+  "updated": "2026-10-29T19:07:06.394Z"
 }
