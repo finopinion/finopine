@@ -23,7 +23,7 @@ readMins: 4
 tags: ["tax","payments","fraud"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48664/uk-government-takes-on-till-fraud-with-pos-software-standards?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "UK Government takes on till fraud with POS software standards"
     publisher: "Finextra"
