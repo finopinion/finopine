@@ -85,6 +85,20 @@
       "queuedAt": "2026-10-28T15:23:05.330Z"
     },
     {
+      "link": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing",
+      "title": "Bank of England sets out approach to tokenised collateral in central clearing",
+      "publisher": "Bank of England",
+      "jurisdiction": "uk",
+      "summary": "The Bank of England has today launched a consultation supporting central counterparties (CCPs) acceptance of tokenised forms of eligible collateral.",
+      "at": "2026-10-29T10:00:00.000Z",
+      "score": 6,
+      "corroboration": 0,
+      "why": "New Bank of England consultation on accepting tokenised collateral in central clearing.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-29T16:47:56.156Z"
+    },
+    {
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
       "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
       "publisher": "US Federal Reserve",
@@ -323,6 +337,20 @@
       "queuedAt": "2026-10-28T18:59:23.529Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48667/crypto-exchange-htx-to-leave-uk-after-fca-lawsuit?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Crypto exchange HTX to leave UK after FCA lawsuit",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The UK&#39;s Financial Conduct Authority has secured a High Court order preventing crypto exchange HTX from ‌knowingly promoting cryptoasset services unlawfully to customers in the country.",
+      "at": "2026-10-29T13:19:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Regulatory enforcement action and court order forcing crypto exchange HTX out of the UK.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-29T16:47:56.156Z"
+    },
+    {
       "link": "https://sifted.eu/articles/exclusive-revolut-customers-fresh-hack/",
       "title": "Exclusive: Revolut customers hit by fresh security breach",
       "publisher": "Sifted",
@@ -449,5 +477,5 @@
       "queuedAt": "2026-10-29T09:43:14.716Z"
     }
   ],
-  "updated": "2026-10-29T15:34:00.191Z"
+  "updated": "2026-10-29T16:47:56.156Z"
 }
