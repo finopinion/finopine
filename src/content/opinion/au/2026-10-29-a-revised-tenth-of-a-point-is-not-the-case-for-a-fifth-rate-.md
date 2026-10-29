@@ -23,7 +23,7 @@ readMins: 4
 tags: ["inflation","rba","monetary-policy"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-28/inflation-september-cpi-ahead-of-november-interest-rate-call/107317382"
-draft: true
+draft: false
 sources:
   - label: "Inflation surges more than expected ahead of RBA meeting"
     publisher: "ABC News"
