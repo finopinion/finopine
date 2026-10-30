@@ -419,7 +419,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-29T09:43:14.716Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-30/largest-cryptocurrency-hack-billions-stolen-binance/107327732",
+      "title": "Billions of dollars stolen in largest cryptocurrency hack in history",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Up to $8.9 billion in crypto funds have been stolen from the cryptocurrency exchange, with approximately $4.2 billion frozen.",
+      "at": "2026-10-30T04:02:00.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Record-breaking multi-billion-dollar cryptocurrency hack with major market and security implications.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-30T08:25:56.275Z"
     }
   ],
-  "updated": "2026-10-30T02:07:58.456Z"
+  "updated": "2026-10-30T08:25:56.275Z"
 }
