@@ -23,7 +23,7 @@ readMins: 4
 tags: ["stablecoins","bank charters","occ"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48655/ripple-secures-national-bank-charter-inks-deals-with-bny-and-robinhood?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Ripple secures national bank charter; inks deals with BNY and Robinhood"
     publisher: "Finextra"
