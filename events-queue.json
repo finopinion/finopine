@@ -281,6 +281,20 @@
       "queuedAt": "2026-10-30T15:15:25.125Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48681/pe-firm-cdr-targets-buyout-of-40bn-global-payments---ft?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "PE firm CD R targets buyout of $40bn Global Payments - FT",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Global Payments, the payments processor with an enterprise value of around $40 billion, is an acquisition target for private equity firm CD R, according to the Financial Times.",
+      "at": "2026-10-30T18:15:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Potential $40 billion mega-buyout of a major payments processor represents significant market M&A.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-30T20:38:28.843Z"
+    },
+    {
       "link": "https://sifted.eu/articles/exclusive-revolut-customers-fresh-hack/",
       "title": "Exclusive: Revolut customers hit by fresh security breach",
       "publisher": "Sifted",
@@ -421,5 +435,5 @@
       "queuedAt": "2026-10-30T08:25:56.275Z"
     }
   ],
-  "updated": "2026-10-30T18:43:44.695Z"
+  "updated": "2026-10-30T20:38:28.843Z"
 }
