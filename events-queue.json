@@ -113,34 +113,6 @@
       "queuedAt": "2026-10-27T18:55:39.654Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48638/hsbc-launches-first-stablecoin?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "HSBC launches first stablecoin",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Global bank HSBC has launched RedCoin, its first stablecoin, for public use.",
-      "at": "2026-10-23T11:09:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major global bank launches its first public stablecoin, marking significant digital asset expansion.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-23T13:18:16.955Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48641/thailand-and-malaysia-back-singapores-bloom-cross-border-digital-money-initiative?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Thailand and Malaysia back Singapore&#39;s BLOOM cross-border digital money initiative",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The central banks Thailand and Malaysia are backing a Monetary Authority of Singapore-led public-private sector initiative to advance cross-border settlement in digital money.",
-      "at": "2026-10-23T13:52:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Central bank support for cross-border digital money initiative marks significant monetary tech policy expansion.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-23T13:45:32.978Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48642/riksbank-reignites-e-krona-debate?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Riksbank reignites e-krona debate",
       "publisher": "Finextra",
@@ -281,18 +253,18 @@
       "queuedAt": "2026-10-29T16:47:56.156Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48670/bofe-consults-on-tokenised-collateral-in-central-clearing?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "BofE consults on tokenised collateral in central clearing",
+      "link": "https://www.finextra.com/newsarticle/48674/hackers-steal-63bn-in-crypto-assets-from-binance?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Hackers steal $6.3bn in crypto assets from Binance",
       "publisher": "Finextra",
       "jurisdiction": "auto",
-      "summary": "The Bank of England has launched a consultation supporting central counterparties (CCPs) acceptance of tokenised forms of eligible collateral.",
-      "at": "2026-10-29T17:23:00.000Z",
+      "summary": "The world&#39;s largest crypto exchange has fallen victim to the world&#39;s largest crypto heist after North Korean hackers stole $6.3bn from Binance, an audacious attack that could undermine confidence in the digital assets market.",
+      "at": "2026-10-30T09:11:00.000Z",
       "score": 2,
       "corroboration": 0,
-      "why": "New Bank of England regulatory consultation on tokenised collateral in central clearing.",
-      "urgency": "medium",
+      "why": "Massive unprecedented crypto heist impacting major global exchange.",
+      "urgency": "high",
       "judgedBy": "gemini",
-      "queuedAt": "2026-10-29T21:42:02.167Z"
+      "queuedAt": "2026-10-30T15:15:25.125Z"
     },
     {
       "link": "https://sifted.eu/articles/exclusive-revolut-customers-fresh-hack/",
@@ -435,5 +407,5 @@
       "queuedAt": "2026-10-30T08:25:56.275Z"
     }
   ],
-  "updated": "2026-10-30T08:25:56.275Z"
+  "updated": "2026-10-30T15:15:25.125Z"
 }
