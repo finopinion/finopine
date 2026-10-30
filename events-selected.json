@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.abc.net.au/news/2026-10-28/star-entertainment-fined-over-casino-money-laundering-austrac/107317384",
-    "title": "Star Casino fined $260m for money laundering violations",
-    "publisher": "ABC News",
-    "jurisdiction": "au",
-    "summary": "Australia's financial intelligence agency, AUSTRAC, had sought a much steeper fine that could have forced the casino company into financial collapse.",
-    "at": "2026-10-27T23:45:23.000Z",
-    "score": 1,
-    "corroboration": 0,
-    "why": "Major regulatory enforcement penalty of $260m by AUSTRAC for AML violations.",
+    "link": "https://www.finextra.com/newsarticle/48655/ripple-secures-national-bank-charter-inks-deals-with-bny-and-robinhood?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "Ripple secures national bank charter; inks deals with BNY and Robinhood",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "Digital asset infrastructure firm Ripple has been granted approval to establish a national trust bank and struck separate partnerships agreements with BNY and Robinhood.",
+    "at": "2026-10-27T15:16:00.000Z",
+    "score": 6,
+    "corroboration": 1,
+    "why": "Ripple secures OCC approval for a national trust bank charter alongside major institutional deals.",
     "urgency": "high",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-28T04:59:55.676Z",
-    "fullText": "Star Casino fined $260 million for historical money laundering violations - ABC News Skip to main content Skip to news navigation, settings and search Explore the ABC news iview listen Loading ABC News News Home Star Casino fined $260 million for historical money laundering violations Share Share article Star Casino fined $260 million for historical money laundering violations By Liana Walker and Nassim Khadem Topic: Gambling Posted Wed 28 Oct 2026 at 10:45am Wed 28 Oct 2026 at 10:45am Wed 28 Oct 2026 at 10:45am , updated Wed 28 Oct 2026 at 5:05pm Wed 28 Oct 2026 at 5:05pm Wed 28 Oct 2026 at 5:05pm The Star casino has been fined for breaches of anti-money laundering laws. ( AAP: Russell Freeman ) In short: The Star Entertainment Group has been fined $260 million for repeated breaches of anti-money laundering laws. Financial intelligence agency AUSTRAC sought a $400 million penalty, but the company argued that a fine over $100 million would force it into liquidation. Justice Cameron Moore said he weighed the need for deterrence and the casino&#x27;s financial position when deciding on the penalty. abc.net.au/news/star-entertainment-fined-over-casino-money-laundering-austrac/107317384 Link copied Share Share article Australia&#x27;s largest listed casino company, The Star Entertainment Group, has been fined $260 million over historical repeated money laundering violations that led to the suspension of its casino licences in NSW and Queensland. The penalty handed down by Justice Cameron Moore in the Federal Court today came a day after shareholders gathered for the casino operator&#x27;s annual meeting in Sydney. Australia&#x27;s financial intelligence agency, AUSTRAC, launched legal action against Star in 2022. It accused the company of failing to adequately address money-laundering risks arising from Star&#x27;s dealings with Asian gambling junket Suncity and its funder, and of continuing to deal with them despite becoming aware of reports of criminal links. Star, which owns casinos in Sydney and the Gold Coast and runs one in Brisbane, had said a penalty steeper than $100 million could force it into liquidation. Star Entertainment warned a fine over $100 million could put it back on the brink. ( AAP: Dean Lewins ) Justice Moore said the $100 million penalty sought by Star was too low, but the $400 million penalty sought by AUSTRAC was too high. In his judgement he said it was important Star be deterred from putting profit over complying with anti-money laundering (AML) laws, adding it was also necessary to consider the casino&#x27;s financial position. &"
+    "queuedAt": "2026-10-27T18:55:39.654Z"
   },
-  "reason": "Star Casino fine raises genuine debate about optimal AML penalty design: deterrence vs. insolvency risk, and whether courts should factor firm viability into enforcement.",
-  "angle": "Large financial penalties for AML breaches may be self-defeating if they destroy the regulated entity rather than reform it.",
+  "reason": "Ripple's national bank charter raises genuine debate: does crypto infrastructure deserve banking regulation, or does this legitimize speculation?",
+  "angle": "Granting national bank charters to crypto firms may entrench systemic risk rather than reduce it through traditional banking safeguards.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-30T02:08:01.296Z"
+  "vettedAt": "2026-10-30T18:43:47.901Z"
 }

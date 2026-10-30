@@ -113,6 +113,20 @@
       "queuedAt": "2026-10-27T18:55:39.654Z"
     },
     {
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
+      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+      "publisher": "US Federal Reserve",
+      "jurisdiction": "us",
+      "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+      "at": "2026-09-30T13:00:00.000Z",
+      "score": 5,
+      "corroboration": 0,
+      "why": "Fed finalizes rule changes to bank stress tests and capital requirement volatility.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-30T18:43:44.695Z"
+    },
+    {
       "link": "https://www.finextra.com/newsarticle/48642/riksbank-reignites-e-krona-debate?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Riksbank reignites e-krona debate",
       "publisher": "Finextra",
@@ -407,5 +421,5 @@
       "queuedAt": "2026-10-30T08:25:56.275Z"
     }
   ],
-  "updated": "2026-10-30T15:15:25.125Z"
+  "updated": "2026-10-30T18:43:44.695Z"
 }
