@@ -23,7 +23,7 @@ readMins: 4
 tags: ["money laundering","enforcement","austrac"]
 generated: true
 groundedIn: "https://www.abc.net.au/news/2026-10-28/star-entertainment-fined-over-casino-money-laundering-austrac/107317384"
-draft: true
+draft: false
 sources:
   - label: "Star Casino fined $260m for money laundering violations"
     publisher: "ABC News"
