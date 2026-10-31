@@ -433,7 +433,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-30T08:25:56.275Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-10-31/four-tankers-strike-mines-in-strait-of-hormuz/107332392",
+      "title": "'Supertanker' strikes mine in Hormuz, losing two million barrels of oil",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Four oil tankers, including a 'supertanker' carrying more than two million barrels of oil, have hit mines and caught fire while travelling through the Strait of Hormuz.",
+      "at": "2026-10-31T12:37:33.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Unexpected mine attacks on tankers in the Strait of Hormuz present a major shock to global energy markets.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-10-31T13:30:45.414Z"
     }
   ],
-  "updated": "2026-10-30T20:38:28.843Z"
+  "updated": "2026-10-31T13:30:45.414Z"
 }
