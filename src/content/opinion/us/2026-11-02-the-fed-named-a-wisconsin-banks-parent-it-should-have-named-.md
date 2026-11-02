@@ -23,7 +23,7 @@ readMins: 4
 tags: ["banking","regulation","transparency"]
 generated: true
 groundedIn: "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm"
-draft: true
+draft: false
 sources:
   - label: "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc."
     publisher: "US Federal Reserve"
