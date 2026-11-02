@@ -1,21 +1,21 @@
 {
   "selected": {
-    "link": "https://www.finextra.com/newsarticle/48655/ripple-secures-national-bank-charter-inks-deals-with-bny-and-robinhood?utm_medium=rssfinextra utm_source=finextrafeed",
-    "title": "Ripple secures national bank charter; inks deals with BNY and Robinhood",
+    "link": "https://www.finextra.com/newsarticle/48680/regulator-warns-australians-about-highly-speculative-prediction-markets?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "Regulator warns Australians about &#39;highly speculative&#39; prediction markets",
     "publisher": "Finextra",
     "jurisdiction": "auto",
-    "summary": "Digital asset infrastructure firm Ripple has been granted approval to establish a national trust bank and struck separate partnerships agreements with BNY and Robinhood.",
-    "at": "2026-10-27T15:16:00.000Z",
-    "score": 6,
-    "corroboration": 1,
-    "why": "Ripple secures OCC approval for a national trust bank charter alongside major institutional deals.",
-    "urgency": "high",
+    "summary": "The Australian Securities and Investments Commission (ASIC) says it is not currently convinced that prediction markets for retail clients are in the public interest, warning that people who access offshore platforms do not have legal protections.",
+    "at": "2026-11-02T00:01:00.000Z",
+    "score": 2,
+    "corroboration": 0,
+    "why": "ASIC signals skepticism on retail prediction markets, effectively setting regulatory policy against offshore and domestic platforms.",
+    "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-10-27T18:55:39.654Z"
+    "queuedAt": "2026-11-02T01:43:50.850Z"
   },
-  "reason": "Ripple's national bank charter raises genuine debate: does crypto infrastructure deserve banking regulation, or does this legitimize speculation?",
-  "angle": "Granting national bank charters to crypto firms may entrench systemic risk rather than reduce it through traditional banking safeguards.",
+  "reason": "ASIC's prediction market warning assumes retail participation is inherently risky; the arguable position is that this paternalism blocks beneficial price-discovery mechanisms.",
+  "angle": "Regulators should permit retail prediction markets because they improve information aggregation better than protecting people from speculative loss.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-10-30T18:43:47.901Z"
+  "vettedAt": "2026-11-02T01:43:54.113Z"
 }

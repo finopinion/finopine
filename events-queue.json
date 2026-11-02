@@ -113,20 +113,6 @@
       "queuedAt": "2026-10-30T18:43:44.695Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48642/riksbank-reignites-e-krona-debate?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Riksbank reignites e-krona debate",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "With cash usage down, a digital euro on the horizon and stablecoins gathering momentum, Sweden&#39;s central bank has reignited a debate on whether the country should roll out its own e-krona.",
-      "at": "2026-10-26T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Central bank reopens sovereign digital currency debate amid cash decline and digital euro developments.",
-      "urgency": "low",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-26T00:37:10.695Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48647/revolut-launches-personal-loans-in-the-uk?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Revolut launches personal loans in the UK",
       "publisher": "Finextra",
@@ -279,6 +265,20 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-10-30T20:38:28.843Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48680/regulator-warns-australians-about-highly-speculative-prediction-markets?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Regulator warns Australians about &#39;highly speculative&#39; prediction markets",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The Australian Securities and Investments Commission (ASIC) says it is not currently convinced that prediction markets for retail clients are in the public interest, warning that people who access offshore platforms do not have legal protections.",
+      "at": "2026-11-02T00:01:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "ASIC signals skepticism on retail prediction markets, effectively setting regulatory policy against offshore and domestic platforms.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-02T01:43:50.850Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-10-26/perfection-fresh-admits-to-aldi-vegetable-price-fixing/107308678",
@@ -449,5 +449,5 @@
       "queuedAt": "2026-11-01T20:26:03.249Z"
     }
   ],
-  "updated": "2026-11-01T20:26:03.249Z"
+  "updated": "2026-11-02T01:43:50.850Z"
 }
