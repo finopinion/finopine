@@ -113,34 +113,6 @@
       "queuedAt": "2026-10-30T18:43:44.695Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48647/revolut-launches-personal-loans-in-the-uk?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Revolut launches personal loans in the UK",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Revolut is stepping up its challenge to the UK&#39;s high street banks with the introduction of a personal loan product.",
-      "at": "2026-10-26T14:38:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Revolut expands into UK consumer lending with the launch of personal loans.",
-      "urgency": "low",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-26T15:25:25.203Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48646/japan-tells-banks-to-review-cyber-policies-following-wave-of-attacks?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Japan tells banks to review cyber policies following wave of attacks",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Japan is drafting an emergency cybersecurity policy package and telling banks to review their own policies in response to a wave of hacks.",
-      "at": "2026-10-26T14:10:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Japan drafting emergency cybersecurity regulatory package instructing banks to review policies following attacks.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-26T15:25:25.203Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48651/canada-opens-stablecoin-consultation?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Canada opens stablecoin consultation",
       "publisher": "Finextra",
@@ -281,32 +253,32 @@
       "queuedAt": "2026-11-02T01:43:50.850Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-26/perfection-fresh-admits-to-aldi-vegetable-price-fixing/107308678",
-      "title": "Australia's second largest veggie company admits 'cartel conduct'",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Perfection Fresh Australia has admitted fixing the price of broccoli, cauliflower and lettuce sold to Aldi stores in New South Wales.",
-      "at": "2026-10-26T02:52:05.000Z",
-      "score": 1,
+      "link": "https://www.finextra.com/newsarticle/48683/binance-users-withdraw-5bn-in-wake-of-hack?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Binance users withdraw $5bn in wake of hack",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Binance users have withdrawn nearly $5 billion from the crypto exchange since it reopened after the hack last week that saw North Korea-linked crooks make off with $6.3 billion.",
+      "at": "2026-11-02T14:24:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Major producer admits illegal price-fixing cartel conduct in supermarket supply chain.",
-      "urgency": "medium",
+      "why": "Massive $5bn capital flight following a record crypto hack signals acute market distress.",
+      "urgency": "high",
       "judgedBy": "gemini",
-      "queuedAt": "2026-10-26T04:09:46.769Z"
+      "queuedAt": "2026-11-02T18:04:03.231Z"
     },
     {
-      "link": "https://thefintechtimes.com/l2-capital-picks-newton-to-tokenize-500m-pre-ipo-ai-shares/",
-      "title": "L2 Capital Picks Newton to Tokenize $500m Pre-IPO AI Shares",
-      "publisher": "The Fintech Times",
+      "link": "https://www.finextra.com/newsarticle/48682/opay-withdraws-planned-304m-us-ipo-after-regulatory-inquiry?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "OPay withdraws planned $304m US IPO after regulatory inquiry",
+      "publisher": "Finextra",
       "jurisdiction": "auto",
-      "summary": "The Hong Kong investment firm will use Newton Labs' compliance protocol to put late-stage private technology holdings onchain for eligible investors. The post L2 Capital Picks Newton to Tokenize $500m Pre-IPO AI Shares appeared first on The Fintech Times .",
-      "at": "2026-10-26T03:01:18.000Z",
-      "score": 1,
+      "summary": "OPay Limited has announced that it will be terminating its underwriting agreement and shelving plans for an initial public offering (IPO) on the New York Stock Exchange (NYSE) following a regulatory inquiry in a foreign jurisdiction the company described as “immaterial” to its core business.",
+      "at": "2026-11-02T12:15:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Major fintech deal tokenizing $500m of late-stage private AI equity.",
-      "urgency": "low",
+      "why": "Cancellation of a major $304m IPO triggered by a regulatory inquiry is a material policy event.",
+      "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-10-26T04:09:46.769Z"
+      "queuedAt": "2026-11-02T18:04:03.231Z"
     },
     {
       "link": "https://sifted.eu/articles/revolut-faces-bank-of-england-scrutiny-over-product-approval-process-reports-say/",
@@ -449,5 +421,5 @@
       "queuedAt": "2026-11-01T20:26:03.249Z"
     }
   ],
-  "updated": "2026-11-02T01:43:50.850Z"
+  "updated": "2026-11-02T18:04:03.231Z"
 }
