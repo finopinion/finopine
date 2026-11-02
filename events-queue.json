@@ -113,6 +113,20 @@
       "queuedAt": "2026-10-30T18:43:44.695Z"
     },
     {
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
+      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+      "publisher": "US Federal Reserve",
+      "jurisdiction": "us",
+      "summary": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+      "at": "2026-10-02T15:00:00.000Z",
+      "score": 5,
+      "corroboration": 0,
+      "why": "Federal Reserve issued a formal enforcement action against a banking institution.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-02T18:46:13.970Z"
+    },
+    {
       "link": "https://www.finextra.com/newsarticle/48651/canada-opens-stablecoin-consultation?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Canada opens stablecoin consultation",
       "publisher": "Finextra",
@@ -421,5 +435,5 @@
       "queuedAt": "2026-11-01T20:26:03.249Z"
     }
   ],
-  "updated": "2026-11-02T18:04:03.231Z"
+  "updated": "2026-11-02T18:46:13.970Z"
 }
