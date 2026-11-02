@@ -23,7 +23,7 @@ readMins: 4
 tags: ["asic","prediction markets","regulation"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48680/regulator-warns-australians-about-highly-speculative-prediction-markets?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Regulator warns Australians about &#39;highly speculative&#39; prediction markets"
     publisher: "Finextra"
