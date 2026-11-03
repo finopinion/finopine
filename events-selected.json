@@ -1,22 +1,22 @@
 {
   "selected": {
-    "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
-    "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
-    "publisher": "US Federal Reserve",
-    "jurisdiction": "us",
-    "summary": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
-    "at": "2026-10-02T15:00:00.000Z",
-    "score": 5,
+    "link": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
+    "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
+    "publisher": "Reserve Bank of Australia",
+    "jurisdiction": "au",
+    "summary": "Media release number 2026-30: At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.85 per cent.",
+    "at": "2026-11-03T03:30:00.000Z",
+    "score": 6,
     "corroboration": 0,
-    "why": "Federal Reserve issued a formal enforcement action against a banking institution.",
-    "urgency": "medium",
+    "why": "RBA cash rate hike directly alters monetary policy stance.",
+    "urgency": "high",
     "judgedBy": "gemini",
-    "queuedAt": "2026-11-02T18:46:13.970Z",
-    "fullText": "Federal Reserve Board - Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc. Skip to main content An official website of the United States Government Here&#x27;s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you&#x27;ve safely connected to the .gov website. Share sensitive information only on official, secure websites. Back to Home Board of Governors of the Federal Reserve System Stay Connected Federal Reserve Facebook Page Federal Reserve Instagram Page Federal Reserve YouTube Page Federal Reserve Flickr Page Federal Reserve LinkedIn Page Federal Reserve Threads Page Federal Reserve X Page Federal Reserve Bluesky Page Subscribe to RSS Subscribe to Email Recent Postings Calendar Publications Site Map A-Z index Careers FAQs Videos Contact Search Submit Search Button Advanced Toggle Dropdown Menu Board of Governors of the Federal Reserve System The Federal Reserve, the central bank of the United States, provides the nation with a safe, flexible, and stable monetary and financial system. Main Menu Toggle Button Sections Search Toggle Button Search Search Submit Button Submit Home News & Events Press Releases Press Release Please enable JavaScript if it is disabled in your browser or access the information through the links provided below. October 02, 2026 Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc. For release at 11:00 a.m. EDT Share --> --> --> --> --> --> The Federal Reserve Board on Friday announced the execution of the following enforcement action listed below: Ontario Bancorporation, Inc., Ontario, Wisconsin Written Agreement dated September 24, 2026 Additional enforcement actions can be searched for here . For media inquiries, please email [email&#160;protected] or call 202-452-2955. Attachment (PDF) Last Update: October 02, 2026"
+    "queuedAt": "2026-11-03T03:40:37.956Z",
+    "fullText": "Statement by the Monetary Policy Board: Monetary Policy Decision | Media Releases | RBA It appears JavaScript is currently blocked Check your browser settings and network. This website requires JavaScript for some content and functionality. Skip to content Reserve Bank of Australia Menu What are you looking for? Search Media Release Statement by the Monetary Policy Board: Monetary Policy Decision Number 2026-30 Date 3 November 2026 At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.85 per cent. Inflation remains elevated and recent data indicate that it is broadly based. The inflation outlook has also been revised materially higher in the updated staff forecasts. This partly reflects higher fuel and other commodity prices affected by the conflict in the Middle East. But domestic capacity pressures are also judged to have been a little tighter than earlier thought. AI-related investment is driving rapid growth in prices for technology-related goods, and inflation in many goods and services remains high. Liaison indicates that many firms are experiencing cost pressures and are either increasing the prices of their goods and services in response or looking to do so. Inflation is now forecast to remain elevated through much of 2027 and is not expected to reach the top of the 2&ndash;3 per cent target range until late 2027, around three quarters later than previously forecast. This presents upside risks to inflation expectations; some measures are assessed to have risen lately. The increases in the cash rate target since the beginning of the year have tightened financial conditions. The economy is slowing, housing prices have fallen significantly and the unemployment rate has risen. The forecasts see growth in output slowing further over the coming year, which is expected to reduce capacity pressures and help return inflation to target. Higher interest rates and falls in housing prices and turnover are expected to weigh on growth in dwelling investment and household consumption. On the other hand, growth in overall business investment is forecast to be stronger in the near term, including data centre-related investment. Employment is expected to continue to grow, but the unemployment rate is projected to rise by more than expected in the August forecasts. There continue to be heightened uncertainties about the outlook for domestic economic activity and inflation. The Middle East conflict remains unresolved, and there are scenarios where inflation is higher and activity lower than forecast. Global oil supply disrup"
   },
-  "reason": "Ontario Bancorporation enforcement action raises arguable questions about whether Fed's regulatory approach deters misconduct or drives compliance theater without addressing root causes.",
-  "angle": "Federal enforcement actions against small regional banks may signal effective regulation or symbolic action that misses systemic vulnerabilities.",
-  "confidence": 0.6,
+  "reason": "RBA rate hike amid elevated inflation and slowing economy creates genuine debate about policy trade-offs and timing.",
+  "angle": "The RBA should pause rate rises now because further tightening risks unnecessary unemployment when inflation's upside drivers are external shocks beyond monetary policy's reach.",
+  "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-11-02T22:29:49.613Z"
+  "vettedAt": "2026-11-03T03:40:40.807Z"
 }

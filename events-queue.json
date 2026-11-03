@@ -85,6 +85,20 @@
       "queuedAt": "2026-10-29T16:47:56.156Z"
     },
     {
+      "link": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
+      "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
+      "publisher": "Reserve Bank of Australia",
+      "jurisdiction": "au",
+      "summary": "Media release number 2026-30: At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.85 per cent.",
+      "at": "2026-11-03T03:30:00.000Z",
+      "score": 6,
+      "corroboration": 0,
+      "why": "RBA cash rate hike directly alters monetary policy stance.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-03T03:40:37.956Z"
+    },
+    {
       "link": "https://www.bankingdive.com/news/ripple-occ-charter-bny-robinhood-partnerships-garlinghouse-alderoty/872896/",
       "title": "Ripple gets OCC’s unconditional charter approval",
       "publisher": "Banking Dive",
@@ -435,5 +449,5 @@
       "queuedAt": "2026-11-01T20:26:03.249Z"
     }
   ],
-  "updated": "2026-11-03T00:55:52.924Z"
+  "updated": "2026-11-03T03:40:37.956Z"
 }
