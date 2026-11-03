@@ -23,7 +23,7 @@ readMins: 4
 tags: ["banking","artificial intelligence","operational risk"]
 generated: true
 groundedIn: "https://www.finextra.com/newsarticle/48690/goldman-bans-traders-and-bankers-from-using-ai-coding-tools?utm_medium=rssfinextra utm_source=finextrafeed"
-draft: true
+draft: false
 sources:
   - label: "Goldman bans traders and bankers from using AI coding tools"
     publisher: "Finextra"
