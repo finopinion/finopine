@@ -1,22 +1,21 @@
 {
   "selected": {
-    "link": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
-    "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
-    "publisher": "Reserve Bank of Australia",
-    "jurisdiction": "au",
-    "summary": "Media release number 2026-30: At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.85 per cent.",
-    "at": "2026-11-03T03:30:00.000Z",
-    "score": 6,
+    "link": "https://www.finextra.com/newsarticle/48690/goldman-bans-traders-and-bankers-from-using-ai-coding-tools?utm_medium=rssfinextra utm_source=finextrafeed",
+    "title": "Goldman bans traders and bankers from using AI coding tools",
+    "publisher": "Finextra",
+    "jurisdiction": "auto",
+    "summary": "Goldman Sachs has banned traders and other employees from using advanced AI tools for coding over productivity and risk concerns, according to Bloomberg",
+    "at": "2026-11-03T00:01:00.000Z",
+    "score": 2,
     "corroboration": 0,
-    "why": "RBA cash rate hike directly alters monetary policy stance.",
-    "urgency": "high",
+    "why": "Unexpected policy restriction on AI tool usage at a premier global investment bank.",
+    "urgency": "medium",
     "judgedBy": "gemini",
-    "queuedAt": "2026-11-03T03:40:37.956Z",
-    "fullText": "Statement by the Monetary Policy Board: Monetary Policy Decision | Media Releases | RBA It appears JavaScript is currently blocked Check your browser settings and network. This website requires JavaScript for some content and functionality. Skip to content Reserve Bank of Australia Menu What are you looking for? Search Media Release Statement by the Monetary Policy Board: Monetary Policy Decision Number 2026-30 Date 3 November 2026 At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.85 per cent. Inflation remains elevated and recent data indicate that it is broadly based. The inflation outlook has also been revised materially higher in the updated staff forecasts. This partly reflects higher fuel and other commodity prices affected by the conflict in the Middle East. But domestic capacity pressures are also judged to have been a little tighter than earlier thought. AI-related investment is driving rapid growth in prices for technology-related goods, and inflation in many goods and services remains high. Liaison indicates that many firms are experiencing cost pressures and are either increasing the prices of their goods and services in response or looking to do so. Inflation is now forecast to remain elevated through much of 2027 and is not expected to reach the top of the 2&ndash;3 per cent target range until late 2027, around three quarters later than previously forecast. This presents upside risks to inflation expectations; some measures are assessed to have risen lately. The increases in the cash rate target since the beginning of the year have tightened financial conditions. The economy is slowing, housing prices have fallen significantly and the unemployment rate has risen. The forecasts see growth in output slowing further over the coming year, which is expected to reduce capacity pressures and help return inflation to target. Higher interest rates and falls in housing prices and turnover are expected to weigh on growth in dwelling investment and household consumption. On the other hand, growth in overall business investment is forecast to be stronger in the near term, including data centre-related investment. Employment is expected to continue to grow, but the unemployment rate is projected to rise by more than expected in the August forecasts. There continue to be heightened uncertainties about the outlook for domestic economic activity and inflation. The Middle East conflict remains unresolved, and there are scenarios where inflation is higher and activity lower than forecast. Global oil supply disrup"
+    "queuedAt": "2026-11-03T00:55:52.924Z"
   },
-  "reason": "RBA rate hike amid elevated inflation and slowing economy creates genuine debate about policy trade-offs and timing.",
-  "angle": "The RBA should pause rate rises now because further tightening risks unnecessary unemployment when inflation's upside drivers are external shocks beyond monetary policy's reach.",
+  "reason": "Goldman's AI coding ban tests whether financial firms should restrict tools to manage risk, or whether blanket prohibition wastes productivity gains and competitive advantage.",
+  "angle": "Banning AI coding tools is security theatre that handicaps banks against both cyber threats and nimbler competitors.",
   "confidence": 0.72,
   "vettedBy": "claude-haiku-4-5-20251001",
-  "vettedAt": "2026-11-03T03:40:40.807Z"
+  "vettedAt": "2026-11-03T16:28:44.339Z"
 }

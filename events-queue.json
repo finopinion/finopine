@@ -141,20 +141,6 @@
       "queuedAt": "2026-11-02T18:46:13.970Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48653/bank-of-england-orders-review-of-revolut-product-approvals---ft?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Bank of England orders review of Revolut product approvals - FT",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The Bank of England has instigated a review into how Revolut&#39;s product approval process works, according to the Financial Times.",
-      "at": "2026-10-27T13:44:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Bank of England ordering a review into Revolut's product approvals represents significant regulatory scrutiny.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-27T14:52:10.127Z"
-    },
-    {
       "link": "https://www.finextra.com/pressarticle/111470/sezzle-applies-for-national-bank-charter?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Sezzle applies for national bank charter",
       "publisher": "Finextra",
@@ -449,5 +435,5 @@
       "queuedAt": "2026-11-01T20:26:03.249Z"
     }
   ],
-  "updated": "2026-11-03T03:40:37.956Z"
+  "updated": "2026-11-03T16:28:41.151Z"
 }
