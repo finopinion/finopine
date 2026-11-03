@@ -23,7 +23,7 @@ readMins: 4
 tags: ["monetary policy","inflation","central banks"]
 generated: true
 groundedIn: "https://www.rba.gov.au/media-releases/2026/mr-26-30.html"
-draft: true
+draft: false
 sources:
   - label: "Statement by the Monetary Policy Board: Monetary Policy Decision"
     publisher: "Reserve Bank of Australia"
