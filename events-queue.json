@@ -43,20 +43,6 @@
       "queuedAt": "2026-10-29T15:34:00.191Z"
     },
     {
-      "link": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/",
-      "title": "Bank of Canada raises the policy rate by 25 basis points to 2½%",
-      "publisher": "Bank of Canada",
-      "jurisdiction": "ca",
-      "summary": "The Bank of Canada today increased its target for the overnight rate by 25 basis points to 2.5%, with the Bank Rate at 2.75% and the deposit rate at 2.45%.",
-      "at": "2026-10-28T09:47:20.000Z",
-      "score": 6,
-      "corroboration": 0,
-      "why": "Bank of Canada raises policy rate by 25 basis points.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-28T15:23:05.330Z"
-    },
-    {
       "link": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing",
       "title": "Bank of England sets out approach to tokenised collateral in central clearing",
       "publisher": "Bank of England",
@@ -111,20 +97,6 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-02T18:46:13.970Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48662/coinbase-says-customer-contact-data-exposed-in-third-party-breach?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Coinbase says customer contact data exposed in third-party breach",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Crypto exchange Coinbase says a security incident at a third-party vendor exposed some customer contact data but that its own systems were not breached.",
-      "at": "2026-10-28T14:18:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Customer contact data exposed in third-party security breach at Coinbase.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-28T15:23:05.330Z"
     },
     {
       "link": "https://www.finextra.com/newsarticle/48664/uk-government-takes-on-till-fraud-with-pos-software-standards?utm_medium=rssfinextra utm_source=finextrafeed",
@@ -309,62 +281,6 @@
       "queuedAt": "2026-11-04T02:35:39.773Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-28/inflation-september-cpi-ahead-of-november-interest-rate-call/107317382",
-      "title": "Inflation surges more than expected ahead of RBA meeting",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Australia's inflation rate picked up more than expected in September, increasing expectations of an interest rate hike next week.",
-      "at": "2026-10-28T00:38:39.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Surprising CPI data beat shifting RBA monetary policy and interest rate expectations.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-28T04:59:55.676Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-10-28/star-entertainment-fined-over-casino-money-laundering-austrac/107317384",
-      "title": "Star Casino fined $260m for money laundering violations",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Australia's financial intelligence agency, AUSTRAC, had sought a much steeper fine that could have forced the casino company into financial collapse.",
-      "at": "2026-10-27T23:45:23.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Major regulatory enforcement penalty of $260m by AUSTRAC for AML violations.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-28T04:59:55.676Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-10-28/essential-caravans-victorian-company-voluntary-administration/107318630",
-      "title": "Victorian caravan maker Essential Caravans enters voluntary administration",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "The Victorian manufacturer joins a string of caravan companies to have collapsed amid financial pressure in recent years.",
-      "at": "2026-10-28T07:08:53.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Insolvency of a notable manufacturer amid economic pressures.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-28T11:10:54.917Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-10-28/chalmers-downplays-further-fuel-discounts-amid-high-inflation/107319372",
-      "title": "Chalmers lowers expectations for fuel discounts after high inflation result",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Faced with another high inflation result and the likelihood of a rate hike next Tuesday, Treasurer Jim Chalmers calls for \"perspective\" and points to external factors.",
-      "at": "2026-10-28T05:12:09.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Treasurer adjusting expectations ahead of a likely rate hike.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-28T11:10:54.917Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-10-29/asx-markets-business-live-news-29-october-2026/107321622",
       "title": "Corporate watchdog looking into failed Firmus float – as it happened",
       "publisher": "ABC News",
@@ -449,5 +365,5 @@
       "queuedAt": "2026-11-03T20:18:13.792Z"
     }
   ],
-  "updated": "2026-11-04T02:35:39.773Z"
+  "updated": "2026-11-04T16:31:06.781Z"
 }
