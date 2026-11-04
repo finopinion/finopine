@@ -281,6 +281,34 @@
       "queuedAt": "2026-11-04T02:02:23.168Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48696/oppfi-abandons-purchase-of-bnc-bank?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "OppFi abandons purchase of BNC Bank",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Digital finance platform OppFi has withdrawn its applications buy a bank, claiming it has not had a meaningful opportunity to engage with regulators to address concerns about the deal.",
+      "at": "2026-11-03T20:44:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "OppFi withdrew its bank purchase application after regulatory engagement challenges.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-04T02:35:39.773Z"
+    },
+    {
+      "link": "https://www.finextra.com/pressarticle/111563/stripe-treasury-launches-in-the-uk?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Stripe Treasury launches in the UK",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Stripe, the programmable financial services company, today launched Stripe Treasury in the UK, enabling founders to manage money from the same Dashboard where they already accept payments, without navigating across separate providers.",
+      "at": "2026-11-03T21:04:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Stripe expanded its embedded treasury banking product to the UK market.",
+      "urgency": "low",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-04T02:35:39.773Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-10-28/inflation-september-cpi-ahead-of-november-interest-rate-call/107317382",
       "title": "Inflation surges more than expected ahead of RBA meeting",
       "publisher": "ABC News",
@@ -421,5 +449,5 @@
       "queuedAt": "2026-11-03T20:18:13.792Z"
     }
   ],
-  "updated": "2026-11-04T02:02:23.168Z"
+  "updated": "2026-11-04T02:35:39.773Z"
 }
