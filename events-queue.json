@@ -267,18 +267,18 @@
       "queuedAt": "2026-11-03T20:18:13.792Z"
     },
     {
-      "link": "https://sifted.eu/articles/revolut-faces-bank-of-england-scrutiny-over-product-approval-process-reports-say/",
-      "title": "Revolut faces Bank of England scrutiny over product approval process, reports say",
-      "publisher": "Sifted",
+      "link": "https://www.finextra.com/newsarticle/48695/fca-sets-out-rules-for-esg-rating-providers?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "FCA sets out rules for ESG rating providers",
+      "publisher": "Finextra",
       "jurisdiction": "auto",
-      "summary": "",
-      "at": "2026-10-27T22:38:01.000Z",
-      "score": 1,
+      "summary": "The UK&#39;s Financial Conduct Authority has finalised new rules for ESG rating providers designed to raise standards and help investors to make better informed decisions.",
+      "at": "2026-11-04T00:01:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Bank of England scrutiny of a major fintech's product approvals is a key regulatory development.",
+      "why": "FCA finalises new regulatory rules for ESG rating providers.",
       "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-10-27T23:39:32.066Z"
+      "queuedAt": "2026-11-04T02:02:23.168Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-10-28/inflation-september-cpi-ahead-of-november-interest-rate-call/107317382",
@@ -421,5 +421,5 @@
       "queuedAt": "2026-11-03T20:18:13.792Z"
     }
   ],
-  "updated": "2026-11-03T20:18:13.792Z"
+  "updated": "2026-11-04T02:02:23.168Z"
 }
