@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "link": "https://www.bankofengland.co.uk/minutes/2026/september/court-minutes-17-september-2026",
-      "title": "Minutes of the Meeting of the Court of Directors held on 17 September 2026",
-      "publisher": "Bank of England",
-      "jurisdiction": "uk",
-      "summary": "The Bank's Court of Directors acts as a unitary board, setting the organisation's strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.",
-      "at": "2026-10-29T14:00:00.000Z",
-      "score": 10,
-      "corroboration": 1,
-      "why": "deterministic: corroborated across feeds",
-      "urgency": "medium",
-      "judgedBy": "deterministic",
-      "queuedAt": "2026-10-29T15:34:00.191Z"
-    },
-    {
       "link": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
       "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
       "publisher": "Bank of England",
@@ -239,6 +225,20 @@
       "queuedAt": "2026-11-04T02:35:39.773Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48709/block-faces-765m-doj-settlement?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Block faces $765m DoJ settlement",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Block has reached a preliminary settlement with the US Department of Justice that could see Jack Dorsey&#39;s firm pay $764 million over money laundering failures.",
+      "at": "2026-11-05T14:44:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major preliminary $764M DOJ anti-money laundering settlement facing Block.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-05T16:42:38.592Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-10-30/largest-cryptocurrency-hack-billions-stolen-binance/107327732",
       "title": "Billions of dollars stolen in largest cryptocurrency hack in history",
       "publisher": "ABC News",
@@ -337,5 +337,5 @@
       "queuedAt": "2026-11-05T03:20:34.508Z"
     }
   ],
-  "updated": "2026-11-05T12:02:24.053Z"
+  "updated": "2026-11-05T16:42:38.592Z"
 }
