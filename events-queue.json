@@ -15,6 +15,20 @@
       "queuedAt": "2026-10-29T15:34:00.191Z"
     },
     {
+      "link": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+      "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
+      "publisher": "Bank of England",
+      "jurisdiction": "uk",
+      "summary": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "at": "2026-11-05T12:00:00.000Z",
+      "score": 10,
+      "corroboration": 1,
+      "why": "Bank of England changes monetary policy, raising the Bank Rate to 4%.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-05T12:02:24.053Z"
+    },
+    {
       "link": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing",
       "title": "Bank of England sets out approach to tokenised collateral in central clearing",
       "publisher": "Bank of England",
@@ -225,20 +239,6 @@
       "queuedAt": "2026-11-04T02:35:39.773Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-29/asx-markets-business-live-news-29-october-2026/107321622",
-      "title": "Corporate watchdog looking into failed Firmus float – as it happened",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Appearing before a Senate estimates hearing, Australian Securities and Investments Commission chief Sarah Court sheds some light on the alleged shenanigans behind the great $44 billion float flop.",
-      "at": "2026-10-28T20:23:36.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "ASIC reveals scrutiny into major $44 billion failed float at Senate estimates.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-29T09:43:14.716Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-10-30/largest-cryptocurrency-hack-billions-stolen-binance/107327732",
       "title": "Billions of dollars stolen in largest cryptocurrency hack in history",
       "publisher": "ABC News",
@@ -337,5 +337,5 @@
       "queuedAt": "2026-11-05T03:20:34.508Z"
     }
   ],
-  "updated": "2026-11-05T03:20:34.509Z"
+  "updated": "2026-11-05T12:02:24.053Z"
 }
