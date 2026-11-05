@@ -321,7 +321,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-04T20:29:55.306Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-05/david-jones-collapses-into-voluntary-administration/107347878",
+      "title": "David Jones stores tipped to close as retailer enters administration",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Customers are left wondering as the retailer calls in administrators while it struggles to pay its rent.",
+      "at": "2026-11-04T22:44:29.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major retail chain enters voluntary administration, threatening widespread store closures.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-05T03:20:34.508Z"
     }
   ],
-  "updated": "2026-11-05T02:44:43.351Z"
+  "updated": "2026-11-05T03:20:34.509Z"
 }
