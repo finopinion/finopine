@@ -349,7 +349,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-05T03:20:34.508Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-06/banking-crisis-plunges-paraguay-into-political-disarray/107355316",
+      "title": "Paraguay's president tangled up in Ueno banking crisis",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Paraguay's president has stepped down after the collapse of Ueno Bank plunged the country into a political crisis.",
+      "at": "2026-11-06T05:39:34.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Paraguayan president resigns following major bank collapse and political crisis.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-06T07:51:05.933Z"
     }
   ],
-  "updated": "2026-11-06T02:49:08.982Z"
+  "updated": "2026-11-06T07:51:05.933Z"
 }
