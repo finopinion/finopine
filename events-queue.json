@@ -85,20 +85,6 @@
       "queuedAt": "2026-11-02T18:46:13.970Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48674/hackers-steal-63bn-in-crypto-assets-from-binance?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Hackers steal $6.3bn in crypto assets from Binance",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The world&#39;s largest crypto exchange has fallen victim to the world&#39;s largest crypto heist after North Korean hackers stole $6.3bn from Binance, an audacious attack that could undermine confidence in the digital assets market.",
-      "at": "2026-10-30T09:11:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Massive unprecedented crypto heist impacting major global exchange.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-10-30T15:15:25.125Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48681/pe-firm-cdr-targets-buyout-of-40bn-global-payments---ft?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "PE firm CD R targets buyout of $40bn Global Payments - FT",
       "publisher": "Finextra",
@@ -253,18 +239,18 @@
       "queuedAt": "2026-11-05T20:45:50.489Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-10-30/largest-cryptocurrency-hack-billions-stolen-binance/107327732",
-      "title": "Billions of dollars stolen in largest cryptocurrency hack in history",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Up to $8.9 billion in crypto funds have been stolen from the cryptocurrency exchange, with approximately $4.2 billion frozen.",
-      "at": "2026-10-30T04:02:00.000Z",
-      "score": 1,
+      "link": "https://www.finextra.com/newsarticle/48715/monzo-eyes-fresh-funding-at-75bn-valuation---ft?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Monzo eyes fresh funding at &#163;7.5bn valuation - FT",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "After a takeover by Brazil&#39;s Nubank failed to materialise, Monzo is exploring a new funding round that would value the UK digital bank at around &#163;7.5 billion, according to the Financial Times.",
+      "at": "2026-11-06T13:52:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Record-breaking multi-billion-dollar cryptocurrency hack with major market and security implications.",
-      "urgency": "high",
+      "why": "Major neobank funding round and failed takeover attempt revealed.",
+      "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-10-30T08:25:56.275Z"
+      "queuedAt": "2026-11-06T15:48:40.153Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-10-31/four-tankers-strike-mines-in-strait-of-hormuz/107332392",
@@ -365,5 +351,5 @@
       "queuedAt": "2026-11-06T07:51:05.933Z"
     }
   ],
-  "updated": "2026-11-06T07:51:05.933Z"
+  "updated": "2026-11-06T15:48:40.153Z"
 }
