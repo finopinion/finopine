@@ -57,18 +57,18 @@
       "queuedAt": "2026-11-06T02:49:08.982Z"
     },
     {
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
-      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "publisher": "US Federal Reserve",
-      "jurisdiction": "us",
-      "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "at": "2026-09-30T13:00:00.000Z",
-      "score": 5,
+      "link": "https://www.bankofengland.co.uk/news/2026/october/regulatory-thresholds-set-to-shift-to-automatic-increases",
+      "title": "Regulatory thresholds set to shift to automatic increases",
+      "publisher": "Bank of England",
+      "jurisdiction": "uk",
+      "summary": "Proportionality is set to be improved for firms as over 100 regulatory thresholds could be automatically increased periodically.",
+      "at": "2026-10-07T09:00:00.000Z",
+      "score": 6,
       "corroboration": 0,
-      "why": "Fed finalizes rule changes to bank stress tests and capital requirement volatility.",
-      "urgency": "medium",
+      "why": "Regulator changing rules to automatically increase over 100 regulatory thresholds.",
+      "urgency": "high",
       "judgedBy": "gemini",
-      "queuedAt": "2026-10-30T18:43:44.695Z"
+      "queuedAt": "2026-11-06T20:06:31.165Z"
     },
     {
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
@@ -351,5 +351,5 @@
       "queuedAt": "2026-11-06T07:51:05.933Z"
     }
   ],
-  "updated": "2026-11-06T16:10:49.177Z"
+  "updated": "2026-11-06T20:06:31.165Z"
 }
