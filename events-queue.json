@@ -253,20 +253,6 @@
       "queuedAt": "2026-11-06T15:48:40.153Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-11-02/superannuation-funds-failing-members-retirement-savings-asic/107319026",
-      "title": "Watchdog says super funds are failing their members",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Australia's corporate regulator is threatening legal action against super funds that do not step up to resolve complaints.",
-      "at": "2026-11-01T18:00:00.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "ASIC threatens super funds with legal action over systemic dispute-handling failures.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-01T20:26:03.249Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-11-04/tas-taswater-rti-bills-sewerage-regulator-sewage/107336528",
       "title": "TasWater bosses blame regulator for 'miscalculation' that saw massive bill hikes",
       "publisher": "ABC News",
@@ -335,7 +321,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-07T01:48:57.677Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-09/asic-warns-firms-using-lead-generators-to-push-super-switching/107356376",
+      "title": "The questionable sales tactics prompting people to switch their super",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Unqualified and unlicensed telemarketers are targeting Australians to switch their superannuation savings into riskier schemes. This has prompted the corporate regulator to threaten the licences of financial advice firms that use these \"lead generators\".",
+      "at": "2026-11-08T19:01:22.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Regulator threatens adviser licences over predatory cold-call superannuation switching tactics.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-08T22:46:30.843Z"
     }
   ],
-  "updated": "2026-11-08T13:04:22.401Z"
+  "updated": "2026-11-08T22:46:30.843Z"
 }
