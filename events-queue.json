@@ -71,6 +71,20 @@
       "queuedAt": "2026-11-06T20:06:31.165Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48724/coinbase-gets-full-us-trust-charter?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Coinbase gets full US trust charter",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Crypto exchange Coinbase has secured final approval from US regulators for a national trust bank charter.",
+      "at": "2026-11-09T14:25:00.000Z",
+      "score": 6,
+      "corroboration": 1,
+      "why": "Major crypto exchange secures a national trust bank charter from US regulators.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-09T22:13:36.374Z"
+    },
+    {
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
       "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
       "publisher": "US Federal Reserve",
@@ -197,6 +211,20 @@
       "queuedAt": "2026-11-06T15:48:40.153Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48725/canadas-real-time-payments-system-launches?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Canada&#39;s real-time payments system launches",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Following years of delays, Canada&#39;s Real-Time Rail (RTR) payments system has finally launched.",
+      "at": "2026-11-09T15:10:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Significant launch of long-delayed national real-time payments infrastructure in Canada.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-09T22:13:36.374Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-11-04/tas-taswater-rti-bills-sewerage-regulator-sewage/107336528",
       "title": "TasWater bosses blame regulator for 'miscalculation' that saw massive bill hikes",
       "publisher": "ABC News",
@@ -281,5 +309,5 @@
       "queuedAt": "2026-11-08T22:46:30.843Z"
     }
   ],
-  "updated": "2026-11-09T19:04:46.021Z"
+  "updated": "2026-11-09T22:13:36.374Z"
 }
