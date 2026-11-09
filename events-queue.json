@@ -99,20 +99,6 @@
       "queuedAt": "2026-11-08T13:04:22.401Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48680/regulator-warns-australians-about-highly-speculative-prediction-markets?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Regulator warns Australians about &#39;highly speculative&#39; prediction markets",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The Australian Securities and Investments Commission (ASIC) says it is not currently convinced that prediction markets for retail clients are in the public interest, warning that people who access offshore platforms do not have legal protections.",
-      "at": "2026-11-02T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "ASIC signals skepticism on retail prediction markets, effectively setting regulatory policy against offshore and domestic platforms.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-02T01:43:50.850Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48683/binance-users-withdraw-5bn-in-wake-of-hack?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Binance users withdraw $5bn in wake of hack",
       "publisher": "Finextra",
@@ -337,5 +323,5 @@
       "queuedAt": "2026-11-08T22:46:30.843Z"
     }
   ],
-  "updated": "2026-11-08T22:46:30.843Z"
+  "updated": "2026-11-09T01:56:20.250Z"
 }
