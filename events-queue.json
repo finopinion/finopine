@@ -85,6 +85,20 @@
       "queuedAt": "2026-11-08T13:04:22.401Z"
     },
     {
+      "link": "https://thefintechtimes.com/standard-chartered-acquires-zodia-custody-in-digital-assets-push/",
+      "title": "Standard Chartered Acquires Zodia Custody in Digital Assets Push",
+      "publisher": "The Fintech Times",
+      "jurisdiction": "auto",
+      "summary": "Standard Chartered has signed definitive agreements to buy 100% of Zodia Custody, consolidating its institutional digital asset custody operations globally. The post Standard Chartered Acquires Zodia Custody in Digital Assets Push appeared first on The Fintech Times .",
+      "at": "2026-11-10T10:00:40.000Z",
+      "score": 5,
+      "corroboration": 1,
+      "why": "Standard Chartered acquires full ownership of institutional digital asset custodian Zodia Custody.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-10T13:21:09.048Z"
+    },
+    {
       "link": "https://www.finextra.com/newsarticle/48694/binance-says-hackers-used-fake-job-interviews-and-ai-tools-in-63bn-hack?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Binance says hackers used fake job interviews and AI tools in $6.3bn hack",
       "publisher": "Finextra",
@@ -295,5 +309,5 @@
       "queuedAt": "2026-11-08T22:46:30.843Z"
     }
   ],
-  "updated": "2026-11-10T04:20:05.184Z"
+  "updated": "2026-11-10T13:21:09.048Z"
 }
