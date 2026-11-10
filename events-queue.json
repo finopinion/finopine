@@ -15,20 +15,6 @@
       "queuedAt": "2026-11-05T12:02:24.053Z"
     },
     {
-      "link": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
-      "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
-      "publisher": "Reserve Bank of Australia",
-      "jurisdiction": "au",
-      "summary": "Media release number 2026-30: At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.85 per cent.",
-      "at": "2026-11-03T03:30:00.000Z",
-      "score": 6,
-      "corroboration": 0,
-      "why": "RBA cash rate hike directly alters monetary policy stance.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-03T03:40:37.956Z"
-    },
-    {
       "link": "https://www.bankofcanada.ca/2026/11/joint-statement-of-the-government-of-canada-and-the-bank-of-canada-on-the-renewal-of-the-monetary-policy-framework-2026/",
       "title": "Joint Statement of the Government of Canada and the Bank of Canada on the Renewal of the Monetary Policy Framework",
       "publisher": "Bank of Canada",
@@ -97,20 +83,6 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-08T13:04:22.401Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48690/goldman-bans-traders-and-bankers-from-using-ai-coding-tools?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Goldman bans traders and bankers from using AI coding tools",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Goldman Sachs has banned traders and other employees from using advanced AI tools for coding over productivity and risk concerns, according to Bloomberg",
-      "at": "2026-11-03T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Unexpected policy restriction on AI tool usage at a premier global investment bank.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-03T00:55:52.924Z"
     },
     {
       "link": "https://www.finextra.com/newsarticle/48694/binance-says-hackers-used-fake-job-interviews-and-ai-tools-in-63bn-hack?utm_medium=rssfinextra utm_source=finextrafeed",
@@ -225,6 +197,20 @@
       "queuedAt": "2026-11-09T22:13:36.374Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48728/pnc-launches-stablecoin-payments-for-corporate-clients?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "PNC launches stablecoin payments for corporate clients",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "PNC Bank is working with Coinbase to make incoming stablecoin payments available to its corporate and institutional clients.",
+      "at": "2026-11-10T00:01:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major US bank integrates stablecoin rails for corporate payments via Coinbase partnership.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-10T04:20:05.184Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-11-04/tas-taswater-rti-bills-sewerage-regulator-sewage/107336528",
       "title": "TasWater bosses blame regulator for 'miscalculation' that saw massive bill hikes",
       "publisher": "ABC News",
@@ -309,5 +295,5 @@
       "queuedAt": "2026-11-08T22:46:30.843Z"
     }
   ],
-  "updated": "2026-11-09T23:09:08.878Z"
+  "updated": "2026-11-10T04:20:05.184Z"
 }
