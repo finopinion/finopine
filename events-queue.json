@@ -99,34 +99,6 @@
       "queuedAt": "2026-11-10T13:21:09.048Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48696/oppfi-abandons-purchase-of-bnc-bank?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "OppFi abandons purchase of BNC Bank",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Digital finance platform OppFi has withdrawn its applications buy a bank, claiming it has not had a meaningful opportunity to engage with regulators to address concerns about the deal.",
-      "at": "2026-11-03T20:44:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "OppFi withdrew its bank purchase application after regulatory engagement challenges.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-04T02:35:39.773Z"
-    },
-    {
-      "link": "https://www.finextra.com/pressarticle/111563/stripe-treasury-launches-in-the-uk?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Stripe Treasury launches in the UK",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Stripe, the programmable financial services company, today launched Stripe Treasury in the UK, enabling founders to manage money from the same Dashboard where they already accept payments, without navigating across separate providers.",
-      "at": "2026-11-03T21:04:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Stripe expanded its embedded treasury banking product to the UK market.",
-      "urgency": "low",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-04T02:35:39.773Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48709/block-faces-765m-doj-settlement?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Block faces $765m DoJ settlement",
       "publisher": "Finextra",
@@ -293,7 +265,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-11T02:06:28.307Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-11/plunge-in-new-home-loans-result-of-property-investors/107373668",
+      "title": "Sharpest home loan drop on record as property investors exit market",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Investor loans fell by 31 per cent in the three months to September, a fact welcomed by Housing Minister Clare O'Neil despite more modest falls for homebuyer loans.",
+      "at": "2026-11-11T05:44:39.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Record-breaking collapse in investor housing finance signals a major housing market shift.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-11T09:08:54.670Z"
     }
   ],
-  "updated": "2026-11-11T02:06:28.307Z"
+  "updated": "2026-11-11T09:08:54.671Z"
 }
