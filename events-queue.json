@@ -197,20 +197,6 @@
       "queuedAt": "2026-11-11T16:30:41.275Z"
     },
     {
-      "link": "https://sifted.eu/articles/starling-bank-ceo-raman-bhatia-quits-reports/",
-      "title": "Starling Bank CEO to step down after just two years, reports say",
-      "publisher": "Sifted",
-      "jurisdiction": "auto",
-      "summary": "",
-      "at": "2026-11-04T17:06:13.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Unexpected early departure of top executive at a major UK digital bank.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-04T20:29:55.306Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-11-05/david-jones-collapses-into-voluntary-administration/107347878",
       "title": "David Jones stores tipped to close as retailer enters administration",
       "publisher": "ABC News",
@@ -293,7 +279,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-11T09:08:54.670Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-12/asic-sues-commonwealth-bank-alleges-overcharged-millions-in-fees/107376156",
+      "title": "Commonwealth Bank allegedly overcharged business customers",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Commonwealth Bank allegedly overcharged millions of dollars in fees to tens of thousands of business customers, many of them small businesses, according to the corporate regulator.",
+      "at": "2026-11-11T22:00:02.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Regulator pursues major bank over alleged millions in overcharged business fees",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-11T23:26:04.780Z"
     }
   ],
-  "updated": "2026-11-11T20:18:29.654Z"
+  "updated": "2026-11-11T23:26:04.781Z"
 }
