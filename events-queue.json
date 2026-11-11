@@ -183,6 +183,20 @@
       "queuedAt": "2026-11-10T20:32:39.876Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48743/western-union-ditches-intermax-acquisition?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Western Union ditches Intermax acquisition",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Western Union has pulled the plug on its $500 million acquisition of rival Intermax after failing to secure an acceptable approval for the deal from regulators.",
+      "at": "2026-11-11T14:05:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Western Union abandons a $500 million acquisition after failing to secure regulatory approvals.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-11T16:30:41.275Z"
+    },
+    {
       "link": "https://sifted.eu/articles/starling-bank-ceo-raman-bhatia-quits-reports/",
       "title": "Starling Bank CEO to step down after just two years, reports say",
       "publisher": "Sifted",
@@ -281,5 +295,5 @@
       "queuedAt": "2026-11-11T09:08:54.670Z"
     }
   ],
-  "updated": "2026-11-11T09:08:54.671Z"
+  "updated": "2026-11-11T16:30:41.275Z"
 }
