@@ -99,20 +99,6 @@
       "queuedAt": "2026-11-10T13:21:09.048Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48695/fca-sets-out-rules-for-esg-rating-providers?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "FCA sets out rules for ESG rating providers",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "The UK&#39;s Financial Conduct Authority has finalised new rules for ESG rating providers designed to raise standards and help investors to make better informed decisions.",
-      "at": "2026-11-04T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "FCA finalises new regulatory rules for ESG rating providers.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-04T02:02:23.168Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48696/oppfi-abandons-purchase-of-bnc-bank?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "OppFi abandons purchase of BNC Bank",
       "publisher": "Finextra",
@@ -293,7 +279,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-08T22:46:30.843Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-11/asic-sues-macquarie-for-savings-rates-failures/107371760",
+      "title": "Savers urged to check interest rates on accounts as Macquarie admits failings",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Macquarie Bank has admitted to failures in the promotion of its \"welcome\" interest rate for new savings account customers.",
+      "at": "2026-11-10T22:16:06.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major bank admits compliance failure regarding retail savings account interest rates.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-11T02:06:28.307Z"
     }
   ],
-  "updated": "2026-11-10T20:32:39.876Z"
+  "updated": "2026-11-11T02:06:28.307Z"
 }
