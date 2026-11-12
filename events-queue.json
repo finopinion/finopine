@@ -1,18 +1,18 @@
 {
   "items": [
     {
-      "link": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
-      "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
-      "publisher": "Bank of England",
-      "jurisdiction": "uk",
-      "summary": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
-      "at": "2026-11-05T12:00:00.000Z",
-      "score": 10,
-      "corroboration": 1,
-      "why": "Bank of England changes monetary policy, raising the Bank Rate to 4%.",
-      "urgency": "high",
+      "link": "https://thefintechtimes.com/mercuryo-launches-swaps-with-1400-routes-across-24-digital-tokens/",
+      "title": "Mercuryo Launches Swaps with 1,400 Routes Across 24 Digital Tokens",
+      "publisher": "The Fintech Times",
+      "jurisdiction": "auto",
+      "summary": "Mercuryo's new Swaps product offers fixed-quote token conversion across 24 assets and 21 blockchain networks, though it is unavailable in the US, UK The post Mercuryo Launches Swaps with 1,400 Routes Across 24 Digital Tokens appeared first on The Fintech Times .",
+      "at": "2026-11-12T14:00:14.000Z",
+      "score": 9,
+      "corroboration": 2,
+      "why": "deterministic: corroborated across feeds",
+      "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-11-05T12:02:24.053Z"
+      "queuedAt": "2026-11-12T15:53:41.248Z"
     },
     {
       "link": "https://www.bankofcanada.ca/2026/11/joint-statement-of-the-government-of-canada-and-the-bank-of-canada-on-the-renewal-of-the-monetary-policy-framework-2026/",
@@ -295,5 +295,5 @@
       "queuedAt": "2026-11-12T06:42:50.173Z"
     }
   ],
-  "updated": "2026-11-12T06:42:50.173Z"
+  "updated": "2026-11-12T15:53:41.248Z"
 }
