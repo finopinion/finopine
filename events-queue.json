@@ -197,20 +197,6 @@
       "queuedAt": "2026-11-11T16:30:41.275Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-11-05/david-jones-collapses-into-voluntary-administration/107347878",
-      "title": "David Jones stores tipped to close as retailer enters administration",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Customers are left wondering as the retailer calls in administrators while it struggles to pay its rent.",
-      "at": "2026-11-04T22:44:29.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Major retail chain enters voluntary administration, threatening widespread store closures.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-05T03:20:34.508Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-11-06/banking-crisis-plunges-paraguay-into-political-disarray/107355316",
       "title": "Paraguay's president tangled up in Ueno banking crisis",
       "publisher": "ABC News",
@@ -293,7 +279,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-11T23:26:04.780Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-12/rock-lobster-closure-trade-risk-antibiotic-salmon-tasmania/107377846",
+      "title": "Commercial rock lobster fisheries closed due to antibiotic trade risk",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Commercial rock lobster and dive fisheries in parts of Tasmania's south-east will be closed for three months to \"mitigate trade risks\" linked to antibiotic use by the salmon industry.",
+      "at": "2026-11-12T04:18:48.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Unexpected regulatory closure of commercial fisheries to manage international trade risks.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-12T06:42:50.173Z"
     }
   ],
-  "updated": "2026-11-12T03:16:15.846Z"
+  "updated": "2026-11-12T06:42:50.173Z"
 }
