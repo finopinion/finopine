@@ -99,20 +99,6 @@
       "queuedAt": "2026-11-10T13:21:09.048Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48709/block-faces-765m-doj-settlement?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Block faces $765m DoJ settlement",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Block has reached a preliminary settlement with the US Department of Justice that could see Jack Dorsey&#39;s firm pay $764 million over money laundering failures.",
-      "at": "2026-11-05T14:44:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major preliminary $764M DOJ anti-money laundering settlement facing Block.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-05T16:42:38.592Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48713/finra-fines-webull-42m-for-aml-and-best-execution-failures?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Finra fines Webull $4.2m for AML and best execution failures",
       "publisher": "Finextra",
@@ -195,6 +181,20 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-11T16:30:41.275Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48747/intermex-rejects-western-unions-termination-of-takeover-deal?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Intermex &#39;rejects&#39; Western Union&#39;s termination of takeover deal",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Intermex says that it rejects Western Union&#39;s decision to abandon a $500 million acquisition deal and is demanding its rival takes all actions necessary to consummate the merger .",
+      "at": "2026-11-12T15:02:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Intermex disputes Western Union's termination of their $500m takeover deal, signaling contested M&A litigation.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-12T17:00:50.706Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-11-06/banking-crisis-plunges-paraguay-into-political-disarray/107355316",
@@ -295,5 +295,5 @@
       "queuedAt": "2026-11-12T06:42:50.173Z"
     }
   ],
-  "updated": "2026-11-12T15:53:41.248Z"
+  "updated": "2026-11-12T17:00:50.706Z"
 }
