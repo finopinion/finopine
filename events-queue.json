@@ -99,20 +99,6 @@
       "queuedAt": "2026-11-10T13:21:09.048Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48713/finra-fines-webull-42m-for-aml-and-best-execution-failures?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Finra fines Webull $4.2m for AML and best execution failures",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Digital investing platform Webull has been fined $4.2 million by US regulators for failing to roll out reasonably designed programmes for anti-money laundering, identity theft prevention and best execution.",
-      "at": "2026-11-05T20:18:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "FINRA fined broker Webull $4.2 million for anti-money laundering and best execution failures.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-05T20:45:50.489Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48715/monzo-eyes-fresh-funding-at-75bn-valuation---ft?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Monzo eyes fresh funding at &#163;7.5bn valuation - FT",
       "publisher": "Finextra",
@@ -195,6 +181,20 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-12T17:00:50.706Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48750/fiserv-lays-groundwork-to-offload-a-debit-network?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Fiserv lays groundwork to offload a debit network",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Fiserv is moving clients to one of its two debit networks as it paves the way to sell the other, says Takis Georgakopoulos.",
+      "at": "2026-11-12T18:19:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major structural move by Fiserv to offload a debit network, altering payment market infrastructure.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-12T21:00:08.284Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-11-06/banking-crisis-plunges-paraguay-into-political-disarray/107355316",
@@ -295,5 +295,5 @@
       "queuedAt": "2026-11-12T06:42:50.173Z"
     }
   ],
-  "updated": "2026-11-12T17:00:50.706Z"
+  "updated": "2026-11-12T21:00:08.284Z"
 }
