@@ -225,6 +225,20 @@
       "queuedAt": "2026-11-13T16:43:42.934Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48759/openai-launches-chatgpt-wallet?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "OpenAI launches ChatGPT Wallet",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "OpenAI has unveiled ChatGPT Wallet, enabling AI agents to pay for purchases on users&#39; behalf without accessing their card details.",
+      "at": "2026-11-13T18:28:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "OpenAI launching autonomous payment wallet marks a major unexpected entry into fintech payments.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-13T19:26:33.996Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-11-07/tesla-to-pull-the-plug-on-cybertruck/107359058",
       "title": "Musk axes Tesla's Cybertruck in favour of self-driving taxis",
       "publisher": "ABC News",
@@ -309,5 +323,5 @@
       "queuedAt": "2026-11-12T06:42:50.173Z"
     }
   ],
-  "updated": "2026-11-13T16:43:42.934Z"
+  "updated": "2026-11-13T19:26:33.996Z"
 }
