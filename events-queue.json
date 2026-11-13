@@ -197,18 +197,18 @@
       "queuedAt": "2026-11-13T02:49:32.996Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-11-06/banking-crisis-plunges-paraguay-into-political-disarray/107355316",
-      "title": "Paraguay's president tangled up in Ueno banking crisis",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Paraguay's president has stepped down after the collapse of Ueno Bank plunged the country into a political crisis.",
-      "at": "2026-11-06T05:39:34.000Z",
-      "score": 1,
+      "link": "https://www.finextra.com/newsarticle/48755/paraguays-digital-bank-collapse-triggers-political-crisis?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Paraguay&#39;s digital bank collapse triggers political crisis",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Paraguay’s digital bank ueno collapsed last Tuesday, freezing the savings of nearly 3 million customers and revealing political scandal.",
+      "at": "2026-11-13T11:28:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Paraguayan president resigns following major bank collapse and political crisis.",
+      "why": "Major digital bank collapse freezing 3 million customer accounts and sparking political crisis.",
       "urgency": "high",
       "judgedBy": "gemini",
-      "queuedAt": "2026-11-06T07:51:05.933Z"
+      "queuedAt": "2026-11-13T12:02:38.376Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-11-07/tesla-to-pull-the-plug-on-cybertruck/107359058",
@@ -295,5 +295,5 @@
       "queuedAt": "2026-11-12T06:42:50.173Z"
     }
   ],
-  "updated": "2026-11-13T02:49:32.996Z"
+  "updated": "2026-11-13T12:02:38.376Z"
 }
