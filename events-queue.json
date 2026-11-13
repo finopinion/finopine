@@ -71,20 +71,6 @@
       "queuedAt": "2026-11-10T13:21:09.048Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48715/monzo-eyes-fresh-funding-at-75bn-valuation---ft?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Monzo eyes fresh funding at &#163;7.5bn valuation - FT",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "After a takeover by Brazil&#39;s Nubank failed to materialise, Monzo is exploring a new funding round that would value the UK digital bank at around &#163;7.5 billion, according to the Financial Times.",
-      "at": "2026-11-06T13:52:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major neobank funding round and failed takeover attempt revealed.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-06T15:48:40.153Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48725/canadas-real-time-payments-system-launches?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Canada&#39;s real-time payments system launches",
       "publisher": "Finextra",
@@ -211,6 +197,34 @@
       "queuedAt": "2026-11-13T12:02:38.376Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48756/nvidias-jensen-huang-steps-down-interim-ceo-appointed-as-stocks-plummet?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Nvidia’s Jensen Huang steps down, interim CEO appointed as stocks plummet",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Nvidia CEO Jensen Huang resigned on Thursday following reports of multiple extramarital affairs, plunging company stocks.",
+      "at": "2026-11-13T11:52:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Major tech CEO resignation and stock crash.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-13T16:43:42.934Z"
+    },
+    {
+      "link": "https://www.finextra.com/pressarticle/111665/wirex-launches-navoka-an-ai-agent-that-pays-from-its-own-bank-account-and-card?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Wirex launches Navoka, an AI agent that pays from its own bank account and card",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Wirex, the global stablecoin infrastructure platform, has today launched Navoka, the first AI agent that pays on behalf of users from a dedicated bank account and card.",
+      "at": "2026-11-13T09:59:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Novel AI agent financial product launch involving direct bank account access.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-13T16:43:42.934Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-11-07/tesla-to-pull-the-plug-on-cybertruck/107359058",
       "title": "Musk axes Tesla's Cybertruck in favour of self-driving taxis",
       "publisher": "ABC News",
@@ -295,5 +309,5 @@
       "queuedAt": "2026-11-12T06:42:50.173Z"
     }
   ],
-  "updated": "2026-11-13T12:02:38.376Z"
+  "updated": "2026-11-13T16:43:42.934Z"
 }
