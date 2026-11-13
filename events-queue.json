@@ -15,20 +15,6 @@
       "queuedAt": "2026-11-12T15:53:41.248Z"
     },
     {
-      "link": "https://www.bankofengland.co.uk/news/2026/october/regulatory-thresholds-set-to-shift-to-automatic-increases",
-      "title": "Regulatory thresholds set to shift to automatic increases",
-      "publisher": "Bank of England",
-      "jurisdiction": "uk",
-      "summary": "Proportionality is set to be improved for firms as over 100 regulatory thresholds could be automatically increased periodically.",
-      "at": "2026-10-07T09:00:00.000Z",
-      "score": 6,
-      "corroboration": 0,
-      "why": "Regulator changing rules to automatically increase over 100 regulatory thresholds.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-06T20:06:31.165Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48724/coinbase-gets-full-us-trust-charter?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Coinbase gets full US trust charter",
       "publisher": "Finextra",
@@ -321,7 +307,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-12T06:42:50.173Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-14/us-trade-investigation-into-lamb-imports-decision-handed-down/107385510",
+      "title": "Trump to rule on tariffs for Australian lamb after trade commissioners disagree",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "A US trade panel reviewing lamb imports is unable to agree on whether Australian meat imports have hurt the American industry, leaving Donald Trump to rule on tariffs.",
+      "at": "2026-11-13T20:07:43.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Trade panel deadlock passes decision on Australian lamb tariffs directly to Donald Trump.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-13T20:35:39.239Z"
     }
   ],
-  "updated": "2026-11-13T19:26:33.996Z"
+  "updated": "2026-11-13T20:35:39.239Z"
 }
