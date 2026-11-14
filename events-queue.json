@@ -321,7 +321,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-13T20:35:39.239Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-14/us-aviation-admin-orders-grounding-of-all-flights/107385702",
+      "title": "US aviation administration orders grounding of all flights",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The US Federal Aviation Administration has issued a national ground stop \"due to extraordinary circumstance and reasons for safety\".",
+      "at": "2026-11-13T21:23:28.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Unexpected nationwide FAA flight grounding with major market and economic impacts.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-14T00:49:40.755Z"
     }
   ],
-  "updated": "2026-11-13T20:35:39.239Z"
+  "updated": "2026-11-14T00:49:40.755Z"
 }
