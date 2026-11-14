@@ -225,20 +225,6 @@
       "queuedAt": "2026-11-13T19:26:33.996Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-11-07/tesla-to-pull-the-plug-on-cybertruck/107359058",
-      "title": "Musk axes Tesla's Cybertruck in favour of self-driving taxis",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Elon Musk says Tesla will wind down Cybertruck production in mid-2027 after years of persistently weak sales for a futuristic model once touted as a rival to legacy pickup trucks.",
-      "at": "2026-11-07T00:38:10.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Unexpected corporate strategy pivot by a major public company to axe a primary product line.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-07T01:48:57.677Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-11-09/asic-warns-firms-using-lead-generators-to-push-super-switching/107356376",
       "title": "The questionable sales tactics prompting people to switch their super",
       "publisher": "ABC News",
@@ -335,7 +321,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-14T00:49:40.755Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-14/questions-over-jensen-huang-affair-for-us-administration-nvidia/107382476",
+      "title": "Questions remain after Nvidia CEO's departure",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "While Jensen Huang's resignation puts an end to his long reign over Nvidia, questions about America's national security and Donald Trump's knowledge of the whole saga remain.",
+      "at": "2026-11-14T00:52:34.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Unexpected departure of mega-cap tech CEO with massive equity market implications.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-14T07:28:53.927Z"
     }
   ],
-  "updated": "2026-11-14T00:49:40.755Z"
+  "updated": "2026-11-14T07:28:53.927Z"
 }
