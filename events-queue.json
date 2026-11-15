@@ -29,20 +29,6 @@
       "queuedAt": "2026-11-09T22:13:36.374Z"
     },
     {
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
-      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-      "publisher": "US Federal Reserve",
-      "jurisdiction": "us",
-      "summary": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-      "at": "2026-10-08T20:30:00.000Z",
-      "score": 5,
-      "corroboration": 0,
-      "why": "Fed enforcement action against major financial institution American Express over AML failures.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-08T13:04:22.401Z"
-    },
-    {
       "link": "https://thefintechtimes.com/standard-chartered-acquires-zodia-custody-in-digital-assets-push/",
       "title": "Standard Chartered Acquires Zodia Custody in Digital Assets Push",
       "publisher": "The Fintech Times",
@@ -335,7 +321,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-14T07:28:53.927Z"
+    },
+    {
+      "link": "https://sifted.eu/articles/starling-founder-anne-boden-plots-new-ai-powered-bank/",
+      "title": "Starling founder Anne Boden plots new AI-powered bank",
+      "publisher": "Sifted",
+      "jurisdiction": "auto",
+      "summary": "",
+      "at": "2026-11-15T16:33:09.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Prominent Starling Bank founder launching a new AI challenger bank is major banking news.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-15T19:42:13.480Z"
     }
   ],
-  "updated": "2026-11-14T07:28:53.927Z"
+  "updated": "2026-11-15T19:42:13.480Z"
 }
