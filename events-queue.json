@@ -29,6 +29,20 @@
       "queuedAt": "2026-11-09T22:13:36.374Z"
     },
     {
+      "link": "https://www.bankofcanada.ca/2026/11/bank-of-canada-governor-tiff-macklem-to-step-down-in-june-2027/",
+      "title": "Bank of Canada Governor Tiff Macklem to step down in June 2027",
+      "publisher": "Bank of Canada",
+      "jurisdiction": "ca",
+      "summary": "The Board of Directors of the Bank of Canada announced today that Governor Tiff Macklem has informed them that he will not seek a second term as Governor when his seven-year term expires on June nbsp;2, 2027.",
+      "at": "2026-11-16T10:00:04.000Z",
+      "score": 6,
+      "corroboration": 0,
+      "why": "Bank of Canada Governor Tiff Macklem announced he will not seek a second term in 2027.",
+      "urgency": "low",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-16T15:23:24.025Z"
+    },
+    {
       "link": "https://thefintechtimes.com/standard-chartered-acquires-zodia-custody-in-digital-assets-push/",
       "title": "Standard Chartered Acquires Zodia Custody in Digital Assets Push",
       "publisher": "The Fintech Times",
@@ -321,7 +335,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-15T19:42:13.480Z"
+    },
+    {
+      "link": "https://thefintechtimes.com/n26-and-franklin-templeton-to-launch-digital-retirement-account-in-germany/",
+      "title": "N26 and Franklin Templeton to Launch Digital Retirement Account in Germany",
+      "publisher": "The Fintech Times",
+      "jurisdiction": "auto",
+      "summary": "N26 partners with Franklin Templeton to launch a digital, state-subsidised private retirement account in Germany on 1 January 2027. The post N26 and Franklin Templeton to Launch Digital Retirement Account in Germany appeared first on The Fintech Times .",
+      "at": "2026-11-16T14:00:23.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "N26 and Franklin Templeton launch a state-subsidised digital retirement account in Germany.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-16T15:23:24.025Z"
     }
   ],
-  "updated": "2026-11-16T02:20:46.276Z"
+  "updated": "2026-11-16T15:23:24.025Z"
 }
