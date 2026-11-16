@@ -15,20 +15,6 @@
       "queuedAt": "2026-11-12T15:53:41.248Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48724/coinbase-gets-full-us-trust-charter?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Coinbase gets full US trust charter",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Crypto exchange Coinbase has secured final approval from US regulators for a national trust bank charter.",
-      "at": "2026-11-09T14:25:00.000Z",
-      "score": 6,
-      "corroboration": 1,
-      "why": "Major crypto exchange secures a national trust bank charter from US regulators.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-09T22:13:36.374Z"
-    },
-    {
       "link": "https://www.bankofcanada.ca/2026/11/bank-of-canada-governor-tiff-macklem-to-step-down-in-june-2027/",
       "title": "Bank of Canada Governor Tiff Macklem to step down in June 2027",
       "publisher": "Bank of Canada",
@@ -55,20 +41,6 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-10T13:21:09.048Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48725/canadas-real-time-payments-system-launches?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Canada&#39;s real-time payments system launches",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Following years of delays, Canada&#39;s Real-Time Rail (RTR) payments system has finally launched.",
-      "at": "2026-11-09T15:10:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Significant launch of long-delayed national real-time payments infrastructure in Canada.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-09T22:13:36.374Z"
     },
     {
       "link": "https://www.finextra.com/newsarticle/48728/pnc-launches-stablecoin-payments-for-corporate-clients?utm_medium=rssfinextra utm_source=finextrafeed",
@@ -349,7 +321,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-16T15:23:24.025Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-17/online-gambling-company-fined-over-nt-club-inducement-scheme/107391266",
+      "title": "Online bookmaker targets netball club for inducements, signs up 18yos",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "An online bookmaker has been fined over a \"sustained, employee-facilitated inducement scheme\" involving a community sporting club's social media.",
+      "at": "2026-11-16T20:42:01.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Enforcement fine against online bookmaker for illegal inducement scheme.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-16T22:58:49.438Z"
     }
   ],
-  "updated": "2026-11-16T18:52:05.834Z"
+  "updated": "2026-11-16T22:58:49.438Z"
 }
