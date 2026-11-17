@@ -29,20 +29,6 @@
       "queuedAt": "2026-11-16T15:23:24.025Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48738/banking-giants-commit-270m-to-stablecoin-venture---bloomberg?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Banking giants commit $270m to stablecoin venture - Bloomberg",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Some of the world&#39;s biggest banks - including Citi, Goldman Sachs and Deutsche Bank - have committed around $270 million to a new stablecoin venture called Project Faro, according to Bloomberg.",
-      "at": "2026-11-10T18:46:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major global banks commit $270 million to launch a new stablecoin initiative.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-10T20:32:39.876Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48743/western-union-ditches-intermax-acquisition?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Western Union ditches Intermax acquisition",
       "publisher": "Finextra",
@@ -407,5 +393,5 @@
       "queuedAt": "2026-11-17T17:51:47.149Z"
     }
   ],
-  "updated": "2026-11-17T17:51:47.149Z"
+  "updated": "2026-11-17T21:56:21.586Z"
 }
