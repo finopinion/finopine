@@ -43,20 +43,6 @@
       "queuedAt": "2026-11-10T13:21:09.048Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48728/pnc-launches-stablecoin-payments-for-corporate-clients?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "PNC launches stablecoin payments for corporate clients",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "PNC Bank is working with Coinbase to make incoming stablecoin payments available to its corporate and institutional clients.",
-      "at": "2026-11-10T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major US bank integrates stablecoin rails for corporate payments via Coinbase partnership.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-10T04:20:05.184Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48738/banking-giants-commit-270m-to-stablecoin-venture---bloomberg?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Banking giants commit $270m to stablecoin venture - Bloomberg",
       "publisher": "Finextra",
@@ -349,7 +335,35 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-17T00:06:37.259Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-17/nvidia-rules-out-jensen-huang-return/107394520",
+      "title": "Nvidia rules out Jensen Huang comeback despite backing from big names",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Nvidia is not considering reinstating the scandal-hit Jensen Huang as chief executive, despite a growing campaign for his return.",
+      "at": "2026-11-17T04:24:08.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Nvidia rules out reinstating former CEO Jensen Huang following scandal.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-17T04:48:00.302Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-17/greens-offer-government-path-to-pass-trusts-cgt/107394802",
+      "title": "Greens offer government a path to pass trusts and capital gains tax changes",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The minor party's support will be critical to pass a minimum tax on trusts and a carve-out for start-ups in the capital gains tax regime.",
+      "at": "2026-11-17T03:58:05.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Greens offer deal to pass key trust and capital gains tax legislation.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-17T04:48:00.302Z"
     }
   ],
-  "updated": "2026-11-17T00:06:37.259Z"
+  "updated": "2026-11-17T04:48:00.302Z"
 }
