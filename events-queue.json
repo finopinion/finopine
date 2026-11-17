@@ -29,20 +29,6 @@
       "queuedAt": "2026-11-16T15:23:24.025Z"
     },
     {
-      "link": "https://thefintechtimes.com/standard-chartered-acquires-zodia-custody-in-digital-assets-push/",
-      "title": "Standard Chartered Acquires Zodia Custody in Digital Assets Push",
-      "publisher": "The Fintech Times",
-      "jurisdiction": "auto",
-      "summary": "Standard Chartered has signed definitive agreements to buy 100% of Zodia Custody, consolidating its institutional digital asset custody operations globally. The post Standard Chartered Acquires Zodia Custody in Digital Assets Push appeared first on The Fintech Times .",
-      "at": "2026-11-10T10:00:40.000Z",
-      "score": 5,
-      "corroboration": 1,
-      "why": "Standard Chartered acquires full ownership of institutional digital asset custodian Zodia Custody.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-10T13:21:09.048Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48738/banking-giants-commit-270m-to-stablecoin-venture---bloomberg?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Banking giants commit $270m to stablecoin venture - Bloomberg",
       "publisher": "Finextra",
@@ -363,7 +349,49 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-17T04:48:00.302Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-17/chalmers-proposes-new-rules-for-super-funds/107396462",
+      "title": "Chalmers proposes rules to allow super to invest in housing, energy, startups",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Treasurer Jim Chalmers will unveil his long-awaited changes to the rules guiding what super funds can invest in, facilitating riskier investments with possible higher returns, such as startups.",
+      "at": "2026-11-17T11:30:19.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Proposed rule change allowing Australian superannuation funds to invest in startups and housing.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-17T17:32:00.895Z"
+    },
+    {
+      "link": "https://www.bankingdive.com/news/dave-fintech-applies-national-bank-charter-occ-fdic-fed/874920/",
+      "title": "Dave applies for national bank charter",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "figure div img src=\"https://imgproxy.divecdn.com/AE3N_2pnsY9XbdFAGBkenqWenPJRthL223LGTLjrSPw/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8xOWYyNGQ2OS01OTMxLTQ4NjgtYjFhZi03ZjYyY2RjNTA1YzYuanBn.webp\"/ /div /figure p A charter would be an opportunity to offer products ldquo;to level the playing field for everyday Americans, rdquo; said proposed bank president Anthony Sharett. /p",
+      "at": "2026-11-17T17:04:43.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Fintech firm applying for a national bank charter is a major regulatory milestone.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-17T17:32:00.895Z"
+    },
+    {
+      "link": "https://www.bankingdive.com/news/jpmorgan-chase-names-next-cfo-debest-barnum-finance-chief/874878/",
+      "title": "JPMorgan names next CFO",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "p Bregje de Best, 43, will take the CFO reins from Jeremy Barnum in April. Barnum, who rsquo;s been finance chief for six years, will remain at the company through early 2028 as a vice chairman. /p",
+      "at": "2026-11-17T14:42:56.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major CFO succession announcement at a systemically important global bank.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-17T17:32:00.896Z"
     }
   ],
-  "updated": "2026-11-17T04:48:00.302Z"
+  "updated": "2026-11-17T17:32:00.896Z"
 }
