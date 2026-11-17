@@ -335,7 +335,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-16T22:58:49.438Z"
+    },
+    {
+      "link": "https://sifted.eu/articles/starling-ceo-to-step-down/",
+      "title": "Starling Bank CEO to step down at the end of the year",
+      "publisher": "Sifted",
+      "jurisdiction": "auto",
+      "summary": "",
+      "at": "2026-11-16T16:01:40.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Unannounced departure of major digital bank CEO is a significant leadership change in fintech banking.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-17T00:06:37.259Z"
     }
   ],
-  "updated": "2026-11-16T22:58:49.438Z"
+  "updated": "2026-11-17T00:06:37.259Z"
 }
