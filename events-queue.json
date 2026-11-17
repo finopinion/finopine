@@ -391,7 +391,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-17T17:32:00.896Z"
+    },
+    {
+      "link": "https://sifted.eu/articles/thiel-fintech-majority-rebtel-merge/",
+      "title": "Exclusive: Thiel-backed fintech Majority to merge with Rebtel",
+      "publisher": "Sifted",
+      "jurisdiction": "auto",
+      "summary": "",
+      "at": "2026-11-17T05:00:14.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Exclusive report detailing a merger between fintech firms Majority and Rebtel.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-17T17:51:47.149Z"
     }
   ],
-  "updated": "2026-11-17T17:32:00.896Z"
+  "updated": "2026-11-17T17:51:47.149Z"
 }
