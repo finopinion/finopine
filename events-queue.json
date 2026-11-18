@@ -155,20 +155,6 @@
       "queuedAt": "2026-11-13T19:26:33.996Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-11-11/asic-sues-macquarie-for-savings-rates-failures/107371760",
-      "title": "Savers urged to check interest rates on accounts as Macquarie admits failings",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Macquarie Bank has admitted to failures in the promotion of its \"welcome\" interest rate for new savings account customers.",
-      "at": "2026-11-10T22:16:06.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Major bank admits compliance failure regarding retail savings account interest rates.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-11T02:06:28.307Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-11-11/plunge-in-new-home-loans-result-of-property-investors/107373668",
       "title": "Sharpest home loan drop on record as property investors exit market",
       "publisher": "ABC News",
@@ -407,5 +393,5 @@
       "queuedAt": "2026-11-18T00:51:17.843Z"
     }
   ],
-  "updated": "2026-11-18T00:51:17.844Z"
+  "updated": "2026-11-18T03:47:57.105Z"
 }
