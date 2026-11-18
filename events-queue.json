@@ -391,7 +391,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-17T17:51:47.149Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-18/ex-nvidia-ceo-jensen-huang-says-he-would-be-honoured-to-return/107397042",
+      "title": "Nvidia does not intend to reinstate Huang despite calls",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "In his first comments since resigning under pressure over his affair with a suspected Chinese spy, Jensen Huang says he would be honoured to return as Nvidia CEO if the board decides to have him back.",
+      "at": "2026-11-17T17:35:21.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major corporate governance decision by Nvidia board refusing former CEO's reinstatement.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-18T00:51:17.843Z"
     }
   ],
-  "updated": "2026-11-17T21:56:21.586Z"
+  "updated": "2026-11-18T00:51:17.844Z"
 }
