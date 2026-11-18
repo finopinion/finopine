@@ -29,20 +29,6 @@
       "queuedAt": "2026-11-16T15:23:24.025Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48743/western-union-ditches-intermax-acquisition?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Western Union ditches Intermax acquisition",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Western Union has pulled the plug on its $500 million acquisition of rival Intermax after failing to secure an acceptable approval for the deal from regulators.",
-      "at": "2026-11-11T14:05:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Western Union abandons a $500 million acquisition after failing to secure regulatory approvals.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-11T16:30:41.275Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48747/intermex-rejects-western-unions-termination-of-takeover-deal?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Intermex &#39;rejects&#39; Western Union&#39;s termination of takeover deal",
       "publisher": "Finextra",
@@ -153,20 +139,6 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-13T19:26:33.996Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-11-11/plunge-in-new-home-loans-result-of-property-investors/107373668",
-      "title": "Sharpest home loan drop on record as property investors exit market",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Investor loans fell by 31 per cent in the three months to September, a fact welcomed by Housing Minister Clare O'Neil despite more modest falls for homebuyer loans.",
-      "at": "2026-11-11T05:44:39.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Record-breaking collapse in investor housing finance signals a major housing market shift.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-11T09:08:54.670Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-11-12/asic-sues-commonwealth-bank-alleges-overcharged-millions-in-fees/107376156",
@@ -393,5 +365,5 @@
       "queuedAt": "2026-11-18T00:51:17.843Z"
     }
   ],
-  "updated": "2026-11-18T03:47:57.105Z"
+  "updated": "2026-11-18T17:29:33.381Z"
 }
