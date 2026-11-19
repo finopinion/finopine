@@ -57,6 +57,20 @@
       "queuedAt": "2026-11-16T15:23:24.025Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48781/singapore-sets-national-ai-missions-for-financial-services?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Singapore sets national AI missions for financial services",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Singapore has set itself three national AI missions for financial services, harnessing the technology to strengthen crime prevention, boost access to financing for businesses, and enabling agents to transact safely.",
+      "at": "2026-11-19T00:01:00.000Z",
+      "score": 6,
+      "corroboration": 1,
+      "why": "Singapore announces new national AI policy framework for financial services.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-19T03:46:55.854Z"
+    },
+    {
       "link": "https://www.finextra.com/newsarticle/48747/intermex-rejects-western-unions-termination-of-takeover-deal?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Intermex &#39;rejects&#39; Western Union&#39;s termination of takeover deal",
       "publisher": "Finextra",
@@ -167,20 +181,6 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-13T19:26:33.996Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-11-12/asic-sues-commonwealth-bank-alleges-overcharged-millions-in-fees/107376156",
-      "title": "Commonwealth Bank allegedly overcharged business customers",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Commonwealth Bank allegedly overcharged millions of dollars in fees to tens of thousands of business customers, many of them small businesses, according to the corporate regulator.",
-      "at": "2026-11-11T22:00:02.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Regulator pursues major bank over alleged millions in overcharged business fees",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-11T23:26:04.780Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-11-12/rock-lobster-closure-trade-risk-antibiotic-salmon-tasmania/107377846",
@@ -393,5 +393,5 @@
       "queuedAt": "2026-11-18T00:51:17.843Z"
     }
   ],
-  "updated": "2026-11-18T21:30:48.648Z"
+  "updated": "2026-11-19T03:46:55.854Z"
 }
