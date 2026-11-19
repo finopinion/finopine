@@ -29,20 +29,6 @@
       "queuedAt": "2026-11-18T21:30:48.648Z"
     },
     {
-      "link": "https://thefintechtimes.com/mercuryo-launches-swaps-with-1400-routes-across-24-digital-tokens/",
-      "title": "Mercuryo Launches Swaps with 1,400 Routes Across 24 Digital Tokens",
-      "publisher": "The Fintech Times",
-      "jurisdiction": "auto",
-      "summary": "Mercuryo's new Swaps product offers fixed-quote token conversion across 24 assets and 21 blockchain networks, though it is unavailable in the US, UK The post Mercuryo Launches Swaps with 1,400 Routes Across 24 Digital Tokens appeared first on The Fintech Times .",
-      "at": "2026-11-12T14:00:14.000Z",
-      "score": 9,
-      "corroboration": 2,
-      "why": "deterministic: corroborated across feeds",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-12T15:53:41.248Z"
-    },
-    {
       "link": "https://www.bankofcanada.ca/2026/11/bank-of-canada-governor-tiff-macklem-to-step-down-in-june-2027/",
       "title": "Bank of Canada Governor Tiff Macklem to step down in June 2027",
       "publisher": "Bank of Canada",
@@ -71,18 +57,18 @@
       "queuedAt": "2026-11-19T03:46:55.854Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48747/intermex-rejects-western-unions-termination-of-takeover-deal?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Intermex &#39;rejects&#39; Western Union&#39;s termination of takeover deal",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Intermex says that it rejects Western Union&#39;s decision to abandon a $500 million acquisition deal and is demanding its rival takes all actions necessary to consummate the merger .",
-      "at": "2026-11-12T15:02:00.000Z",
-      "score": 2,
+      "link": "https://www.bankofengland.co.uk/news/2026/november/cyber-resilience-guidance-consultation-and-ai-and-quantum-effective-practices",
+      "title": "Cyber resilience guidance consultation and AI and quantum effective practices",
+      "publisher": "Bank of England",
+      "jurisdiction": "uk",
+      "summary": "UK’s financial regulators are proposing a new guidance to help financial services firms prepare for and recover from cyber incidents as threats grow.",
+      "at": "2026-11-19T08:00:00.000Z",
+      "score": 6,
       "corroboration": 0,
-      "why": "Intermex disputes Western Union's termination of their $500m takeover deal, signaling contested M&A litigation.",
+      "why": "UK regulators propose new cyber resilience guidance covering AI and quantum threats for financial firms.",
       "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-11-12T17:00:50.706Z"
+      "queuedAt": "2026-11-19T17:13:41.293Z"
     },
     {
       "link": "https://www.finextra.com/newsarticle/48750/fiserv-lays-groundwork-to-offload-a-debit-network?utm_medium=rssfinextra utm_source=finextrafeed",
@@ -181,20 +167,6 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-13T19:26:33.996Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-11-12/rock-lobster-closure-trade-risk-antibiotic-salmon-tasmania/107377846",
-      "title": "Commercial rock lobster fisheries closed due to antibiotic trade risk",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "Commercial rock lobster and dive fisheries in parts of Tasmania's south-east will be closed for three months to \"mitigate trade risks\" linked to antibiotic use by the salmon industry.",
-      "at": "2026-11-12T04:18:48.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Unexpected regulatory closure of commercial fisheries to manage international trade risks.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-12T06:42:50.173Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-11-14/us-trade-investigation-into-lamb-imports-decision-handed-down/107385510",
@@ -393,5 +365,5 @@
       "queuedAt": "2026-11-18T00:51:17.843Z"
     }
   ],
-  "updated": "2026-11-19T03:46:55.854Z"
+  "updated": "2026-11-19T17:13:41.293Z"
 }
