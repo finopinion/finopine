@@ -71,20 +71,6 @@
       "queuedAt": "2026-11-19T17:13:41.293Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48750/fiserv-lays-groundwork-to-offload-a-debit-network?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Fiserv lays groundwork to offload a debit network",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Fiserv is moving clients to one of its two debit networks as it paves the way to sell the other, says Takis Georgakopoulos.",
-      "at": "2026-11-12T18:19:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major structural move by Fiserv to offload a debit network, altering payment market infrastructure.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-12T21:00:08.284Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48749/fnz-to-close-offices-and-reduce-headcount?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "FNZ to close offices and reduce headcount",
       "publisher": "Finextra",
@@ -365,5 +351,5 @@
       "queuedAt": "2026-11-18T00:51:17.843Z"
     }
   ],
-  "updated": "2026-11-19T17:36:20.885Z"
+  "updated": "2026-11-19T21:43:28.478Z"
 }
