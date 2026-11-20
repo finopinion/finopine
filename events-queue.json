@@ -71,32 +71,32 @@
       "queuedAt": "2026-11-19T17:13:41.293Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48759/openai-launches-chatgpt-wallet?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "OpenAI launches ChatGPT Wallet",
+      "link": "https://www.finextra.com/newsarticle/48791/worldline-shares-plummet-on-ft-report-on-cash-advances?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Worldline shares plummet on FT report on cash advances",
       "publisher": "Finextra",
       "jurisdiction": "auto",
-      "summary": "OpenAI has unveiled ChatGPT Wallet, enabling AI agents to pay for purchases on users&#39; behalf without accessing their card details.",
-      "at": "2026-11-13T18:28:00.000Z",
+      "summary": "Shares in Worldline fell by as much as 20% on Friday after the Financial Times reported that the French firm delayed payments to suppliers and asked customers for cash advances ahead of its financial results in the years leading up to a 2023 profit warning.",
+      "at": "2026-11-20T14:39:00.000Z",
       "score": 2,
       "corroboration": 0,
-      "why": "OpenAI launching autonomous payment wallet marks a major unexpected entry into fintech payments.",
-      "urgency": "medium",
+      "why": "Shares plunged 20% following report on delayed supplier payments and cash advances.",
+      "urgency": "high",
       "judgedBy": "gemini",
-      "queuedAt": "2026-11-13T19:26:33.996Z"
+      "queuedAt": "2026-11-20T21:25:44.750Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-11-14/us-trade-investigation-into-lamb-imports-decision-handed-down/107385510",
-      "title": "Trump to rule on tariffs for Australian lamb after trade commissioners disagree",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "A US trade panel reviewing lamb imports is unable to agree on whether Australian meat imports have hurt the American industry, leaving Donald Trump to rule on tariffs.",
-      "at": "2026-11-13T20:07:43.000Z",
-      "score": 1,
+      "link": "https://www.finextra.com/newsarticle/48790/uk-sme-lender-oaknorth-secures-us-banking-licence?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "UK SME lender OakNorth secures US banking licence",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "OakNorth, the UK digital bank for SMEs, has secured a US national banking charter, paving the way for it to expand beyond lending in the country.",
+      "at": "2026-11-20T14:07:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Trade panel deadlock passes decision on Australian lamb tariffs directly to Donald Trump.",
+      "why": "UK digital bank secured a US national banking charter for overseas expansion.",
       "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-11-13T20:35:39.239Z"
+      "queuedAt": "2026-11-20T21:25:44.750Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-11-14/us-aviation-admin-orders-grounding-of-all-flights/107385702",
@@ -309,5 +309,5 @@
       "queuedAt": "2026-11-20T17:45:58.767Z"
     }
   ],
-  "updated": "2026-11-20T17:45:58.767Z"
+  "updated": "2026-11-20T21:25:44.750Z"
 }
