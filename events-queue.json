@@ -279,7 +279,35 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-18T00:51:17.843Z"
+    },
+    {
+      "link": "https://sifted.eu/articles/starling-founder-anne-boden-sold-final-stake-at-cut-price-1-7bn-valuation-reports-say/",
+      "title": "Starling founder Anne Boden sold final stake at cut-price £1.7bn valuation, reports say",
+      "publisher": "Sifted",
+      "jurisdiction": "auto",
+      "summary": "",
+      "at": "2026-10-20T21:02:11.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Starling founder sells final stake at a significantly discounted valuation.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-20T17:45:58.767Z"
+    },
+    {
+      "link": "https://www.bankingdive.com/news/moonpay-crypto-applies-national-trust-bank-charter-occ-pham/875330/",
+      "title": "MoonPay joins the race for a trust charter",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "p The crypto firm, whose leading executives include a BNY alum and a former acting chair of the CFTC, applied Tuesday for a banking license with the OCC. /p",
+      "at": "2026-11-20T15:48:44.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Crypto firm MoonPay formally applies for a national bank charter with OCC.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-20T17:45:58.767Z"
     }
   ],
-  "updated": "2026-11-20T17:11:18.569Z"
+  "updated": "2026-11-20T17:45:58.767Z"
 }
