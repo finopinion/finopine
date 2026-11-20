@@ -71,34 +71,6 @@
       "queuedAt": "2026-11-19T17:13:41.293Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48749/fnz-to-close-offices-and-reduce-headcount?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "FNZ to close offices and reduce headcount",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Wealth management platform FNZ is closing offices, cutting jobs and raising prices as part of a transformation plan to build a sustainable business .",
-      "at": "2026-11-12T16:08:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Major wealth tech platform restructuring, cutting jobs, closing offices, and raising prices.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-12T22:09:26.480Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48752/visa-and-anchorage-digital-bring-western-union-stablecoin-to-settlement-network?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Visa and Anchorage Digital bring Western Union stablecoin to settlement network",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Visa is working with Anchorage Digital to support select stablecoins as native settlement assets on the payment giant&#39;s network, starting with Western Union&#39;s USDPT.",
-      "at": "2026-11-13T00:01:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "Visa enables Western Union stablecoin for native settlement on its payment network.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-13T02:49:32.996Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48755/paraguays-digital-bank-collapse-triggers-political-crisis?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Paraguay&#39;s digital bank collapse triggers political crisis",
       "publisher": "Finextra",
@@ -351,5 +323,5 @@
       "queuedAt": "2026-11-18T00:51:17.843Z"
     }
   ],
-  "updated": "2026-11-19T21:43:28.478Z"
+  "updated": "2026-11-20T03:40:04.622Z"
 }
