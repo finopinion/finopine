@@ -71,6 +71,20 @@
       "queuedAt": "2026-11-19T17:13:41.293Z"
     },
     {
+      "link": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
+      "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
+      "publisher": "Bank of England",
+      "jurisdiction": "uk",
+      "summary": "The number of financial services roles required to face enhanced checks from regulators will fall significantly under proposals that will support growth.",
+      "at": "2026-10-22T20:00:00.000Z",
+      "score": 6,
+      "corroboration": 0,
+      "why": "UK regulators propose significantly easing Senior Managers and Certification Regime checks to support growth.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-22T09:33:31.576Z"
+    },
+    {
       "link": "https://www.finextra.com/newsarticle/48791/worldline-shares-plummet-on-ft-report-on-cash-advances?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Worldline shares plummet on FT report on cash advances",
       "publisher": "Finextra",
@@ -97,34 +111,6 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-20T21:25:44.750Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-11-14/us-aviation-admin-orders-grounding-of-all-flights/107385702",
-      "title": "US aviation administration orders grounding of all flights",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "The US Federal Aviation Administration has issued a national ground stop \"due to extraordinary circumstance and reasons for safety\".",
-      "at": "2026-11-13T21:23:28.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Unexpected nationwide FAA flight grounding with major market and economic impacts.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-14T00:49:40.755Z"
-    },
-    {
-      "link": "https://www.abc.net.au/news/2026-11-14/questions-over-jensen-huang-affair-for-us-administration-nvidia/107382476",
-      "title": "Questions remain after Nvidia CEO's departure",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "While Jensen Huang's resignation puts an end to his long reign over Nvidia, questions about America's national security and Donald Trump's knowledge of the whole saga remain.",
-      "at": "2026-11-14T00:52:34.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Unexpected departure of mega-cap tech CEO with massive equity market implications.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-14T07:28:53.927Z"
     },
     {
       "link": "https://sifted.eu/articles/starling-founder-anne-boden-plots-new-ai-powered-bank/",
@@ -323,5 +309,5 @@
       "queuedAt": "2026-11-20T23:52:04.503Z"
     }
   ],
-  "updated": "2026-11-20T23:52:04.503Z"
+  "updated": "2026-11-22T09:33:31.576Z"
 }
