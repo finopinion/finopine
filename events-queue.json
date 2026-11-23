@@ -113,6 +113,34 @@
       "queuedAt": "2026-11-20T21:25:44.750Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48793/geordie-shore-star-sentenced-for-promoting-high-risk-investments-on-social-media?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Geordie Shore star sentenced for promoting high-risk investments on social media",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "A UK reality TV star and a &#39;finfluencer&#39; have been sentenced and fined for illegally promoting an unauthorised foreign exchange trading scheme on social media.",
+      "at": "2026-11-20T16:08:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Court sentencing following regulator prosecution of finfluencer for illegal forex promotion.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-23T06:53:23.573Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48789/jpmorgan-visa-and-mastercard-say-hackers-leaked-customer-emails?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "JPMorgan, Visa and Mastercard say hackers leaked customer emails",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "JPMorgan Chase, Visa and Mastercard have confirmed that some customer data, including emails, were exposed in cyberattacks on third-party vendors.",
+      "at": "2026-11-19T20:17:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Data breach exposing customer emails across major financial institutions via third-party vendor.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-23T06:53:23.573Z"
+    },
+    {
       "link": "https://thefintechtimes.com/n26-and-franklin-templeton-to-launch-digital-retirement-account-in-germany/",
       "title": "N26 and Franklin Templeton to Launch Digital Retirement Account in Germany",
       "publisher": "The Fintech Times",
@@ -309,5 +337,5 @@
       "queuedAt": "2026-11-23T02:59:04.405Z"
     }
   ],
-  "updated": "2026-11-23T02:59:04.405Z"
+  "updated": "2026-11-23T06:53:23.573Z"
 }
