@@ -71,6 +71,20 @@
       "queuedAt": "2026-11-22T09:33:31.576Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48798/payoneer-scores-preliminarily-occ-approval-for-stablecoin-bank?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Payoneer scores preliminarily OCC approval for stablecoin bank",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Cross-border payments firm Payoneer has received preliminary conditional approval from US regulators to form a stablecoin national trust bank.",
+      "at": "2026-11-23T15:39:00.000Z",
+      "score": 6,
+      "corroboration": 1,
+      "why": "Major fintech regulatory milestone: OCC grants conditional approval for stablecoin trust bank.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-23T20:29:28.098Z"
+    },
+    {
       "link": "https://www.finextra.com/newsarticle/48791/worldline-shares-plummet-on-ft-report-on-cash-advances?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Worldline shares plummet on FT report on cash advances",
       "publisher": "Finextra",
@@ -337,5 +351,5 @@
       "queuedAt": "2026-11-23T19:08:03.918Z"
     }
   ],
-  "updated": "2026-11-23T19:08:03.918Z"
+  "updated": "2026-11-23T20:29:28.099Z"
 }
