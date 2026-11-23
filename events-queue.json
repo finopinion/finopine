@@ -29,20 +29,6 @@
       "queuedAt": "2026-11-18T21:30:48.648Z"
     },
     {
-      "link": "https://www.bankofcanada.ca/2026/11/bank-of-canada-governor-tiff-macklem-to-step-down-in-june-2027/",
-      "title": "Bank of Canada Governor Tiff Macklem to step down in June 2027",
-      "publisher": "Bank of Canada",
-      "jurisdiction": "ca",
-      "summary": "The Board of Directors of the Bank of Canada announced today that Governor Tiff Macklem has informed them that he will not seek a second term as Governor when his seven-year term expires on June nbsp;2, 2027.",
-      "at": "2026-11-16T10:00:04.000Z",
-      "score": 6,
-      "corroboration": 0,
-      "why": "Bank of Canada Governor Tiff Macklem announced he will not seek a second term in 2027.",
-      "urgency": "low",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-16T15:23:24.025Z"
-    },
-    {
       "link": "https://www.finextra.com/newsarticle/48781/singapore-sets-national-ai-missions-for-financial-services?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Singapore sets national AI missions for financial services",
       "publisher": "Finextra",
@@ -139,20 +125,6 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-23T06:53:23.573Z"
-    },
-    {
-      "link": "https://thefintechtimes.com/n26-and-franklin-templeton-to-launch-digital-retirement-account-in-germany/",
-      "title": "N26 and Franklin Templeton to Launch Digital Retirement Account in Germany",
-      "publisher": "The Fintech Times",
-      "jurisdiction": "auto",
-      "summary": "N26 partners with Franklin Templeton to launch a digital, state-subsidised private retirement account in Germany on 1 January 2027. The post N26 and Franklin Templeton to Launch Digital Retirement Account in Germany appeared first on The Fintech Times .",
-      "at": "2026-11-16T14:00:23.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "N26 and Franklin Templeton launch a state-subsidised digital retirement account in Germany.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-16T15:23:24.025Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-11-17/online-gambling-company-fined-over-nt-club-inducement-scheme/107391266",
@@ -335,7 +307,35 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-23T02:59:04.405Z"
+    },
+    {
+      "link": "https://thefintechtimes.com/uk-national-wealth-fund-argets-defence-tech-as-budget-capital-flows/",
+      "title": "UK National Wealth Fund Targets Defence Tech as Budget Capital Flows",
+      "publisher": "The Fintech Times",
+      "jurisdiction": "auto",
+      "summary": "The NWF is set to back British defence tech firm Uforce days after receiving £15.4bn in fresh Budget capital earmarked partly for the sector. The post UK National Wealth Fund Targets Defence Tech as Budget Capital Flows appeared first on The Fintech Times .",
+      "at": "2026-11-23T14:00:29.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "UK National Wealth Fund executes strategic investment into defence tech following capital injection.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-23T19:08:03.918Z"
+    },
+    {
+      "link": "https://www.bankingdive.com/news/payoneer-gets-conditional-approval-trust-bank-occ-payo-digital/875506/",
+      "title": "Payoneer gets conditional approval for trust bank",
+      "publisher": "Banking Dive",
+      "jurisdiction": "us",
+      "summary": "figure div img src=\"https://imgproxy.divecdn.com/cIKktZ5OM6rvrJmHRQXHu7dGhG4sFanRh4IpgzBPWYo/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDk5MTQ3ODY2LmpwZ19yZXNpemUuanBn.webp\"/ /div /figure p The cross-border payments company, which applied for a trust charter in February, is one of several payments firms seeking such a charter from the OCC this year. /p",
+      "at": "2026-11-23T17:23:28.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major fintech Payoneer secures conditional regulatory approval for a trust bank charter.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-23T19:08:03.918Z"
     }
   ],
-  "updated": "2026-11-23T06:53:23.573Z"
+  "updated": "2026-11-23T19:08:03.918Z"
 }
