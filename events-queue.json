@@ -113,20 +113,6 @@
       "queuedAt": "2026-11-20T21:25:44.750Z"
     },
     {
-      "link": "https://sifted.eu/articles/starling-founder-anne-boden-plots-new-ai-powered-bank/",
-      "title": "Starling founder Anne Boden plots new AI-powered bank",
-      "publisher": "Sifted",
-      "jurisdiction": "auto",
-      "summary": "",
-      "at": "2026-11-15T16:33:09.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Prominent Starling Bank founder launching a new AI challenger bank is major banking news.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-15T19:42:13.480Z"
-    },
-    {
       "link": "https://thefintechtimes.com/n26-and-franklin-templeton-to-launch-digital-retirement-account-in-germany/",
       "title": "N26 and Franklin Templeton to Launch Digital Retirement Account in Germany",
       "publisher": "The Fintech Times",
@@ -307,7 +293,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-20T23:52:04.503Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-23/hydrogen-company-hysata-cuts-jobs-after-49m-grant/107410440",
+      "title": "Hydrogen energy company cuts staff two months after $49m federal grant",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Two months after receiving a grant to expand into commercial manufacturing, a move expected to create 40 new jobs, Port Kembla company Hysata cuts 17 staff.",
+      "at": "2026-11-22T22:43:15.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Company cuts jobs just two months after receiving a $49m federal grant intended to create positions.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-23T02:59:04.405Z"
     }
   ],
-  "updated": "2026-11-22T09:33:31.576Z"
+  "updated": "2026-11-23T02:59:04.405Z"
 }
