@@ -141,34 +141,6 @@
       "queuedAt": "2026-11-23T06:53:23.573Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-11-17/online-gambling-company-fined-over-nt-club-inducement-scheme/107391266",
-      "title": "Online bookmaker targets netball club for inducements, signs up 18yos",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "An online bookmaker has been fined over a \"sustained, employee-facilitated inducement scheme\" involving a community sporting club's social media.",
-      "at": "2026-11-16T20:42:01.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Enforcement fine against online bookmaker for illegal inducement scheme.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-16T22:58:49.438Z"
-    },
-    {
-      "link": "https://sifted.eu/articles/starling-ceo-to-step-down/",
-      "title": "Starling Bank CEO to step down at the end of the year",
-      "publisher": "Sifted",
-      "jurisdiction": "auto",
-      "summary": "",
-      "at": "2026-11-16T16:01:40.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Unannounced departure of major digital bank CEO is a significant leadership change in fintech banking.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-17T00:06:37.259Z"
-    },
-    {
       "link": "https://www.abc.net.au/news/2026-11-17/nvidia-rules-out-jensen-huang-return/107394520",
       "title": "Nvidia rules out Jensen Huang comeback despite backing from big names",
       "publisher": "ABC News",
@@ -351,5 +323,5 @@
       "queuedAt": "2026-11-23T19:08:03.918Z"
     }
   ],
-  "updated": "2026-11-23T20:29:28.099Z"
+  "updated": "2026-11-24T01:07:27.722Z"
 }
