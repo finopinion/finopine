@@ -197,6 +197,20 @@
       "queuedAt": "2026-11-24T19:40:30.102Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48807/as-metas-muse-arrives-in-the-uk-fca-issues-agentic-ai-warning-to-tech-firms?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "As Meta&#39;s Muse arrives in the UK, FCA issues agentic AI warning to tech firms",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "On the day that Meta&#39;s Muse launched in the UK, the Financial Conduct Authority has warned technology companies and social media platforms that AI agents offering money-related services could face regulatory scrutiny.",
+      "at": "2026-11-24T19:48:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "FCA warns tech platforms that agentic AI financial tools face existing regulatory scrutiny.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-24T23:12:33.676Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-11-18/ex-nvidia-ceo-jensen-huang-says-he-would-be-honoured-to-return/107397042",
       "title": "Nvidia does not intend to reinstate Huang despite calls",
       "publisher": "ABC News",
@@ -293,7 +307,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-23T19:08:03.918Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-25/huawei-convicted-us-trial-deception-trade-secrets/107423640",
+      "title": "US court convicts Huawei for deceiving banks about Iran dealings",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "US authorities have long claimed the Chinese tech giant poses national security risks.",
+      "at": "2026-11-24T21:09:13.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Major criminal conviction against Huawei for bank fraud and deceiving financial institutions.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-24T23:12:33.676Z"
     }
   ],
-  "updated": "2026-11-24T19:40:30.102Z"
+  "updated": "2026-11-24T23:12:33.676Z"
 }
