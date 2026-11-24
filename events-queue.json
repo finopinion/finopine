@@ -141,6 +141,48 @@
       "queuedAt": "2026-11-23T06:53:23.573Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48801/adyen-co-ceo-van-der-does-retires?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Adyen co-CEO van der Does retires",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The co-founder and co-CEO of Dutch payments processor Adyen, Pieter van der Does, is retiring, with his co-chief Ingo Uytdehaage taking sole control.",
+      "at": "2026-11-23T20:32:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Co-founder and co-CEO of major payments processor Adyen is stepping down.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-24T04:16:03.283Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48796/cftc-loses-emergency-effort-to-block-new-york-action-against-kalshi?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "CFTC loses emergency effort to block New York action against Kalshi",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "A US judge has rejected a request from the Commodity Futures Trading Commission to temporarily block the New York Attorney General from pursuing their legal case against prediction market Kalshi.",
+      "at": "2026-11-23T14:41:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "US judge rejects CFTC effort to block New York Attorney General action against Kalshi.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-24T04:16:03.283Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48795/canada-picks-fdx-for-open-banking-technical-standards?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Canada picks FDX for open banking technical standards",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The Canadian government has chosen US organisation Financial Data Exchange (FDX) as the technical standards body for the country&#39;s open banking regime.",
+      "at": "2026-11-23T14:02:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Canadian government selects official technical standards body for national open banking regime.",
+      "urgency": "low",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-24T04:16:03.283Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-11-17/nvidia-rules-out-jensen-huang-return/107394520",
       "title": "Nvidia rules out Jensen Huang comeback despite backing from big names",
       "publisher": "ABC News",
@@ -323,5 +365,5 @@
       "queuedAt": "2026-11-23T19:08:03.918Z"
     }
   ],
-  "updated": "2026-11-24T01:07:27.722Z"
+  "updated": "2026-11-24T04:16:03.283Z"
 }
