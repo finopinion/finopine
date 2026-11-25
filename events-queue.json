@@ -99,6 +99,20 @@
       "queuedAt": "2026-11-25T00:31:23.561Z"
     },
     {
+      "link": "https://www.bankofengland.co.uk/news/2026/november/regulators-implement-growth-friendly-securitisation-reforms",
+      "title": "Regulators implement growth-friendly securitisation reforms",
+      "publisher": "Bank of England",
+      "jurisdiction": "uk",
+      "summary": "The Prudential Regulation Authority and Financial Conduct Authority have today published revised rules designed to support securitisation’s contribution to economic growth.",
+      "at": "2026-11-25T10:00:00.000Z",
+      "score": 6,
+      "corroboration": 0,
+      "why": "UK regulators published revised securitisation rules to support economic growth.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-25T18:49:05.104Z"
+    },
+    {
       "link": "https://www.finextra.com/newsarticle/48791/worldline-shares-plummet-on-ft-report-on-cash-advances?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Worldline shares plummet on FT report on cash advances",
       "publisher": "Finextra",
@@ -223,6 +237,48 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-24T23:12:33.676Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48816/fincen-takes-some-systems-offline-after-suspected-cyber-attack?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "FinCEN takes some systems offline after suspected cyber attack",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The US Treasury’s Financial Crimes Enforcement Network (FinCEN) took some of its systems offline after a cybersecurity incident.",
+      "at": "2026-11-25T18:16:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "US financial crimes regulator took systems offline following a suspected cyber attack.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-25T18:49:05.104Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48814/utah-drops-criminal-charges-after-kalshi-exits-state?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Utah drops criminal charges after Kalshi exits state",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Utah has dropped criminal charges against Kalshi and its co-founders after the prediction market suspended operations in the state.",
+      "at": "2026-11-25T15:32:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Utah dropped criminal charges against prediction market Kalshi following its state exit.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-25T18:49:05.104Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48809/south-korea-proposes-new-stablecoin-rules-for-local-bank-issuance?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "South Korea proposes new stablecoin rules for local bank issuance",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "South Korea’s financial regulator has announced new stablecoin rules that will allow local banks to issue won-pegged stablecoins.",
+      "at": "2026-11-25T11:10:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "South Korea announced new regulatory rules allowing local banks to issue stablecoins.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-25T18:49:05.104Z"
     },
     {
       "link": "https://sifted.eu/articles/starling-founder-anne-boden-sold-final-stake-at-cut-price-1-7bn-valuation-reports-say/",
@@ -351,5 +407,5 @@
       "queuedAt": "2026-11-25T09:41:56.773Z"
     }
   ],
-  "updated": "2026-11-25T09:41:56.774Z"
+  "updated": "2026-11-25T18:49:05.104Z"
 }
