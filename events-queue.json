@@ -85,6 +85,20 @@
       "queuedAt": "2026-11-23T20:29:28.098Z"
     },
     {
+      "link": "https://www.bankofcanada.ca/core-functions/monetary-policy/renewing-canadas-monetary-policy-framework/2027-2031-monetary-policy-framework-governing-councils-statement/",
+      "title": "2027-2031 Monetary Policy Framework – Governing Council’s Statement",
+      "publisher": "Bank of Canada",
+      "jurisdiction": "ca",
+      "summary": "This document sets out the key findings from the latest review. It explains what we learned, what will remain the same and what must continue to evolve as Canada faces a more volatile global economy.",
+      "at": "2026-11-24T12:24:04.000Z",
+      "score": 6,
+      "corroboration": 0,
+      "why": "Official Bank of Canada 2027-2031 monetary policy framework renewal release.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-25T00:31:23.561Z"
+    },
+    {
       "link": "https://www.finextra.com/newsarticle/48791/worldline-shares-plummet-on-ft-report-on-cash-advances?utm_medium=rssfinextra utm_source=finextrafeed",
       "title": "Worldline shares plummet on FT report on cash advances",
       "publisher": "Finextra",
@@ -323,5 +337,5 @@
       "queuedAt": "2026-11-24T23:12:33.676Z"
     }
   ],
-  "updated": "2026-11-24T23:12:33.676Z"
+  "updated": "2026-11-25T00:31:23.561Z"
 }
