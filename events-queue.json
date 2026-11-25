@@ -225,20 +225,6 @@
       "queuedAt": "2026-11-24T23:12:33.676Z"
     },
     {
-      "link": "https://www.abc.net.au/news/2026-11-18/ex-nvidia-ceo-jensen-huang-says-he-would-be-honoured-to-return/107397042",
-      "title": "Nvidia does not intend to reinstate Huang despite calls",
-      "publisher": "ABC News",
-      "jurisdiction": "au",
-      "summary": "In his first comments since resigning under pressure over his affair with a suspected Chinese spy, Jensen Huang says he would be honoured to return as Nvidia CEO if the board decides to have him back.",
-      "at": "2026-11-17T17:35:21.000Z",
-      "score": 1,
-      "corroboration": 0,
-      "why": "Major corporate governance decision by Nvidia board refusing former CEO's reinstatement.",
-      "urgency": "high",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-18T00:51:17.843Z"
-    },
-    {
       "link": "https://sifted.eu/articles/starling-founder-anne-boden-sold-final-stake-at-cut-price-1-7bn-valuation-reports-say/",
       "title": "Starling founder Anne Boden sold final stake at cut-price £1.7bn valuation, reports say",
       "publisher": "Sifted",
@@ -335,7 +321,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-24T23:12:33.676Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-25/abs-october-cpi-inflation-rises-year-/107424668",
+      "title": "Inflation rises more than expected in 'RBA's worst nightmare'",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The consumer price index has come in hotter than expected and underlying inflation has also risen, leaving Australia grappling with accelerating price rises and increasing unemployment.",
+      "at": "2026-11-25T00:42:21.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Inflation release came in hotter than expected, significantly altering RBA monetary policy outlook.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-25T05:00:21.129Z"
     }
   ],
-  "updated": "2026-11-25T00:31:23.561Z"
+  "updated": "2026-11-25T05:00:21.129Z"
 }
