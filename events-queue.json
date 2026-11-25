@@ -335,7 +335,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-25T05:00:21.129Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-25/door-not-closed-on-capital-gains-carve-out-for-business/107427094",
+      "title": "Door not closed on capital gains carve-out for businesses as inquiry confirmed",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Allegra Spender's proposal to carve out all active businesses and business assets from Labor's capital gains tax changes could yet succeed, with the carve-outs issue to be referred to a Senate inquiry.",
+      "at": "2026-11-25T06:52:03.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Senate inquiry confirmed regarding proposed capital gains tax carve-outs for businesses.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-25T09:41:56.773Z"
     }
   ],
-  "updated": "2026-11-25T05:00:21.129Z"
+  "updated": "2026-11-25T09:41:56.774Z"
 }
