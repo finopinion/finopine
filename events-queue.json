@@ -239,6 +239,34 @@
       "queuedAt": "2026-11-26T02:43:09.097Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48821/ny-attorney-general-wins-14bn-judgement-against-crypto-scammers?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "NY Attorney General wins $1.4bn judgement against crypto scammers",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The founders of cryptocurrency trading company NovaTechFx have been ordered by a US court to pay $1.37 billion for defrauding hundreds of thousands of investors worldwide through a crypto Ponzi scheme that targeted Haitian communities.",
+      "at": "2026-11-26T13:59:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Significant $1.37 billion court judgment against major crypto Ponzi scheme.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-26T21:27:16.430Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48820/client-data-leaked-in-zodia-custody-security-breach---reuters?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Client data leaked in Zodia Custody security breach - Reuters",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Standard Chartered’s cryptocurrency custody firm was hit by a cyber attack earlier this week, compromising customer and employee data.",
+      "at": "2026-11-26T11:55:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Material security breach compromising client data at Standard Chartered's crypto custodian.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-26T21:27:16.430Z"
+    },
+    {
       "link": "https://sifted.eu/articles/starling-founder-anne-boden-sold-final-stake-at-cut-price-1-7bn-valuation-reports-say/",
       "title": "Starling founder Anne Boden sold final stake at cut-price £1.7bn valuation, reports say",
       "publisher": "Sifted",
@@ -393,5 +421,5 @@
       "queuedAt": "2026-11-26T12:06:10.915Z"
     }
   ],
-  "updated": "2026-11-26T18:36:18.106Z"
+  "updated": "2026-11-26T21:27:16.430Z"
 }
