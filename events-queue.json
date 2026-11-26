@@ -253,6 +253,20 @@
       "queuedAt": "2026-11-25T18:49:05.104Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48817/california-hits-bnpl-lender-afterpay-with-27m-penalty?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "California hits BNPL lender Afterpay with $2.7m penalty",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "The California Department of Financial Protection and Innovation (DFPI) has hit BNPL provider Afterpay with a $2.68 million penalty for illegally failing to do ability-to-repay underwriting while making loans to new customers.",
+      "at": "2026-11-26T00:01:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "California penalises Afterpay $2.7m over illegal BNPL underwriting practices.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-26T02:43:09.097Z"
+    },
+    {
       "link": "https://sifted.eu/articles/starling-founder-anne-boden-sold-final-stake-at-cut-price-1-7bn-valuation-reports-say/",
       "title": "Starling founder Anne Boden sold final stake at cut-price £1.7bn valuation, reports say",
       "publisher": "Sifted",
@@ -379,5 +393,5 @@
       "queuedAt": "2026-11-25T09:41:56.773Z"
     }
   ],
-  "updated": "2026-11-25T22:40:21.025Z"
+  "updated": "2026-11-26T02:43:09.097Z"
 }
