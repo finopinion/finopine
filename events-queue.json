@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "link": "https://www.finextra.com/newsarticle/48781/singapore-sets-national-ai-missions-for-financial-services?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Singapore sets national AI missions for financial services",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Singapore has set itself three national AI missions for financial services, harnessing the technology to strengthen crime prevention, boost access to financing for businesses, and enabling agents to transact safely.",
-      "at": "2026-11-19T00:01:00.000Z",
-      "score": 6,
-      "corroboration": 1,
-      "why": "Singapore announces new national AI policy framework for financial services.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-19T03:46:55.854Z"
-    },
-    {
       "link": "https://www.bankofengland.co.uk/news/2026/november/cyber-resilience-guidance-consultation-and-ai-and-quantum-effective-practices",
       "title": "Cyber resilience guidance consultation and AI and quantum effective practices",
       "publisher": "Bank of England",
@@ -391,7 +377,21 @@
       "urgency": "medium",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-25T09:41:56.773Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-26/corporate-regulator-asic-sues-aig-failing-to-manage-complaints/107398204",
+      "title": "Breaking: Insurance giant AIG sued by corporate regulator over complaints handling",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "The corporate regulator alleges the company mishandled more than 500 cases and automated the use of the word \"complexity\" in files to explain delays.",
+      "at": "2026-11-26T04:06:54.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "ASIC sues insurance giant AIG over systemic automated complaints handling delays.",
+      "urgency": "high",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-26T04:19:26.910Z"
     }
   ],
-  "updated": "2026-11-26T02:43:09.097Z"
+  "updated": "2026-11-26T04:19:26.911Z"
 }
