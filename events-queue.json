@@ -391,7 +391,21 @@
       "urgency": "high",
       "judgedBy": "gemini",
       "queuedAt": "2026-11-26T04:19:26.910Z"
+    },
+    {
+      "link": "https://www.abc.net.au/news/2026-11-26/landmark-dee-why-blacktown-projects-missing-unit-deposits-sydney/107431556",
+      "title": "Hundreds of Sydney apartment buyers see $24m in deposits vanish",
+      "publisher": "ABC News",
+      "jurisdiction": "au",
+      "summary": "Almost 300 home buyers were waiting to get the keys to their newly-built apartments in Sydney's Dee Why and Blacktown.",
+      "at": "2026-11-26T08:23:51.000Z",
+      "score": 1,
+      "corroboration": 0,
+      "why": "Loss of $24m in off-the-plan deposits represents a major consumer housing finance failure.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-26T12:06:10.915Z"
     }
   ],
-  "updated": "2026-11-26T04:19:26.911Z"
+  "updated": "2026-11-26T12:06:10.915Z"
 }
