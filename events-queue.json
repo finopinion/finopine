@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "link": "https://www.bankofengland.co.uk/news/2026/november/cyber-resilience-guidance-consultation-and-ai-and-quantum-effective-practices",
-      "title": "Cyber resilience guidance consultation and AI and quantum effective practices",
-      "publisher": "Bank of England",
-      "jurisdiction": "uk",
-      "summary": "UK’s financial regulators are proposing a new guidance to help financial services firms prepare for and recover from cyber incidents as threats grow.",
-      "at": "2026-11-19T08:00:00.000Z",
-      "score": 6,
-      "corroboration": 0,
-      "why": "UK regulators propose new cyber resilience guidance covering AI and quantum threats for financial firms.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-19T17:13:41.293Z"
-    },
-    {
       "link": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
       "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
       "publisher": "Bank of England",
@@ -407,5 +393,5 @@
       "queuedAt": "2026-11-26T12:06:10.915Z"
     }
   ],
-  "updated": "2026-11-26T12:06:10.915Z"
+  "updated": "2026-11-26T18:36:18.106Z"
 }
