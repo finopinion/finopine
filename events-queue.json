@@ -267,6 +267,34 @@
       "queuedAt": "2026-11-26T21:27:16.430Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48826/binance-withdrawals-back-online-after-63-bn-loss-in-cyberattack?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Binance withdrawals back online after $6.3 bn loss in cyberattack",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Binance recovered its withdrawal systems on Thursday after losing $6.3 billion in a crypto heist last month.",
+      "at": "2026-11-27T12:08:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Binance resumes withdrawals following a massive $6.3 billion cyberattack.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-27T13:39:10.153Z"
+    },
+    {
+      "link": "https://www.finextra.com/newsarticle/48823/moonpay-and-highnote-file-for-national-bank-charters?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "MoonPay and Highnote file for national bank charters",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Crypto firm MoonPay and embedded finance platform Highnote are the latest fintechs to apply for national trust bank charters.",
+      "at": "2026-11-27T00:01:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Fintechs MoonPay and Highnote apply for US national trust bank charters.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-27T13:39:10.153Z"
+    },
+    {
       "link": "https://sifted.eu/articles/starling-founder-anne-boden-sold-final-stake-at-cut-price-1-7bn-valuation-reports-say/",
       "title": "Starling founder Anne Boden sold final stake at cut-price £1.7bn valuation, reports say",
       "publisher": "Sifted",
@@ -421,5 +449,5 @@
       "queuedAt": "2026-11-26T12:06:10.915Z"
     }
   ],
-  "updated": "2026-11-27T04:29:47.013Z"
+  "updated": "2026-11-27T13:39:10.153Z"
 }
