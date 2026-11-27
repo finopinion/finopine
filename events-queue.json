@@ -295,32 +295,32 @@
       "queuedAt": "2026-11-27T13:39:10.153Z"
     },
     {
-      "link": "https://sifted.eu/articles/starling-founder-anne-boden-sold-final-stake-at-cut-price-1-7bn-valuation-reports-say/",
-      "title": "Starling founder Anne Boden sold final stake at cut-price £1.7bn valuation, reports say",
-      "publisher": "Sifted",
+      "link": "https://www.finextra.com/newsarticle/48829/sweden-to-join-eurosystems-t2-rtgs-system?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Sweden to join Eurosystem&#39;s T2 RTGS system",
+      "publisher": "Finextra",
       "jurisdiction": "auto",
-      "summary": "",
-      "at": "2026-10-20T21:02:11.000Z",
-      "score": 1,
+      "summary": "The European Central Bank has struck a deal with Sveriges Riksbank for Sweden to join the Eurosystem&#39;s T2 real-time gross settlement system.",
+      "at": "2026-11-27T14:29:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Starling founder sells final stake at a significantly discounted valuation.",
+      "why": "Significant central bank payment infrastructure integration agreement between ECB and Sweden.",
       "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-11-20T17:45:58.767Z"
+      "queuedAt": "2026-11-27T18:27:19.775Z"
     },
     {
-      "link": "https://www.bankingdive.com/news/moonpay-crypto-applies-national-trust-bank-charter-occ-pham/875330/",
-      "title": "MoonPay joins the race for a trust charter",
-      "publisher": "Banking Dive",
-      "jurisdiction": "us",
-      "summary": "p The crypto firm, whose leading executives include a BNY alum and a former acting chair of the CFTC, applied Tuesday for a banking license with the OCC. /p",
-      "at": "2026-11-20T15:48:44.000Z",
-      "score": 1,
+      "link": "https://www.finextra.com/pressarticle/111802/deutsche-brse-cleared-to-complete-allfunds-acquistion?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Deutsche B&#246;rse cleared to complete Allfunds acquistion",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Deutsche B&#246;rse Group today received unconditional merger control clearance for its planned acquisition of Allfunds Group from the European Commission following its Phase I review.",
+      "at": "2026-11-27T13:11:00.000Z",
+      "score": 2,
       "corroboration": 0,
-      "why": "Crypto firm MoonPay formally applies for a national bank charter with OCC.",
+      "why": "Unconditional European Commission merger approval for major financial market operator acquisition.",
       "urgency": "medium",
       "judgedBy": "gemini",
-      "queuedAt": "2026-11-20T17:45:58.767Z"
+      "queuedAt": "2026-11-27T18:27:19.775Z"
     },
     {
       "link": "https://www.abc.net.au/news/2026-11-21/trump-vows-tax-companies-building-data-centres-overseas/107412162",
@@ -449,5 +449,5 @@
       "queuedAt": "2026-11-26T12:06:10.915Z"
     }
   ],
-  "updated": "2026-11-27T13:39:10.153Z"
+  "updated": "2026-11-27T18:27:19.775Z"
 }
