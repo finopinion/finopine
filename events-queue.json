@@ -57,32 +57,18 @@
       "queuedAt": "2026-11-25T18:49:05.104Z"
     },
     {
-      "link": "https://www.finextra.com/newsarticle/48791/worldline-shares-plummet-on-ft-report-on-cash-advances?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "Worldline shares plummet on FT report on cash advances",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "Shares in Worldline fell by as much as 20% on Friday after the Financial Times reported that the French firm delayed payments to suppliers and asked customers for cash advances ahead of its financial results in the years leading up to a 2023 profit warning.",
-      "at": "2026-11-20T14:39:00.000Z",
-      "score": 2,
+      "link": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/",
+      "title": "Bank of Canada raises the policy rate by 25 basis points to 2½%",
+      "publisher": "Bank of Canada",
+      "jurisdiction": "ca",
+      "summary": "The Bank of Canada today increased its target for the overnight rate by 25 basis points to 2.5%, with the Bank Rate at 2.75% and the deposit rate at 2.45%.",
+      "at": "2026-10-28T09:47:20.000Z",
+      "score": 6,
       "corroboration": 0,
-      "why": "Shares plunged 20% following report on delayed supplier payments and cash advances.",
+      "why": "Bank of Canada raises benchmark interest rate by 25 basis points to 2.5%.",
       "urgency": "high",
       "judgedBy": "gemini",
-      "queuedAt": "2026-11-20T21:25:44.750Z"
-    },
-    {
-      "link": "https://www.finextra.com/newsarticle/48790/uk-sme-lender-oaknorth-secures-us-banking-licence?utm_medium=rssfinextra utm_source=finextrafeed",
-      "title": "UK SME lender OakNorth secures US banking licence",
-      "publisher": "Finextra",
-      "jurisdiction": "auto",
-      "summary": "OakNorth, the UK digital bank for SMEs, has secured a US national banking charter, paving the way for it to expand beyond lending in the country.",
-      "at": "2026-11-20T14:07:00.000Z",
-      "score": 2,
-      "corroboration": 0,
-      "why": "UK digital bank secured a US national banking charter for overseas expansion.",
-      "urgency": "medium",
-      "judgedBy": "gemini",
-      "queuedAt": "2026-11-20T21:25:44.750Z"
+      "queuedAt": "2026-11-27T22:13:21.782Z"
     },
     {
       "link": "https://www.finextra.com/newsarticle/48793/geordie-shore-star-sentenced-for-promoting-high-risk-investments-on-social-media?utm_medium=rssfinextra utm_source=finextrafeed",
@@ -323,6 +309,20 @@
       "queuedAt": "2026-11-27T18:27:19.775Z"
     },
     {
+      "link": "https://www.finextra.com/newsarticle/48831/intermex-sues-western-union-over-merger-agreement-termination?utm_medium=rssfinextra utm_source=finextrafeed",
+      "title": "Intermex sues Western Union over merger agreement termination",
+      "publisher": "Finextra",
+      "jurisdiction": "auto",
+      "summary": "Intermex is suing Western Union to enforce the terms of a $500 million merger agreement that the latter abandoned in the face of regulatory conditions.",
+      "at": "2026-11-27T18:10:00.000Z",
+      "score": 2,
+      "corroboration": 0,
+      "why": "Intermex files lawsuit against Western Union over broken $500M merger agreement.",
+      "urgency": "medium",
+      "judgedBy": "gemini",
+      "queuedAt": "2026-11-27T22:13:21.782Z"
+    },
+    {
       "link": "https://www.abc.net.au/news/2026-11-21/trump-vows-tax-companies-building-data-centres-overseas/107412162",
       "title": "Trump vows 'tremendous tax' on companies building data centres abroad",
       "publisher": "ABC News",
@@ -449,5 +449,5 @@
       "queuedAt": "2026-11-26T12:06:10.915Z"
     }
   ],
-  "updated": "2026-11-27T18:27:19.775Z"
+  "updated": "2026-11-27T22:13:21.783Z"
 }
